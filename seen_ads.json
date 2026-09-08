@@ -691,5 +691,26 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T17:10:44"
+  },
+  "wallapop:qzmm5eoxm1zv": {
+    "title": "Playstation 5 PS5 Blanca",
+    "price": 400.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:20:44"
+  },
+  "wallapop:pzpk02gqe4j3": {
+    "title": "Onimusha Way of the Sword PS5 Premium Deluxe",
+    "price": 120.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:20:44"
+  },
+  "wallapop:mzn3n2om5yjn": {
+    "title": "Ps5 Pro Nuevo a Estrenar, SIN ABRIR",
+    "price": 1500.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:20:44"
   }
 }
