@@ -2252,5 +2252,12 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-08T23:50:46+02:00"
+  },
+  "wallapop:e65qn8l0x06o": {
+    "title": "Mando DualSense Edge PS5",
+    "price": 130.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:55:28+02:00"
   }
 }
