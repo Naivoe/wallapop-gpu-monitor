@@ -2420,5 +2420,33 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T01:35:28+02:00"
+  },
+  "wallapop:3zlmy8r3vqjx": {
+    "title": "PS5 Slim 1TB NO NEGOCIABLE",
+    "price": 380.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T01:45:38+02:00"
+  },
+  "wallapop:4z485e4m7ljy": {
+    "title": "consola ps5 sony playstation 5 slim standard 1tb",
+    "price": 485.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T01:45:38+02:00"
+  },
+  "wallapop:v6gpygqw856e": {
+    "title": "Corsair Vengeance RGB PRO 16GB DDR4 3600MHz",
+    "price": 199.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T01:45:38+02:00"
+  },
+  "wallapop:p618g42wegz5": {
+    "title": "Xbox Series S + Monitor MSI 120hz",
+    "price": 290.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T01:45:39+02:00"
   }
 }
