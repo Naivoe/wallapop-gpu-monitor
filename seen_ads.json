@@ -1951,5 +1951,19 @@
     "gpu_name": "RAM DDR4 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-08T22:35:40+02:00"
+  },
+  "wallapop:0j28v4ol5ejy": {
+    "title": "DDR4 16GB 3200MHz RAM",
+    "price": 64.9,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:40:49+02:00"
+  },
+  "wallapop:ejkmy8e8dyzx": {
+    "title": "Xbox Series X 1TB",
+    "price": 349.99,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:40:50+02:00"
   }
 }
