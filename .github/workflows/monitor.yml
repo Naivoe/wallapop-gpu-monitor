@@ -8,6 +8,12 @@ on:
 permissions:
   contents: write   # nodig om seen_ads.json / hits_log.json terug te committen
 
+# Zorgt dat er nooit twee runs tegelijk proberen te committen/pushen — een
+# nieuwe run wacht netjes tot de vorige klaar is, in plaats van te botsen.
+concurrency:
+  group: wallapop-gpu-monitor
+  cancel-in-progress: false
+
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -37,4 +43,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add seen_ads.json hits_log.json docs/index.html
           git diff --cached --quiet || git commit -m "Update monitor status"
+          git pull --rebase --autostash
           git push
