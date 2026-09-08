@@ -388,34 +388,23 @@ def check_gpu(gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources)
         fields["found_at"] = datetime.now().strftime("%Y-%m-%d %H:%M")
         fields["market_median"] = market_stats["median"] if market_stats else None
         fields["suggested_sell_price"] = suggested_sell
+        fields["market_sample_count"] = market_stats["count"] if market_stats else 0
+        fields["min_samples_needed"] = pricing_config.get("min_samples_for_market_price", 5)
 
         if scam_threshold is not None and fields["price"] < scam_threshold:
             fields["reason"] = (
-                f"Vraagprijs €{fields['price']:.0f} ligt onder €{scam_threshold} "
-                f"({pricing_config.get('scam_threshold_percent', 50)}% van de "
-                f"marktmediaan €{market_stats['median']:.0f}). Waarschijnlijk kapot, "
-                "nep, of een foutje — controleer extra goed voor je reageert."
+                f"Onder {pricing_config.get('scam_threshold_percent', 50)}% van de "
+                f"marktmediaan (€{market_stats['median']:.0f}) — waarschijnlijk kapot/nep, controleer goed."
             )
             suspicious.append(fields)
         elif fields["price"] <= effective_max:
-            margin_note = ""
-            if market_stats:
-                margin_note = (
-                    f" Marktmediaan (uit {market_stats['count']} eerdere advertenties): "
-                    f"€{market_stats['median']:.0f}."
-                )
-            fields["reason"] = (
-                f"Vraagprijs €{fields['price']:.0f} zit onder je inkoopdrempel van "
-                f"€{effective_max} voor {gpu_config['name']}.{margin_note}"
-            )
+            fields["reason"] = f"Onder je inkoopdrempel van €{effective_max}."
             hits.append(fields)
         elif fields["price"] <= near_miss_ceiling:
             over_budget = fields["price"] - effective_max
             fields["reason"] = (
-                f"Vraagprijs €{fields['price']:.0f} ligt €{over_budget:.0f} boven je "
-                f"drempel van €{effective_max}, maar nog binnen de marge van "
-                f"{pricing_config.get('near_miss_margin_percent', 15)}% — misschien "
-                "toch onderhandelbaar of de moeite waard."
+                f"€{over_budget:.0f} boven je drempel van €{effective_max}, maar binnen "
+                f"de {pricing_config.get('near_miss_margin_percent', 15)}%-marge — misschien onderhandelbaar."
             )
             near_misses.append(fields)
         # anders: duidelijk te duur, genegeerd — geen melding
@@ -428,28 +417,42 @@ def check_gpu(gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources)
 # ---------------------------------------------------------------------------
 
 CATEGORY_STYLE = {
-    "hit": {"prefix": "", "color": 5763719},  # groen
-    "near_miss": {"prefix": "🟡 NET ERBOVEN — ", "color": 16776960},  # geel
-    "suspicious": {"prefix": "⚠️ VERDACHT — ", "color": 15158332},  # rood
+    "hit": {"emoji": "🟢", "label": "Koopje", "color": 5763719},  # groen
+    "near_miss": {"emoji": "🟡", "label": "Net erboven", "color": 16776960},  # geel
+    "suspicious": {"emoji": "🔴", "label": "Verdacht", "color": 15158332},  # rood
 }
 
 
 def build_embed(hit, category="hit"):
     style = CATEGORY_STYLE[category]
+    price = hit["price"]
+
+    sell_price = hit.get("suggested_sell_price")
+    if sell_price:
+        margin_euro = sell_price - price
+        margin_pct = (margin_euro / price * 100) if price else 0
+        sell_value = f"€{sell_price:.0f}"
+        margin_value = f"€{margin_euro:.0f}  ({margin_pct:.0f}%)"
+    else:
+        count = hit.get("market_sample_count", 0)
+        needed = hit.get("min_samples_needed", 5)
+        sell_value = f"onbekend ({count}/{needed} adv.)"
+        margin_value = "—"
+
+    short_title = hit["title"] if len(hit["title"]) <= 100 else hit["title"][:97] + "…"
+
     embed = {
-        "title": f"{style['prefix']}{hit['gpu_name']} — €{hit['price']:.0f} ({hit['source']})",
-        "description": hit["title"][:300],
+        "title": f"{style['emoji']} {hit['gpu_name']} — €{price:.0f} · {hit['source']}",
+        "description": short_title,
         "color": style["color"],
         "fields": [
-            {"name": "Geplaatst", "value": hit["posted_at"] or "onbekend", "inline": True},
-            {"name": "Bron", "value": hit["source"], "inline": True},
+            {"name": "💰 Inkoop", "value": f"€{price:.0f}", "inline": True},
+            {"name": "📈 Verkoop richtprijs", "value": sell_value, "inline": True},
+            {"name": "💵 Marge", "value": margin_value, "inline": True},
+            {"name": "📅 Geplaatst", "value": hit["posted_at"] or "onbekend", "inline": True},
         ],
+        "footer": {"text": f"{style['label']} · {hit['reason']}"},
     }
-    if hit.get("suggested_sell_price"):
-        embed["fields"].append(
-            {"name": "Voorgestelde verkoopprijs", "value": f"€{hit['suggested_sell_price']}", "inline": True}
-        )
-    embed["fields"].append({"name": "Reden", "value": hit["reason"], "inline": False})
     if hit["link"]:
         embed["url"] = hit["link"]
     return embed
@@ -489,11 +492,12 @@ def send_discord_notifications(hit_category_pairs):
 
 
 def print_hit(hit, category="hit"):
-    prefix = CATEGORY_STYLE.get(category, {}).get("prefix", "")
+    style = CATEGORY_STYLE.get(category, CATEGORY_STYLE["hit"])
+    sell = f"€{hit['suggested_sell_price']:.0f}" if hit.get("suggested_sell_price") else "onbekend"
     print("=" * 60)
-    print(f"{prefix}GPU: {hit['gpu_name']} ({hit['source']})")
+    print(f"{style['emoji']} {style['label']} — {hit['gpu_name']} ({hit['source']})")
     print(f"Titel:      {hit['title']}")
-    print(f"Prijs:      €{hit['price']:.0f}")
+    print(f"Inkoop:     €{hit['price']:.0f}    Verkoop: {sell}")
     print(f"Geplaatst:  {hit['posted_at'] or 'onbekend'}")
     print(f"Link:       {hit['link'] or 'onbekend'}")
     print(f"Waarom:     {hit['reason']}")
@@ -526,7 +530,8 @@ def render_dashboard(config, hits_log, status):
 
     if hits_log:
         rows = []
-        for entry in reversed(hits_log):  # nieuwste eerst
+        for idx, entry in enumerate(reversed(hits_log)):  # nieuwste eerst
+            ad_id = entry.get("id") or f"idx-{idx}"
             category = entry.get("category", "hit")
             style = CATEGORY_STYLE.get(category, CATEGORY_STYLE["hit"])
             badge_class = f"badge-{category}"
@@ -539,10 +544,15 @@ def render_dashboard(config, hits_log, status):
             )
             sell_html = ""
             if entry.get("suggested_sell_price"):
-                sell_html = f'<div class="meta">Voorgestelde verkoopprijs: €{entry["suggested_sell_price"]}</div>'
+                margin_euro = entry["suggested_sell_price"] - entry["price"]
+                margin_pct = (margin_euro / entry["price"] * 100) if entry["price"] else 0
+                sell_html = (
+                    f'<div class="meta">Verkoop richtprijs: €{entry["suggested_sell_price"]:.0f} '
+                    f'&nbsp;·&nbsp; Marge: €{margin_euro:.0f} ({margin_pct:.0f}%)</div>'
+                )
             rows.append(
                 f"""
-                <div class="card {badge_class}">
+                <div class="card {badge_class}" data-ad-id="{html.escape(ad_id)}">
                     <div class="card-header">
                         <span class="tag">{html.escape(entry.get("gpu_name", ""))}</span>
                         <span class="tag source-tag">{html.escape(entry.get("source", ""))}</span>
@@ -556,7 +566,13 @@ def render_dashboard(config, hits_log, status):
                     </div>
                     {sell_html}
                     <div class="reason">{html.escape(entry.get("reason", ""))}</div>
-                    <div class="link">{link_html}</div>
+                    <div class="card-footer">
+                        <div class="link">{link_html}</div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('{html.escape(ad_id)}')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('{html.escape(ad_id)}')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 """
             )
@@ -613,6 +629,27 @@ def render_dashboard(config, hits_log, status):
     .link a {{ color: var(--green); text-decoration: none; font-size: 13px; }}
     .link a:hover {{ text-decoration: underline; }}
     .empty {{ color: var(--text-dim); text-align: center; padding: 40px 0; font-size: 14px; }}
+    .card-footer {{
+        display: flex; justify-content: space-between; align-items: center;
+        margin-top: 10px; flex-wrap: wrap; gap: 8px;
+    }}
+    .card-actions {{ display: flex; gap: 6px; }}
+    .card-actions button {{
+        background: var(--border); color: var(--text-dim); border: none;
+        border-radius: 6px; padding: 5px 10px; font-size: 12px; cursor: pointer;
+    }}
+    .card-actions button:hover {{ background: #363b47; color: var(--text); }}
+    .card.is-archived {{ opacity: 0.55; }}
+    .toolbar {{
+        display: flex; justify-content: space-between; align-items: center;
+        margin-bottom: 16px; flex-wrap: wrap; gap: 8px;
+    }}
+    .toolbar button {{
+        background: var(--card-bg); color: var(--text-dim); border: 1px solid var(--border);
+        border-radius: 8px; padding: 6px 12px; font-size: 13px; cursor: pointer;
+    }}
+    .toolbar button:hover {{ color: var(--text); border-color: var(--text-dim); }}
+    .toolbar button.active {{ color: var(--green); border-color: var(--green); }}
 </style>
 </head>
 <body>
@@ -628,7 +665,93 @@ def render_dashboard(config, hits_log, status):
         <span>Laatste run: {html.escape(status["last_check"])}</span>
         <span>Ververst elke 5 minuten</span>
     </div>
+    <div class="toolbar">
+        <button id="toggle-archived" onclick="toggleArchivedView()">📥 Toon gearchiveerde (<span id="archived-count">0</span>)</button>
+        <button onclick="resetAll()">↺ Herstel alles (ongedaan maken)</button>
+    </div>
     {cards_html}
+
+<script>
+    const ARCHIVE_KEY = 'gpuMonitorArchivedIds';
+    const DELETE_KEY = 'gpuMonitorDeletedIds';
+
+    function getIds(key) {{
+        try {{
+            const raw = localStorage.getItem(key);
+            return raw ? new Set(JSON.parse(raw)) : new Set();
+        }} catch (e) {{
+            return new Set();
+        }}
+    }}
+
+    function saveIds(key, idSet) {{
+        localStorage.setItem(key, JSON.stringify(Array.from(idSet)));
+    }}
+
+    function archiveAd(adId) {{
+        const archived = getIds(ARCHIVE_KEY);
+        archived.add(adId);
+        saveIds(ARCHIVE_KEY, archived);
+        applyState();
+    }}
+
+    function deleteAd(adId) {{
+        if (!confirm('Deze advertentie definitief verbergen? Dit kan alleen ongedaan gemaakt worden via "Herstel alles".')) {{
+            return;
+        }}
+        const deleted = getIds(DELETE_KEY);
+        deleted.add(adId);
+        saveIds(DELETE_KEY, deleted);
+        applyState();
+    }}
+
+    function resetAll() {{
+        if (!confirm('Alle archiverings- en verwijder-markeringen op dit apparaat wissen?')) {{
+            return;
+        }}
+        localStorage.removeItem(ARCHIVE_KEY);
+        localStorage.removeItem(DELETE_KEY);
+        showArchived = false;
+        applyState();
+    }}
+
+    let showArchived = false;
+
+    function toggleArchivedView() {{
+        showArchived = !showArchived;
+        applyState();
+    }}
+
+    function applyState() {{
+        const archived = getIds(ARCHIVE_KEY);
+        const deleted = getIds(DELETE_KEY);
+        const cards = document.querySelectorAll('.card');
+        let archivedCount = 0;
+
+        cards.forEach(card => {{
+            const id = card.getAttribute('data-ad-id');
+            if (deleted.has(id)) {{
+                card.style.display = 'none';
+                return;
+            }}
+            if (archived.has(id)) {{
+                archivedCount++;
+                card.classList.add('is-archived');
+                card.style.display = showArchived ? '' : 'none';
+            }} else {{
+                card.classList.remove('is-archived');
+                card.style.display = '';
+            }}
+        }});
+
+        document.getElementById('archived-count').textContent = archivedCount;
+        const toggleBtn = document.getElementById('toggle-archived');
+        toggleBtn.classList.toggle('active', showArchived);
+        toggleBtn.textContent = (showArchived ? '📤 Verberg gearchiveerde (' : '📥 Toon gearchiveerde (') + archivedCount + ')';
+    }}
+
+    document.addEventListener('DOMContentLoaded', applyState);
+</script>
 </body>
 </html>
 """
