@@ -1986,5 +1986,19 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T22:45:44+02:00"
+  },
+  "wallapop:p618g4mgr7z5": {
+    "title": "PS5 + Mando + WWE 2K25 + FC25",
+    "price": 490.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:50:39+02:00"
+  },
+  "wallapop:wzyrk4gkvx65": {
+    "title": "Mando Xbox Series S Nuevo",
+    "price": 45.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:50:41+02:00"
   }
 }
