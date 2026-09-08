@@ -1825,5 +1825,40 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T20:10:46"
+  },
+  "wallapop:3zlmy8p81pjx": {
+    "title": "ASUS TUF Gaming F15 RTX 4060 i7-13620H",
+    "price": 799.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T20:20:39"
+  },
+  "wallapop:8j38q4k4o2z9": {
+    "title": "Consola PS5 Slim Blanca + FC 24",
+    "price": 335.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T20:20:40"
+  },
+  "wallapop:pj94wm0ge26e": {
+    "title": "Consola PS5 Edición Disco",
+    "price": 505.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T20:20:40"
+  },
+  "wallapop:vjrewqmkw4zk": {
+    "title": "Mando DualSense PS5 Marvel Spider-Man 2",
+    "price": 68.5,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T20:20:42"
+  },
+  "wallapop:mzn3n278lkjn": {
+    "title": "Xbox Series S Blanca",
+    "price": 230.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T20:20:42"
   }
 }
