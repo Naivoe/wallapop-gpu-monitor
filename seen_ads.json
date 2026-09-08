@@ -2259,5 +2259,26 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T23:55:28+02:00"
+  },
+  "wallapop:qjwr34nx9g6o": {
+    "title": "Mando DualSense PS5 Azul",
+    "price": 45.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T00:01:12+02:00"
+  },
+  "wallapop:vjrewq3nkwzk": {
+    "title": "Consola PS5 Slim 1TB",
+    "price": 420.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T00:01:12+02:00"
+  },
+  "wallapop:8j38q4l3x2z9": {
+    "title": "Xbox Series X 1TB + Mando Negro",
+    "price": 460.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T00:01:14+02:00"
   }
 }
