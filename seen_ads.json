@@ -1524,5 +1524,61 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:pzpk027g9mj3": {
+    "title": "Consola PlayStation 5 PS5 Blanca",
+    "price": 305.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:50:46"
+  },
+  "wallapop:e65qn8e3x26o": {
+    "title": "Sony PS5 Pro",
+    "price": 860.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:50:46"
+  },
+  "wallapop:v6gpygv1pn6e": {
+    "title": "Consola PS5 Personalizada",
+    "price": 390.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:50:46"
+  },
+  "wallapop:xzogp20254j9": {
+    "title": "Memoria RAM Kingston 16GB DDR4 PC4-3200AA",
+    "price": 40.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:50:46"
+  },
+  "wallapop:8z887ke871z3": {
+    "title": "Mando DualSense Inalámbrico PS5",
+    "price": 55.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:50:47"
+  },
+  "wallapop:e65qn8e32m6o": {
+    "title": "Mando PS5 DualSense Edge (SOLO ENVIOS)",
+    "price": 140.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:50:47"
+  },
+  "wallapop:xzogp20gpwj9": {
+    "title": "Xbox Series S Blanca",
+    "price": 220.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:50:48"
+  },
+  "wallapop:nz08e4dv936o": {
+    "title": "Xbox Series X 1TB + Mando Elite Rojo",
+    "price": 800.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:50:48"
   }
 }
