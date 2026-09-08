@@ -928,5 +928,37 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€390) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:vjrewq3lp9zk",
+    "title": "Mando DualSense Spider-Man 2 PS5",
+    "price": 120.0,
+    "link": "https://es.wallapop.com/item/mando-dualsense-spider-man-2-ps5-1299773619",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 00:05",
+    "market_median": 390.0,
+    "suggested_sell_price": 370,
+    "market_sample_count": 109,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€390) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:nzxe248dd562",
+    "title": "Mando Xbox Series X/S Oficial Blanco",
+    "price": 25.0,
+    "link": "https://es.wallapop.com/item/mando-xbox-series-x-s-oficial-blanco-1299773954",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Mando Xbox Series",
+    "found_at": "2026-09-09 00:05",
+    "market_median": 225.0,
+    "suggested_sell_price": 214,
+    "market_sample_count": 46,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€225) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]

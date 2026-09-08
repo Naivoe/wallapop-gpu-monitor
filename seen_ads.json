@@ -2280,5 +2280,26 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T00:01:14+02:00"
+  },
+  "wallapop:4z485eld3wjy": {
+    "title": "Consola PlayStation 5 PS5",
+    "price": 520.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T00:05:30+02:00"
+  },
+  "wallapop:vjrewq3lp9zk": {
+    "title": "Mando DualSense Spider-Man 2 PS5",
+    "price": 120.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T00:05:30+02:00"
+  },
+  "wallapop:nzxe248dd562": {
+    "title": "Mando Xbox Series X/S Oficial Blanco",
+    "price": 25.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T00:05:32+02:00"
   }
 }
