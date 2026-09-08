@@ -2385,5 +2385,12 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T01:01:07+02:00"
+  },
+  "wallapop:8z887k0prlz3": {
+    "title": "PC GAMER RYZEN 7 RTX 4060 Ti",
+    "price": 779.99,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T01:05:35+02:00"
   }
 }
