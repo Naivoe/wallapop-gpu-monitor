@@ -1,10 +1,11 @@
 name: Wallapop GPU Monitor
 
 on:
-  schedule:
-    - cron: "*/10 * * * *"
-  workflow_dispatch: {}   # laat je 'm ook handmatig starten via de Actions-tab
-  
+  # De ingebouwde 'schedule' trigger van GitHub bleek onbetrouwbaar (runs
+  # bleven uit). In plaats daarvan triggert een externe cron-dienst
+  # (cron-job.org) deze workflow elke 10 minuten via de GitHub API, met
+  # hetzelfde 'workflow_dispatch' mechanisme als de handmatige knop.
+  workflow_dispatch: {}
 
 permissions:
   contents: write   # nodig om seen_ads.json / hits_log.json terug te committen
