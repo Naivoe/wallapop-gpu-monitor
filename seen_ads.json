@@ -2448,5 +2448,12 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T01:45:39+02:00"
+  },
+  "wallapop:mzn3n2qn20jn": {
+    "title": "Solo venta en persona PS5 Digital Edition Sony",
+    "price": 485.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T01:50:38+02:00"
   }
 }
