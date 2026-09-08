@@ -560,5 +560,21 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€400) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:8z887k9edoz3",
+    "title": "Volante Logitech G29 PS5/PC",
+    "price": 149.99,
+    "link": "https://es.wallapop.com/item/volante-logitech-g29-ps5-pc-1299739270",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 19:50",
+    "market_median": 400.0,
+    "suggested_sell_price": 380,
+    "market_sample_count": 71,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€400) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
