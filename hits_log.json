@@ -960,5 +960,37 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€225) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:qjwr348eng6o",
+    "title": "Mando PS5 DualSense Blanco Precintado",
+    "price": 65.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-dualsense-blanco-precintado-1299774877",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 00:10",
+    "market_median": 390.0,
+    "suggested_sell_price": 370,
+    "market_sample_count": 111,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€390) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:ejkmy8qxwpzx",
+    "title": "Mando Xbox Series Blanco Robot White",
+    "price": 45.0,
+    "link": "https://es.wallapop.com/item/mando-xbox-series-blanco-robot-white-1299774823",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Mando Xbox Series",
+    "found_at": "2026-09-09 00:10",
+    "market_median": 220.0,
+    "suggested_sell_price": 209,
+    "market_sample_count": 47,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€220) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]

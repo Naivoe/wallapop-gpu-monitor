@@ -2301,5 +2301,26 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T00:05:32+02:00"
+  },
+  "wallapop:qjwr348eng6o": {
+    "title": "Mando PS5 DualSense Blanco Precintado",
+    "price": 65.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T00:10:42+02:00"
+  },
+  "wallapop:ejkmy8qxwpzx": {
+    "title": "Mando Xbox Series Blanco Robot White",
+    "price": 45.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T00:10:44+02:00"
+  },
+  "wallapop:wzvgo48rq1zl": {
+    "title": "Xbox Series X con mando",
+    "price": 450.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T00:10:44+02:00"
   }
 }
