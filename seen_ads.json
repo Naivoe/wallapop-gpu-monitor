@@ -712,5 +712,47 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T17:20:44"
+  },
+  "wallapop:36e5y1pq8k6d": {
+    "title": "DEG1 + Palit RTX 4060 8GB + Corsair CX550",
+    "price": 650.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:31:01"
+  },
+  "wallapop:8z887kwmqdz3": {
+    "title": "MSI GeForce RTX 5060 Ti 16GB",
+    "price": 630.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:31:02"
+  },
+  "wallapop:vjrewqol04zk": {
+    "title": "PS5 Pro 2TB con Factura",
+    "price": 999.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:31:03"
+  },
+  "wallapop:p618g4kxw2z5": {
+    "title": "Consola Portátil PS5 Sony Nueva",
+    "price": 220.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:31:03"
+  },
+  "wallapop:ejkmy8eowpzx": {
+    "title": "Consola PS5 Slim 1TB con Lector",
+    "price": 499.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:31:03"
+  },
+  "wallapop:36e5y1p7rn6d": {
+    "title": "Consola PS5 con Lector de Discos",
+    "price": 400.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:31:03"
   }
 }
