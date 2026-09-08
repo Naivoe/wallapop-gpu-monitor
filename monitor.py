@@ -1,6 +1,6 @@
 """
-Wallapop + eBay GPU Flip Monitor - GitHub Actions-versie
-----------------------------------------------------------
+Wallapop + eBay + Milanuncios GPU Flip Monitor - GitHub Actions-versie
+------------------------------------------------------------------------
 Draait EEN keer per aanroep (bedoeld om via een geplande GitHub Actions
 workflow elke paar minuten opgestart te worden). Controleert meerdere
 tweedehands-bronnen op de GPU's uit config.json, houdt marktprijzen bij
@@ -12,22 +12,30 @@ Bronnen:
   wijzigen, zie README.md).
 - eBay: officiele, gratis Browse API (vereist een gratis developer-
   account, zie README.md voor het aanmaken van EBAY_APP_ID/EBAY_CERT_ID).
+- Milanuncios: leest de JSON-data die de website zelf al insluit in de
+  pagina (__NEXT_DATA__). Dit is EXPERIMENTEEL — de exacte structuur kon
+  niet vooraf getest worden. Bij problemen print de code een debug-regel
+  met de beschikbare velden; zie README.md voor hoe je dat gebruikt om
+  de paden in extract_milanuncios_fields() te herstellen.
 
-Vinted zit hier bewust NIET in: Vinted beveiligt zich met een zwaar
-anti-bot-systeem (DataDome) met sessie-cookies die elk uur verlopen.
+Vinted en Facebook Marketplace zitten hier bewust NIET in: beide
+beveiligen zich met zware anti-bot-systemen (DataDome resp. rotatende
+GraphQL-tokens + browser-fingerprinting + blokkades op datacenter-IP's).
 Dat is met gratis middelen niet betrouwbaar te automatiseren voor een
-onbemande cloud-taak. Zie README.md voor het alternatief (Vinted's
-eigen ingebouwde zoek-alerts).
+onbemande cloud-taak. Zie README.md voor de alternatieven (hun eigen
+ingebouwde zoek-alerts).
 """
 
 import html
 import json
 import os
+import re
 import statistics
 import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 import requests
 
@@ -41,6 +49,7 @@ WALLAPOP_SEARCH_URL = "https://api.wallapop.com/api/v3/search"
 EBAY_TOKEN_URL = "https://api.ebay.com/identity/v1/oauth2/token"
 EBAY_SEARCH_URL = "https://api.ebay.com/buy/browse/v1/item_summary/search"
 EBAY_MARKETPLACE = "EBAY_ES"
+MILANUNCIOS_SEARCH_URL = "https://www.milanuncios.com/anuncios/"
 
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 EBAY_APP_ID = os.environ.get("EBAY_APP_ID")
@@ -269,6 +278,142 @@ def extract_ebay_fields(item):
 
 
 # ---------------------------------------------------------------------------
+# Bron 3: Milanuncios (EXPERIMENTEEL — zie module-docstring)
+# ---------------------------------------------------------------------------
+
+MILANUNCIOS_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept-Language": "es-ES,es;q=0.9",
+}
+
+
+def search_milanuncios(search_term):
+    """Haalt de Milanuncios-zoekpagina op en leest de JSON die de site zelf
+    al insluit in de pagina (__NEXT_DATA__, standaard bij Next.js-sites).
+    Geeft (genormaliseerde items, foutmelding) terug.
+
+    LET OP: de exacte structuur van deze JSON kon niet vooraf getest
+    worden. Als de paden hieronder niet kloppen, print deze functie een
+    [WAARSCHUWING] met de top-level velden die WEL gevonden zijn — gebruik
+    dat om de paden hieronder te herstellen (zie README.md)."""
+    params = {"s": search_term, "orden": "fecha"}
+    try:
+        response = requests.get(
+            MILANUNCIOS_SEARCH_URL, headers=MILANUNCIOS_HEADERS, params=params, timeout=20
+        )
+        if response.status_code != 200:
+            error = f"Milanuncios gaf status {response.status_code} voor '{search_term}'."
+            print(f"[FOUT] {error}")
+            return [], error
+        raw_html = response.text
+    except requests.RequestException as e:
+        error = f"Kon Milanuncios niet bereiken voor '{search_term}': {e}"
+        print(f"[FOUT] {error}")
+        return [], error
+
+    match = re.search(
+        r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', raw_html, re.DOTALL
+    )
+    if not match:
+        error = (
+            f"Geen __NEXT_DATA__ blok gevonden op de Milanuncios-pagina voor "
+            f"'{search_term}'. De site heeft mogelijk haar structuur aangepast, "
+            "of blokkeert dit verzoek (bv. cookie-muur)."
+        )
+        print(f"[WAARSCHUWING] {error}")
+        return [], error
+
+    try:
+        data = json.loads(match.group(1))
+    except json.JSONDecodeError:
+        error = f"__NEXT_DATA__ op Milanuncios kon niet als JSON gelezen worden voor '{search_term}'."
+        print(f"[WAARSCHUWING] {error}")
+        return [], error
+
+    page_props = data.get("props", {}).get("pageProps", {})
+
+    # We proberen een paar waarschijnlijke paden naar de advertentielijst.
+    raw_items = None
+    for path in (
+        ["ads"],
+        ["listings"],
+        ["items"],
+        ["searchResult", "ads"],
+        ["searchResults", "items"],
+        ["initialState", "ads"],
+        ["adList"],
+    ):
+        node = page_props
+        for key in path:
+            if isinstance(node, dict) and key in node:
+                node = node[key]
+            else:
+                node = None
+                break
+        if isinstance(node, list) and node:
+            raw_items = node
+            break
+
+    if raw_items is None:
+        available = list(page_props.keys())
+        error = (
+            f"Onbekende Milanuncios JSON-structuur voor '{search_term}'. "
+            f"Beschikbare velden in pageProps: {available}"
+        )
+        print(f"[WAARSCHUWING] {error}")
+        return [], error
+
+    items = [extract_milanuncios_fields(raw) for raw in raw_items]
+    items = [i for i in items if i["id"] and i["title"] and i["price"] is not None]
+    return items, None
+
+
+def extract_milanuncios_fields(item):
+    """Normaliseert 1 ruw Milanuncios-item. Probeert meerdere waarschijnlijke
+    veldnamen, aangezien de exacte structuur niet vooraf getest kon worden."""
+    item_id = item.get("id") or item.get("adId") or item.get("itemId")
+    title = item.get("title") or item.get("titulo") or ""
+
+    price = None
+    price_obj = item.get("price")
+    if isinstance(price_obj, dict):
+        price = price_obj.get("amount") or price_obj.get("value")
+    elif isinstance(price_obj, (int, float, str)):
+        try:
+            price = float(str(price_obj).replace("€", "").replace(",", ".").strip())
+        except ValueError:
+            price = None
+
+    slug_or_url = item.get("url") or item.get("urlList") or item.get("slug")
+    if slug_or_url and slug_or_url.startswith("http"):
+        link = slug_or_url
+    elif slug_or_url:
+        link = f"https://www.milanuncios.com{slug_or_url if slug_or_url.startswith('/') else '/' + slug_or_url}"
+    else:
+        link = None
+
+    posted_at = None
+    created = item.get("publicationDate") or item.get("fecha") or item.get("date")
+    if created:
+        try:
+            posted_at = str(created)[:16].replace("T", " ")
+        except Exception:
+            posted_at = None
+
+    return {
+        "id": f"milanuncios:{item_id}" if item_id else None,
+        "title": title,
+        "price": float(price) if price is not None else None,
+        "link": link,
+        "posted_at": posted_at,
+        "source": "Milanuncios",
+    }
+
+
+# ---------------------------------------------------------------------------
 # Filteren en matchen
 # ---------------------------------------------------------------------------
 
@@ -354,6 +499,12 @@ def check_gpu(gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources)
             errors.append(error)
         # nieuwe (niet-tweedehands) eBay-aanbiedingen overslaan
         items = [i for i in items if "new" not in i.get("_condition", "")]
+        all_items.extend(items)
+
+    if "milanuncios" in enabled_sources:
+        items, error = search_milanuncios(gpu_config["search_term"])
+        if error:
+            errors.append(error)
         all_items.extend(items)
 
     # Marktprijs berekenen VOORDAT we de nieuwe items toevoegen aan seen_ads,
