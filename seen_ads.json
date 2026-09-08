@@ -2455,5 +2455,40 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T01:50:38+02:00"
+  },
+  "wallapop:ejkmy8qy11zx": {
+    "title": "consola ps5 sony playstation 5 portal",
+    "price": 169.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T01:55:39+02:00"
+  },
+  "wallapop:qzmm5e85lyzv": {
+    "title": "consola ps5 sony playstation 5 digital edition",
+    "price": 529.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T01:55:39+02:00"
+  },
+  "wallapop:p618g42g07z5": {
+    "title": "consola ps5 sony playstation 5",
+    "price": 519.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T01:55:39+02:00"
+  },
+  "wallapop:4z485e4598jy": {
+    "title": "consola ps5 sony playstation 5 slim standard 1tb",
+    "price": 539.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T01:55:39+02:00"
+  },
+  "wallapop:qzmm5e85qozv": {
+    "title": "consola xbox series microsoft xbox series x",
+    "price": 399.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T01:55:42+02:00"
   }
 }
