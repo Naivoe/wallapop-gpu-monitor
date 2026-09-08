@@ -1,0 +1,71 @@
+{
+  "sources": ["wallapop", "ebay"],
+  "pricing": {
+    "comment": "target_margin_percent = hoeveel onder de marktmediaan je wil inkopen. scam_threshold_percent = onder dit percentage van de mediaan wordt een advertentie als verdacht gemarkeerd i.p.v. als koopje. near_miss_margin_percent = hoeveel procent BOVEN je inkoopdrempel nog een (apart gelabelde) melding krijgt, zodat je net-gemiste koopjes niet mist. min_samples_for_market_price = hoeveel eerder geziene advertenties nodig zijn voor de monitor de marktmediaan gaat gebruiken.",
+    "target_margin_percent": 30,
+    "scam_threshold_percent": 50,
+    "near_miss_margin_percent": 15,
+    "min_samples_for_market_price": 5
+  },
+  "check_interval_minutes": 5,
+  "location": {
+    "comment": "Nodig voor de Wallapop-zoek-API. Madrid is een neutrale, centrale locatie voor Spanje.",
+    "latitude": 40.4168,
+    "longitude": -3.7038
+  },
+  "gpus": [
+    {
+      "name": "RTX 4060 8GB",
+      "search_term": "RTX 4060",
+      "max_price": 220,
+      "match_keywords": ["4060"],
+      "exclude_keywords": ["ti", "laptop", "portatil", "portátil"]
+    },
+    {
+      "name": "RTX 4060 Ti 8GB",
+      "search_term": "RTX 4060 Ti",
+      "max_price": 270,
+      "match_keywords": ["4060", "ti"],
+      "exclude_keywords": ["laptop", "portatil", "portátil"]
+    },
+    {
+      "name": "RTX 4070 12GB",
+      "search_term": "RTX 4070",
+      "max_price": 280,
+      "match_keywords": ["4070"],
+      "exclude_keywords": ["ti", "super", "laptop", "portatil", "portátil"]
+    },
+    {
+      "name": "RTX 4070 Ti 12GB",
+      "search_term": "RTX 4070 Ti",
+      "max_price": 350,
+      "match_keywords": ["4070", "ti"],
+      "exclude_keywords": ["super", "laptop", "portatil", "portátil"]
+    },
+    {
+      "name": "RTX 5060 8GB",
+      "search_term": "RTX 5060",
+      "max_price": 220,
+      "match_keywords": ["5060"],
+      "exclude_keywords": ["ti", "laptop", "portatil", "portátil"]
+    },
+    {
+      "name": "RTX 5060 Ti",
+      "search_term": "RTX 5060 Ti",
+      "max_price": 320,
+      "match_keywords": ["5060", "ti"],
+      "exclude_keywords": ["laptop", "portatil", "portátil"]
+    },
+    {
+      "name": "PS5",
+      "search_term": "PS5",
+      "max_price": 250,
+      "match_keywords": ["ps5"],
+      "exclude_keywords": [
+        "mando", "mandos", "funda", "fundas", "juego", "juegos",
+        "auriculares", "soporte", "cargador", "skin", "vinilo",
+        "correa", "carcasa", "protector", "grip", "caja vacia"
+      ]
+    }
+  ]
+}
