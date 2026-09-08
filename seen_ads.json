@@ -593,5 +593,26 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T16:10:43"
+  },
+  "wallapop:0j28v48ovrjy": {
+    "title": "PC Gaming Ryzen 5 9600X, 24GB DDR5, RTX 5060TI 8GB",
+    "price": 1360.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T16:20:45"
+  },
+  "wallapop:nz08e48oqe6o": {
+    "title": "Volante Logitech G923 con Pedales. PS5/PC",
+    "price": 200.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T16:20:45"
+  },
+  "wallapop:4z485e8kmrjy": {
+    "title": "Playstation Ps5 Slim digital",
+    "price": 390.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T16:20:45"
   }
 }

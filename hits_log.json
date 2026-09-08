@@ -272,5 +272,21 @@
     "min_samples_needed": 5,
     "reason": "€10 boven je drempel van €140, maar binnen de 15%-marge — misschien onderhandelbaar.",
     "category": "near_miss"
+  },
+  {
+    "id": "wallapop:nz08e48oqe6o",
+    "title": "Volante Logitech G923 con Pedales. PS5/PC",
+    "price": 200.0,
+    "link": "https://es.wallapop.com/item/volante-logitech-g923-con-pedales-ps5-pc-1299659251",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 16:20",
+    "market_median": 350.0,
+    "suggested_sell_price": 332,
+    "market_sample_count": 29,
+    "min_samples_needed": 5,
+    "reason": "Onder je inkoopdrempel van €245.",
+    "category": "hit"
   }
 ]
