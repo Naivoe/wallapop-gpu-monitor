@@ -2336,5 +2336,19 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T00:25:33+02:00"
+  },
+  "wallapop:4z485e48mwjy": {
+    "title": "The Callisto Protocol PS5 Edición Día Uno",
+    "price": 15.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T00:30:57+02:00"
+  },
+  "wallapop:pzpk02q2v4j3": {
+    "title": "Consola PS5 + God of War Ragnarök",
+    "price": 320.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T00:30:57+02:00"
   }
 }
