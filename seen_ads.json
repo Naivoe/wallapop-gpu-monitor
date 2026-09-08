@@ -1622,5 +1622,26 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-08T19:01:20"
+  },
+  "wallapop:3zlmy85ygqjx": {
+    "title": "Mini PC i9-12900H 32GB DDR5 1TB SSD",
+    "price": 400.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:10:45"
+  },
+  "wallapop:vjrewqxg84zk": {
+    "title": "Mando Xbox Elite Series 2",
+    "price": 50.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:10:46"
+  },
+  "wallapop:0j28v4e2ydjy": {
+    "title": "Xbox Series S 512 GB SSD + pack completo",
+    "price": 300.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:10:46"
   }
 }

@@ -512,5 +512,21 @@
     "min_samples_needed": 5,
     "reason": "Onder je inkoopdrempel van €250.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:vjrewqxg84zk",
+    "title": "Mando Xbox Elite Series 2",
+    "price": 50.0,
+    "link": "https://es.wallapop.com/item/mando-xbox-elite-series-2-1299729391",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Mando Xbox Series",
+    "found_at": "2026-09-08 19:10",
+    "market_median": 220.0,
+    "suggested_sell_price": 209,
+    "market_sample_count": 35,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€220) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
