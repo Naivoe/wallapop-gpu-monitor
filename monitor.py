@@ -286,7 +286,16 @@ MILANUNCIOS_HEADERS = {
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     ),
-    "Accept-Language": "es-ES,es;q=0.9",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Referer": "https://www.milanuncios.com/",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-User": "?1",
+    "Upgrade-Insecure-Requests": "1",
+    "Connection": "keep-alive",
 }
 
 
@@ -305,7 +314,11 @@ def search_milanuncios(search_term):
             MILANUNCIOS_SEARCH_URL, headers=MILANUNCIOS_HEADERS, params=params, timeout=20
         )
         if response.status_code != 200:
-            error = f"Milanuncios gaf status {response.status_code} voor '{search_term}'."
+            preview = response.text[:200].replace("\n", " ") if response.text else "(leeg)"
+            error = (
+                f"Milanuncios gaf status {response.status_code} voor '{search_term}'. "
+                f"Preview van het antwoord: {preview}"
+            )
             print(f"[FOUT] {error}")
             return [], error
         raw_html = response.text
