@@ -2406,5 +2406,19 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T01:15:40+02:00"
+  },
+  "wallapop:pzpk02qemlj3": {
+    "title": "Unidad de Disco Externa PS5 Digital Edition",
+    "price": 80.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T01:35:28+02:00"
+  },
+  "wallapop:wzyrk4815565": {
+    "title": "Mando PS5 DualSense Blanco",
+    "price": 55.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T01:35:28+02:00"
   }
 }
