@@ -1040,5 +1040,21 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€372) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:nzxe2489ne62",
+    "title": "Mando PS5 DualSense Azul – Sin drift",
+    "price": 49.99,
+    "link": "https://es.wallapop.com/item/mando-ps5-dualsense-azul-sin-drift-1299780678",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 00:56",
+    "market_median": 370.0,
+    "suggested_sell_price": 352,
+    "market_sample_count": 117,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€370) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
