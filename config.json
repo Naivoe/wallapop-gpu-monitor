@@ -60,17 +60,25 @@
       "name": "PS5",
       "search_term": "PS5",
       "max_price": 250,
-      "min_price": 100,
       "match_keywords": ["ps5"],
+      "require_any_keywords": [
+        "consola", "mando", "mandos", "controller",
+        "standard", "estandar", "estándar", "digital", "slim", "pro",
+        "825gb", "825 gb", "1tb", "1 tb", "2tb", "2 tb",
+        "edicion digital", "edición digital", "con lector", "sin lector",
+        "dualsense"
+      ],
       "exclude_keywords": [
-        "mando", "mandos", "funda", "fundas", "juego", "juegos",
+        "funda", "fundas", "juego", "juegos",
         "jogo", "jogos", "gioco", "giochi", "spiel", "videojuego",
         "auriculares", "soporte", "cargador", "skin", "vinilo",
         "correa", "carcasa", "protector", "grip", "caja vacia",
         "banda sonora", "soundtrack", "arcade stick", "stick arcade",
         "steelbook", "coleccionista", "edicion especial", "edición especial",
         "dlc", "season pass", "tarjeta regalo", "gift card",
-        "ssd", "nvme", "disco duro", "ampliacion", "ampliación", "m.2"
+        "ssd", "nvme", "disco duro", "ampliacion", "ampliación", "m.2",
+        "volante", "volantes", "logitech", "g29", "g920", "g923",
+        "thrustmaster", "fanatec", "pedales", "palanca de cambios"
       ]
     },
     {

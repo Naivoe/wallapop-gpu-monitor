@@ -34,8 +34,17 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
+from zoneinfo import ZoneInfo
 
 import requests
+
+SPAIN_TZ = ZoneInfo("Europe/Madrid")
+
+
+def now_spain():
+    """Huidige tijd in Spanje (CET/CEST, met automatische zomer-/wintertijd)."""
+    return datetime.now(SPAIN_TZ)
+
 
 CONFIG_PATH = Path(__file__).parent / "config.json"
 SEEN_ADS_PATH = Path(__file__).parent / "seen_ads.json"
@@ -166,7 +175,7 @@ def extract_wallapop_fields(item):
         try:
             created_int = int(created)
             ts = created_int / 1000 if created_int > 10_000_000_000 else created_int
-            posted_at = datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%Y-%m-%d %H:%M")
+            posted_at = datetime.fromtimestamp(ts, tz=timezone.utc).astimezone(SPAIN_TZ).strftime("%Y-%m-%d %H:%M")
         except (ValueError, TypeError, OSError):
             posted_at = None
 
@@ -436,6 +445,9 @@ def matches_gpu(title, gpu_config):
     for kw in gpu_config.get("exclude_keywords", []):
         if kw.lower() in title_lower:
             return False
+    require_any = gpu_config.get("require_any_keywords")
+    if require_any and not any(kw.lower() in title_lower for kw in require_any):
+        return False
     return True
 
 
@@ -543,11 +555,11 @@ def check_gpu(gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources)
             "price": fields["price"],
             "gpu_name": gpu_config["name"],
             "source": fields["source"],
-            "first_seen": datetime.now().isoformat(timespec="seconds"),
+            "first_seen": now_spain().isoformat(timespec="seconds"),
         }
 
         fields["gpu_name"] = gpu_config["name"]
-        fields["found_at"] = datetime.now().strftime("%Y-%m-%d %H:%M")
+        fields["found_at"] = now_spain().strftime("%Y-%m-%d %H:%M")
         fields["market_median"] = market_stats["median"] if market_stats else None
         fields["suggested_sell_price"] = suggested_sell
         fields["market_sample_count"] = market_stats["count"] if market_stats else 0
@@ -932,7 +944,7 @@ def main():
     pricing_config = config.get("pricing", {})
     enabled_sources = set(config.get("sources", ["wallapop"]))
 
-    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    now = now_spain().strftime("%Y-%m-%d %H:%M:%S")
     print(f"[{now}] Controleren...")
     print(f"Bewaakte GPU's: {', '.join(g['name'] for g in config['gpus'])}")
     print(f"Bronnen: {', '.join(enabled_sources)}")
