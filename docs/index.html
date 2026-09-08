@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="refresh" content="300">
+<title>GPU-monitor</title>
+<style>
+    :root {
+        --bg: #0f1115; --card-bg: #1a1d24; --border: #2a2e37; --text: #e6e8eb;
+        --text-dim: #8b8f99; --green: #4ade80; --green-bg: #1f3d2c;
+        --yellow: #facc15; --yellow-bg: #3d3410; --red: #f87171; --red-bg: #3d1f1f;
+    }
+    * { box-sizing: border-box; }
+    body {
+        background: var(--bg); color: var(--text);
+        font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+        max-width: 780px; margin: 0 auto; padding: 32px 20px 60px;
+    }
+    h1 { font-size: 22px; margin-bottom: 4px; }
+    .subtitle { color: var(--text-dim); font-size: 14px; margin-bottom: 20px; }
+    .status { padding: 10px 14px; border-radius: 8px; font-size: 14px; margin-bottom: 8px; }
+    .status-ok { background: var(--green-bg); color: var(--green); }
+    .status-error { background: var(--red-bg); color: var(--red); }
+    .counts { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; font-size: 13px; }
+    .count-pill { padding: 4px 10px; border-radius: 999px; }
+    .count-hit { background: var(--green-bg); color: var(--green); }
+    .count-near_miss { background: var(--yellow-bg); color: var(--yellow); }
+    .count-suspicious { background: var(--red-bg); color: var(--red); }
+    .meta-bar {
+        display: flex; justify-content: space-between; color: var(--text-dim);
+        font-size: 13px; margin-bottom: 20px; flex-wrap: wrap; gap: 6px;
+    }
+    .card {
+        background: var(--card-bg); border: 1px solid var(--border); border-left: 4px solid var(--border);
+        border-radius: 10px; padding: 16px 18px; margin-bottom: 14px;
+    }
+    .card.badge-hit { border-left-color: var(--green); }
+    .card.badge-near_miss { border-left-color: var(--yellow); }
+    .card.badge-suspicious { border-left-color: var(--red); }
+    .card-header { display: flex; justify-content: space-between; align-items: center; gap: 6px; margin-bottom: 8px; flex-wrap: wrap; }
+    .tag { background: var(--border); color: var(--text-dim); font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 999px; }
+    .source-tag { opacity: 0.8; }
+    .price { font-size: 20px; font-weight: 700; margin-left: auto; }
+    .title { font-size: 15px; margin-bottom: 6px; }
+    .meta { color: var(--text-dim); font-size: 12px; margin-bottom: 4px; }
+    .reason { font-size: 13px; color: var(--text-dim); margin: 8px 0; }
+    .link a { color: var(--green); text-decoration: none; font-size: 13px; }
+    .link a:hover { text-decoration: underline; }
+    .empty { color: var(--text-dim); text-align: center; padding: 40px 0; font-size: 14px; }
+</style>
+</head>
+<body>
+    <h1>🎮 GPU-monitor</h1>
+    <div class="subtitle">Bewaakt: RTX 4060 8GB, RTX 4060 Ti 8GB, RTX 4070 12GB, RTX 4070 Ti 12GB, RTX 5060 8GB, RTX 5060 Ti, PS5 · bronnen: wallapop, ebay</div>
+    <div class="status status-ok">✓ Laatste run was zonder fouten</div>
+    <div class="counts">
+        <span class="count-pill count-hit">14 koopjes</span>
+        <span class="count-pill count-near_miss">1 net erboven</span>
+        <span class="count-pill count-suspicious">0 verdacht</span>
+    </div>
+    <div class="meta-bar">
+        <span>Laatste run: 2026-09-08 13:05:14</span>
+        <span>Ververst elke 5 minuten</span>
+    </div>
+    
+                <div class="card badge-near_miss">
+                    <div class="card-header">
+                        <span class="tag">PS5</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€280</span>
+                    </div>
+                    <div class="title">Consola Sony PlayStation 5 PS5 Blanca</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €280 ligt €30 boven je drempel van €250, maar nog binnen de marge van 15% — misschien toch onderhandelbaar of de moeite waard.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/consola-sony-playstation-5-ps5-blanca-1299575334" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+
+                <div class="card badge-hit">
+                    <div class="card-header">
+                        <span class="tag">PS5</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€20</span>
+                    </div>
+                    <div class="title">Kena Bridge of Spirits Deluxe Edition PS5</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €20 zit onder je inkoopdrempel van €250 voor PS5.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/kena-bridge-of-spirits-deluxe-edition-ps5-1299571109" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+
+                <div class="card badge-hit">
+                    <div class="card-header">
+                        <span class="tag">PS5</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€150</span>
+                    </div>
+                    <div class="title">Hori Tekken 7 Arcade Stick PS4/PS5</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €150 zit onder je inkoopdrempel van €250 voor PS5.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/hori-tekken-7-arcade-stick-ps4-ps5-1299571897" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+
+                <div class="card badge-hit">
+                    <div class="card-header">
+                        <span class="tag">PS5</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€15</span>
+                    </div>
+                    <div class="title">F1 23 PS5 EA Sports Carreras</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €15 zit onder je inkoopdrempel van €250 voor PS5.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/f1-23-ps5-ea-sports-carreras-1299572559" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+
+                <div class="card badge-hit">
+                    <div class="card-header">
+                        <span class="tag">PS5</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€95</span>
+                    </div>
+                    <div class="title">Onimusha Way of the Sword Lenticular PS5</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €95 zit onder je inkoopdrempel van €250 voor PS5.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/onimusha-way-of-the-sword-lenticular-ps5-1299572904" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+
+                <div class="card badge-hit">
+                    <div class="card-header">
+                        <span class="tag">PS5</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€70</span>
+                    </div>
+                    <div class="title">Arcade Stick PS4/PS5 Sony</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €70 zit onder je inkoopdrempel van €250 voor PS5.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/arcade-stick-ps4-ps5-sony-1299572929" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+
+                <div class="card badge-hit">
+                    <div class="card-header">
+                        <span class="tag">PS5</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€25</span>
+                    </div>
+                    <div class="title">Banda Sonora The Medium PS5 y Xbox</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €25 zit onder je inkoopdrempel van €250 voor PS5.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/banda-sonora-the-medium-ps5-y-xbox-1299573142" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+
+                <div class="card badge-hit">
+                    <div class="card-header">
+                        <span class="tag">PS5</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€24</span>
+                    </div>
+                    <div class="title">Mafia El Viejo Continente PS5</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €24 zit onder je inkoopdrempel van €250 voor PS5.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/mafia-el-viejo-continente-ps5-1299573437" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+
+                <div class="card badge-hit">
+                    <div class="card-header">
+                        <span class="tag">PS5</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€250</span>
+                    </div>
+                    <div class="title">PS5 The Blood of Dawnwalker Edición coleccionista</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €250 zit onder je inkoopdrempel van €250 voor PS5.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/ps5-the-blood-of-dawnwalker-edicion-coleccionista-1299574246" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+
+                <div class="card badge-hit">
+                    <div class="card-header">
+                        <span class="tag">PS5</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€5</span>
+                    </div>
+                    <div class="title">Rainbow Six Siege PS4/PS5 - Perfette condizioni</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €5 zit onder je inkoopdrempel van €250 voor PS5.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/rainbow-six-siege-ps4-ps5-perfette-condizioni-1299574803" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+
+                <div class="card badge-hit">
+                    <div class="card-header">
+                        <span class="tag">PS5</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€30</span>
+                    </div>
+                    <div class="title">Jogo PS5 Tomb Raider IV-VI Remastered</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €30 zit onder je inkoopdrempel van €250 voor PS5.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/jogo-ps5-tomb-raider-iv-vi-remastered-1299576633" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+
+                <div class="card badge-hit">
+                    <div class="card-header">
+                        <span class="tag">PS5</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€25</span>
+                    </div>
+                    <div class="title">RoboCop: Rogue City PS5</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €25 zit onder je inkoopdrempel van €250 voor PS5.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/robocop-rogue-city-ps5-1299577819" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+
+                <div class="card badge-hit">
+                    <div class="card-header">
+                        <span class="tag">RTX 4060 Ti 8GB</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€250</span>
+                    </div>
+                    <div class="title">MSI RTX 4060 Ti Ventus 8GB</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €250 zit onder je inkoopdrempel van €270 voor RTX 4060 Ti 8GB.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/msi-rtx-4060-ti-ventus-8gb-1299568347" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+
+                <div class="card badge-hit">
+                    <div class="card-header">
+                        <span class="tag">RTX 4060 8GB</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€220</span>
+                    </div>
+                    <div class="title">Tarjeta Gráfica GFORCE RTX 4060 8gb</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €220 zit onder je inkoopdrempel van €220 voor RTX 4060 8GB.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/tarjeta-grafica-gforce-rtx-4060-8gb-1299399140" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+
+                <div class="card badge-hit">
+                    <div class="card-header">
+                        <span class="tag">RTX 4060 8GB</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€100</span>
+                    </div>
+                    <div class="title">Gigabyte RTX 4060 8GB GDDR6 Tarjeta Gráfica</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 13:05
+                    </div>
+                    
+                    <div class="reason">Vraagprijs €100 zit onder je inkoopdrempel van €220 voor RTX 4060 8GB.</div>
+                    <div class="link"><a href="https://es.wallapop.com/item/gigabyte-rtx-4060-8gb-gddr6-tarjeta-grafica-1299514210" target="_blank">Bekijk advertentie →</a></div>
+                </div>
+                
+</body>
+</html>
