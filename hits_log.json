@@ -640,5 +640,37 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€400) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:pzpk02x3qlj3",
+    "title": "Mando DualSense PS5 Blanco",
+    "price": 50.0,
+    "link": "https://es.wallapop.com/item/mando-dualsense-ps5-blanco-1299753598",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 22:35",
+    "market_median": 399.5,
+    "suggested_sell_price": 380,
+    "market_sample_count": 86,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€400) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:36e5y1mgmv6d",
+    "title": "RAM DDR4 Samsung 16GB (2x8GB) – 2133 MHz",
+    "price": 44.9,
+    "link": "https://es.wallapop.com/item/ram-ddr4-samsung-16gb-2x8gb-2133-mhz-1299753539",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "RAM DDR4 16GB",
+    "found_at": "2026-09-08 22:35",
+    "market_median": 114.5,
+    "suggested_sell_price": 109,
+    "market_sample_count": 14,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€114) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]

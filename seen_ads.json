@@ -1923,5 +1923,33 @@
     "gpu_name": "RAM DDR4 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-08T22:31:00+02:00"
+  },
+  "wallapop:pzpk02x3qlj3": {
+    "title": "Mando DualSense PS5 Blanco",
+    "price": 50.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:35:40+02:00"
+  },
+  "wallapop:wzyrk4gvl565": {
+    "title": "Consola Sony PS5 Blanca",
+    "price": 375.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:35:40+02:00"
+  },
+  "wallapop:36e5y1mgmv6d": {
+    "title": "RAM DDR4 Samsung 16GB (2x8GB) – 2133 MHz",
+    "price": 44.9,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:35:40+02:00"
+  },
+  "wallapop:4z485e23n8jy": {
+    "title": "Memoria RAM DDR4 HyperX Predator 32GB (2x16GB)",
+    "price": 150.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:35:40+02:00"
   }
 }
