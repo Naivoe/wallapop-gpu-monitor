@@ -800,5 +800,37 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€399) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:wzvgo45251zl",
+    "title": "Pack Tarjeta Gráfica 4060 Ti + Procesador i7",
+    "price": 240.0,
+    "link": "https://es.wallapop.com/item/pack-tarjeta-grafica-4060-ti---procesador-i7-1299764517",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "found_at": "2026-09-08 23:20",
+    "market_median": null,
+    "suggested_sell_price": null,
+    "market_sample_count": 0,
+    "min_samples_needed": 5,
+    "reason": "Onder je inkoopdrempel van €270.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:pzpk02mw1mj3",
+    "title": "Mando SCUF PS5 DualSense Modificado",
+    "price": 65.0,
+    "link": "https://es.wallapop.com/item/mando-scuf-ps5-dualsense-modificado-1299765398",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 23:20",
+    "market_median": 399.0,
+    "suggested_sell_price": 379,
+    "market_sample_count": 99,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€399) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]

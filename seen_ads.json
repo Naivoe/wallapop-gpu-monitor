@@ -2140,5 +2140,26 @@
     "gpu_name": "RAM DDR4 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-08T23:15:52+02:00"
+  },
+  "wallapop:wzvgo45251zl": {
+    "title": "Pack Tarjeta Gráfica 4060 Ti + Procesador i7",
+    "price": 240.0,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:20:39+02:00"
+  },
+  "wallapop:pzpk02mw1mj3": {
+    "title": "Mando SCUF PS5 DualSense Modificado",
+    "price": 65.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:20:41+02:00"
+  },
+  "wallapop:4z485elnwwjy": {
+    "title": "32GB DDR5 Ram 5600mhz | 2x16GB",
+    "price": 286.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:20:41+02:00"
   }
 }
