@@ -467,5 +467,26 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T13:05:17"
+  },
+  "wallapop:vjrewqkvewzk": {
+    "title": "Consola PlayStation 5 PS5 Blanca",
+    "price": 350.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T13:19:04"
+  },
+  "wallapop:3zlmy84mdnjx": {
+    "title": "PlayStation 5 Pro Sony PS5 Pro Blanca/Negra",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T13:19:04"
+  },
+  "wallapop:vjrewqkrx4zk": {
+    "title": "Playstation 5 (PS5) 825GB Blanca",
+    "price": 315.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T13:19:04"
   }
 }
