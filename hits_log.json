@@ -384,5 +384,21 @@
     "min_samples_needed": 5,
     "reason": "Onder je inkoopdrempel van €250.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:x6qq7mxm056y",
+    "title": "Volante Logitech G923 + Cambio PS5 - PC",
+    "price": 230.0,
+    "link": "https://es.wallapop.com/item/volante-logitech-g923---cambio-ps5-pc-1299694390",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 17:40",
+    "market_median": 394.5,
+    "suggested_sell_price": 375,
+    "market_sample_count": 48,
+    "min_samples_needed": 5,
+    "reason": "Onder je inkoopdrempel van €250.",
+    "category": "hit"
   }
 ]
