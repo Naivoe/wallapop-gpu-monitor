@@ -2182,5 +2182,33 @@
     "gpu_name": "SSD NVMe 2TB",
     "source": "Wallapop",
     "first_seen": "2026-09-08T23:31:07+02:00"
+  },
+  "wallapop:pzpk02mm54j3": {
+    "title": "MSI RTX 4070 Ventus Tarjeta Gráfica",
+    "price": 420.0,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:35:30+02:00"
+  },
+  "wallapop:4z485ell8vjy": {
+    "title": "PS5 Digital Edition 825 GB Blanca",
+    "price": 560.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:35:31+02:00"
+  },
+  "wallapop:p618g4llv2z5": {
+    "title": "PS5 Edition White chasis E 825GB Blanca slim",
+    "price": 705.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:35:31+02:00"
+  },
+  "wallapop:8z887klp7oz3": {
+    "title": "Mando DualSense PS5 Spider-Man  Sin estrenar",
+    "price": 80.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:35:31+02:00"
   }
 }

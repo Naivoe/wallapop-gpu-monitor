@@ -832,5 +832,37 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€399) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:pzpk02mm54j3",
+    "title": "MSI RTX 4070 Ventus Tarjeta Gráfica",
+    "price": 420.0,
+    "link": "https://es.wallapop.com/item/msi-rtx-4070-ventus-tarjeta-grafica-1299768450",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "RTX 4070 12GB",
+    "found_at": "2026-09-08 23:35",
+    "market_median": 900.0,
+    "suggested_sell_price": 855,
+    "market_sample_count": 5,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€900) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:8z887klp7oz3",
+    "title": "Mando DualSense PS5 Spider-Man  Sin estrenar",
+    "price": 80.0,
+    "link": "https://es.wallapop.com/item/mando-dualsense-ps5-spider-man-sin-estrenar-1299768094",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 23:35",
+    "market_median": 394.5,
+    "suggested_sell_price": 375,
+    "market_sample_count": 100,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€394) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
