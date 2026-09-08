@@ -69,7 +69,78 @@
         "correa", "carcasa", "protector", "grip", "caja vacia",
         "banda sonora", "soundtrack", "arcade stick", "stick arcade",
         "steelbook", "coleccionista", "edicion especial", "edición especial",
-        "dlc", "season pass", "tarjeta regalo", "gift card"
+        "dlc", "season pass", "tarjeta regalo", "gift card",
+        "ssd", "nvme", "disco duro", "ampliacion", "ampliación", "m.2"
+      ]
+    },
+    {
+      "name": "RAM DDR4 16GB",
+      "search_term": "RAM DDR4 16GB",
+      "max_price": 18,
+      "min_price": 8,
+      "match_keywords": ["ddr4", "16gb"],
+      "exclude_keywords": ["ddr3", "ddr5", "sodimm", "so-dimm", "portatil", "portátil", "roto", "no funciona"]
+    },
+    {
+      "name": "RAM DDR4 32GB",
+      "search_term": "RAM DDR4 32GB",
+      "max_price": 45,
+      "min_price": 15,
+      "match_keywords": ["ddr4", "32gb"],
+      "exclude_keywords": ["ddr3", "ddr5", "sodimm", "so-dimm", "portatil", "portátil", "roto", "no funciona"]
+    },
+    {
+      "name": "RAM DDR5 16GB",
+      "search_term": "RAM DDR5 16GB",
+      "max_price": 35,
+      "min_price": 15,
+      "match_keywords": ["ddr5", "16gb"],
+      "exclude_keywords": ["ddr4", "sodimm", "so-dimm", "portatil", "portátil", "roto", "no funciona"]
+    },
+    {
+      "name": "RAM DDR5 32GB",
+      "search_term": "RAM DDR5 32GB",
+      "max_price": 90,
+      "min_price": 30,
+      "match_keywords": ["ddr5", "32gb"],
+      "exclude_keywords": ["ddr4", "sodimm", "so-dimm", "portatil", "portátil", "roto", "no funciona"]
+    },
+    {
+      "name": "SSD NVMe 1TB",
+      "search_term": "SSD NVMe 1TB",
+      "max_price": 28,
+      "min_price": 12,
+      "match_keywords": ["nvme", "1tb"],
+      "exclude_keywords": ["sata", "externo", "portatil", "portátil", "2tb", "500gb", "roto", "no funciona"]
+    },
+    {
+      "name": "SSD NVMe 2TB",
+      "search_term": "SSD NVMe 2TB",
+      "max_price": 55,
+      "min_price": 25,
+      "match_keywords": ["nvme", "2tb"],
+      "exclude_keywords": ["sata", "externo", "portatil", "portátil", "500gb", "1tb", "roto", "no funciona"]
+    },
+    {
+      "name": "Mando DualSense PS5",
+      "search_term": "Mando DualSense PS5",
+      "max_price": 22,
+      "min_price": 12,
+      "match_keywords": ["dualsense"],
+      "exclude_keywords": [
+        "funda", "soporte", "cargador", "skin", "grip", "correa",
+        "roto", "no funciona", "para piezas", "solo pieza", "carcasa"
+      ]
+    },
+    {
+      "name": "Mando Xbox Series",
+      "search_term": "Mando Xbox Series",
+      "max_price": 20,
+      "min_price": 12,
+      "match_keywords": ["xbox", "series"],
+      "exclude_keywords": [
+        "funda", "soporte", "cargador", "skin", "grip", "correa",
+        "roto", "no funciona", "para piezas", "solo pieza", "carcasa", "one"
       ]
     }
   ]
