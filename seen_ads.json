@@ -796,5 +796,26 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T17:50:43"
+  },
+  "wallapop:xzogp2dgpwj9": {
+    "title": "Consola PS5 Pro 2TB Blanca",
+    "price": 800.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:10:42"
+  },
+  "wallapop:xzogp2d22lj9": {
+    "title": "Consola Sony PS5 800GB 4K",
+    "price": 426.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:10:42"
+  },
+  "wallapop:qjwr341l146o": {
+    "title": "Consola PS5 Slim Lector Edición FC26 FW: 11.40",
+    "price": 700.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:10:42"
   }
 }
