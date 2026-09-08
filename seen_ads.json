@@ -2378,5 +2378,12 @@
     "gpu_name": "RAM DDR5 32GB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T00:56:05+02:00"
+  },
+  "wallapop:v6gpygqn3n6e": {
+    "title": "PS5 Slim Digital 1TB + DualSense Blanco",
+    "price": 449.95,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T01:01:07+02:00"
   }
 }
