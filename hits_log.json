@@ -288,5 +288,21 @@
     "min_samples_needed": 5,
     "reason": "Onder je inkoopdrempel van €245.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:4z485e0v88jy",
+    "title": "Volante Logitech G29 PS4/PS5 como Novo",
+    "price": 155.0,
+    "link": "https://es.wallapop.com/item/volante-logitech-g29-ps4-ps5-como-novo-1299664662",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 16:40",
+    "market_median": 350.0,
+    "suggested_sell_price": 332,
+    "market_sample_count": 31,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]

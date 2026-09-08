@@ -614,5 +614,26 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T16:20:45"
+  },
+  "wallapop:nz08e4ryw36o": {
+    "title": "Consola PlayStation 5 PS5 Blanca",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T16:40:43"
+  },
+  "wallapop:vjrewq49glzk": {
+    "title": "Consola PS5 Slim 825GB + Lector Discos Oficial",
+    "price": 499.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T16:40:43"
+  },
+  "wallapop:4z485e0v88jy": {
+    "title": "Volante Logitech G29 PS4/PS5 como Novo",
+    "price": 155.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T16:40:43"
   }
 }
