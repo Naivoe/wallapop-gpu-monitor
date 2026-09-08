@@ -852,5 +852,677 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T18:31:00"
+  },
+  "wallapop:nz08e427p36o": {
+    "title": "32(2x16gb) ram ddr4",
+    "price": 135.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:x6qq7mn3le6y": {
+    "title": "SK hynix 16GB DDR4 2133MHz",
+    "price": 35.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:3zlmy8dm7qjx": {
+    "title": "Memoria RAM XPG GAMMIX D35 DDR4 16GB",
+    "price": 70.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:nz08e428d76o": {
+    "title": "Samsung 16GB DDR4 PC4-2666V M471A2K43DB1",
+    "price": 35.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:v6gpygk0826e": {
+    "title": "2x16GB DDR4 3000MHz XPG RAM",
+    "price": 139.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:nz08e4yk576o": {
+    "title": "KLEVV BOLT X DDR4 3200MHz 32GB (2x16GB)",
+    "price": 150.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:ejkmy8er0qzx": {
+    "title": "PC Gaming , 16GB DDR4 , Ryzen 5 , GTX 1660 Super",
+    "price": 260.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:nzxe24r0om62": {
+    "title": "MEMORIA RAM G.SKILL RIPJAWS V 16GB DDR4 3200MHz",
+    "price": 80.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:3zlmy8d4epjx": {
+    "title": "Kit X99 Xeon E5-2667 v3 + 32GB DDR4 ECC",
+    "price": 130.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:8j38q4re58z9": {
+    "title": "Memoria RAM HyperX Fury 32GB DDR4",
+    "price": 150.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:pzpk02d2v5j3": {
+    "title": "G.Skill TridentZ RGB 32GB (4x8GB) DDR4 3200MHz",
+    "price": 214.95,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:8j38q4ek97z9": {
+    "title": "Kingston Fury Beast 32GB (2x16GB) DDR4 3600 RAM",
+    "price": 200.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:9jdwyk5pql6k": {
+    "title": "32GB RAM DDR4 G.Skill Trident Z RGB (4x8GB) 4000MH",
+    "price": 210.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:v6gpyg4lym6e": {
+    "title": "32GB RAM DDR4 3200MHz. Kingston Fury Beast (4x8GB)",
+    "price": 200.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:wzyrk4nl7565": {
+    "title": "PC Dual Xeon E5 2699 v3, 1TB nvm2 gen5, 32GB DDR4.",
+    "price": 599.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:x6qq7mkp756y": {
+    "title": "Memoria RAM Crucial 32GB DDR4 2400MHz (4x8GB)",
+    "price": 100.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:4z485eyx5wjy": {
+    "title": "32GB DDR4 DualRank & Channel Samsung NO NEGOCIABLE",
+    "price": 125.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:36e5y1d4ek6d": {
+    "title": "RTX 3060Ti 32GB RAM DDR4",
+    "price": 450.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:qzmm5e9x9gzv": {
+    "title": "32GB DDR4 NEW Dual Channel Kingston  NO NEGOCIABLE",
+    "price": 125.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:w67v043l1w6x": {
+    "title": "32GB DDR4 Dual Channel Samsung  NO NEGOCIABLE",
+    "price": 120.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:40"
+  },
+  "wallapop:e65qn89w0k6o": {
+    "title": "Corsair Vengeance RGB DDR5 32GB (2x16GB)",
+    "price": 400.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:qzmm5epx5gzv": {
+    "title": "PC Gaming 7600X - RX 7900 XT - 32GB DDR5",
+    "price": 1800.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:nz08e48n476o": {
+    "title": "32GB RAM DDR5 SK Hynix 5600 MHz 2x16 GB",
+    "price": 500.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:p618g484ygz5": {
+    "title": "Corsair Vengeance RGB DDR5 32GB 6000MHz",
+    "price": 399.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:3zlmy84xwnjx": {
+    "title": "Mini PC Geekom A8 R9-8945HS 32GB DDR5 2TB SSD",
+    "price": 850.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:x6qq7mkl556y": {
+    "title": "Corsair Vengeance DDR5 64GB (2x32GB) 6000MT/s",
+    "price": 840.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:9jdwykxdl96k": {
+    "title": "RAM DDR5 32GB (2x16GB) 6000MT/s Corsair Vengeance",
+    "price": 430.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:nz08e490p76o": {
+    "title": "Kingston FURY DDR5 32GB (2x16GB) 6000MT/s",
+    "price": 400.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:pj94w58y806e": {
+    "title": "Lexar ARES DDR5 32GB (2x16GB) 6000MT/s CL26",
+    "price": 520.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:p618gyx937z5": {
+    "title": "RAM DDR5 32GB 6000MHz CL38 Teamgroup T-Force",
+    "price": 430.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:nzxe201eye62": {
+    "title": "32GB DDR5 7200MHz RAM Lexar",
+    "price": 700.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:qzmm5e70pxzv": {
+    "title": "SSD NVMe Kioxia Exceria G2 1TB",
+    "price": 129.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:0j28v4nq0ejy": {
+    "title": "SSD WD SN560 NVMe 1TB",
+    "price": 120.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:3zlmy80go8jx": {
+    "title": "SSD M.2 NVMe 1TB Samsung MZ-VLQ1T0B",
+    "price": 130.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:ejkmy881ypzx": {
+    "title": "SSD NVMe Samsung 1TB",
+    "price": 240.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:8j38q4497yz9": {
+    "title": "SSD Micron 1TB NVMe PCIe Gen3 x4 M.2",
+    "price": 100.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:wzvgo44g8dzl": {
+    "title": "Kingston NV3 PCIe 4.0 NVMe M.2 SSD 1TB",
+    "price": 125.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:36e5y19gln6d": {
+    "title": "SSD Samsung 1TB PM9C1a M.2 NVMe",
+    "price": 100.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:pj94wmdvy06e": {
+    "title": "Crucial P3 Plus SSD 1TB NVMe M.2",
+    "price": 199.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:x6qq7drx9e6y": {
+    "title": "Samsung SSD 980 1TB NVMe M.2",
+    "price": 280.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:8z8874o0m8z3": {
+    "title": "Adata XPG Gammix S70 1TB SSD NVMe",
+    "price": 150.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:vjrewr0n0lzk": {
+    "title": "Samsung PM9C1 1TB NVMe SSD MZ-VL81T00",
+    "price": 140.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:p618gyggpdz5": {
+    "title": "Lexar THOR PRO SSD 1TB M.2 PCIe Gen4 NVMe",
+    "price": 125.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:vjrewrw14wzk": {
+    "title": "SSD WD SN560 NVMe 1TB",
+    "price": 120.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:9jdwyk7qv96k": {
+    "title": "SSD NVMe Predator GM7 2TB 7400MB/s",
+    "price": 250.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:8z887kq83lz3": {
+    "title": "Lexar EQ790 2TB SSD NVMe PCIe Gen4x4",
+    "price": 190.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:p618g49k1gz5": {
+    "title": "Samsung SSD 990 EVO Plus 2TB NVMe",
+    "price": 199.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:e65qngx81k6o": {
+    "title": "SSD WD_BLACK SN850 NVMe 2TB para PSS",
+    "price": 500.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:qzmm5ev2p1zv": {
+    "title": "Mando DualSense PS5",
+    "price": 40.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:8j38q42nrlz9": {
+    "title": "Mando PS5 Sony DualSense",
+    "price": 30.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:xzogp2d35wj9": {
+    "title": "Mando PS5 DualSense Rojo",
+    "price": 60.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:vjrewqpov8zk": {
+    "title": "Mando DualSense Inalámbrico PS5",
+    "price": 55.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:3zlmy8dmgnjx": {
+    "title": "Mando PS5 DualSense Camuflaje Precintado",
+    "price": 70.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:pzpk0259lmj3": {
+    "title": "Mando PS5 DualSense Sony",
+    "price": 20.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:p618g4evpgz5": {
+    "title": "Mando PS5 DualSense Midnight Black Original",
+    "price": 60.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:8z887k2yp1z3": {
+    "title": "Mando PS5 DualSense Morado",
+    "price": 55.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:qjwr34qx246o": {
+    "title": "Mando PS5 DualSense Blanco Original",
+    "price": 45.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:mzn3n20eekjn": {
+    "title": "Mando PlayStation 5 DualSense",
+    "price": 70.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:36e5y1eepn6d": {
+    "title": "Mando DualSense PS5 Sony Blanco",
+    "price": 60.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:pzpk02w114j3": {
+    "title": "Mando DualSense PS5 Sony",
+    "price": 35.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:pj94wmxo5v6e": {
+    "title": "Mando DualSense PS5 rojo",
+    "price": 25.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:36e5y1py386d": {
+    "title": "Mando DualSense PS5",
+    "price": 40.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:8z887kw4x1z3": {
+    "title": "Mando PS5 DualSense Morado",
+    "price": 35.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:ejkmy8pn21zx": {
+    "title": "Mando Sony Ps5 DualSense",
+    "price": 34.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:qzmm5e7nrozv": {
+    "title": "PS5 Digital 1TB + 2 Mandos DualSense",
+    "price": 460.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:41"
+  },
+  "wallapop:wzyrk4odmv65": {
+    "title": "Xbox Series S Consola y Mando Negro",
+    "price": 250.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:xzogp2dpw5j9": {
+    "title": "Xbox Series S Blanca SIN TAPA",
+    "price": 80.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:pj94wmrkok6e": {
+    "title": "Xbox Series X con base de carga LED verde",
+    "price": 500.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:nzxe24q2gp62": {
+    "title": "Xbox Series S Blanca 512 GB SSD",
+    "price": 300.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:qzmm5ep82ozv": {
+    "title": "Xbox Series S Blanca con juegos y 2 mandos",
+    "price": 250.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:qjwr34qy946o": {
+    "title": "Xbox Series S Blanca",
+    "price": 220.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:mzn3n2opqyjn": {
+    "title": "Xbox series X con juegos fisicos!!! Y mando!!!",
+    "price": 850.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:e65qn87wo26o": {
+    "title": "Mando Xbox Series Velocity Green",
+    "price": 45.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:36e5y18ymq6d": {
+    "title": "Mando Xbox Elite Series 2 Blanco",
+    "price": 135.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:e65qn87n7m6o": {
+    "title": "Mando XBOX Series Pulse Cipher",
+    "price": 49.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:pj94wmny4m6e": {
+    "title": "Xbox Series S 512GB + Mando",
+    "price": 240.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:xzogp2gp45j9": {
+    "title": "Xbox Series S + Mando",
+    "price": 250.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:wzyrk4rk0565": {
+    "title": "Xbox Series X 1TB Negra",
+    "price": 459.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:pzpk02k4v4j3": {
+    "title": "Xbox Series S 512GB Blanca",
+    "price": 215.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:qjwr34r2eg6o": {
+    "title": "Mando Xbox Elite Series 2",
+    "price": 39.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:qzmm5emyogzv": {
+    "title": "XBOX SERIES S 512 GB + 2 MANDOS y 1 BATERÍA",
+    "price": 290.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:36e5y15x9q6d": {
+    "title": "Mando Xbox Series X Azul Edicion Shock Blue",
+    "price": 24.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:qzmm5eemrozv": {
+    "title": "Xbox Elite Series 2 Core Blanco LEER BIO",
+    "price": 40.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:e65qn8gwnp6o": {
+    "title": "Xbox Series S(compatible con GTA 6)+Mando",
+    "price": 450.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:36e5y1x9yy6d": {
+    "title": "Mando Xbox Series X Negro",
+    "price": 24.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:v6gpyg1dp76e": {
+    "title": "Xbox Series S Blanca",
+    "price": 220.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:nzxe24y9p762": {
+    "title": "Xbox Series X Negra",
+    "price": 595.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:8j38q4x5n8z9": {
+    "title": "Xbox Series S 512 GB Blanca",
+    "price": 170.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:mzn3n2vonyjn": {
+    "title": "Xbox Series S Blanca",
+    "price": 150.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:x6qq7m9vy56y": {
+    "title": "Mando Xbox Series X Negro Edicion",
+    "price": 19.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:4z485egypmjy": {
+    "title": "Xbox Series S con caja y mando cambio por N Switch",
+    "price": 190.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:wzvgo4l9qqzl": {
+    "title": "Xbox Series S 512GB + 2 Mandos+base de carga",
+    "price": 240.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:pzpk021885j3": {
+    "title": "Xbox Series S Console Bianca",
+    "price": 300.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:v6gpyg4len6e": {
+    "title": "Xbox Series S Blanca",
+    "price": 230.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:pzpk029qw9j3": {
+    "title": "Xbox Series S Blanca",
+    "price": 185.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
+  },
+  "wallapop:e65qn8yrx06o": {
+    "title": "Xbox Series S 512 GB Blanca",
+    "price": 200.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:40:42"
   }
 }
