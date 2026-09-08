@@ -1685,5 +1685,33 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-08T19:31:00"
+  },
+  "wallapop:vjrewqv1r4zk": {
+    "title": "Volante Logitech G29 Driving Force PS5/PS4/PS3/PC",
+    "price": 190.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:40:41"
+  },
+  "wallapop:x6qq7m248e6y": {
+    "title": "PS5 Slim 1TB todo correcto",
+    "price": 299.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:40:41"
+  },
+  "wallapop:qzmm5e1ppgzv": {
+    "title": "RAM per server 16GB Samsung ECC DDR4",
+    "price": 42.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:40:41"
+  },
+  "wallapop:xzogp2o3k5j9": {
+    "title": "PC Gaming Ryzen 7 7800X3D + 32GB DDR5 (no grafica)",
+    "price": 750.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:40:42"
   }
 }

@@ -544,5 +544,21 @@
     "min_samples_needed": 5,
     "reason": "Onder je inkoopdrempel van €250.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:vjrewqv1r4zk",
+    "title": "Volante Logitech G29 Driving Force PS5/PS4/PS3/PC",
+    "price": 190.0,
+    "link": "https://es.wallapop.com/item/volante-logitech-g29-driving-force-ps5-ps4-ps3-pc-1299737767",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 19:40",
+    "market_median": 400.0,
+    "suggested_sell_price": 380,
+    "market_sample_count": 69,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€400) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
