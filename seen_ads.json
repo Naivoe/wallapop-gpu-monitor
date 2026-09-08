@@ -2077,5 +2077,40 @@
     "gpu_name": "RAM DDR5 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-08T23:05:37+02:00"
+  },
+  "wallapop:qjwr34npkw6o": {
+    "title": "Consola PS5 Slim Disco",
+    "price": 500.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:10:41+02:00"
+  },
+  "wallapop:pzpk02mrqkj3": {
+    "title": "PS5 Slim Digital 825GB + FC26 + 2 mandos",
+    "price": 520.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:10:41+02:00"
+  },
+  "wallapop:p618g4lok5z5": {
+    "title": "Mando PS5 Sony DualSense Blanco",
+    "price": 25.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:10:41+02:00"
+  },
+  "wallapop:w67v04ldvy6x": {
+    "title": "Consola PS5 Digital Edition Sony Blanca",
+    "price": 480.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:10:41+02:00"
+  },
+  "wallapop:v6gpygr4rm6e": {
+    "title": "Acer Predator DDR5 32GB (2x16GB) 6000MHz CL34",
+    "price": 450.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:10:42+02:00"
   }
 }
