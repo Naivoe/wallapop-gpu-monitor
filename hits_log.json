@@ -768,5 +768,37 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€390) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:qzmm5ewe81zv",
+    "title": "Tarjeta Gráfica Asus PRIME RTX 5060 8GB OC",
+    "price": 450.0,
+    "link": "https://es.wallapop.com/item/tarjeta-grafica-asus-prime-rtx-5060-8gb-1299763380",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "RTX 5060 8GB",
+    "found_at": "2026-09-08 23:15",
+    "market_median": 1109.0,
+    "suggested_sell_price": 1054,
+    "market_sample_count": 9,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€1109) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:pj94wml4v06e",
+    "title": "Mando PS5 Sony",
+    "price": 55.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-sony-1299763813",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 23:15",
+    "market_median": 399.0,
+    "suggested_sell_price": 379,
+    "market_sample_count": 97,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€399) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
