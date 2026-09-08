@@ -576,5 +576,21 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€400) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:e65qn8dvlp6o",
+    "title": "Onimusha Premium Deluxe PS5",
+    "price": 145.0,
+    "link": "https://es.wallapop.com/item/onimusha-premium-deluxe-ps5-1299747224",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 20:10",
+    "market_median": 400.0,
+    "suggested_sell_price": 380,
+    "market_sample_count": 74,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€400) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]

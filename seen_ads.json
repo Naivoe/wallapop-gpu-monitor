@@ -1769,5 +1769,61 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-08T20:01:17"
+  },
+  "wallapop:e65qn8dvlp6o": {
+    "title": "Onimusha Premium Deluxe PS5",
+    "price": 145.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T20:10:44"
+  },
+  "wallapop:8j38q4km82z9": {
+    "title": "Consola PS5 lectora",
+    "price": 370.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T20:10:44"
+  },
+  "wallapop:w67v049qww6x": {
+    "title": "Consola PS5 Edición Ghost of Yotei",
+    "price": 900.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T20:10:44"
+  },
+  "wallapop:nz08e4x7o36o": {
+    "title": "PS5 PRO 2TB Sony",
+    "price": 850.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T20:10:44"
+  },
+  "wallapop:p618g41xpxz5": {
+    "title": "PC i7 7700 16Gb RAM DDR4 8Gb GRAFICA CAMING",
+    "price": 400.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T20:10:44"
+  },
+  "wallapop:ejkmy8w181zx": {
+    "title": "Lexar Ares Pro 2TB NVMe SSD PCIe 5.0 (14,500 MB)",
+    "price": 269.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T20:10:46"
+  },
+  "wallapop:vjrewqvnl8zk": {
+    "title": "PS5 Slim 1TB con lector + mando DualSense",
+    "price": 490.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T20:10:46"
+  },
+  "wallapop:x6qq7m25lo6y": {
+    "title": "Mando PS5 DualSense Blanco",
+    "price": 45.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T20:10:46"
   }
 }
