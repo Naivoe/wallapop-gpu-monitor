@@ -2350,5 +2350,12 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T00:30:57+02:00"
+  },
+  "wallapop:x6qq7m8vrq6y": {
+    "title": "Mando PS5 nuevo a estrenar",
+    "price": 45.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T00:35:33+02:00"
   }
 }
