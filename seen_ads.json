@@ -1860,5 +1860,54 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-08T20:20:42"
+  },
+  "wallapop:qjwr34g7yw6o": {
+    "title": "PS5 PRO NUEVA PRECINTADA",
+    "price": 1499.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:25:32+02:00"
+  },
+  "wallapop:p618g4m5p2z5": {
+    "title": "PS5 Slim 1TB Blanca y Negra",
+    "price": 295.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:25:32+02:00"
+  },
+  "wallapop:vjrewqm4mwzk": {
+    "title": "Módulo Joystick Sony DualSense Edge PS5",
+    "price": 30.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:25:32+02:00"
+  },
+  "wallapop:pj94wm04r06e": {
+    "title": "Consola PS5 1TB con Lector + Mando",
+    "price": 550.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:25:32+02:00"
+  },
+  "wallapop:9jdwyk12v46k": {
+    "title": "Piezas y repuestos mandos PS4 y PS5",
+    "price": 5.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:25:32+02:00"
+  },
+  "wallapop:w67v04n31w6x": {
+    "title": "Mando PS5 Original Nuevo",
+    "price": 55.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:25:32+02:00"
+  },
+  "wallapop:8j38q4kp8yz9": {
+    "title": "Mini PC N100 16GB DDR5 / 512GB SSD",
+    "price": 150.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:25:33+02:00"
   }
 }
