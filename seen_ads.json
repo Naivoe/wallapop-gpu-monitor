@@ -2000,5 +2000,40 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-08T22:50:41+02:00"
+  },
+  "wallapop:ejkmy8nvvyzx": {
+    "title": "Mando PS5 Dualsense Rosa",
+    "price": 35.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:55:31+02:00"
+  },
+  "wallapop:pzpk02xp7mj3": {
+    "title": "PS5 Tony Hawk's Pro Skater 3+4 Novo Selado",
+    "price": 25.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:55:31+02:00"
+  },
+  "wallapop:pj94wm0oov6e": {
+    "title": "Pack RAM 16GB DDR4 – Samsung + SK Hynix",
+    "price": 44.9,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:55:31+02:00"
+  },
+  "wallapop:4z485eyvvwjy": {
+    "title": "SSD Kingston NV2 1TB NVMe PCIe 4.0 - Como nuevo",
+    "price": 73.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:55:32+02:00"
+  },
+  "wallapop:pj94wm012m6e": {
+    "title": "Xbox Series S Blanca",
+    "price": 190.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T22:55:33+02:00"
   }
 }

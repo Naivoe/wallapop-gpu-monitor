@@ -688,5 +688,53 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€225) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:ejkmy8nvvyzx",
+    "title": "Mando PS5 Dualsense Rosa",
+    "price": 35.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-rosa-1299758923",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 22:55",
+    "market_median": 399.0,
+    "suggested_sell_price": 379,
+    "market_sample_count": 89,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€399) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:pzpk02xp7mj3",
+    "title": "PS5 Tony Hawk's Pro Skater 3+4 Novo Selado",
+    "price": 25.0,
+    "link": "https://es.wallapop.com/item/ps5-tony-hawk-s-pro-skater-3-4-novo-selado-1299758102",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 22:55",
+    "market_median": 399.0,
+    "suggested_sell_price": 379,
+    "market_sample_count": 89,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€399) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:pj94wm0oov6e",
+    "title": "Pack RAM 16GB DDR4 – Samsung + SK Hynix",
+    "price": 44.9,
+    "link": "https://es.wallapop.com/item/pack-ram-16gb-ddr4-samsung---sk-hynix-1299758913",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "RAM DDR4 16GB",
+    "found_at": "2026-09-08 22:55",
+    "market_median": 114.5,
+    "suggested_sell_price": 109,
+    "market_sample_count": 18,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€114) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
