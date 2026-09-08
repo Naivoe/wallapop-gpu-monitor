@@ -817,5 +817,12 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T18:10:42"
+  },
+  "wallapop:pj94wmrrrm6e": {
+    "title": "PC Gaming RTX 5060 Ti Ryzen 7 5700X 48GB RAM",
+    "price": 1450.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:20:41"
   }
 }
