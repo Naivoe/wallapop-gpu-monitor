@@ -2168,5 +2168,19 @@
     "gpu_name": "RAM DDR4 32GB",
     "source": "Wallapop",
     "first_seen": "2026-09-08T23:25:33+02:00"
+  },
+  "wallapop:ejkmy80wryzx": {
+    "title": "Corsair Vengeance DDR5 32GB (2x16GB) 5600MHz",
+    "price": 300.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:31:06+02:00"
+  },
+  "wallapop:wzyrk409qv65": {
+    "title": "Disco Duro WD BLACK SN7100 2TB NVMe SSD 7500MB/s",
+    "price": 250.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:31:07+02:00"
   }
 }
