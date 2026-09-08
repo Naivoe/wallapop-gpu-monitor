@@ -2245,5 +2245,12 @@
     "gpu_name": "RAM DDR4 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-08T23:45:40+02:00"
+  },
+  "wallapop:4z485el5l8jy": {
+    "title": "Xbox Series S Blanca + 2 Mandos",
+    "price": 295.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:50:46+02:00"
   }
 }
