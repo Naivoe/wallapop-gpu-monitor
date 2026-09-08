@@ -824,5 +824,33 @@
     "gpu_name": "RTX 5060 Ti",
     "source": "Wallapop",
     "first_seen": "2026-09-08T18:20:41"
+  },
+  "wallapop:0j28v4g5evjy": {
+    "title": "Volante y Pedales HORI RWA PS5",
+    "price": 180.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:31:00"
+  },
+  "wallapop:p618g4ege2z5": {
+    "title": "Mortal Shell Deluxe Set PS5",
+    "price": 180.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:31:00"
+  },
+  "wallapop:mzn3n2enggjn": {
+    "title": "PS5 Pro Edición 30 Aniversario Sony",
+    "price": 1999.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:31:00"
+  },
+  "wallapop:p618g4e04dz5": {
+    "title": "Consola PS5 Slim Lector",
+    "price": 550.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T18:31:00"
   }
 }
