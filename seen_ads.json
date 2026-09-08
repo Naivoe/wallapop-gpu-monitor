@@ -544,5 +544,33 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T15:07:48"
+  },
+  "wallapop:36e5y1xo1y6d": {
+    "title": "i7 155H RTX 4060 16GB SSD 512 Mini PC ASUS ROG NUC",
+    "price": 750.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T16:01:28"
+  },
+  "wallapop:pj94wmmo4v6e": {
+    "title": "Consola Sony PlayStation 5 (PS5)",
+    "price": 359.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T16:01:29"
+  },
+  "wallapop:mzn3n22n2yjn": {
+    "title": "consola ps5 sony playstation 5 slim standard 1tb",
+    "price": 579.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T16:01:29"
+  },
+  "wallapop:wzyrk44wnp65": {
+    "title": "Simulador Conducción (PC, PS4 y PS5)",
+    "price": 700.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T16:01:29"
   }
 }
