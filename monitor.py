@@ -12,18 +12,16 @@ Bronnen:
   wijzigen, zie README.md).
 - eBay: officiele, gratis Browse API (vereist een gratis developer-
   account, zie README.md voor het aanmaken van EBAY_APP_ID/EBAY_CERT_ID).
-- Milanuncios: leest de JSON-data die de website zelf al insluit in de
-  pagina (__NEXT_DATA__). Dit is EXPERIMENTEEL — de exacte structuur kon
-  niet vooraf getest worden. Bij problemen print de code een debug-regel
-  met de beschikbare velden; zie README.md voor hoe je dat gebruikt om
-  de paden in extract_milanuncios_fields() te herstellen.
 
-Vinted en Facebook Marketplace zitten hier bewust NIET in: beide
-beveiligen zich met zware anti-bot-systemen (DataDome resp. rotatende
-GraphQL-tokens + browser-fingerprinting + blokkades op datacenter-IP's).
-Dat is met gratis middelen niet betrouwbaar te automatiseren voor een
-onbemande cloud-taak. Zie README.md voor de alternatieven (hun eigen
-ingebouwde zoek-alerts).
+Vinted, Facebook Marketplace EN Milanuncios zitten hier bewust NIET
+(meer) actief in: alle drie beveiligen zich met zware anti-bot-systemen
+(DataDome resp. rotatende GraphQL-tokens/fingerprinting resp. PerimeterX/
+Akamai — herkenbaar aan de "Pardon Our Interruption"-pagina). Dat is met
+gratis middelen niet betrouwbaar te automatiseren voor een onbemande
+cloud-taak. Zie README.md voor de alternatieven (hun eigen ingebouwde
+zoek-alerts). De Milanuncios-fetcher-code staat er nog wel in (uitgezet
+via config.json 'sources') mocht een toekomstige aanpak dit ooit
+haalbaar maken.
 """
 
 import html
