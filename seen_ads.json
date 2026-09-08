@@ -2322,5 +2322,19 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T00:10:44+02:00"
+  },
+  "wallapop:4z485e4e3mjy": {
+    "title": "Consola PS5 Sony + 2 Mandos",
+    "price": 300.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T00:25:33+02:00"
+  },
+  "wallapop:0j28v4d3vmjy": {
+    "title": "PS5 Slim Digital Blanca + Mando + Caja",
+    "price": 0.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T00:25:33+02:00"
   }
 }
