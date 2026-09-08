@@ -864,5 +864,37 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€394) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:e65qn8l5gp6o",
+    "title": "Supporto Controller PS5 Trono di Spade",
+    "price": 12.0,
+    "link": "https://es.wallapop.com/item/supporto-controller-ps5-trono-di-spade-1299768872",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 23:40",
+    "market_median": 399.0,
+    "suggested_sell_price": 379,
+    "market_sample_count": 103,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€399) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:p618g4ll92z5",
+    "title": "Mando ps5 con Kit remapeo eXtremeRate",
+    "price": 75.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-con-kit-remapeo-extremerate-1299768207",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 23:40",
+    "market_median": 399.0,
+    "suggested_sell_price": 379,
+    "market_sample_count": 103,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€399) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]

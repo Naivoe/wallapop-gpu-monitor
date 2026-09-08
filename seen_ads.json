@@ -2210,5 +2210,26 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T23:35:31+02:00"
+  },
+  "wallapop:e65qn8l5gp6o": {
+    "title": "Supporto Controller PS5 Trono di Spade",
+    "price": 12.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:40:41+02:00"
+  },
+  "wallapop:p618g4ll92z5": {
+    "title": "Mando ps5 con Kit remapeo eXtremeRate",
+    "price": 75.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:40:41+02:00"
+  },
+  "wallapop:wzvgo45511zl": {
+    "title": "SSD Samsung 1TB 860 EVO + RAM DDR4 16GB y ryzen 7",
+    "price": 80.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:40:42+02:00"
   }
 }
