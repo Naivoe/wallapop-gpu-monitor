@@ -47,6 +47,27 @@
     .link a { color: var(--green); text-decoration: none; font-size: 13px; }
     .link a:hover { text-decoration: underline; }
     .empty { color: var(--text-dim); text-align: center; padding: 40px 0; font-size: 14px; }
+    .card-footer {
+        display: flex; justify-content: space-between; align-items: center;
+        margin-top: 10px; flex-wrap: wrap; gap: 8px;
+    }
+    .card-actions { display: flex; gap: 6px; }
+    .card-actions button {
+        background: var(--border); color: var(--text-dim); border: none;
+        border-radius: 6px; padding: 5px 10px; font-size: 12px; cursor: pointer;
+    }
+    .card-actions button:hover { background: #363b47; color: var(--text); }
+    .card.is-archived { opacity: 0.55; }
+    .toolbar {
+        display: flex; justify-content: space-between; align-items: center;
+        margin-bottom: 16px; flex-wrap: wrap; gap: 8px;
+    }
+    .toolbar button {
+        background: var(--card-bg); color: var(--text-dim); border: 1px solid var(--border);
+        border-radius: 8px; padding: 6px 12px; font-size: 13px; cursor: pointer;
+    }
+    .toolbar button:hover { color: var(--text); border-color: var(--text-dim); }
+    .toolbar button.active { color: var(--green); border-color: var(--green); }
 </style>
 </head>
 <body>
@@ -55,15 +76,115 @@
     <div class="status status-ok">✓ Laatste run was zonder fouten</div>
     <div class="counts">
         <span class="count-pill count-hit">14 koopjes</span>
-        <span class="count-pill count-near_miss">1 net erboven</span>
-        <span class="count-pill count-suspicious">0 verdacht</span>
+        <span class="count-pill count-near_miss">3 net erboven</span>
+        <span class="count-pill count-suspicious">2 verdacht</span>
     </div>
     <div class="meta-bar">
-        <span>Laatste run: 2026-09-08 13:19:02</span>
+        <span>Laatste run: 2026-09-08 15:07:46</span>
         <span>Ververst elke 5 minuten</span>
     </div>
+    <div class="toolbar">
+        <button id="toggle-archived" onclick="toggleArchivedView()">📥 Toon gearchiveerde (<span id="archived-count">0</span>)</button>
+        <button onclick="resetAll()">↺ Herstel alles (ongedaan maken)</button>
+    </div>
     
-                <div class="card badge-near_miss">
+                <div class="card badge-near_miss" data-ad-id="wallapop:qzmm5ey9xozv">
+                    <div class="card-header">
+                        <span class="tag">PS5</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€150</span>
+                    </div>
+                    <div class="title">Volante Logitech G29 PS5</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 15:07
+                    </div>
+                    <div class="meta">Verkoop richtprijs: €190 &nbsp;·&nbsp; Marge: €40 (27%)</div>
+                    <div class="reason">€10 boven je drempel van €140, maar binnen de 15%-marge — misschien onderhandelbaar.</div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/volante-logitech-g29-ps5-1299622856" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:qzmm5ey9xozv')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:qzmm5ey9xozv')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="card badge-near_miss" data-ad-id="wallapop:x6qq7mypoe6y">
+                    <div class="card-header">
+                        <span class="tag">RTX 4060 Ti 8GB</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€300</span>
+                    </div>
+                    <div class="title">MSI RTX 4060Ti 8GB Ventus 2X OC Edition</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 15:07
+                    </div>
+                    
+                    <div class="reason">€30 boven je drempel van €270, maar binnen de 15%-marge — misschien onderhandelbaar.</div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/msi-rtx-4060ti-8gb-ventus-2x-oc-edition-1299606690" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:x6qq7mypoe6y')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:x6qq7mypoe6y')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="card badge-suspicious" data-ad-id="wallapop:qjwr34y5gq6o">
+                    <div class="card-header">
+                        <span class="tag">RTX 4060 8GB</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€0</span>
+                    </div>
+                    <div class="title">MSI GeForce RTX 4060 Tarjeta Gráfica Gaming</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 15:07
+                    </div>
+                    <div class="meta">Verkoop richtprijs: €722 &nbsp;·&nbsp; Marge: €722 (0%)</div>
+                    <div class="reason">Onder 50% van de marktmediaan (€760) — waarschijnlijk kapot/nep, controleer goed.</div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/msi-geforce-rtx-4060-tarjeta-grafica-gaming-1299603777" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:qjwr34y5gq6o')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:qjwr34y5gq6o')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="card badge-suspicious" data-ad-id="wallapop:pj94wmg00o6e">
+                    <div class="card-header">
+                        <span class="tag">RTX 4060 8GB</span>
+                        <span class="tag source-tag">Wallapop</span>
+                        <span class="price">€260</span>
+                    </div>
+                    <div class="title">ASUS RTX 4060 OC 8GB GDDR6 Blanca</div>
+                    <div class="meta">
+                        Geplaatst: onbekend
+                        &nbsp;·&nbsp;
+                        Gevonden: 2026-09-08 15:07
+                    </div>
+                    <div class="meta">Verkoop richtprijs: €722 &nbsp;·&nbsp; Marge: €462 (178%)</div>
+                    <div class="reason">Onder 50% van de marktmediaan (€760) — waarschijnlijk kapot/nep, controleer goed.</div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/asus-rtx-4060-oc-8gb-gddr6-blanca-1299615885" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:pj94wmg00o6e')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:pj94wmg00o6e')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="card badge-near_miss" data-ad-id="wallapop:8j38q4v9e8z9">
                     <div class="card-header">
                         <span class="tag">PS5</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -77,11 +198,17 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €280 ligt €30 boven je drempel van €250, maar nog binnen de marge van 15% — misschien toch onderhandelbaar of de moeite waard.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/consola-sony-playstation-5-ps5-blanca-1299575334" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/consola-sony-playstation-5-ps5-blanca-1299575334" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:8j38q4v9e8z9')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:8j38q4v9e8z9')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
 
-                <div class="card badge-hit">
+                <div class="card badge-hit" data-ad-id="wallapop:xzogp2kxn2j9">
                     <div class="card-header">
                         <span class="tag">PS5</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -95,11 +222,17 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €20 zit onder je inkoopdrempel van €250 voor PS5.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/kena-bridge-of-spirits-deluxe-edition-ps5-1299571109" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/kena-bridge-of-spirits-deluxe-edition-ps5-1299571109" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:xzogp2kxn2j9')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:xzogp2kxn2j9')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
 
-                <div class="card badge-hit">
+                <div class="card badge-hit" data-ad-id="wallapop:mzn3n2402gjn">
                     <div class="card-header">
                         <span class="tag">PS5</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -113,11 +246,17 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €150 zit onder je inkoopdrempel van €250 voor PS5.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/hori-tekken-7-arcade-stick-ps4-ps5-1299571897" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/hori-tekken-7-arcade-stick-ps4-ps5-1299571897" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:mzn3n2402gjn')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:mzn3n2402gjn')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
 
-                <div class="card badge-hit">
+                <div class="card badge-hit" data-ad-id="wallapop:0j28v49g1djy">
                     <div class="card-header">
                         <span class="tag">PS5</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -131,11 +270,17 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €15 zit onder je inkoopdrempel van €250 voor PS5.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/f1-23-ps5-ea-sports-carreras-1299572559" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/f1-23-ps5-ea-sports-carreras-1299572559" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:0j28v49g1djy')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:0j28v49g1djy')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
 
-                <div class="card badge-hit">
+                <div class="card badge-hit" data-ad-id="wallapop:w67v048rq86x">
                     <div class="card-header">
                         <span class="tag">PS5</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -149,11 +294,17 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €95 zit onder je inkoopdrempel van €250 voor PS5.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/onimusha-way-of-the-sword-lenticular-ps5-1299572904" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/onimusha-way-of-the-sword-lenticular-ps5-1299572904" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:w67v048rq86x')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:w67v048rq86x')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
 
-                <div class="card badge-hit">
+                <div class="card badge-hit" data-ad-id="wallapop:qjwr34l9le6o">
                     <div class="card-header">
                         <span class="tag">PS5</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -167,11 +318,17 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €70 zit onder je inkoopdrempel van €250 voor PS5.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/arcade-stick-ps4-ps5-sony-1299572929" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/arcade-stick-ps4-ps5-sony-1299572929" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:qjwr34l9le6o')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:qjwr34l9le6o')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
 
-                <div class="card badge-hit">
+                <div class="card badge-hit" data-ad-id="wallapop:x6qq7mlw456y">
                     <div class="card-header">
                         <span class="tag">PS5</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -185,11 +342,17 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €25 zit onder je inkoopdrempel van €250 voor PS5.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/banda-sonora-the-medium-ps5-y-xbox-1299573142" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/banda-sonora-the-medium-ps5-y-xbox-1299573142" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:x6qq7mlw456y')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:x6qq7mlw456y')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
 
-                <div class="card badge-hit">
+                <div class="card badge-hit" data-ad-id="wallapop:pj94wmdeom6e">
                     <div class="card-header">
                         <span class="tag">PS5</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -203,11 +366,17 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €24 zit onder je inkoopdrempel van €250 voor PS5.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/mafia-el-viejo-continente-ps5-1299573437" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/mafia-el-viejo-continente-ps5-1299573437" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:pj94wmdeom6e')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:pj94wmdeom6e')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
 
-                <div class="card badge-hit">
+                <div class="card badge-hit" data-ad-id="wallapop:8z887kvp8oz3">
                     <div class="card-header">
                         <span class="tag">PS5</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -221,11 +390,17 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €250 zit onder je inkoopdrempel van €250 voor PS5.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/ps5-the-blood-of-dawnwalker-edicion-coleccionista-1299574246" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/ps5-the-blood-of-dawnwalker-edicion-coleccionista-1299574246" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:8z887kvp8oz3')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:8z887kvp8oz3')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
 
-                <div class="card badge-hit">
+                <div class="card badge-hit" data-ad-id="wallapop:nz08e49l8v6o">
                     <div class="card-header">
                         <span class="tag">PS5</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -239,11 +414,17 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €5 zit onder je inkoopdrempel van €250 voor PS5.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/rainbow-six-siege-ps4-ps5-perfette-condizioni-1299574803" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/rainbow-six-siege-ps4-ps5-perfette-condizioni-1299574803" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:nz08e49l8v6o')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:nz08e49l8v6o')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
 
-                <div class="card badge-hit">
+                <div class="card badge-hit" data-ad-id="wallapop:xzogp2k4d7j9">
                     <div class="card-header">
                         <span class="tag">PS5</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -257,11 +438,17 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €30 zit onder je inkoopdrempel van €250 voor PS5.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/jogo-ps5-tomb-raider-iv-vi-remastered-1299576633" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/jogo-ps5-tomb-raider-iv-vi-remastered-1299576633" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:xzogp2k4d7j9')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:xzogp2k4d7j9')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
 
-                <div class="card badge-hit">
+                <div class="card badge-hit" data-ad-id="wallapop:vjrewqywxwzk">
                     <div class="card-header">
                         <span class="tag">PS5</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -275,11 +462,17 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €25 zit onder je inkoopdrempel van €250 voor PS5.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/robocop-rogue-city-ps5-1299577819" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/robocop-rogue-city-ps5-1299577819" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:vjrewqywxwzk')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:vjrewqywxwzk')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
 
-                <div class="card badge-hit">
+                <div class="card badge-hit" data-ad-id="wallapop:ejkmy829x9zx">
                     <div class="card-header">
                         <span class="tag">RTX 4060 Ti 8GB</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -293,11 +486,17 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €250 zit onder je inkoopdrempel van €270 voor RTX 4060 Ti 8GB.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/msi-rtx-4060-ti-ventus-8gb-1299568347" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/msi-rtx-4060-ti-ventus-8gb-1299568347" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:ejkmy829x9zx')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:ejkmy829x9zx')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
 
-                <div class="card badge-hit">
+                <div class="card badge-hit" data-ad-id="wallapop:v6gpy2v9pl6e">
                     <div class="card-header">
                         <span class="tag">RTX 4060 8GB</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -311,11 +510,17 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €220 zit onder je inkoopdrempel van €220 voor RTX 4060 8GB.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/tarjeta-grafica-gforce-rtx-4060-8gb-1299399140" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/tarjeta-grafica-gforce-rtx-4060-8gb-1299399140" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:v6gpy2v9pl6e')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:v6gpy2v9pl6e')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
 
-                <div class="card badge-hit">
+                <div class="card badge-hit" data-ad-id="wallapop:8j38qen4m2z9">
                     <div class="card-header">
                         <span class="tag">RTX 4060 8GB</span>
                         <span class="tag source-tag">Wallapop</span>
@@ -329,8 +534,96 @@
                     </div>
                     
                     <div class="reason">Vraagprijs €100 zit onder je inkoopdrempel van €220 voor RTX 4060 8GB.</div>
-                    <div class="link"><a href="https://es.wallapop.com/item/gigabyte-rtx-4060-8gb-gddr6-tarjeta-grafica-1299514210" target="_blank">Bekijk advertentie →</a></div>
+                    <div class="card-footer">
+                        <div class="link"><a href="https://es.wallapop.com/item/gigabyte-rtx-4060-8gb-gddr6-tarjeta-grafica-1299514210" target="_blank">Bekijk advertentie →</a></div>
+                        <div class="card-actions">
+                            <button class="btn-archive" onclick="archiveAd('wallapop:8j38qen4m2z9')">📥 Archiveren</button>
+                            <button class="btn-delete" onclick="deleteAd('wallapop:8j38qen4m2z9')">🗑️ Verwijderen</button>
+                        </div>
+                    </div>
                 </div>
                 
+
+<script>
+    const ARCHIVE_KEY = 'gpuMonitorArchivedIds';
+    const DELETE_KEY = 'gpuMonitorDeletedIds';
+
+    function getIds(key) {
+        try {
+            const raw = localStorage.getItem(key);
+            return raw ? new Set(JSON.parse(raw)) : new Set();
+        } catch (e) {
+            return new Set();
+        }
+    }
+
+    function saveIds(key, idSet) {
+        localStorage.setItem(key, JSON.stringify(Array.from(idSet)));
+    }
+
+    function archiveAd(adId) {
+        const archived = getIds(ARCHIVE_KEY);
+        archived.add(adId);
+        saveIds(ARCHIVE_KEY, archived);
+        applyState();
+    }
+
+    function deleteAd(adId) {
+        if (!confirm('Deze advertentie definitief verbergen? Dit kan alleen ongedaan gemaakt worden via "Herstel alles".')) {
+            return;
+        }
+        const deleted = getIds(DELETE_KEY);
+        deleted.add(adId);
+        saveIds(DELETE_KEY, deleted);
+        applyState();
+    }
+
+    function resetAll() {
+        if (!confirm('Alle archiverings- en verwijder-markeringen op dit apparaat wissen?')) {
+            return;
+        }
+        localStorage.removeItem(ARCHIVE_KEY);
+        localStorage.removeItem(DELETE_KEY);
+        showArchived = false;
+        applyState();
+    }
+
+    let showArchived = false;
+
+    function toggleArchivedView() {
+        showArchived = !showArchived;
+        applyState();
+    }
+
+    function applyState() {
+        const archived = getIds(ARCHIVE_KEY);
+        const deleted = getIds(DELETE_KEY);
+        const cards = document.querySelectorAll('.card');
+        let archivedCount = 0;
+
+        cards.forEach(card => {
+            const id = card.getAttribute('data-ad-id');
+            if (deleted.has(id)) {
+                card.style.display = 'none';
+                return;
+            }
+            if (archived.has(id)) {
+                archivedCount++;
+                card.classList.add('is-archived');
+                card.style.display = showArchived ? '' : 'none';
+            } else {
+                card.classList.remove('is-archived');
+                card.style.display = '';
+            }
+        });
+
+        document.getElementById('archived-count').textContent = archivedCount;
+        const toggleBtn = document.getElementById('toggle-archived');
+        toggleBtn.classList.toggle('active', showArchived);
+        toggleBtn.textContent = (showArchived ? '📤 Verberg gearchiveerde (' : '📥 Toon gearchiveerde (') + archivedCount + ')';
+    }
+
+    document.addEventListener('DOMContentLoaded', applyState);
+</script>
 </body>
 </html>
