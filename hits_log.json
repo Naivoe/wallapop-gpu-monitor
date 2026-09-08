@@ -736,5 +736,21 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€114) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:qjwr34gx0k6o",
+    "title": "Disquetera Sony PS5 Digital Edition",
+    "price": 60.0,
+    "link": "https://es.wallapop.com/item/disquetera-sony-ps5-digital-edition-1299759429",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 23:01",
+    "market_median": 390.0,
+    "suggested_sell_price": 370,
+    "market_sample_count": 91,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€390) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]

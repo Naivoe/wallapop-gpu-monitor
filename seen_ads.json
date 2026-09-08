@@ -2035,5 +2035,26 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-08T22:55:33+02:00"
+  },
+  "wallapop:v6gpyg387l6e": {
+    "title": "Consola PS5 Edición Estándar/Digital",
+    "price": 534.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:01:10+02:00"
+  },
+  "wallapop:qjwr34gx0k6o": {
+    "title": "Disquetera Sony PS5 Digital Edition",
+    "price": 60.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:01:10+02:00"
+  },
+  "wallapop:ejkmy8n181zx": {
+    "title": "Lexar NQ790 2TB SSD NVMe PCIe Gen4x4",
+    "price": 210.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:01:11+02:00"
   }
 }
