@@ -25,6 +25,7 @@ import json
 import os
 import statistics
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -362,9 +363,14 @@ def check_gpu(gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources)
         gpu_config, market_stats, pricing_config
     )
 
+    min_price = gpu_config.get("min_price", 0)
+
     for fields in all_items:
         if not matches_gpu(fields["title"], gpu_config):
             continue
+
+        if fields["price"] < min_price:
+            continue  # waarschijnlijk een accessoire/los onderdeel, helemaal negeren
 
         ad_key = fields["id"]
         if ad_key in seen_ads:
@@ -449,24 +455,37 @@ def build_embed(hit, category="hit"):
     return embed
 
 
-def send_discord_notification(hit, category="hit"):
+def send_discord_notifications(hit_category_pairs):
+    """Stuurt alle meldingen in batches van maximaal 10 embeds per Discord-
+    bericht (Discord's limiet), met een korte pauze ertussen om de
+    rate-limit (HTTP 429) te vermijden. Print alles ook altijd naar de log."""
+    for hit, category in hit_category_pairs:
+        print_hit(hit, category)
+
     if not DISCORD_WEBHOOK_URL:
         print(
-            "[WAARSCHUWING] Geen DISCORD_WEBHOOK_URL ingesteld — melding "
-            "wordt overgeslagen (alleen hier in de log getoond)."
+            "[WAARSCHUWING] Geen DISCORD_WEBHOOK_URL ingesteld — Discord-"
+            "meldingen worden overgeslagen (alleen hierboven in de log getoond)."
         )
-        print_hit(hit, category)
         return
 
-    payload = {"embeds": [build_embed(hit, category)]}
-    try:
-        response = requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=15)
-        response.raise_for_status()
-        print(f"[OK] Discord-melding ({category}) verstuurd voor: {hit['title'][:60]}")
-    except requests.RequestException as e:
-        print(f"[FOUT] Kon Discord-melding niet versturen: {e}")
-        print_hit(hit, category)
+    CHUNK_SIZE = 10
+    chunks = [
+        hit_category_pairs[i : i + CHUNK_SIZE]
+        for i in range(0, len(hit_category_pairs), CHUNK_SIZE)
+    ]
 
+    for i, chunk in enumerate(chunks):
+        payload = {"embeds": [build_embed(hit, category) for hit, category in chunk]}
+        try:
+            response = requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=15)
+            response.raise_for_status()
+            print(f"[OK] Discord-bericht {i + 1}/{len(chunks)} verstuurd ({len(chunk)} advertenties).")
+        except requests.RequestException as e:
+            print(f"[FOUT] Kon Discord-bericht {i + 1}/{len(chunks)} niet versturen: {e}")
+
+        if i < len(chunks) - 1:
+            time.sleep(1.5)  # kleine pauze tussen berichten tegen rate-limiting
 
 
 def print_hit(hit, category="hit"):
@@ -634,17 +653,20 @@ def main():
     print(f"Bronnen: {', '.join(enabled_sources)}")
 
     ebay_token = None
-    had_error = False
+    had_error = False  # harde fouten (bv. Wallapop/eBay-verzoek mislukt) -> rood kruisje
+    all_errors = []
+
     if "ebay" in enabled_sources:
         ebay_token, token_error = get_ebay_token()
         if token_error:
+            # Geen eBay-credentials ingesteld is een bewuste keuze, geen fout van de
+            # monitor zelf — dus alleen een waarschuwing, geen rood kruisje.
             print(f"[WAARSCHUWING] {token_error}")
-            had_error = True
 
     total_hits = 0
     total_near_miss = 0
     total_suspicious = 0
-    all_errors = []
+    to_notify = []  # (hit, category) paren, verzameld voor gebundeld versturen
 
     for gpu_config in config["gpus"]:
         hits, near_misses, suspicious, errors = check_gpu(
@@ -655,19 +677,21 @@ def main():
             all_errors.extend(errors)
         for hit in hits:
             hit["category"] = "hit"
-            send_discord_notification(hit, category="hit")
+            to_notify.append((hit, "hit"))
             hits_log.append(hit)
             total_hits += 1
         for hit in near_misses:
             hit["category"] = "near_miss"
-            send_discord_notification(hit, category="near_miss")
+            to_notify.append((hit, "near_miss"))
             hits_log.append(hit)
             total_near_miss += 1
         for hit in suspicious:
             hit["category"] = "suspicious"
-            send_discord_notification(hit, category="suspicious")
+            to_notify.append((hit, "suspicious"))
             hits_log.append(hit)
             total_suspicious += 1
+
+    send_discord_notifications(to_notify)
 
     save_json(SEEN_ADS_PATH, seen_ads)
     save_json(HITS_LOG_PATH, hits_log)

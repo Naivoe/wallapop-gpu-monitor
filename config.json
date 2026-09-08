@@ -60,11 +60,16 @@
       "name": "PS5",
       "search_term": "PS5",
       "max_price": 250,
+      "min_price": 100,
       "match_keywords": ["ps5"],
       "exclude_keywords": [
         "mando", "mandos", "funda", "fundas", "juego", "juegos",
+        "jogo", "jogos", "gioco", "giochi", "spiel", "videojuego",
         "auriculares", "soporte", "cargador", "skin", "vinilo",
-        "correa", "carcasa", "protector", "grip", "caja vacia"
+        "correa", "carcasa", "protector", "grip", "caja vacia",
+        "banda sonora", "soundtrack", "arcade stick", "stick arcade",
+        "steelbook", "coleccionista", "edicion especial", "edición especial",
+        "dlc", "season pass", "tarjeta regalo", "gift card"
       ]
     }
   ]
