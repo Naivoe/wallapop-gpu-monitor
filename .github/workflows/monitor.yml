@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch: {}   # laat je 'm ook handmatig starten via de Actions-tab
+  
 
 permissions:
   contents: write   # nodig om seen_ads.json / hits_log.json terug te committen
