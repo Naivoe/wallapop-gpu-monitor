@@ -775,5 +775,26 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T17:40:42"
+  },
+  "wallapop:pzpk02w715j3": {
+    "title": "Palit RTX 4060 StormX 8GB GDDR6",
+    "price": 500.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:50:41"
+  },
+  "wallapop:pzpk02wq3mj3": {
+    "title": "PS5 Edición Limitada Spider-Man 2",
+    "price": 350.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:50:43"
+  },
+  "wallapop:nz08e4ydr36o": {
+    "title": "PS5 Slim (Discos) v13.52",
+    "price": 600.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:50:43"
   }
 }
