@@ -2161,5 +2161,12 @@
     "gpu_name": "RAM DDR5 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-08T23:20:41+02:00"
+  },
+  "wallapop:8j38q4lrwlz9": {
+    "title": "Memoria RAM Corsair Vengeance LPX DDR4 32GB RAM",
+    "price": 400.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:25:33+02:00"
   }
 }
