@@ -2231,5 +2231,19 @@
     "gpu_name": "RAM DDR4 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-08T23:40:42+02:00"
+  },
+  "wallapop:v6gpygrxd56e": {
+    "title": "Consola Sony Playstation  5 PS5 de discos",
+    "price": 420.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:45:39+02:00"
+  },
+  "wallapop:4z485elx28jy": {
+    "title": "Corsair Vengeance LPX DDR4 32GB (2x16GB) 2400MHz",
+    "price": 150.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T23:45:40+02:00"
   }
 }
