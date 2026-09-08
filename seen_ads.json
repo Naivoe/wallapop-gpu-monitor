@@ -663,5 +663,33 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-08T17:01:14"
+  },
+  "wallapop:mzn3n2o3l0jn": {
+    "title": "PlayStation VR2 PS5 solo se han usado una vez",
+    "price": 260.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:10:44"
+  },
+  "wallapop:w67v0474076x": {
+    "title": "Consola PS5 Edición Disco",
+    "price": 519.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:10:44"
+  },
+  "wallapop:mzn3n2ov8kjn": {
+    "title": "Consola PS5 con Lector + Control DualSense",
+    "price": 300.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:10:44"
+  },
+  "wallapop:0j28v419pmjy": {
+    "title": "Consola Sony PS5 slim digital",
+    "price": 400.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T17:10:44"
   }
 }
