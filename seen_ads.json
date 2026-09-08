@@ -1643,5 +1643,19 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-08T19:10:46"
+  },
+  "wallapop:mzn3n2mggkjn": {
+    "title": "Consola PlayStation 5 PS5 Blanca",
+    "price": 400.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:20:42"
+  },
+  "wallapop:wzyrk4ve8565": {
+    "title": "SSD Crucial P3 Plus 1TB NVMe PCIe 4.0 M.2",
+    "price": 110.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:20:43"
   }
 }
