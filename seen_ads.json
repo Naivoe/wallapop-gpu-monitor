@@ -1580,5 +1580,47 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-08T18:50:48"
+  },
+  "wallapop:mzn3n2pmr2jn": {
+    "title": "Consola PS5 Blanca",
+    "price": 200.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:01:19"
+  },
+  "wallapop:qjwr349vne6o": {
+    "title": "CONSOLA PS5 825GB FORTNITE DIGITAL PRECINTADO",
+    "price": 649.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:01:19"
+  },
+  "wallapop:pzpk027w95j3": {
+    "title": "CONSOLA PS5 825GB EDICION DIGITAL PRECINTADO",
+    "price": 529.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:01:19"
+  },
+  "wallapop:pzpk027w85j3": {
+    "title": "Mando PS5 DualSense Blanco",
+    "price": 50.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:01:20"
+  },
+  "wallapop:v6gpygv3k26e": {
+    "title": "Xbox Series X 1TB con Mando",
+    "price": 400.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:01:20"
+  },
+  "wallapop:nzxe2499om62": {
+    "title": "Xbox Series S + 2 Mandos+ cables",
+    "price": 200.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:01:20"
   }
 }
