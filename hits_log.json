@@ -528,5 +528,21 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€220) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:ejkmy8w91rzx",
+    "title": "# Sony PlayStation 5 (PS5) Slim 1 TB con lector Bl",
+    "price": 200.0,
+    "link": "https://es.wallapop.com/item/sony-playstation-5-ps5-slim-1-tb-con-lector-bl-1299734771",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-08 19:30",
+    "market_median": 400.0,
+    "suggested_sell_price": 380,
+    "market_sample_count": 67,
+    "min_samples_needed": 5,
+    "reason": "Onder je inkoopdrempel van €250.",
+    "category": "hit"
   }
 ]

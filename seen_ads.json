@@ -1657,5 +1657,33 @@
     "gpu_name": "SSD NVMe 1TB",
     "source": "Wallapop",
     "first_seen": "2026-09-08T19:20:43"
+  },
+  "wallapop:e65qn828xp6o": {
+    "title": "PS5 Slim Digital 1TB + DualSense",
+    "price": 449.95,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:30:58"
+  },
+  "wallapop:ejkmy8w91rzx": {
+    "title": "# Sony PlayStation 5 (PS5) Slim 1 TB con lector Bl",
+    "price": 200.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:30:58"
+  },
+  "wallapop:pzpk0239d9j3": {
+    "title": "Mando DualSense Negro Magnetik PS5",
+    "price": 55.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:30:59"
+  },
+  "wallapop:x6qq7m2yxe6y": {
+    "title": "Xbox Series S Blanca 512 GB SSD",
+    "price": 190.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-08T19:31:00"
   }
 }
