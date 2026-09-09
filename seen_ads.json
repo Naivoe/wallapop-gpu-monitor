@@ -3855,5 +3855,12 @@
     "gpu_name": "SSD NVMe 2TB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T14:10:45+02:00"
+  },
+  "wallapop:nzxe2elwye62": {
+    "title": "PS5 2TB con caja y factura",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T14:20:45+02:00"
   }
 }
