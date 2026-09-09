@@ -2128,5 +2128,21 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€347) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:x6qq7ql4m56y",
+    "title": "Mando Xbox Series X|S Rosa Inalámbrico",
+    "price": 55.0,
+    "link": "https://es.wallapop.com/item/mando-xbox-series-x-s-rosa-inalambrico-1299903118",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Mando Xbox Series",
+    "found_at": "2026-09-09 13:40",
+    "market_median": 230.0,
+    "suggested_sell_price": 218,
+    "market_sample_count": 72,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€230) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]

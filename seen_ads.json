@@ -3722,5 +3722,26 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T13:35:33+02:00"
+  },
+  "wallapop:qzmm5mgoo1zv": {
+    "title": "Consola PS5",
+    "price": 790.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:40:46+02:00"
+  },
+  "wallapop:x6qq7ql4m56y": {
+    "title": "Mando Xbox Series X|S Rosa Inalámbrico",
+    "price": 55.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:40:49+02:00"
+  },
+  "wallapop:mzn3n34wyyjn": {
+    "title": "Consola Xbox Series S Blanca",
+    "price": 299.95,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:40:49+02:00"
   }
 }
