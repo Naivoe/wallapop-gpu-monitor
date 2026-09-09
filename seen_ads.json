@@ -12185,5 +12185,68 @@
     "gpu_name": "Herramienta Makita",
     "source": "Wallapop",
     "first_seen": "2026-09-09T18:16:29+02:00"
+  },
+  "wallapop:pj94w4x5yk6e": {
+    "title": "Base Carga Dual Mandos PS5 Slim BLACKFIRE",
+    "price": 1.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:20:51+02:00"
+  },
+  "wallapop:wzyrkrx5ke65": {
+    "title": "Mando DualSense Inalámbrico PS5 Sony",
+    "price": 55.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:21:00+02:00"
+  },
+  "ebay:v1|318848902840|0": {
+    "title": "PREORDER PS5 DualSense Controller Grand Theft Auto VI White Limited Edition GTA",
+    "price": 169.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:21:00+02:00"
+  },
+  "wallapop:8z88785pqoz3": {
+    "title": "Xbox Series S Branco sem comando",
+    "price": 180.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:21:01+02:00"
+  },
+  "ebay:v1|147562282543|0": {
+    "title": "🎮 CONTROLLER MICROSOFT XBOX ELITE WIRELESS SERIES 2 PER XBOX X/S DRIFT DX",
+    "price": 20.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:21:01+02:00"
+  },
+  "wallapop:nz08e8w4276o": {
+    "title": "Cafetera Nespresso de Krups XN304TDA",
+    "price": 49.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:21:03+02:00"
+  },
+  "wallapop:vjreweo95lzk": {
+    "title": "Cafetera Nespresso DeLonghi Inissia EN80.B",
+    "price": 55.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:21:03+02:00"
+  },
+  "wallapop:mzn3n3ovmyjn": {
+    "title": "Cafetera DeLonghi Nespresso Negra",
+    "price": 30.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:21:03+02:00"
+  },
+  "ebay:v1|197918602715|0": {
+    "title": "Herramienta eléctrica compacta MAKITA 6950 Impact Driver",
+    "price": 82.39,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:21:05+02:00"
   }
 }
