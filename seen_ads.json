@@ -3134,5 +3134,19 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T10:55:32+02:00"
+  },
+  "wallapop:vjrewq7kv4zk": {
+    "title": "Memoria RAM Corsair Vengeance LPX DDR4 16GB(2x8gb)",
+    "price": 80.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:05:35+02:00"
+  },
+  "wallapop:vjrewq799wzk": {
+    "title": "Xbox Series S 512GB + Mando Blanco",
+    "price": 220.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:05:47+02:00"
   }
 }
