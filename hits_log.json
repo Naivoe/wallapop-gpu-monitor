@@ -5369,5 +5369,38 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €25.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|147562244131|0",
+    "title": "🎮CONTROLLER XBOX WIRELESS CARBON BLACK PER  XBOX SERIES X/S DRIFT SINISTRO",
+    "price": 24.0,
+    "link": "https://www.ebay.es/itm/147562244131?_skw=Mando+Xbox+Series&hash=item225b652823:g:2t0AAeSwRvlqoX8b",
+    "posted_at": "2026-09-09 15:46",
+    "source": "eBay",
+    "_condition": "usato",
+    "gpu_name": "Mando Xbox Series",
+    "found_at": "2026-09-09 17:57",
+    "market_median": 170.0,
+    "suggested_sell_price": 162,
+    "market_sample_count": 123,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €30.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:mzn3n3weg2jn",
+    "title": "Cafetera Nespresso Vertuo Negra",
+    "price": 20.0,
+    "link": "https://es.wallapop.com/item/cafetera-nespresso-vertuo-negra-1300000925",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Nespresso",
+    "found_at": "2026-09-09 17:57",
+    "market_median": 50.0,
+    "suggested_sell_price": 48,
+    "market_sample_count": 90,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €25.",
+    "category": "hit"
   }
 ]

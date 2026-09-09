@@ -11996,5 +11996,33 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-09T17:51:08+02:00"
+  },
+  "wallapop:v6gpypoeom6e": {
+    "title": "Corsair Vengeance RGB PRO 16GB (2x8GB) DDR4 3000MH",
+    "price": 99.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:56:49+02:00"
+  },
+  "wallapop:9jdwyw8nx96k": {
+    "title": "Mando PS5 DualSense Sony",
+    "price": 45.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:57:17+02:00"
+  },
+  "ebay:v1|147562244131|0": {
+    "title": "🎮CONTROLLER XBOX WIRELESS CARBON BLACK PER  XBOX SERIES X/S DRIFT SINISTRO",
+    "price": 24.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:57:18+02:00"
+  },
+  "wallapop:mzn3n3weg2jn": {
+    "title": "Cafetera Nespresso Vertuo Negra",
+    "price": 20.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:57:20+02:00"
   }
 }
