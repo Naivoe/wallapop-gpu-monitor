@@ -3519,5 +3519,19 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T12:40:41+02:00"
+  },
+  "wallapop:wzyrk4m3k265": {
+    "title": "Consola PlayStation 5 (PS5)",
+    "price": 360.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:45:50+02:00"
+  },
+  "wallapop:x6qq7m5poo6y": {
+    "title": "Xbox Series X 1TB con Mando",
+    "price": 560.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:45:52+02:00"
   }
 }
