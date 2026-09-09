@@ -5951,5 +5951,22 @@
     "shipping_cost": 31.02,
     "reason": "Por debajo de tu límite de compra de €250.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:8z887893r8z3",
+    "title": "Cargador Bosch Professional 18V 4A",
+    "price": 40.0,
+    "link": "https://es.wallapop.com/item/cargador-bosch-professional-18v-4a-1300074294",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-09 20:51",
+    "market_median": 69.9,
+    "suggested_sell_price": 66,
+    "market_sample_count": 83,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]
