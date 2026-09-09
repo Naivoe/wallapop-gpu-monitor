@@ -2798,5 +2798,12 @@
     "gpu_name": "RTX 4060 8GB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T07:35:27+02:00"
+  },
+  "wallapop:qzmm5ednglzv": {
+    "title": "2x G.Skill Aegis DDR4 2666MHz 16GB (8GBx2)",
+    "price": 75.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:01:09+02:00"
   }
 }
