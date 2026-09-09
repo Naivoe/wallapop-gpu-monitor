@@ -1920,5 +1920,37 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€230) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:nz08e457o76o",
+    "title": "Mando DualSense PS5 Blanco",
+    "price": 40.0,
+    "link": "https://es.wallapop.com/item/mando-dualsense-ps5-blanco-1299870551",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 12:15",
+    "market_median": 347.0,
+    "suggested_sell_price": 330,
+    "market_sample_count": 220,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€347) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:8j38q407x1z9",
+    "title": "Mando ps5 GTA VI Personalizado",
+    "price": 75.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-gta-vi-personalizado-1299869658",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 12:15",
+    "market_median": 347.0,
+    "suggested_sell_price": 330,
+    "market_sample_count": 220,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€347) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]

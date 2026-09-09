@@ -3393,5 +3393,47 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T12:10:43+02:00"
+  },
+  "wallapop:qzmm5eq97xzv": {
+    "title": "RTX 5060 Ti OC 16GB GDDR7 ASUS Dual",
+    "price": 599.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:15:39+02:00"
+  },
+  "wallapop:nz08e457o76o": {
+    "title": "Mando DualSense PS5 Blanco",
+    "price": 40.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:15:39+02:00"
+  },
+  "wallapop:8j38q407x1z9": {
+    "title": "Mando ps5 GTA VI Personalizado",
+    "price": 75.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:15:39+02:00"
+  },
+  "wallapop:e65qn8xm2k6o": {
+    "title": "16GB EN 2x 8GB DDR4 RAM Micron PC4-3200AA",
+    "price": 85.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:15:40+02:00"
+  },
+  "wallapop:pj94wm3k1v6e": {
+    "title": "SSD WD Green SN3000 1TB NVMe M.2",
+    "price": 199.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:15:40+02:00"
+  },
+  "wallapop:pj94wm3d5o6e": {
+    "title": "SSD Samsung 990 PRO 1TB NVMe M.2",
+    "price": 100.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:15:40+02:00"
   }
 }
