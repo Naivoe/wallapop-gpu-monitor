@@ -2048,5 +2048,37 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:qzmm5e25l1zv",
+    "title": "Gigabyte RTX 5060 Windforce-NUEVA y PRECINTADA",
+    "price": 420.0,
+    "link": "https://es.wallapop.com/item/gigabyte-rtx-5060-windforce-nueva-y-precintada-1299895980",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "RTX 5060 8GB",
+    "found_at": "2026-09-09 13:20",
+    "market_median": 900.0,
+    "suggested_sell_price": 855,
+    "market_sample_count": 11,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€900) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:e65qn84ng26o",
+    "title": "Mando Sony DualSense PS5",
+    "price": 55.0,
+    "link": "https://es.wallapop.com/item/mando-sony-dualsense-ps5-1299895596",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 13:20",
+    "market_median": 349.5,
+    "suggested_sell_price": 332,
+    "market_sample_count": 236,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
