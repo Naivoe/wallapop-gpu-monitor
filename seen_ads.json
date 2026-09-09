@@ -3344,5 +3344,26 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T12:01:16+02:00"
+  },
+  "wallapop:8z887kmdpdz3": {
+    "title": "PlayStation 5 - Con Lector y 1TB - PS5",
+    "price": 500.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:05:34+02:00"
+  },
+  "wallapop:wzyrk431xv65": {
+    "title": "Placa Decorativa GTA VI para PS5 Slim 3D",
+    "price": 4.5,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:05:34+02:00"
+  },
+  "wallapop:e65qn8wng26o": {
+    "title": "Oferta Memoria RAM Lexar DDR4 16GB",
+    "price": 60.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:05:34+02:00"
   }
 }
