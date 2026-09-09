@@ -15349,5 +15349,54 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-10T00:15:44+02:00"
+  },
+  "wallapop:pj94w4pp826e": {
+    "title": "Consola PlayStation 5 PS5 Blanca",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T00:25:35+02:00"
+  },
+  "ebay:v1|188910049723|0": {
+    "title": "SISTEMA SONY PS5 - SLIM - CFI-2015 - BLANCO (ASP017619)",
+    "price": 344.11,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T00:25:35+02:00"
+  },
+  "ebay:v1|117007102303|417091665971": {
+    "title": "Memoria RAM DDR4 3200 MHz PC4-25600 288 pines 4GB 8GB 16GB 32GB",
+    "price": 80.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T00:25:38+02:00"
+  },
+  "ebay:v1|287424389456|589341847628": {
+    "title": "Bosch Professional GBA 18V Batería vertical Soporte de pared para 12 baterías Soporte de batería",
+    "price": 44.99,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T00:25:45+02:00"
+  },
+  "ebay:v1|236953431882|537372840130": {
+    "title": "Para Bosch BAT609 BAT618 GSR GSB GDR 8Ah 9Ah 18V Batería / Cargador Luz de Trabajo",
+    "price": 59.98,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T00:25:45+02:00"
+  },
+  "ebay:v1|132475049069|0": {
+    "title": "Bosch GBH 5-40 DE Juego de reparación de mantenimiento Carbón Tapa protectora Sellos Disco Aceite",
+    "price": 49.9,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T00:25:45+02:00"
+  },
+  "ebay:v1|298638416505|0": {
+    "title": "Herramienta De Batería Para BOSCH 2607335469 2610910400, 3000mAh",
+    "price": 45.52,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T00:25:45+02:00"
   }
 }

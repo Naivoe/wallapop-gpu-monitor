@@ -6366,5 +6366,43 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €250.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|287424389456|589341847628",
+    "title": "Bosch Professional GBA 18V Batería vertical Soporte de pared para 12 baterías Soporte de batería",
+    "price": 44.99,
+    "link": "https://www.ebay.es/itm/287424389456?_skw=Herramienta+Bosch&hash=item42ebd42150:g:rkIAAeSwS9pqQRHT&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGb7E4fMIx2tEBlfEV8QY0bxJ5UufLObu5MdHQkeA91Byqu%2FTpRxVsCV2KNQoQdXPpFFisSgzec6QyYDWA0enjWib43ILk8d%2B3lcijiDbnCzHGqLiOmqaO7M0CJ%2F8IcwOwl4HtfjwQTpFFRCuBxKZmrDU1s%2FQ50qQ33274%2FVL%2FzivOpyM6%2FS22VveLIi%2FutKTCkkWK4GhkmWB3XaQqtKonOt3yuK4ncawo%2B7YGJb2fyIwK05cxXfyscTVf69xMa5bXgQqgh0bepWkTMtYzU3u7xOdMToZiHPuEUUZYo8bJQxTg%3D%3D",
+    "posted_at": "2026-06-28 12:23",
+    "source": "eBay",
+    "_condition": "neu",
+    "_real_shipping_cost": 0.0,
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-10 00:25",
+    "market_median": 71.55,
+    "suggested_sell_price": 68,
+    "market_sample_count": 103,
+    "min_samples_needed": 5,
+    "shipping_cost": 0.0,
+    "reason": "€5 por encima de tu límite de €40, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
+  },
+  {
+    "id": "ebay:v1|298638416505|0",
+    "title": "Herramienta De Batería Para BOSCH 2607335469 2610910400, 3000mAh",
+    "price": 45.52,
+    "link": "https://www.ebay.es/itm/298638416505?_skw=Herramienta+Bosch&hash=item45883c9a79:g:M2cAAOSw7vRfZ~1F",
+    "posted_at": "2026-09-02 08:23",
+    "source": "eBay",
+    "_condition": "nuevo",
+    "_real_shipping_cost": 0.0,
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-10 00:25",
+    "market_median": 71.55,
+    "suggested_sell_price": 68,
+    "market_sample_count": 103,
+    "min_samples_needed": 5,
+    "shipping_cost": 0.0,
+    "reason": "€6 por encima de tu límite de €40, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
   }
 ]
