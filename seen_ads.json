@@ -14292,5 +14292,47 @@
     "gpu_name": "RAM DDR4 16GB",
     "source": "eBay",
     "first_seen": "2026-09-09T21:40:59+02:00"
+  },
+  "wallapop:ejkmym02gqzx": {
+    "title": "PC Gaming Intel i9-11900KF RTX 4060 32GB RAM",
+    "price": 650.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:45:41+02:00"
+  },
+  "wallapop:8z8878lv3rz3": {
+    "title": "NEUVO PS5 Slim 1TB",
+    "price": 550.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:45:48+02:00"
+  },
+  "wallapop:wzvgogdx5rzl": {
+    "title": "Consola PS5 + Mando Azul",
+    "price": 420.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:45:48+02:00"
+  },
+  "wallapop:vjrewemlewzk": {
+    "title": "Ps5 Slim 1TB como nueva",
+    "price": 299.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:45:48+02:00"
+  },
+  "ebay:v1|800637307953|0": {
+    "title": "ps5 825gb edición disco totalmente funcional sin caja Sony PlayStation 5 con mando",
+    "price": 465.97,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:45:48+02:00"
+  },
+  "ebay:v1|117106836684|0": {
+    "title": "Mémoire RAM ADATA Premier 5600 Mhz 1 x 32GB DDR5 AD5U560032G-S DIMM- NEUF",
+    "price": 329.9,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:45:52+02:00"
   }
 }
