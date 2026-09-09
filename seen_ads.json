@@ -15629,5 +15629,12 @@
     "gpu_name": "SSD NVMe 1TB",
     "source": "eBay",
     "first_seen": "2026-09-10T01:35:44+02:00"
+  },
+  "ebay:v1|407205456518|0": {
+    "title": "Consola Sony PlayStation 5 Edición Digital PS5 Delgada 1TB CFI-2115 Como Nueva ",
+    "price": 473.16,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T01:40:45+02:00"
   }
 }
