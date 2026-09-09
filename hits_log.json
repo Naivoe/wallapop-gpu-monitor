@@ -5932,5 +5932,24 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €35.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|257733723021|0",
+    "title": "Placa madre Sony PlayStation 5 PS5 SLIM EDM-040 SOLO PIEZAS",
+    "price": 156.14,
+    "link": "https://www.ebay.es/itm/257733723021?_skw=PS5&hash=item3c0220838d:g:dmYAAeSwqrFqoNcl",
+    "posted_at": "2026-09-09 18:34",
+    "source": "eBay",
+    "_condition": "for parts or not working",
+    "_real_shipping_cost": 31.02,
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 20:40",
+    "market_median": 400.0,
+    "suggested_sell_price": 380,
+    "market_sample_count": 386,
+    "min_samples_needed": 5,
+    "shipping_cost": 31.02,
+    "reason": "Por debajo de tu límite de compra de €250.",
+    "category": "hit"
   }
 ]

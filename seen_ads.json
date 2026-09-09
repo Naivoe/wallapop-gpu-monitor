@@ -13606,5 +13606,40 @@
     "gpu_name": "Kindle",
     "source": "Wallapop",
     "first_seen": "2026-09-09T20:35:50+02:00"
+  },
+  "wallapop:pzpk0k33y5j3": {
+    "title": "PC Gaming i9-12900 RTX 4070 32GB RAM 2TB SSD",
+    "price": 1490.0,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:40:44+02:00"
+  },
+  "wallapop:wzyrkrvgne65": {
+    "title": "Consola PS5 + 2 Mandos",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:40:49+02:00"
+  },
+  "ebay:v1|257733723021|0": {
+    "title": "Placa madre Sony PlayStation 5 PS5 SLIM EDM-040 SOLO PIEZAS",
+    "price": 156.14,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:40:49+02:00"
+  },
+  "wallapop:x6qq7q212n6y": {
+    "title": "SSD WD_BLACK SN850X 1TB NVMe Gen4",
+    "price": 170.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:40:54+02:00"
+  },
+  "wallapop:w67v0v992y6x": {
+    "title": "Ebook Kindle Paperwhite 12 luz 7\"",
+    "price": 110.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:40:59+02:00"
   }
 }
