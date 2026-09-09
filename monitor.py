@@ -58,7 +58,15 @@ EBAY_SEARCH_URL = "https://api.ebay.com/buy/browse/v1/item_summary/search"
 EBAY_MARKETPLACE = "EBAY_ES"
 MILANUNCIOS_SEARCH_URL = "https://www.milanuncios.com/anuncios/"
 
-DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
+DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")  # oude, gedeelde webhook (terugval)
+
+# Aparte webhooks per categorie -- als een categorie geen eigen webhook heeft,
+# valt hij terug op DISCORD_WEBHOOK_URL hierboven (zodat oudere configuraties
+# met maar 1 webhook gewoon blijven werken).
+DISCORD_WEBHOOK_BY_CATEGORY = {
+    "hit": os.environ.get("DISCORD_WEBHOOK_HIT") or DISCORD_WEBHOOK_URL,
+    "near_miss": os.environ.get("DISCORD_WEBHOOK_NEAR_MISS") or DISCORD_WEBHOOK_URL,
+}
 EBAY_APP_ID = os.environ.get("EBAY_APP_ID")
 EBAY_CERT_ID = os.environ.get("EBAY_CERT_ID")
 
@@ -474,28 +482,25 @@ def compute_market_stats(seen_ads, gpu_name, min_samples):
 
 
 def determine_thresholds(gpu_config, market_stats, pricing_config):
-    """Geeft (effectieve_max_inkoopprijs, near_miss_bovengrens, scam_drempel,
+    """Geeft (effectieve_max_inkoopprijs, near_miss_bovengrens,
     voorgestelde_verkoopprijs) terug."""
     static_max = gpu_config["max_price"]
-    scam_threshold = None
     suggested_sell = None
     effective_max = static_max
 
     if market_stats:
         margin_pct = pricing_config.get("target_margin_percent", 30) / 100
-        scam_pct = pricing_config.get("scam_threshold_percent", 50) / 100
 
         dynamic_max = round(market_stats["median"] * (1 - margin_pct))
         # De statische max_price uit config.json blijft een harde bovengrens;
         # de marktprijs kan het bod alleen strenger maken, nooit ruimer.
         effective_max = min(static_max, dynamic_max)
-        scam_threshold = round(market_stats["median"] * scam_pct)
         suggested_sell = round(market_stats["median"] * 0.95)
 
     near_miss_pct = pricing_config.get("near_miss_margin_percent", 15) / 100
     near_miss_ceiling = round(effective_max * (1 + near_miss_pct))
 
-    return effective_max, near_miss_ceiling, scam_threshold, suggested_sell
+    return effective_max, near_miss_ceiling, suggested_sell
 
 
 # ---------------------------------------------------------------------------
@@ -505,7 +510,6 @@ def determine_thresholds(gpu_config, market_stats, pricing_config):
 def check_gpu(gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources):
     hits = []
     near_misses = []
-    suspicious = []
     errors = []
 
     all_items = []
@@ -533,7 +537,7 @@ def check_gpu(gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources)
     # Marktprijs berekenen VOORDAT we de nieuwe items toevoegen aan seen_ads,
     # zodat de drempel gebaseerd is op eerder verzamelde data.
     market_stats = compute_market_stats(seen_ads, gpu_config["name"], pricing_config.get("min_samples_for_market_price", 5))
-    effective_max, near_miss_ceiling, scam_threshold, suggested_sell = determine_thresholds(
+    effective_max, near_miss_ceiling, suggested_sell = determine_thresholds(
         gpu_config, market_stats, pricing_config
     )
 
@@ -565,13 +569,7 @@ def check_gpu(gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources)
         fields["market_sample_count"] = market_stats["count"] if market_stats else 0
         fields["min_samples_needed"] = pricing_config.get("min_samples_for_market_price", 5)
 
-        if scam_threshold is not None and fields["price"] < scam_threshold:
-            fields["reason"] = (
-                f"Por debajo del {pricing_config.get('scam_threshold_percent', 50)}% de la "
-                f"mediana del mercado (€{market_stats['median']:.0f}) — probablemente roto/falso, verifica bien."
-            )
-            suspicious.append(fields)
-        elif fields["price"] <= effective_max:
+        if fields["price"] <= effective_max:
             fields["reason"] = f"Por debajo de tu límite de compra de €{effective_max}."
             hits.append(fields)
         elif fields["price"] <= near_miss_ceiling:
@@ -583,7 +581,7 @@ def check_gpu(gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources)
             near_misses.append(fields)
         # anders: duidelijk te duur, genegeerd — geen melding
 
-    return hits, near_misses, suspicious, errors
+    return hits, near_misses, errors
 
 
 # ---------------------------------------------------------------------------
@@ -593,7 +591,6 @@ def check_gpu(gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources)
 CATEGORY_STYLE = {
     "hit": {"emoji": "🟢", "label": "Chollo", "color": 5763719},  # groen
     "near_miss": {"emoji": "🟡", "label": "Un poco caro", "color": 16776960},  # geel
-    "suspicious": {"emoji": "🔴", "label": "Sospechoso", "color": 15158332},  # rood
 }
 
 
@@ -633,36 +630,44 @@ def build_embed(hit, category="hit"):
 
 
 def send_discord_notifications(hit_category_pairs):
-    """Stuurt alle meldingen in batches van maximaal 10 embeds per Discord-
-    bericht (Discord's limiet), met een korte pauze ertussen om de
-    rate-limit (HTTP 429) te vermijden. Print alles ook altijd naar de log."""
+    """Stuurt alle meldingen naar de webhook die bij hun categorie hoort
+    (chollo/un poco caro kunnen elk hun eigen Discord-kanaal
+    hebben). Binnen elke categorie: batches van maximaal 10 embeds per
+    bericht (Discord's limiet), met een korte pauze ertussen tegen de
+    rate-limit (HTTP 429). Print alles ook altijd naar de log."""
     for hit, category in hit_category_pairs:
         print_hit(hit, category)
 
-    if not DISCORD_WEBHOOK_URL:
-        print(
-            "[AVISO] DISCORD_WEBHOOK_URL no configurado — se omiten las "
-            "notificaciones de Discord (solo se muestran arriba en el log)."
-        )
+    if not hit_category_pairs:
         return
 
+    # Groepeer per categorie, zodat elke groep naar zijn eigen webhook kan
+    by_category = {}
+    for hit, category in hit_category_pairs:
+        by_category.setdefault(category, []).append(hit)
+
     CHUNK_SIZE = 10
-    chunks = [
-        hit_category_pairs[i : i + CHUNK_SIZE]
-        for i in range(0, len(hit_category_pairs), CHUNK_SIZE)
-    ]
+    for category, hits in by_category.items():
+        webhook_url = DISCORD_WEBHOOK_BY_CATEGORY.get(category)
+        if not webhook_url:
+            print(
+                f"[AVISO] No hay webhook configurado para la categoría '{category}' "
+                f"— se omiten {len(hits)} notificación(es) (solo se muestran arriba en el log)."
+            )
+            continue
 
-    for i, chunk in enumerate(chunks):
-        payload = {"embeds": [build_embed(hit, category) for hit, category in chunk]}
-        try:
-            response = requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=15)
-            response.raise_for_status()
-            print(f"[OK] Mensaje de Discord {i + 1}/{len(chunks)} enviado ({len(chunk)} anuncios).")
-        except requests.RequestException as e:
-            print(f"[ERROR] No se pudo enviar el mensaje de Discord {i + 1}/{len(chunks)}: {e}")
+        chunks = [hits[i : i + CHUNK_SIZE] for i in range(0, len(hits), CHUNK_SIZE)]
+        for i, chunk in enumerate(chunks):
+            payload = {"embeds": [build_embed(hit, category) for hit in chunk]}
+            try:
+                response = requests.post(webhook_url, json=payload, timeout=15)
+                response.raise_for_status()
+                print(f"[OK] Mensaje de Discord ({category}) {i + 1}/{len(chunks)} enviado ({len(chunk)} anuncios).")
+            except requests.RequestException as e:
+                print(f"[ERROR] No se pudo enviar el mensaje de Discord ({category}) {i + 1}/{len(chunks)}: {e}")
 
-        if i < len(chunks) - 1:
-            time.sleep(1.5)  # kleine pauze tussen berichten tegen rate-limiting
+            if i < len(chunks) - 1:
+                time.sleep(1.5)  # kleine pauze tussen berichten tegen rate-limiting
 
 
 def print_hit(hit, category="hit"):
@@ -690,7 +695,7 @@ def render_dashboard(config, hits_log, status):
     gpu_names = ", ".join(html.escape(g["name"]) for g in config["gpus"])
     sources = ", ".join(html.escape(s) for s in config.get("sources", []))
 
-    counts = {"hit": 0, "near_miss": 0, "suspicious": 0}
+    counts = {"hit": 0, "near_miss": 0}
     for entry in hits_log:
         counts[entry.get("category", "hit")] = counts.get(entry.get("category", "hit"), 0) + 1
 
@@ -781,7 +786,6 @@ def render_dashboard(config, hits_log, status):
     .count-pill {{ padding: 4px 10px; border-radius: 999px; }}
     .count-hit {{ background: var(--green-bg); color: var(--green); }}
     .count-near_miss {{ background: var(--yellow-bg); color: var(--yellow); }}
-    .count-suspicious {{ background: var(--red-bg); color: var(--red); }}
     .meta-bar {{
         display: flex; justify-content: space-between; color: var(--text-dim);
         font-size: 13px; margin-bottom: 20px; flex-wrap: wrap; gap: 6px;
@@ -792,7 +796,6 @@ def render_dashboard(config, hits_log, status):
     }}
     .card.badge-hit {{ border-left-color: var(--green); }}
     .card.badge-near_miss {{ border-left-color: var(--yellow); }}
-    .card.badge-suspicious {{ border-left-color: var(--red); }}
     .card-header {{ display: flex; justify-content: space-between; align-items: center; gap: 6px; margin-bottom: 8px; flex-wrap: wrap; }}
     .tag {{ background: var(--border); color: var(--text-dim); font-size: 12px; font-weight: 600; padding: 3px 9px; border-radius: 999px; }}
     .source-tag {{ opacity: 0.8; }}
@@ -833,7 +836,6 @@ def render_dashboard(config, hits_log, status):
     <div class="counts">
         <span class="count-pill count-hit">{counts.get('hit', 0)} chollos</span>
         <span class="count-pill count-near_miss">{counts.get('near_miss', 0)} un poco caros</span>
-        <span class="count-pill count-suspicious">{counts.get('suspicious', 0)} sospechosos</span>
     </div>
     <div class="meta-bar">
         <span>Última ejecución: {html.escape(status["last_check"])}</span>
@@ -962,11 +964,10 @@ def main():
 
     total_hits = 0
     total_near_miss = 0
-    total_suspicious = 0
     to_notify = []  # (hit, category) paren, verzameld voor gebundeld versturen
 
     for gpu_config in config["gpus"]:
-        hits, near_misses, suspicious, errors = check_gpu(
+        hits, near_misses, errors = check_gpu(
             gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources
         )
         if errors:
@@ -982,11 +983,6 @@ def main():
             to_notify.append((hit, "near_miss"))
             hits_log.append(hit)
             total_near_miss += 1
-        for hit in suspicious:
-            hit["category"] = "suspicious"
-            to_notify.append((hit, "suspicious"))
-            hits_log.append(hit)
-            total_suspicious += 1
 
     send_discord_notifications(to_notify)
 
@@ -998,10 +994,7 @@ def main():
         {"last_check": now, "last_error": "; ".join(all_errors) if all_errors else None},
     )
 
-    print(
-        f"{total_hits} chollo(s), {total_near_miss} aviso(s) de 'un poco caro', "
-        f"{total_suspicious} anuncio(s) sospechoso(s)."
-    )
+    print(f"{total_hits} chollo(s), {total_near_miss} aviso(s) de 'un poco caro'.")
 
     if had_error:
         sys.exit(1)

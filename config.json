@@ -1,9 +1,8 @@
 {
   "sources": ["wallapop", "ebay"],
   "pricing": {
-    "comment": "target_margin_percent = hoeveel onder de marktmediaan je wil inkopen. scam_threshold_percent = onder dit percentage van de mediaan wordt een advertentie als verdacht gemarkeerd i.p.v. als koopje. near_miss_margin_percent = hoeveel procent BOVEN je inkoopdrempel nog een (apart gelabelde) melding krijgt, zodat je net-gemiste koopjes niet mist. min_samples_for_market_price = hoeveel eerder geziene advertenties nodig zijn voor de monitor de marktmediaan gaat gebruiken.",
+    "comment": "target_margin_percent = hoeveel onder de marktmediaan je wil inkopen. near_miss_margin_percent = hoeveel procent BOVEN je inkoopdrempel nog een (apart gelabelde) melding krijgt, zodat je net-gemiste koopjes niet mist. min_samples_for_market_price = hoeveel eerder geziene advertenties nodig zijn voor de monitor de marktmediaan gaat gebruiken.",
     "target_margin_percent": 30,
-    "scam_threshold_percent": 50,
     "near_miss_margin_percent": 15,
     "min_samples_for_market_price": 5
   },
@@ -86,7 +85,7 @@
       "max_price": 18,
       "min_price": 8,
       "match_keywords": ["ddr4", "16gb"],
-      "exclude_keywords": ["ddr3", "ddr5", "sodimm", "so-dimm", "portatil", "portátil", "roto", "no funciona"]
+      "exclude_keywords": ["ddr3", "ddr5", "sodimm", "so-dimm", "portatil", "portátil", "roto", "no funciona", "32gb", "32 gb", "64gb", "64 gb"]
     },
     {
       "name": "RAM DDR4 32GB",
@@ -94,7 +93,7 @@
       "max_price": 45,
       "min_price": 15,
       "match_keywords": ["ddr4", "32gb"],
-      "exclude_keywords": ["ddr3", "ddr5", "sodimm", "so-dimm", "portatil", "portátil", "roto", "no funciona"]
+      "exclude_keywords": ["ddr3", "ddr5", "sodimm", "so-dimm", "portatil", "portátil", "roto", "no funciona", "64gb", "64 gb", "128gb", "128 gb"]
     },
     {
       "name": "RAM DDR5 16GB",
@@ -102,7 +101,7 @@
       "max_price": 35,
       "min_price": 15,
       "match_keywords": ["ddr5", "16gb"],
-      "exclude_keywords": ["ddr4", "sodimm", "so-dimm", "portatil", "portátil", "roto", "no funciona"]
+      "exclude_keywords": ["ddr4", "sodimm", "so-dimm", "portatil", "portátil", "roto", "no funciona", "32gb", "32 gb", "64gb", "64 gb"]
     },
     {
       "name": "RAM DDR5 32GB",
@@ -110,7 +109,7 @@
       "max_price": 90,
       "min_price": 30,
       "match_keywords": ["ddr5", "32gb"],
-      "exclude_keywords": ["ddr4", "sodimm", "so-dimm", "portatil", "portátil", "roto", "no funciona"]
+      "exclude_keywords": ["ddr4", "sodimm", "so-dimm", "portatil", "portátil", "roto", "no funciona", "64gb", "64 gb", "128gb", "128 gb"]
     },
     {
       "name": "SSD NVMe 1TB",
@@ -202,15 +201,108 @@
       ]
     },
     {
-      "name": "Juego Nintendo Switch",
+      "name": "Juego Switch - Exclusivo Nintendo",
       "search_term": "Juego Nintendo Switch",
       "max_price": 30,
       "min_price": 10,
       "match_keywords": ["switch"],
+      "require_any_keywords": [
+        "zelda", "mario", "pokemon", "pokémon", "animal crossing",
+        "metroid", "splatoon", "kirby", "fire emblem", "smash bros",
+        "smash bros.", "pikmin", "xenoblade", "luigi", "donkey kong"
+      ],
       "exclude_keywords": [
-        "consola", "joy-con", "joycon", "joy con", "dock",
-        "cargador", "funda", "fundas", "accesorio", "mando",
-        "roto", "no funciona", "rayado", "no lee"
+        "consola", "joy-con", "joycon", "joy con", "dock", "cargador",
+        "funda", "fundas", "accesorio", "mando", "roto", "no funciona",
+        "rayado", "no lee",
+        "mario kart", "fifa", "ea sports fc", "call of duty", "minecraft",
+        "grand theft auto", "gta", "elden ring", "mortal kombat"
+      ]
+    },
+    {
+      "name": "Juego Switch - Popular",
+      "search_term": "Juego Nintendo Switch",
+      "max_price": 20,
+      "min_price": 8,
+      "match_keywords": ["switch"],
+      "require_any_keywords": [
+        "fifa", "ea sports fc", "call of duty", "minecraft",
+        "grand theft auto", "gta", "elden ring", "mortal kombat",
+        "mario kart"
+      ],
+      "exclude_keywords": [
+        "consola", "joy-con", "joycon", "joy con", "dock", "cargador",
+        "funda", "fundas", "accesorio", "mando", "roto", "no funciona",
+        "rayado", "no lee"
+      ]
+    },
+    {
+      "name": "Juego Switch - Otros",
+      "search_term": "Juego Nintendo Switch",
+      "max_price": 12,
+      "min_price": 5,
+      "match_keywords": ["switch"],
+      "exclude_keywords": [
+        "consola", "joy-con", "joycon", "joy con", "dock", "cargador",
+        "funda", "fundas", "accesorio", "mando", "roto", "no funciona",
+        "rayado", "no lee",
+        "zelda", "mario", "pokemon", "pokémon", "animal crossing",
+        "metroid", "splatoon", "kirby", "fire emblem", "smash bros",
+        "pikmin", "xenoblade", "luigi", "donkey kong",
+        "fifa", "ea sports fc", "call of duty", "minecraft",
+        "grand theft auto", "gta", "elden ring", "mortal kombat"
+      ]
+    },
+    {
+      "name": "Juego PS5 - Exclusivo Sony",
+      "search_term": "Juego PS5",
+      "max_price": 30,
+      "min_price": 10,
+      "match_keywords": ["ps5"],
+      "require_any_keywords": [
+        "god of war", "spider-man", "spiderman", "horizon",
+        "last of us", "ghost of tsushima", "gran turismo", "ratchet",
+        "demon's souls", "returnal", "bloodborne", "uncharted"
+      ],
+      "exclude_keywords": [
+        "consola", "mando", "mandos", "dualsense", "volante",
+        "funda", "soporte", "cargador", "carcasa", "1tb", "2tb",
+        "825gb", "digital edition", "roto", "no funciona"
+      ]
+    },
+    {
+      "name": "Juego PS5 - Popular",
+      "search_term": "Juego PS5",
+      "max_price": 22,
+      "min_price": 8,
+      "match_keywords": ["ps5"],
+      "require_any_keywords": [
+        "fifa", "ea sports fc", "call of duty", "elden ring",
+        "grand theft auto", "gta", "assassin's creed", "resident evil",
+        "mortal kombat", "minecraft"
+      ],
+      "exclude_keywords": [
+        "consola", "mando", "mandos", "dualsense", "volante",
+        "funda", "soporte", "cargador", "carcasa", "1tb", "2tb",
+        "825gb", "digital edition", "roto", "no funciona"
+      ]
+    },
+    {
+      "name": "Juego PS5 - Otros",
+      "search_term": "Juego PS5",
+      "max_price": 15,
+      "min_price": 6,
+      "match_keywords": ["ps5"],
+      "exclude_keywords": [
+        "consola", "mando", "mandos", "dualsense", "volante",
+        "funda", "soporte", "cargador", "carcasa", "1tb", "2tb",
+        "825gb", "digital edition", "roto", "no funciona",
+        "god of war", "spider-man", "spiderman", "horizon",
+        "last of us", "ghost of tsushima", "gran turismo", "ratchet",
+        "demon's souls", "returnal", "bloodborne", "uncharted",
+        "fifa", "ea sports fc", "call of duty", "elden ring",
+        "grand theft auto", "gta", "assassin's creed", "resident evil",
+        "mortal kombat", "minecraft"
       ]
     }
   ]
