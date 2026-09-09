@@ -3312,5 +3312,21 @@
     "min_samples_needed": 5,
     "reason": "Por debajo del 50% de la mediana del mercado (€55) — probablemente roto/falso, verifica bien.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:9jdwyw58nl6k",
+    "title": "CONSOLA PS5 PORTAL SONY - SOLO USADO 4 VECES!!!",
+    "price": 190.0,
+    "link": "https://es.wallapop.com/item/consola-ps5-portal-sony-solo-usado-4-veces-1299944084",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 15:35",
+    "market_median": 359.0,
+    "suggested_sell_price": 341,
+    "market_sample_count": 281,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €250.",
+    "category": "hit"
   }
 ]
