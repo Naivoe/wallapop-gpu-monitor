@@ -5584,5 +5584,38 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €40.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:v6gpyp7yg56e",
+    "title": "Caja PS5 Sony sin consola",
+    "price": 10.0,
+    "link": "https://es.wallapop.com/item/caja-ps5-sony-sin-consola-1300020040",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 18:41",
+    "market_median": 390.0,
+    "suggested_sell_price": 370,
+    "market_sample_count": 345,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €250.",
+    "category": "hit"
+  },
+  {
+    "id": "ebay:v1|147562322784|0",
+    "title": "🎮CONTROLLER XBOX ELITE WIRELESS SERIE 2 ROSSO PER XBOX SERIES X/S LEGGERO DRIFT",
+    "price": 27.0,
+    "link": "https://www.ebay.es/itm/147562322784?_skw=Mando+Xbox+Series&hash=item225b665b60:g:TdoAAeSw18JqoYoY",
+    "posted_at": "2026-09-09 16:32",
+    "source": "eBay",
+    "_condition": "usato",
+    "gpu_name": "Mando Xbox Series",
+    "found_at": "2026-09-09 18:41",
+    "market_median": 162.5,
+    "suggested_sell_price": 154,
+    "market_sample_count": 130,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €30.",
+    "category": "hit"
   }
 ]
