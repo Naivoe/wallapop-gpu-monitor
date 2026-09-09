@@ -14369,5 +14369,68 @@
     "gpu_name": "RAM DDR4 32GB",
     "source": "eBay",
     "first_seen": "2026-09-09T21:50:49+02:00"
+  },
+  "wallapop:qzmm5mwelxzv": {
+    "title": "ps5 slim",
+    "price": 337.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:55:45+02:00"
+  },
+  "ebay:v1|820107526862|0": {
+    "title": "Sony PlayStation 5 Disc PS5 825GB White Console Gaming System CFI-1115A",
+    "price": 430.14,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:55:45+02:00"
+  },
+  "ebay:v1|147562621665|0": {
+    "title": "Consola Sony PlayStation 5 Slim Disc Edition PS5 1TB Blanca",
+    "price": 408.63,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:55:45+02:00"
+  },
+  "ebay:v1|407205113836|0": {
+    "title": "Sony chi-115a 1TB PS5 CON CABLE DE ALIMENTACIÓN, HDMI Y MANDO",
+    "price": 258.08,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:55:45+02:00"
+  },
+  "ebay:v1|398377380257|0": {
+    "title": "Controller Wireless Dualsense Edge   PlayStation 5",
+    "price": 135.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:55:52+02:00"
+  },
+  "wallapop:vjrewe3qkxzk": {
+    "title": "Cajas L Bosch (3 unidades)",
+    "price": 50.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:55:56+02:00"
+  },
+  "ebay:v1|398378407633|0": {
+    "title": "MAKITA DDF487 Taladro-grabador sin escobillas BATERÍA 18V con alto par",
+    "price": 87.46,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:55:57+02:00"
+  },
+  "ebay:v1|227439005840|526627911529": {
+    "title": "2X Batería 18V 6000mAh Para Makita BL1850 BL1830 LXT BL1860B Pantalla LED / Cargador",
+    "price": 66.45,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:55:57+02:00"
+  },
+  "ebay:v1|203040972127|0": {
+    "title": "Sierra recíproca a batería Makita DJR187ZK sierra de tigre 18 voltios incl. juego de hojas de sierra de 2 piezas",
+    "price": 224.5,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:55:57+02:00"
   }
 }

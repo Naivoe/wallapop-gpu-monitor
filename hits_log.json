@@ -6118,5 +6118,24 @@
     "shipping_cost": 13.9,
     "reason": "Por debajo de tu límite de compra de €45.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|407205113836|0",
+    "title": "Sony chi-115a 1TB PS5 CON CABLE DE ALIMENTACIÓN, HDMI Y MANDO",
+    "price": 258.08,
+    "link": "https://www.ebay.es/itm/407205113836?_skw=PS5&hash=item5ecf50efec:g:ovEAAeSw-C9qobee",
+    "posted_at": "2026-09-09 19:45",
+    "source": "eBay",
+    "_condition": "used",
+    "_real_shipping_cost": null,
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 21:55",
+    "market_median": 411.03999999999996,
+    "suggested_sell_price": 390,
+    "market_sample_count": 410,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "€8 por encima de tu límite de €250, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
   }
 ]
