@@ -113,17 +113,17 @@ def search_wallapop(search_term):
         )
         if response.status_code == 400:
             error = f"Wallapop 400 Bad Request voor '{search_term}': {response.text[:300]}"
-            print(f"[FOUT] {error}")
+            print(f"[ERROR] {error}")
             return [], error
         response.raise_for_status()
         data = response.json()
     except requests.RequestException as e:
         error = f"Kon Wallapop niet bereiken voor '{search_term}': {e}"
-        print(f"[FOUT] {error}")
+        print(f"[ERROR] {error}")
         return [], error
     except ValueError:
         error = f"Wallapop: geen geldige JSON voor '{search_term}'."
-        print(f"[FOUT] {error}")
+        print(f"[ERROR] {error}")
         return [], error
 
     raw_items = None
@@ -141,7 +141,7 @@ def search_wallapop(search_term):
             f"Onbekende Wallapop JSON-structuur voor '{search_term}'. "
             "Wallapop heeft mogelijk hun API-formaat aangepast."
         )
-        print(f"[WAARSCHUWING] {error}")
+        print(f"[AVISO] {error}")
         return [], error
 
     items = [extract_wallapop_fields(raw) for raw in raw_items]
@@ -197,7 +197,7 @@ def get_ebay_token():
     """Haalt een tijdelijk (application access) token op via de gratis
     client-credentials-flow. Geeft (token, foutmelding) terug."""
     if not EBAY_APP_ID or not EBAY_CERT_ID:
-        return None, "EBAY_APP_ID / EBAY_CERT_ID niet ingesteld — eBay wordt overgeslagen."
+        return None, "EBAY_APP_ID / EBAY_CERT_ID no configurados — se omite eBay."
     try:
         response = requests.post(
             EBAY_TOKEN_URL,
@@ -235,11 +235,11 @@ def search_ebay(search_term, token):
         data = response.json()
     except requests.RequestException as e:
         error = f"Kon eBay niet bereiken voor '{search_term}': {e}"
-        print(f"[FOUT] {error}")
+        print(f"[ERROR] {error}")
         return [], error
     except ValueError:
         error = f"eBay: geen geldige JSON voor '{search_term}'."
-        print(f"[FOUT] {error}")
+        print(f"[ERROR] {error}")
         return [], error
 
     raw_items = data.get("itemSummaries", [])
@@ -313,7 +313,7 @@ def search_milanuncios(search_term):
 
     LET OP: de exacte structuur van deze JSON kon niet vooraf getest
     worden. Als de paden hieronder niet kloppen, print deze functie een
-    [WAARSCHUWING] met de top-level velden die WEL gevonden zijn — gebruik
+    [AVISO] met de top-level velden die WEL gevonden zijn — gebruik
     dat om de paden hieronder te herstellen (zie README.md)."""
     params = {"s": search_term, "orden": "fecha"}
     try:
@@ -326,12 +326,12 @@ def search_milanuncios(search_term):
                 f"Milanuncios gaf status {response.status_code} voor '{search_term}'. "
                 f"Preview van het antwoord: {preview}"
             )
-            print(f"[FOUT] {error}")
+            print(f"[ERROR] {error}")
             return [], error
         raw_html = response.text
     except requests.RequestException as e:
         error = f"Kon Milanuncios niet bereiken voor '{search_term}': {e}"
-        print(f"[FOUT] {error}")
+        print(f"[ERROR] {error}")
         return [], error
 
     match = re.search(
@@ -343,14 +343,14 @@ def search_milanuncios(search_term):
             f"'{search_term}'. De site heeft mogelijk haar structuur aangepast, "
             "of blokkeert dit verzoek (bv. cookie-muur)."
         )
-        print(f"[WAARSCHUWING] {error}")
+        print(f"[AVISO] {error}")
         return [], error
 
     try:
         data = json.loads(match.group(1))
     except json.JSONDecodeError:
         error = f"__NEXT_DATA__ op Milanuncios kon niet als JSON gelezen worden voor '{search_term}'."
-        print(f"[WAARSCHUWING] {error}")
+        print(f"[AVISO] {error}")
         return [], error
 
     page_props = data.get("props", {}).get("pageProps", {})
@@ -383,7 +383,7 @@ def search_milanuncios(search_term):
             f"Onbekende Milanuncios JSON-structuur voor '{search_term}'. "
             f"Beschikbare velden in pageProps: {available}"
         )
-        print(f"[WAARSCHUWING] {error}")
+        print(f"[AVISO] {error}")
         return [], error
 
     items = [extract_milanuncios_fields(raw) for raw in raw_items]
@@ -567,18 +567,18 @@ def check_gpu(gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources)
 
         if scam_threshold is not None and fields["price"] < scam_threshold:
             fields["reason"] = (
-                f"Onder {pricing_config.get('scam_threshold_percent', 50)}% van de "
-                f"marktmediaan (€{market_stats['median']:.0f}) — waarschijnlijk kapot/nep, controleer goed."
+                f"Por debajo del {pricing_config.get('scam_threshold_percent', 50)}% de la "
+                f"mediana del mercado (€{market_stats['median']:.0f}) — probablemente roto/falso, verifica bien."
             )
             suspicious.append(fields)
         elif fields["price"] <= effective_max:
-            fields["reason"] = f"Onder je inkoopdrempel van €{effective_max}."
+            fields["reason"] = f"Por debajo de tu límite de compra de €{effective_max}."
             hits.append(fields)
         elif fields["price"] <= near_miss_ceiling:
             over_budget = fields["price"] - effective_max
             fields["reason"] = (
-                f"€{over_budget:.0f} boven je drempel van €{effective_max}, maar binnen "
-                f"de {pricing_config.get('near_miss_margin_percent', 15)}%-marge — misschien onderhandelbaar."
+                f"€{over_budget:.0f} por encima de tu límite de €{effective_max}, pero dentro "
+                f"del margen del {pricing_config.get('near_miss_margin_percent', 15)}% — quizás negociable."
             )
             near_misses.append(fields)
         # anders: duidelijk te duur, genegeerd — geen melding
@@ -591,9 +591,9 @@ def check_gpu(gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources)
 # ---------------------------------------------------------------------------
 
 CATEGORY_STYLE = {
-    "hit": {"emoji": "🟢", "label": "Koopje", "color": 5763719},  # groen
-    "near_miss": {"emoji": "🟡", "label": "Net erboven", "color": 16776960},  # geel
-    "suspicious": {"emoji": "🔴", "label": "Verdacht", "color": 15158332},  # rood
+    "hit": {"emoji": "🟢", "label": "Chollo", "color": 5763719},  # groen
+    "near_miss": {"emoji": "🟡", "label": "Un poco caro", "color": 16776960},  # geel
+    "suspicious": {"emoji": "🔴", "label": "Sospechoso", "color": 15158332},  # rood
 }
 
 
@@ -610,7 +610,7 @@ def build_embed(hit, category="hit"):
     else:
         count = hit.get("market_sample_count", 0)
         needed = hit.get("min_samples_needed", 5)
-        sell_value = f"onbekend ({count}/{needed} adv.)"
+        sell_value = f"desconocido ({count}/{needed} anuncios)"
         margin_value = "—"
 
     short_title = hit["title"] if len(hit["title"]) <= 100 else hit["title"][:97] + "…"
@@ -620,10 +620,10 @@ def build_embed(hit, category="hit"):
         "description": short_title,
         "color": style["color"],
         "fields": [
-            {"name": "💰 Inkoop", "value": f"€{price:.0f}", "inline": True},
-            {"name": "📈 Verkoop richtprijs", "value": sell_value, "inline": True},
-            {"name": "💵 Marge", "value": margin_value, "inline": True},
-            {"name": "📅 Geplaatst", "value": hit["posted_at"] or "onbekend", "inline": True},
+            {"name": "💰 Compra", "value": f"€{price:.0f}", "inline": True},
+            {"name": "📈 Precio de venta objetivo", "value": sell_value, "inline": True},
+            {"name": "💵 Margen", "value": margin_value, "inline": True},
+            {"name": "📅 Publicado", "value": hit["posted_at"] or "desconocido", "inline": True},
         ],
         "footer": {"text": f"{style['label']} · {hit['reason']}"},
     }
@@ -641,8 +641,8 @@ def send_discord_notifications(hit_category_pairs):
 
     if not DISCORD_WEBHOOK_URL:
         print(
-            "[WAARSCHUWING] Geen DISCORD_WEBHOOK_URL ingesteld — Discord-"
-            "meldingen worden overgeslagen (alleen hierboven in de log getoond)."
+            "[AVISO] DISCORD_WEBHOOK_URL no configurado — se omiten las "
+            "notificaciones de Discord (solo se muestran arriba en el log)."
         )
         return
 
@@ -657,9 +657,9 @@ def send_discord_notifications(hit_category_pairs):
         try:
             response = requests.post(DISCORD_WEBHOOK_URL, json=payload, timeout=15)
             response.raise_for_status()
-            print(f"[OK] Discord-bericht {i + 1}/{len(chunks)} verstuurd ({len(chunk)} advertenties).")
+            print(f"[OK] Mensaje de Discord {i + 1}/{len(chunks)} enviado ({len(chunk)} anuncios).")
         except requests.RequestException as e:
-            print(f"[FOUT] Kon Discord-bericht {i + 1}/{len(chunks)} niet versturen: {e}")
+            print(f"[ERROR] No se pudo enviar el mensaje de Discord {i + 1}/{len(chunks)}: {e}")
 
         if i < len(chunks) - 1:
             time.sleep(1.5)  # kleine pauze tussen berichten tegen rate-limiting
@@ -667,14 +667,14 @@ def send_discord_notifications(hit_category_pairs):
 
 def print_hit(hit, category="hit"):
     style = CATEGORY_STYLE.get(category, CATEGORY_STYLE["hit"])
-    sell = f"€{hit['suggested_sell_price']:.0f}" if hit.get("suggested_sell_price") else "onbekend"
+    sell = f"€{hit['suggested_sell_price']:.0f}" if hit.get("suggested_sell_price") else "desconocido"
     print("=" * 60)
     print(f"{style['emoji']} {style['label']} — {hit['gpu_name']} ({hit['source']})")
-    print(f"Titel:      {hit['title']}")
-    print(f"Inkoop:     €{hit['price']:.0f}    Verkoop: {sell}")
-    print(f"Geplaatst:  {hit['posted_at'] or 'onbekend'}")
-    print(f"Link:       {hit['link'] or 'onbekend'}")
-    print(f"Waarom:     {hit['reason']}")
+    print(f"Título:     {hit['title']}")
+    print(f"Compra:     €{hit['price']:.0f}    Venta: {sell}")
+    print(f"Publicado:  {hit['posted_at'] or 'desconocido'}")
+    print(f"Enlace:     {hit['link'] or 'desconocido'}")
+    print(f"Razón:      {hit['reason']}")
     print("=" * 60)
 
 
@@ -696,11 +696,11 @@ def render_dashboard(config, hits_log, status):
 
     if status["last_error"]:
         status_html = (
-            f'<div class="status status-error">⚠ Laatste run gaf een fout: '
+            f'<div class="status status-error">⚠ La última ejecución tuvo un error: '
             f'{html.escape(status["last_error"])}</div>'
         )
     else:
-        status_html = '<div class="status status-ok">✓ Laatste run was zonder fouten</div>'
+        status_html = '<div class="status status-ok">✓ Última ejecución sin errores</div>'
 
     if hits_log:
         rows = []
@@ -712,17 +712,17 @@ def render_dashboard(config, hits_log, status):
             title = html.escape(entry["title"])
             link = entry.get("link")
             link_html = (
-                f'<a href="{html.escape(link)}" target="_blank">Bekijk advertentie →</a>'
+                f'<a href="{html.escape(link)}" target="_blank">Ver anuncio →</a>'
                 if link
-                else "Link onbekend"
+                else "Enlace desconocido"
             )
             sell_html = ""
             if entry.get("suggested_sell_price"):
                 margin_euro = entry["suggested_sell_price"] - entry["price"]
                 margin_pct = (margin_euro / entry["price"] * 100) if entry["price"] else 0
                 sell_html = (
-                    f'<div class="meta">Verkoop richtprijs: €{entry["suggested_sell_price"]:.0f} '
-                    f'&nbsp;·&nbsp; Marge: €{margin_euro:.0f} ({margin_pct:.0f}%)</div>'
+                    f'<div class="meta">Precio de venta objetivo: €{entry["suggested_sell_price"]:.0f} '
+                    f'&nbsp;·&nbsp; Margen: €{margin_euro:.0f} ({margin_pct:.0f}%)</div>'
                 )
             rows.append(
                 f"""
@@ -734,17 +734,17 @@ def render_dashboard(config, hits_log, status):
                     </div>
                     <div class="title">{title}</div>
                     <div class="meta">
-                        Geplaatst: {html.escape(entry.get("posted_at") or "onbekend")}
+                        Publicado: {html.escape(entry.get("posted_at") or "desconocido")}
                         &nbsp;·&nbsp;
-                        Gevonden: {html.escape(entry.get("found_at", ""))}
+                        Encontrado: {html.escape(entry.get("found_at", ""))}
                     </div>
                     {sell_html}
                     <div class="reason">{html.escape(entry.get("reason", ""))}</div>
                     <div class="card-footer">
                         <div class="link">{link_html}</div>
                         <div class="card-actions">
-                            <button class="btn-archive" onclick="archiveAd('{html.escape(ad_id)}')">📥 Archiveren</button>
-                            <button class="btn-delete" onclick="deleteAd('{html.escape(ad_id)}')">🗑️ Verwijderen</button>
+                            <button class="btn-archive" onclick="archiveAd('{html.escape(ad_id)}')">📥 Archivar</button>
+                            <button class="btn-delete" onclick="deleteAd('{html.escape(ad_id)}')">🗑️ Eliminar</button>
                         </div>
                     </div>
                 </div>
@@ -752,14 +752,14 @@ def render_dashboard(config, hits_log, status):
             )
         cards_html = "\n".join(rows)
     else:
-        cards_html = '<div class="empty">Nog geen advertenties gevonden. Deze pagina wordt elke run bijgewerkt.</div>'
+        cards_html = '<div class="empty">Aún no se han encontrado anuncios. Esta página se actualiza en cada ejecución.</div>'
 
     page = f"""<!DOCTYPE html>
-<html lang="nl">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="refresh" content="300">
-<title>GPU-monitor</title>
+<title>Monitor de artículos</title>
 <style>
     :root {{
         --bg: #0f1115; --card-bg: #1a1d24; --border: #2a2e37; --text: #e6e8eb;
@@ -827,21 +827,21 @@ def render_dashboard(config, hits_log, status):
 </style>
 </head>
 <body>
-    <h1>🎮 GPU-monitor</h1>
-    <div class="subtitle">Bewaakt: {gpu_names} · bronnen: {sources}</div>
+    <h1>🎮 Monitor de artículos</h1>
+    <div class="subtitle">Vigilando: {gpu_names} · fuentes: {sources}</div>
     {status_html}
     <div class="counts">
-        <span class="count-pill count-hit">{counts.get('hit', 0)} koopjes</span>
-        <span class="count-pill count-near_miss">{counts.get('near_miss', 0)} net erboven</span>
-        <span class="count-pill count-suspicious">{counts.get('suspicious', 0)} verdacht</span>
+        <span class="count-pill count-hit">{counts.get('hit', 0)} chollos</span>
+        <span class="count-pill count-near_miss">{counts.get('near_miss', 0)} un poco caros</span>
+        <span class="count-pill count-suspicious">{counts.get('suspicious', 0)} sospechosos</span>
     </div>
     <div class="meta-bar">
-        <span>Laatste run: {html.escape(status["last_check"])}</span>
-        <span>Ververst elke 5 minuten</span>
+        <span>Última ejecución: {html.escape(status["last_check"])}</span>
+        <span>Se actualiza periódicamente</span>
     </div>
     <div class="toolbar">
-        <button id="toggle-archived" onclick="toggleArchivedView()">📥 Toon gearchiveerde (<span id="archived-count">0</span>)</button>
-        <button onclick="resetAll()">↺ Herstel alles (ongedaan maken)</button>
+        <button id="toggle-archived" onclick="toggleArchivedView()">📥 Mostrar archivados (<span id="archived-count">0</span>)</button>
+        <button onclick="resetAll()">↺ Restablecer todo (deshacer)</button>
     </div>
     {cards_html}
 
@@ -870,7 +870,7 @@ def render_dashboard(config, hits_log, status):
     }}
 
     function deleteAd(adId) {{
-        if (!confirm('Deze advertentie definitief verbergen? Dit kan alleen ongedaan gemaakt worden via "Herstel alles".')) {{
+        if (!confirm('¿Ocultar este anuncio definitivamente? Solo se puede deshacer con "Restablecer todo".')) {{
             return;
         }}
         const deleted = getIds(DELETE_KEY);
@@ -880,7 +880,7 @@ def render_dashboard(config, hits_log, status):
     }}
 
     function resetAll() {{
-        if (!confirm('Alle archiverings- en verwijder-markeringen op dit apparaat wissen?')) {{
+        if (!confirm('¿Borrar todas las marcas de archivado/eliminado en este dispositivo?')) {{
             return;
         }}
         localStorage.removeItem(ARCHIVE_KEY);
@@ -921,7 +921,7 @@ def render_dashboard(config, hits_log, status):
         document.getElementById('archived-count').textContent = archivedCount;
         const toggleBtn = document.getElementById('toggle-archived');
         toggleBtn.classList.toggle('active', showArchived);
-        toggleBtn.textContent = (showArchived ? '📤 Verberg gearchiveerde (' : '📥 Toon gearchiveerde (') + archivedCount + ')';
+        toggleBtn.textContent = (showArchived ? '📤 Ocultar archivados (' : '📥 Mostrar archivados (') + archivedCount + ')';
     }}
 
     document.addEventListener('DOMContentLoaded', applyState);
@@ -945,9 +945,9 @@ def main():
     enabled_sources = set(config.get("sources", ["wallapop"]))
 
     now = now_spain().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"[{now}] Controleren...")
-    print(f"Bewaakte GPU's: {', '.join(g['name'] for g in config['gpus'])}")
-    print(f"Bronnen: {', '.join(enabled_sources)}")
+    print(f"[{now}] Comprobando...")
+    print(f"Artículos vigilados: {', '.join(g['name'] for g in config['gpus'])}")
+    print(f"Fuentes: {', '.join(enabled_sources)}")
 
     ebay_token = None
     had_error = False  # harde fouten (bv. Wallapop/eBay-verzoek mislukt) -> rood kruisje
@@ -958,7 +958,7 @@ def main():
         if token_error:
             # Geen eBay-credentials ingesteld is een bewuste keuze, geen fout van de
             # monitor zelf — dus alleen een waarschuwing, geen rood kruisje.
-            print(f"[WAARSCHUWING] {token_error}")
+            print(f"[AVISO] {token_error}")
 
     total_hits = 0
     total_near_miss = 0
@@ -999,8 +999,8 @@ def main():
     )
 
     print(
-        f"{total_hits} koopje(s), {total_near_miss} net-erboven melding(en), "
-        f"{total_suspicious} verdachte advertentie(s)."
+        f"{total_hits} chollo(s), {total_near_miss} aviso(s) de 'un poco caro', "
+        f"{total_suspicious} anuncio(s) sospechoso(s)."
     )
 
     if had_error:

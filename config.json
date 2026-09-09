@@ -154,6 +154,64 @@
         "roto", "no funciona", "para piezas", "solo pieza", "carcasa", "one",
         "consola", "1tb", "1 tb", "2tb", "2 tb", "500gb", "500 gb"
       ]
+    },
+    {
+      "name": "Kindle",
+      "search_term": "Kindle",
+      "max_price": 35,
+      "min_price": 10,
+      "match_keywords": ["kindle"],
+      "exclude_keywords": [
+        "fire", "funda", "fundas", "carcasa", "protector", "cargador",
+        "roto", "no funciona", "pantalla rota", "para piezas"
+      ]
+    },
+    {
+      "name": "Nespresso",
+      "search_term": "Nespresso",
+      "max_price": 25,
+      "min_price": 8,
+      "match_keywords": ["nespresso"],
+      "exclude_keywords": [
+        "capsulas", "cápsulas", "capsula", "cápsula", "pack capsulas",
+        "funda", "roto", "no funciona", "para piezas"
+      ]
+    },
+    {
+      "name": "Herramienta Bosch",
+      "search_term": "Herramienta Bosch",
+      "max_price": 40,
+      "min_price": 15,
+      "match_keywords": ["bosch"],
+      "exclude_keywords": [
+        "broca", "brocas", "disco de corte", "hoja de sierra",
+        "accesorio", "solo cargador", "sin bateria", "sin batería",
+        "roto", "no funciona", "para piezas"
+      ]
+    },
+    {
+      "name": "Herramienta Makita",
+      "search_term": "Herramienta Makita",
+      "max_price": 40,
+      "min_price": 15,
+      "match_keywords": ["makita"],
+      "exclude_keywords": [
+        "broca", "brocas", "disco de corte", "hoja de sierra",
+        "accesorio", "solo cargador", "sin bateria", "sin batería",
+        "roto", "no funciona", "para piezas"
+      ]
+    },
+    {
+      "name": "Juego Nintendo Switch",
+      "search_term": "Juego Nintendo Switch",
+      "max_price": 30,
+      "min_price": 10,
+      "match_keywords": ["switch"],
+      "exclude_keywords": [
+        "consola", "joy-con", "joycon", "joy con", "dock",
+        "cargador", "funda", "fundas", "accesorio", "mando",
+        "roto", "no funciona", "rayado", "no lee"
+      ]
     }
   ]
 }
