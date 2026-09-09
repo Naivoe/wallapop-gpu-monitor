@@ -3296,5 +3296,21 @@
     "min_samples_needed": 5,
     "reason": "Por debajo del 50% de la mediana del mercado (€30) — probablemente roto/falso, verifica bien.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:nz08e8v0836o",
+    "title": "Mando PS5 Sony",
+    "price": 20.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-sony-1299942303",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Mando DualSense PS5",
+    "found_at": "2026-09-09 15:31",
+    "market_median": 55.0,
+    "suggested_sell_price": 52,
+    "market_sample_count": 32,
+    "min_samples_needed": 5,
+    "reason": "Por debajo del 50% de la mediana del mercado (€55) — probablemente roto/falso, verifica bien.",
+    "category": "suspicious"
   }
 ]
