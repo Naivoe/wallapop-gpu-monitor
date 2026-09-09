@@ -5892,5 +5892,47 @@
     "gpu_name": "Juego Nintendo Switch",
     "source": "Wallapop",
     "first_seen": "2026-09-09T16:01:16+02:00"
+  },
+  "wallapop:w67v0vyd896x": {
+    "title": "HP Omen 17 RTX 4070 i7-13700HX  32GB 1TB",
+    "price": 1100.0,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:05:30+02:00"
+  },
+  "wallapop:nz08e80gnr6o": {
+    "title": "PS5 Slim Digital Edition Sony Blanca",
+    "price": 549.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:05:32+02:00"
+  },
+  "wallapop:qzmm5my9nyzv": {
+    "title": "Consola PS5 PRO 2TB",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:05:32+02:00"
+  },
+  "wallapop:qjwr3rpew46o": {
+    "title": "Xbox Series X/S Blanca + Mando",
+    "price": 180.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:05:33+02:00"
+  },
+  "wallapop:8j38q8exd8z9": {
+    "title": "Kindle Paperwhite 6ª Gen Negro",
+    "price": 85.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:05:34+02:00"
+  },
+  "wallapop:wzvgognl3qzl": {
+    "title": "Nintendo Switch + Donkey Kong Bananza",
+    "price": 400.0,
+    "gpu_name": "Juego Nintendo Switch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:05:35+02:00"
   }
 }
