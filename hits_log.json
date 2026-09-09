@@ -5436,5 +5436,22 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €30.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|147562268111|0",
+    "title": "🎮 CONTROLLER MICROSOFT XBOX ELITE WIRELESS SERIES 2 PER XBOX SERIE X/S LB DIFET",
+    "price": 19.0,
+    "link": "https://www.ebay.es/itm/147562268111?_skw=Mando+Xbox+Series&hash=item225b6585cf:g:7toAAeSwdntqoYJf",
+    "posted_at": "2026-09-09 16:00",
+    "source": "eBay",
+    "_condition": "usato",
+    "gpu_name": "Mando Xbox Series",
+    "found_at": "2026-09-09 18:06",
+    "market_median": 165.0,
+    "suggested_sell_price": 157,
+    "market_sample_count": 125,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €30.",
+    "category": "hit"
   }
 ]

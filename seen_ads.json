@@ -12080,5 +12080,47 @@
     "gpu_name": "Mando Xbox Series",
     "source": "eBay",
     "first_seen": "2026-09-09T18:01:33+02:00"
+  },
+  "ebay:v1|176525841494|0": {
+    "title": "GPU NVIDIA RTX4070Ti 12G Dual Wide Turbo Founders Edition (OEM)",
+    "price": 999.0,
+    "gpu_name": "RTX 4070 Ti 12GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:05:50+02:00"
+  },
+  "wallapop:pzpk0kdo99j3": {
+    "title": "MSI RTX 5060 Ti 8GB Ventus 2X",
+    "price": 550.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:05:52+02:00"
+  },
+  "wallapop:4z48580x3wjy": {
+    "title": "TV Samsung 42' Crystal UHD + PS5 Slim + Batidora X",
+    "price": 650.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:05:53+02:00"
+  },
+  "wallapop:0j28v8ndprjy": {
+    "title": "16GB RAM (2x8) DDR4 TeamGroup RAM Modulos",
+    "price": 60.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:05:54+02:00"
+  },
+  "wallapop:0j28v8n24ejy": {
+    "title": "Corsair Vengeance DDR5 32GB (2x16GB) 6000MHz CL30",
+    "price": 375.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:05:58+02:00"
+  },
+  "ebay:v1|147562268111|0": {
+    "title": "🎮 CONTROLLER MICROSOFT XBOX ELITE WIRELESS SERIES 2 PER XBOX SERIE X/S LB DIFET",
+    "price": 19.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:06:02+02:00"
   }
 }
