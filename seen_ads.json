@@ -13473,5 +13473,33 @@
     "gpu_name": "Kindle",
     "source": "eBay",
     "first_seen": "2026-09-09T20:21:05+02:00"
+  },
+  "wallapop:3zlmymx19pjx": {
+    "title": "Consola Sony PS5 Slim Digital Blanca",
+    "price": 500.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:25:43+02:00"
+  },
+  "wallapop:pj94w4qk7o6e": {
+    "title": "Corsair Vengeance LPX DDR4 32GB 3000MHz",
+    "price": 40.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:25:46+02:00"
+  },
+  "wallapop:vjrewevd04zk": {
+    "title": "Xbox Series S Blanca",
+    "price": 225.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:25:56+02:00"
+  },
+  "wallapop:36e5y5gw4q6d": {
+    "title": "Xbox Series S Blanca",
+    "price": 250.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:25:56+02:00"
   }
 }
