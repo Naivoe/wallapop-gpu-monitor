@@ -3757,5 +3757,33 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T13:50:47+02:00"
+  },
+  "wallapop:wzvgog9ed1zl": {
+    "title": "Consola PS5 Pro 2TB",
+    "price": 850.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:55:33+02:00"
+  },
+  "wallapop:wzvgog9e94zl": {
+    "title": "Mando PS5 Sony",
+    "price": 70.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:55:33+02:00"
+  },
+  "wallapop:wzvgog9814zl": {
+    "title": "¡CÓMO NUEVO! Mando PS5 Dualsense",
+    "price": 49.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:55:33+02:00"
+  },
+  "wallapop:4z4858o48rjy": {
+    "title": "Consola PS5 Slim Sony",
+    "price": 415.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:55:33+02:00"
   }
 }
