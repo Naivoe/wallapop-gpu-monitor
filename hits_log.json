@@ -5799,5 +5799,37 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €40.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:qjwr3r131g6o",
+    "title": "Cafetera Nespresso",
+    "price": 20.0,
+    "link": "https://es.wallapop.com/item/cafetera-nespresso-1300047805",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Nespresso",
+    "found_at": "2026-09-09 19:40",
+    "market_median": 45.0,
+    "suggested_sell_price": 43,
+    "market_sample_count": 103,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €25.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:nzxe2em2rm62",
+    "title": "Cafetera Nespresso Inissia Blanca",
+    "price": 25.0,
+    "link": "https://es.wallapop.com/item/cafetera-nespresso-inissia-blanca-1300047730",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Nespresso",
+    "found_at": "2026-09-09 19:40",
+    "market_median": 45.0,
+    "suggested_sell_price": 43,
+    "market_sample_count": 103,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €25.",
+    "category": "hit"
   }
 ]
