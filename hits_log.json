@@ -5336,5 +5336,38 @@
     "min_samples_needed": 5,
     "reason": "€30 por encima de tu límite de €270, pero dentro del margen del 15% — quizás negociable.",
     "category": "near_miss"
+  },
+  {
+    "id": "ebay:v1|398377774533|0",
+    "title": "Amazon Kindle Keyboard D00901 3rd Generation 4GB WiFi Tested Working",
+    "price": 20.96,
+    "link": "https://www.ebay.es/itm/398377774533?_skw=Kindle&hash=item5cc12a6dc5:g:Bi8AAeSwz3JqoX3o",
+    "posted_at": "2026-09-09 15:41",
+    "source": "eBay",
+    "_condition": "used",
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-09 17:51",
+    "market_median": 84.0,
+    "suggested_sell_price": 80,
+    "market_sample_count": 72,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €35.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:v6gpypoo376e",
+    "title": "Cafetera Nespresso Krups Roja",
+    "price": 25.0,
+    "link": "https://es.wallapop.com/item/cafetera-nespresso-krups-roja-1299999488",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Nespresso",
+    "found_at": "2026-09-09 17:51",
+    "market_median": 50.0,
+    "suggested_sell_price": 48,
+    "market_sample_count": 88,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €25.",
+    "category": "hit"
   }
 ]

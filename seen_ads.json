@@ -11926,5 +11926,75 @@
     "gpu_name": "Herramienta Bosch",
     "source": "Wallapop",
     "first_seen": "2026-09-09T17:45:58+02:00"
+  },
+  "wallapop:pzpk0kd2pkj3": {
+    "title": "PC Gaming RTX 4060 Ti!",
+    "price": 940.0,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:50:44+02:00"
+  },
+  "wallapop:9jdwyw8ko96k": {
+    "title": "PS5 Slim con Lector",
+    "price": 470.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:50:52+02:00"
+  },
+  "wallapop:8j38q8peg8z9": {
+    "title": "PS5 Disco 1TB + 2 Mandos Originales",
+    "price": 580.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:50:52+02:00"
+  },
+  "ebay:v1|116714283600|0": {
+    "title": "CORSAIR Vengeance LPX 2x 8GB=16GB DDR4-3200MHz PC4-25600 288-Pin Ram para escritorio",
+    "price": 114.93,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:50:53+02:00"
+  },
+  "wallapop:ejkmympknyzx": {
+    "title": "2x SK Hynix 32GB DDR4 PC4-2133P RAM",
+    "price": 160.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:50:55+02:00"
+  },
+  "wallapop:mzn3n3wwygjn": {
+    "title": "Xbox Elite Series 2 Core Blanco.",
+    "price": 60.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:51:04+02:00"
+  },
+  "ebay:v1|398377774533|0": {
+    "title": "Amazon Kindle Keyboard D00901 3rd Generation 4GB WiFi Tested Working",
+    "price": 20.96,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:51:05+02:00"
+  },
+  "wallapop:v6gpypoo376e": {
+    "title": "Cafetera Nespresso Krups Roja",
+    "price": 25.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:51:07+02:00"
+  },
+  "wallapop:qzmm5m7er1zv": {
+    "title": "Cafetera Nespresso Essenza Mini Krups Blanca",
+    "price": 80.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:51:07+02:00"
+  },
+  "ebay:v1|206204718420|0": {
+    "title": "Bosch 108 piezas todo en uno de metal kit de herramientas de mano-dwK",
+    "price": 72.06,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:51:08+02:00"
   }
 }
