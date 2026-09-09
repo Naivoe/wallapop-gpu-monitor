@@ -12899,5 +12899,40 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-09T19:25:56+02:00"
+  },
+  "wallapop:nz08e82x3e6o": {
+    "title": "PS5 Slim Disco 1TB Blanca",
+    "price": 380.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:31:06+02:00"
+  },
+  "wallapop:ejkmymd5kpzx": {
+    "title": "PS5 Pro con mando, caja y garantía",
+    "price": 650.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:31:06+02:00"
+  },
+  "wallapop:wzyrkro9xx65": {
+    "title": "2x Kingston RAM DDR4 3200 16GB KVR32S22D8/16",
+    "price": 95.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:31:07+02:00"
+  },
+  "ebay:v1|128068521570|0": {
+    "title": "Samsung 32GB DDR5 5600MHz PC5-5600 RDIMM M321R4GA0PB0-CWM 03LE874 TruDDR5 RAM",
+    "price": 1200.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:31:10+02:00"
+  },
+  "ebay:v1|331892029939|0": {
+    "title": "Batterie D'ORIGINE AMAZON KINDLE II Book Reader S11S01A",
+    "price": 16.0,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:31:16+02:00"
   }
 }

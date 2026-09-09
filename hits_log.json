@@ -5715,5 +5715,22 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €25.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|331892029939|0",
+    "title": "Batterie D'ORIGINE AMAZON KINDLE II Book Reader S11S01A",
+    "price": 16.0,
+    "link": "https://www.ebay.es/itm/331892029939?_skw=Kindle&hash=item4d464e79f3:g:S10AAOxyQ45RAwCy&amdata=enc%3AAQALAAAA4ACCtXRWQnOEpyOqnQQ8KGbow5KWI2lCd5S%2F%2B5AqlEnDT39UPcBG%2FuKV1SXoJbAP5--YAK7OSzsGb%2FzlbXfMoXkm9%2F4ktU0K9M0LK1CnqfcgZqdbr5JEyZ22fLVKV5R%2FCEgNU9Srx5vcpVOuKXU9s7faMoTEwx8U%2BHxa9%2F4Eh0fhoNzxMC9nqfrV5H4FVyimCYvZn070aoji7EJaj3N8S6%2FXjYS4pL5fes2L53nwzQb1nO5kdAwG1MNiyvJdNIRqBwcvxqfWDH2JQpzXwLCQmlnBfqYRBhmobCddmXNaH27Q",
+    "posted_at": "2016-06-26 20:51",
+    "source": "eBay",
+    "_condition": "neuf",
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-09 19:31",
+    "market_median": 79.99,
+    "suggested_sell_price": 76,
+    "market_sample_count": 79,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €35.",
+    "category": "hit"
   }
 ]
