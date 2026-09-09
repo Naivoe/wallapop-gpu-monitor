@@ -5822,5 +5822,75 @@
     "gpu_name": "Juego Nintendo Switch",
     "source": "Wallapop",
     "first_seen": "2026-09-09T15:55:35+02:00"
+  },
+  "wallapop:nz08e8v7936o": {
+    "title": "PC GAMING RTX 4060 8GB // INTEL I7 8700",
+    "price": 629.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:01:12+02:00"
+  },
+  "wallapop:e65qnq3xv26o": {
+    "title": "PC GAMING RTX 4060 8GB // RYZEN 5 9600X",
+    "price": 1019.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:01:12+02:00"
+  },
+  "wallapop:pj94w4gooo6e": {
+    "title": "Consola Sony PS5 Pro 2TB",
+    "price": 800.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:01:14+02:00"
+  },
+  "wallapop:nzxe2e0de162": {
+    "title": "Mando PS5 Sony",
+    "price": 60.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:01:15+02:00"
+  },
+  "wallapop:wzyrkr5e0265": {
+    "title": "Cafetera Nespresso Profesional",
+    "price": 45.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:01:16+02:00"
+  },
+  "wallapop:nz08e809d76o": {
+    "title": "Grand Theft Auto Trilogy Nintendo Switch",
+    "price": 29.0,
+    "gpu_name": "Juego Nintendo Switch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:01:16+02:00"
+  },
+  "wallapop:p618g87xp2z5": {
+    "title": "Brave Dungeon W pack - Nintendo Switch",
+    "price": 45.0,
+    "gpu_name": "Juego Nintendo Switch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:01:16+02:00"
+  },
+  "wallapop:8z8878gyqrz3": {
+    "title": "Va-11 Hall-a - Nintendo Switch",
+    "price": 40.0,
+    "gpu_name": "Juego Nintendo Switch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:01:16+02:00"
+  },
+  "wallapop:nz08e8vnov6o": {
+    "title": "Juego Orbitals Switch Precintado ES",
+    "price": 43.0,
+    "gpu_name": "Juego Nintendo Switch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:01:16+02:00"
+  },
+  "wallapop:e65qnq3xlm6o": {
+    "title": "Mario Party Superstars Nintendo Switch",
+    "price": 30.0,
+    "gpu_name": "Juego Nintendo Switch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:01:16+02:00"
   }
 }
