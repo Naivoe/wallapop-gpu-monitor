@@ -3920,5 +3920,53 @@
     "min_samples_needed": 5,
     "reason": "€2 por encima de tu límite de €15, pero dentro del margen del 15% — quizás negociable.",
     "category": "near_miss"
+  },
+  {
+    "id": "wallapop:wzyrkr4eyv65",
+    "title": "Super Mario 3D World + Bowser's Fury Switch",
+    "price": 30.0,
+    "link": "https://es.wallapop.com/item/super-mario-3d-world---bowser-s-fury-switch-1299967668",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Juego Switch - Exclusivo Nintendo",
+    "found_at": "2026-09-09 16:35",
+    "market_median": null,
+    "suggested_sell_price": null,
+    "market_sample_count": 0,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €30.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:mzn3n324r0jn",
+    "title": "FIFA 21 Legacy Edition Nintendo Switch",
+    "price": 18.0,
+    "link": "https://es.wallapop.com/item/fifa-21-legacy-edition-nintendo-switch-1299968025",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Juego Switch - Popular",
+    "found_at": "2026-09-09 16:35",
+    "market_median": null,
+    "suggested_sell_price": null,
+    "market_sample_count": 0,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €20.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:p618g8yxogz5",
+    "title": "Elden Ring PS5",
+    "price": 20.0,
+    "link": "https://es.wallapop.com/item/elden-ring-ps5-1299966979",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Juego PS5 - Popular",
+    "found_at": "2026-09-09 16:35",
+    "market_median": null,
+    "suggested_sell_price": null,
+    "market_sample_count": 0,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €22.",
+    "category": "hit"
   }
 ]
