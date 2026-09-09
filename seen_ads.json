@@ -14019,5 +14019,61 @@
     "gpu_name": "Kindle",
     "source": "eBay",
     "first_seen": "2026-09-09T21:16:00+02:00"
+  },
+  "wallapop:0j28v8oeqrjy": {
+    "title": "PC Portable Gamer Medion Erazer Deputy P60 i7, RTX 4070, SSD 1 To supplémentaire",
+    "price": 800.0,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:20:43+02:00"
+  },
+  "ebay:v1|168386005822|0": {
+    "title": "Acer Predator Helios Neo 16 PHN16-73-98Y6 Core Ultra 9 RTX 5060 16\" WQXGA 240Hz",
+    "price": 1399.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:20:45+02:00"
+  },
+  "wallapop:w67v0vn9d96x": {
+    "title": "Consola PS5 Sony Casi Sin Uso",
+    "price": 1000.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:20:47+02:00"
+  },
+  "wallapop:4z48582kn8jy": {
+    "title": "Samsung DDR4 16GB PC4-3200AA",
+    "price": 35.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:20:48+02:00"
+  },
+  "ebay:v1|188899277525|0": {
+    "title": "Samsung 512GB (16x32GB) DDR4 2133 LRDIMM PC4-17000 ECC Servidor RAM M386A4G40DM0",
+    "price": 1400.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:20:50+02:00"
+  },
+  "ebay:v1|257717044829|0": {
+    "title": "Robot Controlador Inalámbrico Microsoft Xbox Series X/S Blanco. Muy buen estado",
+    "price": 32.61,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:20:56+02:00"
+  },
+  "ebay:v1|307170970370|0": {
+    "title": "Taladro de percusión a batería Bosch GSB 18V-110C Professional Solo 06019G0309",
+    "price": 204.9,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:20:58+02:00"
+  },
+  "ebay:v1|227438629688|526627618621": {
+    "title": "Batería 18V 6Ah 8Ah 9Ah 12Ah Para Makita BL1850 BL1830 BL1860 B Pantalla Led Batería",
+    "price": 163.69,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:20:59+02:00"
   }
 }

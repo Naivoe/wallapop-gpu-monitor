@@ -6023,5 +6023,24 @@
     "shipping_cost": 0.0,
     "reason": "Por debajo de tu límite de compra de €35.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|257717044829|0",
+    "title": "Robot Controlador Inalámbrico Microsoft Xbox Series X/S Blanco. Muy buen estado",
+    "price": 32.61,
+    "link": "https://www.ebay.es/itm/257717044829?_skw=Mando+Xbox+Series&hash=item3c0122065d:g:YfsAAeSwDFZql0ab&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGa9HSNFP592xLSBtn1QoBHiA1jMkcIqvlFco9Yea%2Ba1JizjU8lByK%2Fm%2FEFjdbVWlmPmU2gWEFrhUA9WrK6%2BzQzLt7WrBTl2cRTrcuqWMFjSuZp6c3TMq88Ob99Aqr4obCzwsHsZO9iXwulUfF4BWuOwk2rUoj%2Bs9Cnl8WSqRWhhrqraxK8P1uZkeQO79SJloF1%2BSUmg9%2B%2FszPNaYtnGU%2BMEJfHibQdbQM5BwHuelrO0W560szZtFtKdjoRNuFqeZzMKiRDbzfILpIsdS1AALUWzlWTYqj%2BMxPNB1RVcYRH5Fg%3D%3D",
+    "posted_at": "2026-09-01 21:54",
+    "source": "eBay",
+    "_condition": "used",
+    "_real_shipping_cost": 17.28,
+    "gpu_name": "Mando Xbox Series",
+    "found_at": "2026-09-09 21:20",
+    "market_median": 160.0,
+    "suggested_sell_price": 152,
+    "market_sample_count": 147,
+    "min_samples_needed": 5,
+    "shipping_cost": 17.28,
+    "reason": "€3 por encima de tu límite de €30, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
   }
 ]
