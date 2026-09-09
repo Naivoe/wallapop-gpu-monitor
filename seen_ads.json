@@ -13935,5 +13935,89 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-09T21:10:57+02:00"
+  },
+  "ebay:v1|127953871453|0": {
+    "title": "NVIDIA RTX 4070 Ti 12 GB GPU Dual Wide Turbo Founders Edition (OEM)",
+    "price": 671.03,
+    "gpu_name": "RTX 4070 Ti 12GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:15:47+02:00"
+  },
+  "ebay:v1|800633905739|0": {
+    "title": "Tarjeta Gráfica Gigabyte GeForce RTX 5060 OC Bajo Perfil 8G, Bajo Perfil, Nueva",
+    "price": 621.26,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:15:48+02:00"
+  },
+  "ebay:v1|398377427133|0": {
+    "title": "ASUS GeForce Rtx 5060 Ti Prime-Rtx5060Ti-O16G OC Scheda 90YV0MH2-M0NA00",
+    "price": 939.95,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:15:49+02:00"
+  },
+  "wallapop:xzogpgwx54j9": {
+    "title": "Ps5 Slim blanche",
+    "price": 400.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:15:51+02:00"
+  },
+  "ebay:v1|366658944467|0": {
+    "title": "Laptop Samsung 16GB PC4-3200AA 1Rx16 DDR4 RAM [2x 8GB] (Compatible 2224)",
+    "price": 39.48,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:15:52+02:00"
+  },
+  "ebay:v1|366658941488|0": {
+    "title": "SK Hynix 16GB - (2x 8GB) - PC4-3200AA 1Rx16 DDR4 RAM Laptop / Pair - 2029",
+    "price": 39.48,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:15:52+02:00"
+  },
+  "ebay:v1|137706818811|0": {
+    "title": "Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4-3200 CL16 RAM Kit",
+    "price": 245.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:15:53+02:00"
+  },
+  "ebay:v1|398368828296|0": {
+    "title": "Mando PS5 - Sony DualSense Techno Red, Retroalimentación háptica, Inalámbrica, T",
+    "price": 75.59,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:15:58+02:00"
+  },
+  "ebay:v1|298659069589|0": {
+    "title": "Précommande - Sony DualSense Manette GTA 6 pour console Sony PlayStation 5 PS5",
+    "price": 179.95,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:15:58+02:00"
+  },
+  "ebay:v1|398355117440|0": {
+    "title": "CONTROLLER ORIGINALE SONY PLAYSTATION 5 PS5 DUALSENSE  WIRELESS Nuovo Sigillato ",
+    "price": 69.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:15:58+02:00"
+  },
+  "wallapop:mzn3n37o87jn": {
+    "title": "Amazon Kindle Paperwhite Signature",
+    "price": 180.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:16:00+02:00"
+  },
+  "ebay:v1|398037997459|666330121485": {
+    "title": "Custodia protettiva in acrilico per Kindle Paperwhite Colorsoft 6,7,8 pollici",
+    "price": 19.9,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:16:00+02:00"
   }
 }

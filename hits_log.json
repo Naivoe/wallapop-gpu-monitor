@@ -6004,5 +6004,24 @@
     "shipping_cost": 17.15,
     "reason": "Por debajo de tu límite de compra de €30.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|398037997459|666330121485",
+    "title": "Custodia protettiva in acrilico per Kindle Paperwhite Colorsoft 6,7,8 pollici",
+    "price": 19.9,
+    "link": "https://www.ebay.es/itm/398037997459?_skw=Kindle&hash=item5cace9d793:g:WfUAAeSwZPNoxYSJ&amdata=enc%3AAQALAAAA4ACCtXRWQnOEpyOqnQQ8KGZTqsKugwCvQtXopqHjoyPSuWU9ETDBVNRC8R3ZbHgPWiWJKDgWMRSgbUWYeoq7DJa5ISsq8S5%2B1i97iXonmNOwT0%2BDDSYBdMbnb6GZRf9VzYEG7OvwwuJyj0zy%2F9BMh2tgdlc7X0%2F767bkZIcT64YFEnxpopxLpNBSpmXN1pJQHQ9oYESVhnaKO%2B341oazuQ9WOJ%2BFkwMAC%2Bkq6GBHxwjNgClwNZzllAKrX%2BDJooITdkWKR4rwGalvMOcRdFCzgEnUyu54T5kVA7UT%2FMgGBeS7",
+    "posted_at": "2026-06-07 18:25",
+    "source": "eBay",
+    "_condition": "nuovo",
+    "_real_shipping_cost": 0.0,
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-09 21:16",
+    "market_median": 79.99,
+    "suggested_sell_price": 76,
+    "market_sample_count": 91,
+    "min_samples_needed": 5,
+    "shipping_cost": 0.0,
+    "reason": "Por debajo de tu límite de compra de €35.",
+    "category": "hit"
   }
 ]
