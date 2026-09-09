@@ -5552,5 +5552,37 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €30.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:ejkmymepmrzx",
+    "title": "Accesorios PS5 Pro",
+    "price": 20.0,
+    "link": "https://es.wallapop.com/item/accesorios-ps5-pro-1300013147",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 18:25",
+    "market_median": 390.0,
+    "suggested_sell_price": 370,
+    "market_sample_count": 340,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €250.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:nzxe2ewe8562",
+    "title": "Banco de trabajo Bosch Work Shop",
+    "price": 30.0,
+    "link": "https://es.wallapop.com/item/banco-de-trabajo-bosch-work-shop-1300012778",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-09 18:25",
+    "market_median": 65.49000000000001,
+    "suggested_sell_price": 62,
+    "market_sample_count": 74,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]
