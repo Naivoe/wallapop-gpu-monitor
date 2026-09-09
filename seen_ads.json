@@ -3491,5 +3491,19 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T12:31:03+02:00"
+  },
+  "wallapop:36e5y13mry6d": {
+    "title": "Consola PS5 con Lector",
+    "price": 380.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:35:31+02:00"
+  },
+  "wallapop:pj94wm37dk6e": {
+    "title": "Xbox Series S + Mando + batería",
+    "price": 280.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:35:33+02:00"
   }
 }
