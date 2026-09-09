@@ -134,7 +134,10 @@
       "search_term": "Mando DualSense PS5",
       "max_price": 30,
       "min_price": 12,
-      "match_keywords": ["dualsense"],
+      "require_any_keywords": [
+        "dualsense", "mando ps5", "mando de ps5", "mando playstation 5",
+        "mando play station 5", "mando sony ps5", "mando para ps5"
+      ],
       "exclude_keywords": [
         "funda", "soporte", "cargador", "skin", "grip", "correa",
         "roto", "no funciona", "para piezas", "solo pieza", "carcasa"
