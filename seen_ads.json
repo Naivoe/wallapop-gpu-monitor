@@ -13452,5 +13452,26 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-09T20:16:05+02:00"
+  },
+  "wallapop:wzvgogv9k1zl": {
+    "title": "PC gamer Corsair 3500X ARGB _ Asus RTX 4060 Ti _ Asus Rog Strix B550-F _ Corsair RMe 650w Gold",
+    "price": 815.0,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:20:43+02:00"
+  },
+  "wallapop:qjwr3rvl1q6o": {
+    "title": "Gigabyte RTX 4070 OC 12GB GDDR6X Tarjeta Gráfica",
+    "price": 440.0,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:20:45+02:00"
+  },
+  "ebay:v1|188907225330|0": {
+    "title": "Kindle Alexander Force (Tapa blanda)",
+    "price": 16.97,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:21:05+02:00"
   }
 }
