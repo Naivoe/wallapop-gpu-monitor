@@ -217,6 +217,13 @@ def get_ebay_token():
             },
             timeout=15,
         )
+        if response.status_code == 401:
+            app_id_preview = f"{EBAY_APP_ID[:6]}...{EBAY_APP_ID[-4:]}" if len(EBAY_APP_ID) > 10 else "(muy corto)"
+            error = (
+                f"401 Unauthorized al pedir el token de eBay. App ID usado: {app_id_preview} "
+                f"(longitud {len(EBAY_APP_ID)}). Respuesta de eBay: {response.text[:300]}"
+            )
+            return None, error
         response.raise_for_status()
         return response.json()["access_token"], None
     except requests.RequestException as e:
