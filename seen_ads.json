@@ -12675,5 +12675,54 @@
     "gpu_name": "Kindle",
     "source": "Wallapop",
     "first_seen": "2026-09-09T19:01:30+02:00"
+  },
+  "wallapop:wzvgogqd1dzl": {
+    "title": "PS5 Digital Edition 825 GB + Pulse 3D COMO NUEVA",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:05:36+02:00"
+  },
+  "wallapop:wzvgogqd8qzl": {
+    "title": "Consola PS5 + FIFA 26",
+    "price": 350.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:05:36+02:00"
+  },
+  "ebay:v1|820106972240|0": {
+    "title": "Consola Sony Playstation 5 PS5 PRO 2TB CFI-7019 con Mando + Cables PROBADA",
+    "price": 773.4,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:05:36+02:00"
+  },
+  "wallapop:pj94w4v7426e": {
+    "title": "G.Skill Trident Z Neo 32GB DDR4 3600MHz",
+    "price": 170.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:05:39+02:00"
+  },
+  "wallapop:xzogpg71w5j9": {
+    "title": "Amazon Kindle Paperwhite 12ª Gen Negro",
+    "price": 150.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:05:46+02:00"
+  },
+  "ebay:v1|398377959031|0": {
+    "title": "Amazone Kindle Paperwhite 10ª generación 8 GB",
+    "price": 66.76,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:05:46+02:00"
+  },
+  "wallapop:vjrewe18x9zk": {
+    "title": "Cafetera Nespresso DeLonghi Inissia EN80.B Negra",
+    "price": 37.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:05:47+02:00"
   }
 }
