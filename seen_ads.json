@@ -3211,5 +3211,12 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T11:31:03+02:00"
+  },
+  "wallapop:0j28v45m0ejy": {
+    "title": "SOYO RTX 5060 Ti 8GB",
+    "price": 420.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:35:32+02:00"
   }
 }
