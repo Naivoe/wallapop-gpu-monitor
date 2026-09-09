@@ -15650,5 +15650,26 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-10T01:50:46+02:00"
+  },
+  "wallapop:vjrewe5eg9zk": {
+    "title": "PC Gaming Full HD Ryzen 5 5500 RTX 5060",
+    "price": 999.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T01:55:34+02:00"
+  },
+  "wallapop:8j38q8w8w1z9": {
+    "title": "consola ps5 sony playstation 5 pro 2tb",
+    "price": 809.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T01:55:37+02:00"
+  },
+  "wallapop:nz08e8p8od6o": {
+    "title": "consola ps5 sony playstation 5 slim digital 825gb",
+    "price": 479.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T01:55:37+02:00"
   }
 }
