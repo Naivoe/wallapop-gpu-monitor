@@ -12577,5 +12577,33 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-09T18:51:15+02:00"
+  },
+  "ebay:v1|168664690389|468014762687": {
+    "title": "PC Gamer AlphaIT | Hasta RTX 4060 | i7 7ª Gen | 32GB | 2TB NVMe",
+    "price": 940.78,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:55:32+02:00"
+  },
+  "wallapop:wzyrkrqxxx65": {
+    "title": "MSI GeForce RTX 4070 Ti Gaming X Trio 12GB GDDR6X",
+    "price": 580.0,
+    "gpu_name": "RTX 4070 Ti 12GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:55:37+02:00"
+  },
+  "wallapop:0j28v8q89vjy": {
+    "title": "PS5 Slim con lettore disco + 2 controller + stazione di ricarica | Firenze",
+    "price": 480.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:55:42+02:00"
+  },
+  "ebay:v1|267778432942|0": {
+    "title": "Modulo RAM Notebook DDR5 16Gb Ramaxel RMSB3410CA88IBF-5600 PC5-5600-SAO-1211-XT",
+    "price": 140.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:55:46+02:00"
   }
 }
