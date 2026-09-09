@@ -13788,5 +13788,47 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-09T21:01:31+02:00"
+  },
+  "ebay:v1|267266353027|567051715922": {
+    "title": "PC Gaming AMD Ryzen 7, 64GB RAM, 2TB SSD, Geforce RTX 5060 Ti 16GB, W11, WiFi BT",
+    "price": 1340.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:05:47+02:00"
+  },
+  "wallapop:nz08e81m476o": {
+    "title": "Ps5 slim",
+    "price": 400.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:05:48+02:00"
+  },
+  "ebay:v1|298659735777|0": {
+    "title": "Consola Sony PlayStation 5 PS5 Slim 1TB Blanca Sin Disco + Mando CFI-2016",
+    "price": 535.85,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:05:48+02:00"
+  },
+  "ebay:v1|398349031954|0": {
+    "title": "Sony DualSense Wireless PS5 Edizione Limitata Marvel Spider-Man 2 Nero/Rosso",
+    "price": 80.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:05:56+02:00"
+  },
+  "wallapop:p618g8mo9xz5": {
+    "title": "Mando Xbox Elite Series 2",
+    "price": 70.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:05:58+02:00"
+  },
+  "ebay:v1|237059851737|0": {
+    "title": "Bosch AdvancedCut 18 18V con estuche, sierra NanoBlade a batería + NanoBlade 65",
+    "price": 69.99,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:06:01+02:00"
   }
 }
