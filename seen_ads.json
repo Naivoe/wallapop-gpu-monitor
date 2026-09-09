@@ -2987,5 +2987,19 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T09:20:42+02:00"
+  },
+  "wallapop:nzxe247v0162": {
+    "title": "Kingston Fury Beast DDR5 16GB (2x8GB) 6000MHz CL30",
+    "price": 300.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T09:40:44+02:00"
+  },
+  "wallapop:e65qn8oe806o": {
+    "title": "Xbox Series X 1TB + Mandos + Baterías",
+    "price": 450.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T09:40:46+02:00"
   }
 }
