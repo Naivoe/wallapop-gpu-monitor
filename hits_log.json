@@ -6423,5 +6423,22 @@
     "shipping_cost": 4,
     "reason": "€1 por encima de tu límite de €35, pero dentro del margen del 15% — quizás negociable.",
     "category": "near_miss"
+  },
+  {
+    "id": "wallapop:wzvgogem8qzl",
+    "title": "Caja grande, mango e instrucciones Makita",
+    "price": 35.0,
+    "link": "https://es.wallapop.com/item/caja-grande-mango-e-instrucciones-makita-1300131441",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Herramienta Makita",
+    "found_at": "2026-09-10 00:45",
+    "market_median": 160.055,
+    "suggested_sell_price": 152,
+    "market_sample_count": 90,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]
