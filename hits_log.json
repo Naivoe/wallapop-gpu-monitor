@@ -6173,5 +6173,24 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €30.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|356652019732|0",
+    "title": "Herramienta de desmontaje de piñón para motor Bosch gen 1 Classic Line/Classic",
+    "price": 24.23,
+    "link": "https://www.ebay.es/itm/356652019732?_skw=Herramienta+Bosch&hash=item530a1df014:g:gaQAAeSwVcVnzvxX",
+    "posted_at": "2025-03-10 14:46",
+    "source": "eBay",
+    "_condition": "nuevo",
+    "_real_shipping_cost": 12.99,
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-09 22:50",
+    "market_median": 71.465,
+    "suggested_sell_price": 68,
+    "market_sample_count": 98,
+    "min_samples_needed": 5,
+    "shipping_cost": 12.99,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]

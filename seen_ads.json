@@ -14740,5 +14740,96 @@
     "gpu_name": "Kindle",
     "source": "Wallapop",
     "first_seen": "2026-09-09T22:35:55+02:00"
+  },
+  "wallapop:qzmm5m8yw1zv": {
+    "title": "ACER NITRO V16 RTX 4060 RYZEN 7",
+    "price": 900.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:50:40+02:00"
+  },
+  "wallapop:x6qq7q84356y": {
+    "title": "Consola Sony PS5",
+    "price": 830.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:50:47+02:00"
+  },
+  "wallapop:8j38q89p9lz9": {
+    "title": "Sony PlayStation 5 Slim Disc PS5 Video Game Console",
+    "price": 346.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:50:47+02:00"
+  },
+  "ebay:v1|407205175322|0": {
+    "title": "Mando Consola Sony PlayStation 5 PS5 Disc Edition CFI-1215A 825GB (Lista 1A)",
+    "price": 382.82,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:50:47+02:00"
+  },
+  "ebay:v1|407205156624|0": {
+    "title": "Consola de disco Sony PS5 Marvel Spider-Man 2 CFI-1215A - Stick Drift - Código canjeado",
+    "price": 429.28,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:50:47+02:00"
+  },
+  "ebay:v1|128071094041|0": {
+    "title": "Consola Sony PlayStation 5 PS5 825GB Blanca CFI-1215A 1 Controller Cables Probados",
+    "price": 387.12,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:50:47+02:00"
+  },
+  "ebay:v1|128071098977|0": {
+    "title": "Memoria RAM Apacer NOX 16GB/ DDR5/ 5600MHz/ 1.25V/ CL40/ DIMM",
+    "price": 317.55,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:50:51+02:00"
+  },
+  "ebay:v1|128071098975|0": {
+    "title": "Memoria RAM Apacer NOX 16GB/ DDR5/ 5200MHz/ 1.25V/ CL40/ DIMM",
+    "price": 303.05,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:50:51+02:00"
+  },
+  "wallapop:mzn3n3q2vkjn": {
+    "title": "32GB Corsair Vengeance DDR5 RGB RAM",
+    "price": 449.99,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:50:52+02:00"
+  },
+  "wallapop:w67v0vpyky6x": {
+    "title": "Xbox Series X + Mando + Garantia 2026",
+    "price": 500.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:50:56+02:00"
+  },
+  "wallapop:qjwr3r878q6o": {
+    "title": "E-reader Kindle 2024 Verde",
+    "price": 80.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:50:58+02:00"
+  },
+  "wallapop:mzn3n3q22yjn": {
+    "title": "Amazon Kindle Negro/Blanco...Tiene algunas raitas.",
+    "price": 75.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:50:58+02:00"
+  },
+  "ebay:v1|356652019732|0": {
+    "title": "Herramienta de desmontaje de piñón para motor Bosch gen 1 Classic Line/Classic",
+    "price": 24.23,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:50:59+02:00"
   }
 }
