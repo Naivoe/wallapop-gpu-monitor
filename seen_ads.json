@@ -3484,5 +3484,12 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T12:25:32+02:00"
+  },
+  "wallapop:pj94wm3rwk6e": {
+    "title": "Consola Sony PS5 Blanca",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:31:03+02:00"
   }
 }
