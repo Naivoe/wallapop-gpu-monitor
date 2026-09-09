@@ -3505,5 +3505,19 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T12:35:33+02:00"
+  },
+  "wallapop:v6gpygdwvn6e": {
+    "title": "PC Gamer RTX 4060 16GB RAM",
+    "price": 600.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:40:40+02:00"
+  },
+  "wallapop:w67v04m2o76x": {
+    "title": "PS5 Pro 2TB com firmware 9.6",
+    "price": 1250.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:40:41+02:00"
   }
 }
