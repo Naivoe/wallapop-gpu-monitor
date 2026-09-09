@@ -3008,5 +3008,53 @@
     "min_samples_needed": 5,
     "reason": "Por debajo del 50% de la mediana del mercado (€30) — probablemente roto/falso, verifica bien.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:e65qnqv10p6o",
+    "title": "FIFA 19 Nintendo Switch",
+    "price": 15.0,
+    "link": "https://es.wallapop.com/item/fifa-19-nintendo-switch-1299922472",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Juego Nintendo Switch",
+    "found_at": "2026-09-09 14:35",
+    "market_median": 30.0,
+    "suggested_sell_price": 28,
+    "market_sample_count": 28,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €21.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:v6gpyp0xon6e",
+    "title": "Mario Kart 8 Deluxe Nintendo Switch",
+    "price": 15.0,
+    "link": "https://es.wallapop.com/item/mario-kart-8-deluxe-nintendo-switch-1299922164",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Juego Nintendo Switch",
+    "found_at": "2026-09-09 14:35",
+    "market_median": 30.0,
+    "suggested_sell_price": 28,
+    "market_sample_count": 28,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €21.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:pzpk0kyomkj3",
+    "title": "FIFA 20 Legacy Edition Nintendo Switch",
+    "price": 15.0,
+    "link": "https://es.wallapop.com/item/fifa-20-legacy-edition-nintendo-switch-1299921750",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Juego Nintendo Switch",
+    "found_at": "2026-09-09 14:35",
+    "market_median": 30.0,
+    "suggested_sell_price": 28,
+    "market_sample_count": 28,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €21.",
+    "category": "hit"
   }
 ]
