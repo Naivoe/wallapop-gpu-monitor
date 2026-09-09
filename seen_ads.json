@@ -2686,5 +2686,12 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T03:40:40+02:00"
+  },
+  "wallapop:pj94wmp0p06e": {
+    "title": "PS5 Slim",
+    "price": 320.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T03:45:37+02:00"
   }
 }
