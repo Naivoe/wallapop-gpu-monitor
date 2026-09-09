@@ -14474,5 +14474,33 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T22:01:29+02:00"
+  },
+  "ebay:v1|236844454862|537300968332": {
+    "title": "PC RYZEN 5 5500 RTX 5060/3050, 16/32GB RAM, SSD M.2, SILENCIOSO Win 11, WLAN",
+    "price": 635.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:05:35+02:00"
+  },
+  "ebay:v1|267266353027|567051715946": {
+    "title": "PC Gaming AMD Ryzen 7, 64GB RAM, 2TB SSD, Geforce RTX 5060 Ti 16GB, W11, WiFi BT",
+    "price": 1320.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:05:36+02:00"
+  },
+  "ebay:v1|287530716438|0": {
+    "title": "Kingston FURY Beast RGB 32GB DDR5 6400 CL32 2x16GB Blanco EXPO XMP RAM",
+    "price": 579.95,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:05:42+02:00"
+  },
+  "ebay:v1|206204662923|0": {
+    "title": "Bosch Juego de herramientas manuales todo en uno de metal de 108 piezas - dwK",
+    "price": 71.55,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:05:49+02:00"
   }
 }
