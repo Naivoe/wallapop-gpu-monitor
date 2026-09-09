@@ -15188,5 +15188,54 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T23:36:05+02:00"
+  },
+  "wallapop:pzpk0korlmj3": {
+    "title": "Consola PS5 1TB con Lector.",
+    "price": 420.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:40:52+02:00"
+  },
+  "wallapop:x6qq7q3d156y": {
+    "title": "Consola PS5 Sony Blanca + Mando",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:40:52+02:00"
+  },
+  "wallapop:9jdwyw959l6k": {
+    "title": "!!PS5 SLIM 1TB 2 MANDOS NUEVA!!",
+    "price": 550.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:40:52+02:00"
+  },
+  "wallapop:8z8878n4d8z3": {
+    "title": "Kit Memória RAM Notebook DDR4 16GB (2x8GB) 3200MHz",
+    "price": 37.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:40:54+02:00"
+  },
+  "ebay:v1|800637702145|0": {
+    "title": "HyperX Predator 16GB (2x8GB) RAM DDR4 3200MHz",
+    "price": 100.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T23:40:54+02:00"
+  },
+  "ebay:v1|205803308905|0": {
+    "title": "32GB (2x 16GB) DDR4 RAM PC4-2133P-UA0-10 2133 MHz DIMM 2Rx8 1.2V CL15 Sin búfer",
+    "price": 219.98,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T23:40:55+02:00"
+  },
+  "ebay:v1|315445602908|0": {
+    "title": "Playstation 5 PS5 Controller Wireless DualSense White + FIFA 23",
+    "price": 122.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T23:41:01+02:00"
   }
 }
