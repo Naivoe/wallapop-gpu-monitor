@@ -3127,5 +3127,12 @@
     "gpu_name": "RAM DDR4 32GB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T10:50:43+02:00"
+  },
+  "wallapop:p618g4grxdz5": {
+    "title": "Xbox Series S Blanca y Gris",
+    "price": 250.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T10:55:32+02:00"
   }
 }
