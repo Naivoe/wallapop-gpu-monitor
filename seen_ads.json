@@ -3001,5 +3001,19 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T09:40:46+02:00"
+  },
+  "wallapop:vjrewqg3v8zk": {
+    "title": "Consola PlayStation 5 (PS5) Negra y Blanca",
+    "price": 500.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T09:45:42+02:00"
+  },
+  "wallapop:p618g4w1r2z5": {
+    "title": "DualSense PS5 Nero - Nuovo Sigillato",
+    "price": 45.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T09:45:42+02:00"
   }
 }
