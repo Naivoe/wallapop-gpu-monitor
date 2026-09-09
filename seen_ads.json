@@ -3841,5 +3841,19 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T14:05:35+02:00"
+  },
+  "wallapop:wzvgogrrm7zl": {
+    "title": "Consola PS5 Slim 1TB",
+    "price": 380.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T14:10:44+02:00"
+  },
+  "wallapop:v6gpyp00w56e": {
+    "title": "SSD Kingston KC3000 2TB NVMe PCIe 4.0",
+    "price": 60.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T14:10:45+02:00"
   }
 }

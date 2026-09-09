@@ -2272,5 +2272,21 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€230) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:v6gpyp00w56e",
+    "title": "SSD Kingston KC3000 2TB NVMe PCIe 4.0",
+    "price": 60.0,
+    "link": "https://es.wallapop.com/item/ssd-kingston-kc3000-2tb-nvme-pcie-4-0-1299913216",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "SSD NVMe 2TB",
+    "found_at": "2026-09-09 14:10",
+    "market_median": 235.0,
+    "suggested_sell_price": 223,
+    "market_sample_count": 8,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€235) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
