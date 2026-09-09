@@ -1472,5 +1472,37 @@
     "min_samples_needed": 5,
     "reason": "€35 boven je drempel van €245, maar binnen de 15%-marge — misschien onderhandelbaar.",
     "category": "near_miss"
+  },
+  {
+    "id": "wallapop:e65qn81nl06o",
+    "title": "E474617-0 MANDO PS5 SONY PS5 PORTAL",
+    "price": 190.95,
+    "link": "https://es.wallapop.com/item/e474617-0-mando-ps5-sony-ps5-portal-1299812900",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 08:45",
+    "market_median": 350.0,
+    "suggested_sell_price": 332,
+    "market_sample_count": 177,
+    "min_samples_needed": 5,
+    "reason": "Onder je inkoopdrempel van €245.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:8j38q4w13lz9",
+    "title": "Mando PS5 Sony Tiene DFRIT",
+    "price": 50.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-sony-tiene-dfrit-1299812534",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 08:45",
+    "market_median": 350.0,
+    "suggested_sell_price": 332,
+    "market_sample_count": 177,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
