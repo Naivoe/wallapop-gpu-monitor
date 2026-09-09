@@ -408,26 +408,6 @@
       ]
     },
     {
-      "name": "Nespresso",
-      "search_term": "Nespresso",
-      "max_price": 25,
-      "min_price": 8,
-      "match_keywords": [
-        "nespresso"
-      ],
-      "exclude_keywords": [
-        "capsulas",
-        "cápsulas",
-        "capsula",
-        "cápsula",
-        "pack capsulas",
-        "funda",
-        "roto",
-        "no funciona",
-        "para piezas"
-      ]
-    },
-    {
       "name": "Herramienta Bosch",
       "search_term": "Herramienta Bosch",
       "max_price": 40,
