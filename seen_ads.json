@@ -13221,5 +13221,33 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "eBay",
     "first_seen": "2026-09-09T19:55:45+02:00"
+  },
+  "wallapop:pj94w4er326e": {
+    "title": "PS5 Edición Digital 825GB Blanca",
+    "price": 300.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:01:19+02:00"
+  },
+  "wallapop:e65qnqe9rk6o": {
+    "title": "PS5 Slim Disco Blanca",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:01:19+02:00"
+  },
+  "wallapop:v6gpypvo9l6e": {
+    "title": "Kindle Colorsoft 16GB. Solo probado. ¡Como nuevo e",
+    "price": 259.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:01:30+02:00"
+  },
+  "ebay:v1|206526188282|507226925409": {
+    "title": "Maletín Makpack Tipo 1-2-3-4 Herramientas Eléctricas Makita",
+    "price": 57.1,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:01:33+02:00"
   }
 }
