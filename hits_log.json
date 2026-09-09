@@ -1264,5 +1264,53 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€375) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:mzn3n21o0gjn",
+    "title": "mortal kombat 11 ultimate standard ps5",
+    "price": 17.0,
+    "link": "https://es.wallapop.com/item/mortal-kombat-11-ultimate-standard-ps5-1299792601",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 03:01",
+    "market_median": 375.0,
+    "suggested_sell_price": 356,
+    "market_sample_count": 149,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€375) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:x6qq7m34vo6y",
+    "title": "consola ps5 sony playstation 5 portal",
+    "price": 185.0,
+    "link": "https://es.wallapop.com/item/consola-ps5-sony-playstation-5-portal-1299792566",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 03:01",
+    "market_median": 375.0,
+    "suggested_sell_price": 356,
+    "market_sample_count": 149,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€375) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:4z485e9n18jy",
+    "title": "Mando PS5 Rosa",
+    "price": 30.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-rosa-1299792486",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 03:01",
+    "market_median": 375.0,
+    "suggested_sell_price": 356,
+    "market_sample_count": 149,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€375) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
