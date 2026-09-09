@@ -3589,5 +3589,40 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T13:10:45+02:00"
+  },
+  "wallapop:0j28v4m7oejy": {
+    "title": "Ps5 1TB Disco Nuevo Precintado Factura",
+    "price": 545.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:15:43+02:00"
+  },
+  "wallapop:mzn3n29197jn": {
+    "title": "Mando PS5 Original Sony",
+    "price": 40.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:15:43+02:00"
+  },
+  "wallapop:pzpk02vqlmj3": {
+    "title": "Consola PS5 Digital 825GB",
+    "price": 325.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:15:43+02:00"
+  },
+  "wallapop:v6gpyg8rlm6e": {
+    "title": "PS5 Pro con lector y 2 mandos",
+    "price": 1000.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:15:43+02:00"
+  },
+  "wallapop:0j28v4m2kejy": {
+    "title": "Corsair Vengeance RGB Pro SL DDR4 16GB",
+    "price": 100.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:15:44+02:00"
   }
 }
