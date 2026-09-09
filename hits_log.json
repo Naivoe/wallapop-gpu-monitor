@@ -3456,5 +3456,21 @@
     "min_samples_needed": 5,
     "reason": "Por debajo del 50% de la mediana del mercado (€35) — probablemente roto/falso, verifica bien.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:nz08e808gr6o",
+    "title": "Juego Mario Tennis Aces Nintendo Switch",
+    "price": 25.0,
+    "link": "https://es.wallapop.com/item/juego-mario-tennis-aces-nintendo-switch-1299957151",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Juego Nintendo Switch",
+    "found_at": "2026-09-09 16:10",
+    "market_median": 35.0,
+    "suggested_sell_price": 33,
+    "market_sample_count": 115,
+    "min_samples_needed": 5,
+    "reason": "€1 por encima de tu límite de €24, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
   }
 ]
