@@ -3216,5 +3216,53 @@
     "min_samples_needed": 5,
     "reason": "Por debajo del 50% de la mediana del mercado (€30) — probablemente roto/falso, verifica bien.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:4z4858vx4mjy",
+    "title": "Cafetera Nespresso Krups Roja",
+    "price": 29.0,
+    "link": "https://es.wallapop.com/item/cafetera-nespresso-krups-roja-1299936186",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Nespresso",
+    "found_at": "2026-09-09 15:10",
+    "market_median": 40.0,
+    "suggested_sell_price": 38,
+    "market_sample_count": 32,
+    "min_samples_needed": 5,
+    "reason": "€4 por encima de tu límite de €25, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
+  },
+  {
+    "id": "wallapop:wzyrkrn02x65",
+    "title": "Mario Kart 8 Deluxe Nintendo Switch",
+    "price": 20.0,
+    "link": "https://es.wallapop.com/item/mario-kart-8-deluxe-nintendo-switch-1299934568",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Juego Nintendo Switch",
+    "found_at": "2026-09-09 15:10",
+    "market_median": 30.0,
+    "suggested_sell_price": 28,
+    "market_sample_count": 69,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €21.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:wzvgogyev1zl",
+    "title": "Mario + Rabbids Sparks of Hope Switch",
+    "price": 13.0,
+    "link": "https://es.wallapop.com/item/mario---rabbids-sparks-of-hope-switch-1299935541",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Juego Nintendo Switch",
+    "found_at": "2026-09-09 15:10",
+    "market_median": 30.0,
+    "suggested_sell_price": 28,
+    "market_sample_count": 69,
+    "min_samples_needed": 5,
+    "reason": "Por debajo del 50% de la mediana del mercado (€30) — probablemente roto/falso, verifica bien.",
+    "category": "suspicious"
   }
 ]
