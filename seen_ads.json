@@ -13522,5 +13522,89 @@
     "gpu_name": "RAM DDR4 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T20:31:07+02:00"
+  },
+  "ebay:v1|306851208039|0": {
+    "title": "Tarjeta de gráficos GIGABYTE GeForce RTX 4060 Ti EAGLE 8G 8GB GDDR6...",
+    "price": 387.92,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:35:34+02:00"
+  },
+  "wallapop:vjrewev17lzk": {
+    "title": "Joystick ps5 pro Dualsense",
+    "price": 434.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:35:39+02:00"
+  },
+  "wallapop:4z485830wwjy": {
+    "title": "Consola Sony PlayStation 5 PS5 Blanca",
+    "price": 500.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:35:39+02:00"
+  },
+  "ebay:v1|366658843517|0": {
+    "title": "Sony PlayStation 5 Pro 2TB Con Unidad de Disco, Doble Sentido, Cables PS5 Placas Negras",
+    "price": 1032.35,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:35:39+02:00"
+  },
+  "ebay:v1|298659669110|0": {
+    "title": "Consola Sony PlayStation 5 PS5 Edición Disco 825GB + Mando, 1 Año de Garantía",
+    "price": 524.2,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:35:39+02:00"
+  },
+  "ebay:v1|800637009996|0": {
+    "title": "Consola PS5 Pro + paquete PS Portal",
+    "price": 1290.43,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:35:39+02:00"
+  },
+  "wallapop:ejkmymwdeqzx": {
+    "title": "Mando PS5 DualSense Blanco",
+    "price": 35.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:35:48+02:00"
+  },
+  "wallapop:qjwr3rvqeg6o": {
+    "title": "2 Mandos Dualsense Inalámbrico para PS5 Sony",
+    "price": 85.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:35:48+02:00"
+  },
+  "wallapop:mzn3n3mo90jn": {
+    "title": "Mando DualSense PS5 Negro Oficial",
+    "price": 48.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:35:48+02:00"
+  },
+  "ebay:v1|158275575275|0": {
+    "title": " Mando PS5 - Sony DualSense® Edición Limitada Battle Yellow de Marvel's Wolverin",
+    "price": 120.72,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:35:48+02:00"
+  },
+  "ebay:v1|287569868610|0": {
+    "title": "Controlador inalámbrico Sony DualSense - Spiderman 2 **TMR actualizado**SIN DERIVA**",
+    "price": 55.21,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:35:48+02:00"
+  },
+  "wallapop:pj94w4qnl06e": {
+    "title": "Amazon Kindle 4ª Generación - Negro",
+    "price": 29.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:35:50+02:00"
   }
 }
