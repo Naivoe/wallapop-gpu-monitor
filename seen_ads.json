@@ -3533,5 +3533,26 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T12:45:52+02:00"
+  },
+  "wallapop:e65qn847d26o": {
+    "title": "PS5 + Monitor + 2 Mandos",
+    "price": 600.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:01:13+02:00"
+  },
+  "wallapop:pj94wm847k6e": {
+    "title": "Mando PS5 Sony DualSense Blanco",
+    "price": 35.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:01:13+02:00"
+  },
+  "wallapop:p618g4xyx5z5": {
+    "title": "Xbox Series X Edición Halo con Caja",
+    "price": 700.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:01:16+02:00"
   }
 }
