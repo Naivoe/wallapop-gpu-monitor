@@ -5199,5 +5199,33 @@
     "gpu_name": "Juego Nintendo Switch",
     "source": "Wallapop",
     "first_seen": "2026-09-09T15:10:46+02:00"
+  },
+  "wallapop:pj94w4yomm6e": {
+    "title": "Sony PS5 Digital muy poco uso",
+    "price": 440.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:15:42+02:00"
+  },
+  "wallapop:nz08e8mpod6o": {
+    "title": "PS5 Digital 825GB + Mando + Base Carga",
+    "price": 470.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:15:42+02:00"
+  },
+  "wallapop:0j28v8ypymjy": {
+    "title": "Cafetera Nespresso Roja",
+    "price": 30.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:15:44+02:00"
+  },
+  "wallapop:3zlmymglv8jx": {
+    "title": "Cafetera Nespresso Essenza Mini Blanca",
+    "price": 55.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:15:44+02:00"
   }
 }
