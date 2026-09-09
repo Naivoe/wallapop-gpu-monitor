@@ -15174,5 +15174,19 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-09T23:31:22+02:00"
+  },
+  "wallapop:nz08e8ov976o": {
+    "title": "MSI Creator Z17 HX Studio i9-14900HX RTX 4070",
+    "price": 2400.0,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:35:39+02:00"
+  },
+  "wallapop:qzmm5mx4rgzv": {
+    "title": "Xbox Series S + 2 Mandos + Cables",
+    "price": 250.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:36:05+02:00"
   }
 }
