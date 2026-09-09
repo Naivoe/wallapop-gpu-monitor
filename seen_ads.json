@@ -3218,5 +3218,33 @@
     "gpu_name": "RTX 5060 Ti",
     "source": "Wallapop",
     "first_seen": "2026-09-09T11:35:32+02:00"
+  },
+  "wallapop:3zlmy8q9q2jx": {
+    "title": "Consola Sony PS5 Slim Blanca",
+    "price": 420.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:40:41+02:00"
+  },
+  "wallapop:vjrewq0klwzk": {
+    "title": "PS5 Pro 2TB Para NICO",
+    "price": 900.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:40:41+02:00"
+  },
+  "wallapop:8j38q40mr7z9": {
+    "title": "Mando DualSense Inalámbrico PS5 Negro",
+    "price": 30.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:40:41+02:00"
+  },
+  "wallapop:p618g4nvlxz5": {
+    "title": "Corsair Vengeance Pro 32GB DDR4 3200MHz",
+    "price": 170.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:40:42+02:00"
   }
 }
