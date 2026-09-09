@@ -3029,5 +3029,12 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T09:55:30+02:00"
+  },
+  "wallapop:w67v0420l86x": {
+    "title": "RTX 4070 Ti",
+    "price": 379.0,
+    "gpu_name": "RTX 4070 Ti 12GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T10:01:07+02:00"
   }
 }
