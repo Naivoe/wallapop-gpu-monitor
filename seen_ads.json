@@ -13249,5 +13249,47 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-09T20:01:33+02:00"
+  },
+  "wallapop:x6qq7qw2on6y": {
+    "title": "PC Gaming i7-12700KF / RTX 4060 Ti / 32GB DDR5",
+    "price": 1290.0,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:05:31+02:00"
+  },
+  "wallapop:8j38q8ggl8z9": {
+    "title": "PS5 Slim edición call of duty y Mandos magnéticos",
+    "price": 599.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:05:37+02:00"
+  },
+  "wallapop:qjwr3r999k6o": {
+    "title": "Lexar THOR DDR4 32GB (2x16GB) 3200MHz OC",
+    "price": 190.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:05:39+02:00"
+  },
+  "ebay:v1|407204948043|0": {
+    "title": "PLAYSTATION DUALSENSE PS5 CONTROLLER GTA 6 LIMITED EDITION PRESALE",
+    "price": 165.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:05:44+02:00"
+  },
+  "wallapop:ejkmymrr3yzx": {
+    "title": "Kindle Scribe 64GB con Lápiz Premium",
+    "price": 419.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:05:47+02:00"
+  },
+  "wallapop:4z4858k3nvjy": {
+    "title": "Cafetera Nespresso Blanca",
+    "price": 35.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:05:48+02:00"
   }
 }
