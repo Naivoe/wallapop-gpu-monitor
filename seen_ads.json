@@ -15552,5 +15552,26 @@
     "gpu_name": "Mando Xbox Series",
     "source": "eBay",
     "first_seen": "2026-09-10T01:05:44+02:00"
+  },
+  "wallapop:3zlmym2elpjx": {
+    "title": "WD_BLACK SN850 NVMe SSD 1TB",
+    "price": 160.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T01:10:56+02:00"
+  },
+  "ebay:v1|257734088269|0": {
+    "title": "Ebook Amazon Kindle Colorsoft 2025 16GB 7\" [PO247727]",
+    "price": 225.0,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-10T01:11:01+02:00"
+  },
+  "wallapop:pzpk0ke8e4j3": {
+    "title": "Maleta Makita con ruedas XL",
+    "price": 40.0,
+    "gpu_name": "Herramienta Makita",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T01:11:04+02:00"
   }
 }
