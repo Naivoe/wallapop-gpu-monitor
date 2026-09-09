@@ -6192,5 +6192,22 @@
     "shipping_cost": 12.99,
     "reason": "Por debajo de tu límite de compra de €40.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:pzpk0kqg05j3",
+    "title": "Corsair Vengeance DDR5 32GB 5200MHz",
+    "price": 100.0,
+    "link": "https://es.wallapop.com/item/corsair-vengeance-ddr5-32gb-5200mhz-1300110802",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "RAM DDR5 32GB",
+    "found_at": "2026-09-09 22:55",
+    "market_median": 405.0,
+    "suggested_sell_price": 385,
+    "market_sample_count": 52,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "€10 por encima de tu límite de €90, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
   }
 ]

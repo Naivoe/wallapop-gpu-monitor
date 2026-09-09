@@ -14831,5 +14831,54 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-09T22:50:59+02:00"
+  },
+  "wallapop:mzn3n3q0pyjn": {
+    "title": "Gigabyte RTX 4060 Ti Gaming OC 16GB GDDR6",
+    "price": 500.0,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:55:31+02:00"
+  },
+  "ebay:v1|800559148037|0": {
+    "title": "GIGABYTE GeForce RTX 4070 Ti 12GB GDDR6X Tarjeta Gráfica HDMI DP Usada",
+    "price": 767.51,
+    "gpu_name": "RTX 4070 Ti 12GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:55:33+02:00"
+  },
+  "wallapop:0j28v8dgrmjy": {
+    "title": "MSI RTX 5060 Ti 16GB Tarjeta Gráfica",
+    "price": 535.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:55:35+02:00"
+  },
+  "wallapop:xzogpgq74wj9": {
+    "title": "Consola Sony PlayStation 5 PS5 1TB",
+    "price": 430.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:55:36+02:00"
+  },
+  "wallapop:mzn3n3q02kjn": {
+    "title": "PS5 Slim Digital",
+    "price": 400.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:55:36+02:00"
+  },
+  "wallapop:pzpk0kqg05j3": {
+    "title": "Corsair Vengeance DDR5 32GB 5200MHz",
+    "price": 100.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:55:41+02:00"
+  },
+  "ebay:v1|376538828889|0": {
+    "title": "Makita TD173DZ Impact Driver TD173DZ Negro 18V 1/4\" Herramienta sin escobilla...",
+    "price": 155.71,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:55:48+02:00"
   }
 }
