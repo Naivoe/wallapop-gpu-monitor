@@ -2784,5 +2784,12 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T06:45:41+02:00"
+  },
+  "wallapop:xzogp24lnlj9": {
+    "title": "Ps5 Slim con lettore non funzionante",
+    "price": 280.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T07:01:05+02:00"
   }
 }
