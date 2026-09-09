@@ -2700,5 +2700,12 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T04:40:39+02:00"
+  },
+  "wallapop:w67v045ov56x": {
+    "title": "ASUS DUAL RTX 4060 Ti OC 8GB GDDR6",
+    "price": 250.0,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T04:45:35+02:00"
   }
 }
