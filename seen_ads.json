@@ -12724,5 +12724,12 @@
     "gpu_name": "Nespresso",
     "source": "Wallapop",
     "first_seen": "2026-09-09T19:05:47+02:00"
+  },
+  "wallapop:3zlmymn27njx": {
+    "title": "HyperX Predator DDR4 3333MHz 16GB (2x8GB)",
+    "price": 80.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:10:49+02:00"
   }
 }
