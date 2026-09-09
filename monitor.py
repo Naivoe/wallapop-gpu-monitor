@@ -288,6 +288,20 @@ def extract_ebay_fields(item):
         except Exception:
             posted_at = None
 
+    # eBay geeft de daadwerkelijke verzendkosten mee per advertentie (indien
+    # vast tarief; bij 'CALCULATED' verzending -- afhankelijk van de
+    # afleverlocatie van de koper -- is er geen vast bedrag, dan valt de
+    # code terug op de algemene schatting uit config.json).
+    real_shipping_cost = None
+    shipping_options = item.get("shippingOptions")
+    if isinstance(shipping_options, list) and shipping_options:
+        shipping_cost_obj = shipping_options[0].get("shippingCost")
+        if isinstance(shipping_cost_obj, dict) and "value" in shipping_cost_obj:
+            try:
+                real_shipping_cost = float(shipping_cost_obj["value"])
+            except (TypeError, ValueError):
+                real_shipping_cost = None
+
     return {
         "id": f"ebay:{item_id}" if item_id else None,
         "title": title,
@@ -296,7 +310,9 @@ def extract_ebay_fields(item):
         "posted_at": posted_at,
         "source": "eBay",
         "_condition": condition,
+        "_real_shipping_cost": real_shipping_cost,
     }
+
 
 
 # ---------------------------------------------------------------------------
@@ -490,15 +506,26 @@ def compute_market_stats(seen_ads, gpu_name, min_samples):
 
 def determine_thresholds(gpu_config, market_stats, pricing_config):
     """Geeft (effectieve_max_inkoopprijs, near_miss_bovengrens,
-    voorgestelde_verkoopprijs) terug."""
+    voorgestelde_verkoopprijs, geschatte_verzendkosten) terug."""
     static_max = gpu_config["max_price"]
     suggested_sell = None
     effective_max = static_max
 
+    # Verzendkosten die JIJ als koper betaalt bovenop de vraagprijs (Wallapop
+    # Envíos: de koper betaalt altijd de verzending). Per categorie te
+    # overschrijven via "shipping_cost" in config.json; anders de algemene
+    # instelling uit pricing.estimated_shipping_cost.
+    shipping_cost = gpu_config.get(
+        "shipping_cost", pricing_config.get("estimated_shipping_cost", 0)
+    )
+
     if market_stats:
         margin_pct = pricing_config.get("target_margin_percent", 30) / 100
 
-        dynamic_max = round(market_stats["median"] * (1 - margin_pct))
+        # We trekken de verzendkosten van de dynamische drempel af, zodat de
+        # TOTALE kostprijs (artikel + verzending) nog steeds binnen je
+        # gewenste marge blijft t.o.v. de marktmediaan.
+        dynamic_max = round(market_stats["median"] * (1 - margin_pct)) - shipping_cost
         # De statische max_price uit config.json blijft een harde bovengrens;
         # de marktprijs kan het bod alleen strenger maken, nooit ruimer.
         effective_max = min(static_max, dynamic_max)
@@ -507,7 +534,7 @@ def determine_thresholds(gpu_config, market_stats, pricing_config):
     near_miss_pct = pricing_config.get("near_miss_margin_percent", 15) / 100
     near_miss_ceiling = round(effective_max * (1 + near_miss_pct))
 
-    return effective_max, near_miss_ceiling, suggested_sell
+    return effective_max, near_miss_ceiling, suggested_sell, shipping_cost
 
 
 # ---------------------------------------------------------------------------
@@ -544,7 +571,7 @@ def check_gpu(gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources)
     # Marktprijs berekenen VOORDAT we de nieuwe items toevoegen aan seen_ads,
     # zodat de drempel gebaseerd is op eerder verzamelde data.
     market_stats = compute_market_stats(seen_ads, gpu_config["name"], pricing_config.get("min_samples_for_market_price", 5))
-    effective_max, near_miss_ceiling, suggested_sell = determine_thresholds(
+    effective_max, near_miss_ceiling, suggested_sell, shipping_cost = determine_thresholds(
         gpu_config, market_stats, pricing_config
     )
 
@@ -575,6 +602,10 @@ def check_gpu(gpu_config, seen_ads, pricing_config, ebay_token, enabled_sources)
         fields["suggested_sell_price"] = suggested_sell
         fields["market_sample_count"] = market_stats["count"] if market_stats else 0
         fields["min_samples_needed"] = pricing_config.get("min_samples_for_market_price", 5)
+        # Bij eBay: gebruik de daadwerkelijke verzendkosten van díe
+        # advertentie als die bekend zijn, anders de algemene schatting.
+        real_shipping = fields.get("_real_shipping_cost")
+        fields["shipping_cost"] = real_shipping if real_shipping is not None else shipping_cost
 
         if fields["price"] <= effective_max:
             fields["reason"] = f"Por debajo de tu límite de compra de €{effective_max}."
@@ -604,11 +635,13 @@ CATEGORY_STYLE = {
 def build_embed(hit, category="hit"):
     style = CATEGORY_STYLE[category]
     price = hit["price"]
+    shipping = hit.get("shipping_cost", 0)
 
     sell_price = hit.get("suggested_sell_price")
     if sell_price:
-        margin_euro = sell_price - price
-        margin_pct = (margin_euro / price * 100) if price else 0
+        margin_euro = sell_price - price - shipping
+        total_cost = price + shipping
+        margin_pct = (margin_euro / total_cost * 100) if total_cost else 0
         sell_value = f"€{sell_price:.0f}"
         margin_value = f"€{margin_euro:.0f}  ({margin_pct:.0f}%)"
     else:
@@ -625,8 +658,9 @@ def build_embed(hit, category="hit"):
         "color": style["color"],
         "fields": [
             {"name": "💰 Compra", "value": f"€{price:.0f}", "inline": True},
+            {"name": "🚚 Envío estimado", "value": f"€{shipping:.0f}", "inline": True},
             {"name": "📈 Precio de venta objetivo", "value": sell_value, "inline": True},
-            {"name": "💵 Margen", "value": margin_value, "inline": True},
+            {"name": "💵 Margen neto", "value": margin_value, "inline": True},
             {"name": "📅 Publicado", "value": hit["posted_at"] or "desconocido", "inline": True},
         ],
         "footer": {"text": f"{style['label']} · {hit['reason']}"},
@@ -730,11 +764,14 @@ def render_dashboard(config, hits_log, status):
             )
             sell_html = ""
             if entry.get("suggested_sell_price"):
-                margin_euro = entry["suggested_sell_price"] - entry["price"]
-                margin_pct = (margin_euro / entry["price"] * 100) if entry["price"] else 0
+                shipping = entry.get("shipping_cost", 0)
+                margin_euro = entry["suggested_sell_price"] - entry["price"] - shipping
+                total_cost = entry["price"] + shipping
+                margin_pct = (margin_euro / total_cost * 100) if total_cost else 0
                 sell_html = (
                     f'<div class="meta">Precio de venta objetivo: €{entry["suggested_sell_price"]:.0f} '
-                    f'&nbsp;·&nbsp; Margen: €{margin_euro:.0f} ({margin_pct:.0f}%)</div>'
+                    f'&nbsp;·&nbsp; Envío estimado: €{shipping:.0f} '
+                    f'&nbsp;·&nbsp; Margen neto: €{margin_euro:.0f} ({margin_pct:.0f}%)</div>'
                 )
             rows.append(
                 f"""
