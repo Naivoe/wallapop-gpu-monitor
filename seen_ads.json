@@ -13501,5 +13501,26 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T20:25:56+02:00"
+  },
+  "ebay:v1|267266353027|567051715943": {
+    "title": "PC Gaming AMD Ryzen 7, 64GB RAM, 2TB SSD, Geforce RTX 5060 Ti 16GB, W11, WiFi BT",
+    "price": 1230.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:31:05+02:00"
+  },
+  "ebay:v1|298659665525|0": {
+    "title": "Consola Sony PlayStation 5 PS5 Edición Disco 825GB + Mando, 1 Año de Garantía",
+    "price": 535.85,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:31:06+02:00"
+  },
+  "wallapop:wzvgogvnd7zl": {
+    "title": "Corsair Vengeance RGB PRO DDR4 16GB",
+    "price": 65.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:31:07+02:00"
   }
 }
