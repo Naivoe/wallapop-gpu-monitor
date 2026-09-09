@@ -5666,5 +5666,21 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €40.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:e65qnq9elk6o",
+    "title": "Amazon Kindle 8ª Gen SY69JL Negro",
+    "price": 40.0,
+    "link": "https://es.wallapop.com/item/amazon-kindle-8-gen-sy69jl-negro-1300029472",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-09 19:01",
+    "market_median": 82.46,
+    "suggested_sell_price": 78,
+    "market_sample_count": 75,
+    "min_samples_needed": 5,
+    "reason": "€5 por encima de tu límite de €35, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
   }
 ]
