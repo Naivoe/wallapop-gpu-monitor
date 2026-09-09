@@ -2735,5 +2735,12 @@
     "gpu_name": "RAM DDR4 32GB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T05:20:47+02:00"
+  },
+  "wallapop:36e5y14l9y6d": {
+    "title": "Consola Sony PS5 Pro 2TB",
+    "price": 350.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T05:25:28+02:00"
   }
 }
