@@ -12934,5 +12934,124 @@
     "gpu_name": "Kindle",
     "source": "eBay",
     "first_seen": "2026-09-09T19:31:16+02:00"
+  },
+  "wallapop:8j38q82l32z9": {
+    "title": "MSI GeForce RTX 4060 Ventus 2X Black 8G OC",
+    "price": 350.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:35:34+02:00"
+  },
+  "ebay:v1|366658789590|0": {
+    "title": "MSI GeForce RTX 4060 Ventus 2X Black 8G OC – Scheda video NVIDIA, 8 GB GDDR6",
+    "price": 370.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:35:34+02:00"
+  },
+  "wallapop:nzxe2emnem62": {
+    "title": "2x16GB DDR5 6000MHz CL36 Pallas II",
+    "price": 329.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:35:43+02:00"
+  },
+  "ebay:v1|227347456753|0": {
+    "title": "Lexar ARES Gen2 RGB DDR5 RAM 32GB Kit (2x16GB) 6000MHz CL30 DRAM",
+    "price": 490.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:35:44+02:00"
+  },
+  "ebay:v1|198629847893|0": {
+    "title": "Controlador inalámbrico Sony DualSense Edge PS5 negro",
+    "price": 128.13,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:35:47+02:00"
+  },
+  "wallapop:4z4858r4yljy": {
+    "title": "Cafetera Nespresso DeLonghi EN80.B",
+    "price": 20.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:35:51+02:00"
+  },
+  "wallapop:qzmm5mv1qozv": {
+    "title": "Cafetera Nespresso Krups Roja",
+    "price": 35.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:35:51+02:00"
+  },
+  "ebay:v1|188335230260|695878893580": {
+    "title": "4x Batería Original 8,0Ah para Bosch 18V 5Ah Professional GBA GSR GSB BAT618 BAT609",
+    "price": 70.16,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:35:52+02:00"
+  },
+  "ebay:v1|298337553660|0": {
+    "title": "Herramienta De Batería Para BOSCH GDR 18 V GDS 18 V GDS 18 V-HT",
+    "price": 57.72,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:35:52+02:00"
+  },
+  "ebay:v1|377484403081|0": {
+    "title": "Makita TS141DZB 18V LXT Destornillador de Impacto Suave Herramienta Negra...",
+    "price": 160.97,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:35:53+02:00"
+  },
+  "ebay:v1|377484402930|0": {
+    "title": "Makita TS141DZB 18V LXT Destornillador de Impacto Suave Herramienta Negra...",
+    "price": 170.05,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:35:53+02:00"
+  },
+  "ebay:v1|227289580544|0": {
+    "title": "Adaptador de carril guía para Makita HS7611 / HS7601",
+    "price": 24.9,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:35:53+02:00"
+  },
+  "ebay:v1|227254577601|0": {
+    "title": "Adaptador de carril guía para Makita DSS501 DSS501Z DSS501ZJ DSS501RTJ",
+    "price": 23.9,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:35:53+02:00"
+  },
+  "ebay:v1|227439005840|526627911525": {
+    "title": "2X Batería 18V 6000mAh Para Makita BL1850 BL1830 LXT BL1860B Pantalla LED / Cargador",
+    "price": 71.16,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:35:53+02:00"
+  },
+  "ebay:v1|297415984488|0": {
+    "title": "Juego de ranuras de muro MAKITA + campana de aspiración + 2 discos de corte de diamante premium",
+    "price": 229.0,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:35:53+02:00"
+  },
+  "ebay:v1|286899533929|0": {
+    "title": "Pistola remachadora eléctrica Makita 18V remachadora ciega alicates de remache 20000N",
+    "price": 50.32,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:35:53+02:00"
+  },
+  "ebay:v1|168047412584|0": {
+    "title": "Para Makita Cargador DC18RC Cargador Rápido 18VLi-Ion 14.4-18V Batería",
+    "price": 21.04,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:35:53+02:00"
   }
 }
