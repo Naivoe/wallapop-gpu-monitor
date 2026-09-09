@@ -2896,5 +2896,19 @@
     "gpu_name": "RAM DDR4 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T08:30:59+02:00"
+  },
+  "wallapop:qzmm5edk4xzv": {
+    "title": "Consola Sony PlayStation 5 PS5 Blanca",
+    "price": 280.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:40:50+02:00"
+  },
+  "wallapop:8j38q4ww0lz9": {
+    "title": "Consola Sony PS5 Slim Blanca + GTA V",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:40:50+02:00"
   }
 }
