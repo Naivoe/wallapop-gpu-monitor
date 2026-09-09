@@ -6543,5 +6543,68 @@
     "gpu_name": "Juego PS5 - Otros",
     "source": "Wallapop",
     "first_seen": "2026-09-09T16:35:40+02:00"
+  },
+  "wallapop:8z8878kg2lz3": {
+    "title": "Consola PS5 Slim Blanca con su caja",
+    "price": 350.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:40:40+02:00"
+  },
+  "wallapop:v6gpypg09l6e": {
+    "title": "4x 8GB DDR4 Samsung 2133MHz RAM (32GB)",
+    "price": 79.95,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:40:41+02:00"
+  },
+  "wallapop:qzmm5me451zv": {
+    "title": "Xbox Series S Blanca",
+    "price": 220.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:40:42+02:00"
+  },
+  "wallapop:qjwr3r4yge6o": {
+    "title": "Xbox Series S + Mando Velocity Green",
+    "price": 200.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:40:42+02:00"
+  },
+  "wallapop:mzn3n328pkjn": {
+    "title": "Zelda Skyward Sword HD Nintendo Switch",
+    "price": 30.0,
+    "gpu_name": "Juego Switch - Exclusivo Nintendo",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:40:44+02:00"
+  },
+  "wallapop:wzvgog4nqqzl": {
+    "title": "Super Mario Galaxy 1 y 2 precintado Switch",
+    "price": 50.0,
+    "gpu_name": "Juego Switch - Exclusivo Nintendo",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:40:44+02:00"
+  },
+  "wallapop:mzn3n32887jn": {
+    "title": "Super Mario Odyssey Nintendo Switch",
+    "price": 18.0,
+    "gpu_name": "Juego Switch - Exclusivo Nintendo",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:40:44+02:00"
+  },
+  "wallapop:w67v0v4dy56x": {
+    "title": "FIFA 22 Legacy Edition Nintendo Switch",
+    "price": 18.0,
+    "gpu_name": "Juego Switch - Popular",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:40:44+02:00"
+  },
+  "wallapop:mzn3n328o7jn": {
+    "title": "Hyrule Warriors: Age of Calamity Nintendo Switch",
+    "price": 29.0,
+    "gpu_name": "Juego Switch - Otros",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:40:44+02:00"
   }
 }
