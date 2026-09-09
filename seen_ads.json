@@ -3323,5 +3323,26 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T11:55:31+02:00"
+  },
+  "wallapop:pj94wmol4v6e": {
+    "title": "Mando PS5 Sony Blanco",
+    "price": 50.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:01:14+02:00"
+  },
+  "wallapop:4z485e725wjy": {
+    "title": "Corsair Vengeance Pro RGB 2x8GB (16GB) DDR4 RAM",
+    "price": 89.99,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:01:14+02:00"
+  },
+  "wallapop:ejkmy8v78qzx": {
+    "title": "Xbox Series S 512GB Blanca + RDR2",
+    "price": 260.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:01:16+02:00"
   }
 }
