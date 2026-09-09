@@ -5985,5 +5985,24 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €30.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|407204918192|0",
+    "title": "Mando Inalámbrico Sony PlayStation 5 DualSense Blanco ",
+    "price": 29.12,
+    "link": "https://www.ebay.es/itm/407204918192?_skw=Mando+DualSense+PS5&hash=item5ecf4df3b0:g:-z0AAeSwWrpqoZri&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbXHNyglC0SZiR9Sb7uIDdDP5Jddb%2FvosDRczcX%2Fb2VMqSypdzPv0rcIgTyc2MjferOF9DyyaQTr2a%2BgpSQuCtfqWKZpOkaw2%2F6%2FvaHJy2%2FZ9cWscj%2FwO%2F%2BjXnjK0di%2BtCIeZh4HPOktF%2B2%2FXTHSpFlTmf0xKTXYFiJVMefAkdgHEkgxboeRnfdNmxPWaFRtJdDw9ZDbS%2FdvMpuldNs8PuPy9f1vzhus9oD%2FpRc6Cbpo%2BAmzUnJeOSdqSniq6K8AgPpwVuW4g%2BEpcZcj45QPfmujkX7HifM8FexkHAiDL0plw%3D%3D",
+    "posted_at": "2026-09-09 17:46",
+    "source": "eBay",
+    "_condition": "used",
+    "_real_shipping_cost": 17.15,
+    "gpu_name": "Mando DualSense PS5",
+    "found_at": "2026-09-09 21:01",
+    "market_median": 60.0,
+    "suggested_sell_price": 57,
+    "market_sample_count": 129,
+    "min_samples_needed": 5,
+    "shipping_cost": 17.15,
+    "reason": "Por debajo de tu límite de compra de €30.",
+    "category": "hit"
   }
 ]
