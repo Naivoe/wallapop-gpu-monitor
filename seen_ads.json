@@ -2539,5 +2539,19 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T02:25:32+02:00"
+  },
+  "wallapop:wzvgo4er3rzl": {
+    "title": "consola ps5 sony playstation 5 slim digital 1tb",
+    "price": 479.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T02:30:55+02:00"
+  },
+  "wallapop:4z485e9y8mjy": {
+    "title": "consola ps5 sony playstation 5 slim standard 1tb",
+    "price": 579.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T02:30:55+02:00"
   }
 }
