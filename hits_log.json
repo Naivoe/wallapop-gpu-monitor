@@ -5320,5 +5320,21 @@
     "min_samples_needed": 5,
     "reason": "€0 por encima de tu límite de €40, pero dentro del margen del 15% — quizás negociable.",
     "category": "near_miss"
+  },
+  {
+    "id": "wallapop:8z88785gy8z3",
+    "title": "RTX 4060 Ti + Fuente + Torre",
+    "price": 300.0,
+    "link": "https://es.wallapop.com/item/rtx-4060-ti---fuente---torre-1299997422",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "found_at": "2026-09-09 17:45",
+    "market_median": 449.995,
+    "suggested_sell_price": 427,
+    "market_sample_count": 46,
+    "min_samples_needed": 5,
+    "reason": "€30 por encima de tu límite de €270, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
   }
 ]
