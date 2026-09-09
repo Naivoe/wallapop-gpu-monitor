@@ -13830,5 +13830,110 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-09T21:06:01+02:00"
+  },
+  "ebay:v1|147504000442|0": {
+    "title": "ASUS F15-TUF507ZI4-LP055W - i7-12700H Ram16Go Ssd512Go RTX4070 - PC gamer - NEUF",
+    "price": 999.99,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:10:41+02:00"
+  },
+  "ebay:v1|236847068613|537302557506": {
+    "title": "PC GAMING RGB Intel I7 4,6GHz Nvidia (RTX 5060), SSD 1TB, 32/16GB RAM Windows 11",
+    "price": 1075.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:10:43+02:00"
+  },
+  "wallapop:9jdwyw1wv46k": {
+    "title": "Ps5 digital edition with 2 controllers and a headset",
+    "price": 550.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:10:45+02:00"
+  },
+  "wallapop:nzxe2eg02p62": {
+    "title": "Consola PS5 + Mando DualSense color esmeralda",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:10:45+02:00"
+  },
+  "wallapop:pj94w40n4m6e": {
+    "title": "Kit RAM G.Skill Aegis DDR4 16GB (2x8GB)",
+    "price": 70.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:10:47+02:00"
+  },
+  "ebay:v1|404274167267|0": {
+    "title": "SK Hynix 32GB DDR4-2666V • 2Rx4 • ECC RDIMM • HMA84GR7CJR4N-VK RAM",
+    "price": 155.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:10:48+02:00"
+  },
+  "wallapop:vjrewemr1wzk": {
+    "title": "Mando DualSense PS5 Sony",
+    "price": 50.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:10:53+02:00"
+  },
+  "ebay:v1|318849106222|0": {
+    "title": "Précommande - Sony DualSense Manette GTA 6 pour console Sony PlayStation 5 PS5",
+    "price": 148.37,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:10:53+02:00"
+  },
+  "ebay:v1|398378281500|0": {
+    "title": "Manette PS5 DualSense Édition Limitée Final Fantasy XVI.",
+    "price": 160.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:10:53+02:00"
+  },
+  "ebay:v1|128069009448|0": {
+    "title": "Controlador inalámbrico PowerA Advantage para Xbox Series X|S in the Regen Slate...",
+    "price": 62.45,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:10:54+02:00"
+  },
+  "ebay:v1|205674489370|0": {
+    "title": "Bosch 108 piezas todo en uno de metal kit de herramientas de mano-dwK",
+    "price": 92.72,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:10:56+02:00"
+  },
+  "ebay:v1|236953431882|537372840139": {
+    "title": "Para Bosch BAT609 BAT618 GSR GSB GDR 8Ah 9Ah 18V Batería / Cargador Luz de Trabajo",
+    "price": 90.49,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:10:56+02:00"
+  },
+  "ebay:v1|236721560142|537218236178": {
+    "title": "Makita TS141DZ Serie Atornillador de impacto suave 18V 40Nm Herramienta...",
+    "price": 195.77,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:10:57+02:00"
+  },
+  "ebay:v1|405092384636|675175451243": {
+    "title": "Para Makita Batería 18V 5AH 6AH 8AH BL1860B BL1850B BL1830 BL1820 LXT Batería LED",
+    "price": 208.44,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:10:57+02:00"
+  },
+  "ebay:v1|227438629688|526627618618": {
+    "title": "Batería 18V 6Ah 8Ah 9Ah 12Ah Para Makita BL1850 BL1830 BL1860 B Pantalla Led Batería",
+    "price": 70.2,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:10:57+02:00"
   }
 }
