@@ -146,7 +146,7 @@
     {
       "name": "Mando Xbox Series",
       "search_term": "Mando Xbox Series",
-      "max_price": 20,
+      "max_price": 30,
       "min_price": 12,
       "match_keywords": ["xbox", "series"],
       "exclude_keywords": [
