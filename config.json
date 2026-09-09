@@ -62,11 +62,10 @@
       "max_price": 250,
       "match_keywords": ["ps5"],
       "require_any_keywords": [
-        "consola", "mando", "mandos", "controller",
+        "consola",
         "standard", "estandar", "estándar", "digital", "slim", "pro",
         "825gb", "825 gb", "1tb", "1 tb", "2tb", "2 tb",
-        "edicion digital", "edición digital", "con lector", "sin lector",
-        "dualsense"
+        "edicion digital", "edición digital", "con lector", "sin lector"
       ],
       "exclude_keywords": [
         "funda", "fundas", "juego", "juegos",
@@ -140,7 +139,8 @@
       ],
       "exclude_keywords": [
         "funda", "soporte", "cargador", "skin", "grip", "correa",
-        "roto", "no funciona", "para piezas", "solo pieza", "carcasa"
+        "roto", "no funciona", "para piezas", "solo pieza", "carcasa",
+        "consola", "825gb", "825 gb", "1tb", "1 tb", "2tb", "2 tb"
       ]
     },
     {
@@ -151,7 +151,8 @@
       "match_keywords": ["xbox", "series"],
       "exclude_keywords": [
         "funda", "soporte", "cargador", "skin", "grip", "correa",
-        "roto", "no funciona", "para piezas", "solo pieza", "carcasa", "one"
+        "roto", "no funciona", "para piezas", "solo pieza", "carcasa", "one",
+        "consola", "1tb", "1 tb", "2tb", "2 tb", "500gb", "500 gb"
       ]
     }
   ]
