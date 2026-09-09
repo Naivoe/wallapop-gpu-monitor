@@ -6774,5 +6774,124 @@
     "gpu_name": "Juego PS5 - Popular",
     "source": "Wallapop",
     "first_seen": "2026-09-09T16:55:38+02:00"
+  },
+  "wallapop:nz08e84prv6o": {
+    "title": "Consola Sony PS5 Blanca y Negra",
+    "price": 420.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:36+02:00"
+  },
+  "wallapop:p618g840nxz5": {
+    "title": "Corsair Vengeance DDR5 32GB (2x16GB) 6000MHz",
+    "price": 299.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:37+02:00"
+  },
+  "wallapop:wzvgog4p27zl": {
+    "title": "Mando PS5 DualSense Blanco",
+    "price": 20.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:38+02:00"
+  },
+  "wallapop:pzpk0k20xkj3": {
+    "title": "Base Vertical Ipega para Xbox Series X",
+    "price": 45.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:38+02:00"
+  },
+  "wallapop:e65qnq81xk6o": {
+    "title": "Nintendo Switch Edición Zelda 40 Aniversario",
+    "price": 800.0,
+    "gpu_name": "Juego Switch - Exclusivo Nintendo",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:39+02:00"
+  },
+  "wallapop:v6gpypgx926e": {
+    "title": "Super Smash Bros Ultimate Nintendo Switch",
+    "price": 34.95,
+    "gpu_name": "Juego Switch - Exclusivo Nintendo",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:39+02:00"
+  },
+  "wallapop:wzyrkr415p65": {
+    "title": "Animal Crossing New Horizons Switch",
+    "price": 30.0,
+    "gpu_name": "Juego Switch - Exclusivo Nintendo",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:39+02:00"
+  },
+  "wallapop:9jdwywk9pd6k": {
+    "title": "Super Mario Bros Wonder Nintendo Switch",
+    "price": 39.95,
+    "gpu_name": "Juego Switch - Exclusivo Nintendo",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:39+02:00"
+  },
+  "wallapop:36e5y510my6d": {
+    "title": "Los Increibles Nintendo Switch Como nuevo PAL Fra",
+    "price": 12.5,
+    "gpu_name": "Juego Switch - Otros",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:39+02:00"
+  },
+  "wallapop:nz08e84kwv6o": {
+    "title": "La Voz Nintendo Switch Como nuevo PAL Fra",
+    "price": 17.5,
+    "gpu_name": "Juego Switch - Otros",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:39+02:00"
+  },
+  "wallapop:qjwr3r4wkk6o": {
+    "title": "Juego Nintendo Switch Sonic Mania Plus",
+    "price": 40.0,
+    "gpu_name": "Juego Switch - Otros",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:39+02:00"
+  },
+  "wallapop:x6qq7qmgw56y": {
+    "title": "Yoshi and the mysterious book Nintendo Switch 2",
+    "price": 45.0,
+    "gpu_name": "Juego Switch - Otros",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:39+02:00"
+  },
+  "wallapop:pzpk0k2em5j3": {
+    "title": "Ratchet & Clank: Una Dimensión Aparte PS5",
+    "price": 30.0,
+    "gpu_name": "Juego PS5 - Exclusivo Sony",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:39+02:00"
+  },
+  "wallapop:e65qnq8k126o": {
+    "title": "Uncharted Colección Legado de los Ladrones PS5",
+    "price": 25.0,
+    "gpu_name": "Juego PS5 - Exclusivo Sony",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:39+02:00"
+  },
+  "wallapop:x6qq7qm7w56y": {
+    "title": "Call of Duty Black Ops III PS4/PS5",
+    "price": 12.0,
+    "gpu_name": "Juego PS5 - Popular",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:40+02:00"
+  },
+  "wallapop:nzxe2e47we62": {
+    "title": "Minecraft para PS5",
+    "price": 15.0,
+    "gpu_name": "Juego PS5 - Popular",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:40+02:00"
+  },
+  "wallapop:8z8878knmlz3": {
+    "title": "Far Cry 6 Yara Edition PS5",
+    "price": 25.0,
+    "gpu_name": "Juego PS5 - Otros",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:59:40+02:00"
   }
 }
