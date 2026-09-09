@@ -2819,5 +2819,26 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T08:10:39+02:00"
+  },
+  "wallapop:qzmm5ed051zv": {
+    "title": "Consola Sony PS5 Slim Blanca Blanca y Dorada",
+    "price": 321.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:15:40+02:00"
+  },
+  "wallapop:pj94wm20p06e": {
+    "title": "Mando PS5 Sony",
+    "price": 40.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:15:40+02:00"
+  },
+  "wallapop:8j38q4wk71z9": {
+    "title": "Corsair Vengeance DDR5 32GB (2x16GB) 6000MHz CL30",
+    "price": 400.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:15:41+02:00"
   }
 }
