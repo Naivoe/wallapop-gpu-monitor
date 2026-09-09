@@ -15538,5 +15538,19 @@
     "gpu_name": "Kindle",
     "source": "eBay",
     "first_seen": "2026-09-10T01:01:20+02:00"
+  },
+  "wallapop:e65qnq1mm06o": {
+    "title": "Xbox Series S + Mando Pro Rojo",
+    "price": 250.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T01:05:44+02:00"
+  },
+  "ebay:v1|236605541892|537130980862": {
+    "title": "Mando Inalámbrico Xbox Series X & S OFICIAL 1914 - EXCELENTE ESTADO - VARIOS COLORES",
+    "price": 41.1,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-10T01:05:44+02:00"
   }
 }
