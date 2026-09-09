@@ -1616,5 +1616,21 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€1075) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:3zlmy8y574jx",
+    "title": "Mando DualSense PS5 Sony sin abrir",
+    "price": 65.0,
+    "link": "https://es.wallapop.com/item/mando-dualsense-ps5-sony-sin-abrir-1299835921",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 10:35",
+    "market_median": 350.0,
+    "suggested_sell_price": 332,
+    "market_sample_count": 194,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
