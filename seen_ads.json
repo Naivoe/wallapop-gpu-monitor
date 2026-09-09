@@ -14334,5 +14334,40 @@
     "gpu_name": "RAM DDR5 32GB",
     "source": "eBay",
     "first_seen": "2026-09-09T21:45:52+02:00"
+  },
+  "ebay:v1|820107507663|0": {
+    "title": "VCG5060T8DFXPB1 PNY GeForce RTX 5060 Ti Dual Fan Grafikkarte PCI-Express ~D~",
+    "price": 747.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:50:45+02:00"
+  },
+  "wallapop:x6qq7qo9gy6y": {
+    "title": "Consola PS5 Slim negra",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:50:47+02:00"
+  },
+  "wallapop:8z8878lgxrz3": {
+    "title": "2x G.Skill Aegis DDR4 3200MHz CL16 32GB",
+    "price": 190.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:50:49+02:00"
+  },
+  "ebay:v1|127546669110|428661840696": {
+    "title": "Memoria RAM DDR4 2133 MHz PC4-17000 288 pines 4GB 8GB 16GB 32GB",
+    "price": 30.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:50:49+02:00"
+  },
+  "ebay:v1|206437057560|0": {
+    "title": "G.SKILL 32GB (8GBx4) DDR4-2400 PC4-19200 RAM de escritorio F4-2400C15q-32grr ...",
+    "price": 267.73,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:50:49+02:00"
   }
 }

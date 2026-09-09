@@ -6099,5 +6099,24 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €250.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|127546669110|428661840696",
+    "title": "Memoria RAM DDR4 2133 MHz PC4-17000 288 pines 4GB 8GB 16GB 32GB",
+    "price": 30.0,
+    "link": "https://www.ebay.es/itm/127546669110?_skw=RAM+DDR4+32GB&hash=item1db25fb836:g:mf4AAeSwCYNpNE5f",
+    "posted_at": "2025-12-06 15:40",
+    "source": "eBay",
+    "_condition": "gebraucht",
+    "_real_shipping_cost": 13.9,
+    "gpu_name": "RAM DDR4 32GB",
+    "found_at": "2026-09-09 21:50",
+    "market_median": 180.0,
+    "suggested_sell_price": 171,
+    "market_sample_count": 63,
+    "min_samples_needed": 5,
+    "shipping_cost": 13.9,
+    "reason": "Por debajo de tu límite de compra de €45.",
+    "category": "hit"
   }
 ]
