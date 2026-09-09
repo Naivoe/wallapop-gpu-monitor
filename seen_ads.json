@@ -3015,5 +3015,19 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T09:45:42+02:00"
+  },
+  "wallapop:0j28v4xxqrjy": {
+    "title": "Mando PS5 30° Aniversario (Antidrift)",
+    "price": 85.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T09:55:30+02:00"
+  },
+  "wallapop:e65qn8o1pk6o": {
+    "title": "Mando PS5 Antidrift Sony",
+    "price": 55.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T09:55:30+02:00"
   }
 }

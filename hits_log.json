@@ -1568,5 +1568,37 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:0j28v4xxqrjy",
+    "title": "Mando PS5 30° Aniversario (Antidrift)",
+    "price": 85.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-30-aniversario-antidrift-1299826011",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 09:55",
+    "market_median": 350.0,
+    "suggested_sell_price": 332,
+    "market_sample_count": 188,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:e65qn8o1pk6o",
+    "title": "Mando PS5 Antidrift Sony",
+    "price": 55.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-antidrift-sony-1299825424",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 09:55",
+    "market_median": 350.0,
+    "suggested_sell_price": 332,
+    "market_sample_count": 188,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
