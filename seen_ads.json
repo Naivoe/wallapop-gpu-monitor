@@ -12122,5 +12122,33 @@
     "gpu_name": "Mando Xbox Series",
     "source": "eBay",
     "first_seen": "2026-09-09T18:06:02+02:00"
+  },
+  "wallapop:e65qnq7xyk6o": {
+    "title": "PS5 Digital Edition Sony",
+    "price": 350.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:10:48+02:00"
+  },
+  "wallapop:vjrewe4004zk": {
+    "title": "Corsair Vengeance DDR5 32GB (2x16GB) 6000MHz CL36",
+    "price": 350.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:10:53+02:00"
+  },
+  "wallapop:pzpk0kdn1lj3": {
+    "title": "Xbox Series S 512GB SSD Blanca",
+    "price": 235.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:10:59+02:00"
+  },
+  "ebay:v1|227254570835|0": {
+    "title": "Adaptador de carril guía para Makita DHS680 DHS680Z",
+    "price": 23.9,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:11:03+02:00"
   }
 }

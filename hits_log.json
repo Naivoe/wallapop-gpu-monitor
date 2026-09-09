@@ -5453,5 +5453,22 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €30.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|227254570835|0",
+    "title": "Adaptador de carril guía para Makita DHS680 DHS680Z",
+    "price": 23.9,
+    "link": "https://www.ebay.es/itm/227254570835?_skw=Herramienta+Makita&hash=item34e96d8f53:g:3moAAeSwE51prbK9&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGaqBKMCfbjI8go%2BKbFjjr09hmUEY8w0nSXGdAwleNaWsq2vbO0kvJcBNTgmQ8nojMQoVTuqGuA033iBcK3qdIHn6TbdPnXvO93f0ftBCxYzTPqey4%2BW5pNd%2FQplMksscyiriLJ1bLFSl5eRg5q4qykzqJ3EQFt%2FWyiaa9IrztFgjifjm0Oi6080Vuc604sJ3%2F%2BYphp5xhFPndBLx%2Bqv36Cj46BMKJK1sqFI0O%2FvwG8ShJsEx5khXdSkJvBlA4x4VRFFeY8QTqysKVZN3u9823MTPenbwDw7Hzlu1CixlVNnSw%3D%3D",
+    "posted_at": "2026-03-13 14:52",
+    "source": "eBay",
+    "_condition": "neu",
+    "gpu_name": "Herramienta Makita",
+    "found_at": "2026-09-09 18:11",
+    "market_median": 162.18,
+    "suggested_sell_price": 154,
+    "market_sample_count": 59,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]
