@@ -6718,5 +6718,61 @@
     "gpu_name": "Juego PS5 - Otros",
     "source": "Wallapop",
     "first_seen": "2026-09-09T16:50:47+02:00"
+  },
+  "wallapop:xzogpg2w5lj9": {
+    "title": "Ps5 Slim Digital 825GB",
+    "price": 370.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:55:33+02:00"
+  },
+  "wallapop:wzyrkr4gre65": {
+    "title": "consola ps5 sony playstation 5 slim digital 1tb",
+    "price": 479.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:55:33+02:00"
+  },
+  "wallapop:nzxe2e4gem62": {
+    "title": "Amazon Kindle Paperwhite Signature Edition",
+    "price": 190.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:55:36+02:00"
+  },
+  "wallapop:0j28v84o3ejy": {
+    "title": "Cafetera Nespresso Blanca",
+    "price": 25.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:55:36+02:00"
+  },
+  "wallapop:pzpk0k2q5kj3": {
+    "title": "Mario Kart 8 Deluxe Nintendo Switch",
+    "price": 37.0,
+    "gpu_name": "Juego Switch - Popular",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:55:37+02:00"
+  },
+  "wallapop:3zlmym8p1qjx": {
+    "title": "MySims Cozy Bundle Switch",
+    "price": 20.0,
+    "gpu_name": "Juego Switch - Otros",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:55:37+02:00"
+  },
+  "wallapop:qjwr3r48vg6o": {
+    "title": "FIFA 23 PS5",
+    "price": 10.0,
+    "gpu_name": "Juego PS5 - Popular",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:55:38+02:00"
+  },
+  "wallapop:wzvgog4d1qzl": {
+    "title": "GTA V PS5",
+    "price": 20.0,
+    "gpu_name": "Juego PS5 - Popular",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T16:55:38+02:00"
   }
 }

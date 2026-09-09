@@ -4032,5 +4032,53 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €15.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:0j28v84o3ejy",
+    "title": "Cafetera Nespresso Blanca",
+    "price": 25.0,
+    "link": "https://es.wallapop.com/item/cafetera-nespresso-blanca-1299975083",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Nespresso",
+    "found_at": "2026-09-09 16:55",
+    "market_median": 40.0,
+    "suggested_sell_price": 38,
+    "market_sample_count": 40,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €25.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:qjwr3r48vg6o",
+    "title": "FIFA 23 PS5",
+    "price": 10.0,
+    "link": "https://es.wallapop.com/item/fifa-23-ps5-1299976429",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Juego PS5 - Popular",
+    "found_at": "2026-09-09 16:55",
+    "market_median": null,
+    "suggested_sell_price": null,
+    "market_sample_count": 0,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €22.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:wzvgog4d1qzl",
+    "title": "GTA V PS5",
+    "price": 20.0,
+    "link": "https://es.wallapop.com/item/gta-v-ps5-1299975489",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Juego PS5 - Popular",
+    "found_at": "2026-09-09 16:55",
+    "market_median": null,
+    "suggested_sell_price": null,
+    "market_sample_count": 0,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €22.",
+    "category": "hit"
   }
 ]
