@@ -11583,5 +11583,54 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-09T17:25:51+02:00"
+  },
+  "wallapop:8z88788lodz3": {
+    "title": "Memoria RAM SK hynix 16GB DDR4 2666MHz",
+    "price": 45.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:31:19+02:00"
+  },
+  "wallapop:qjwr3rr52q6o": {
+    "title": "Corsair Vengeance DDR5 32GB 6000MHz",
+    "price": 390.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:31:25+02:00"
+  },
+  "wallapop:8j38q88do1z9": {
+    "title": "Mando PS5 DualSense Antidrift con Joysticks TMR",
+    "price": 55.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:31:29+02:00"
+  },
+  "wallapop:p618g882o5z5": {
+    "title": "Mando PS5 DualSense Blanco (Drift Izquierdo)",
+    "price": 29.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:31:29+02:00"
+  },
+  "ebay:v1|365938207060|0": {
+    "title": "DualSense PS5 TMR K-Silver JS13PRO  Hogwarts Legacy*CUSTOM* Non piu DRIFT",
+    "price": 82.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:31:29+02:00"
+  },
+  "ebay:v1|187267143574|695213148672": {
+    "title": "Capsule Caffè Kimbo Nespresso Miscela Pompei Formula Bar Espresso Napoletano",
+    "price": 20.4,
+    "gpu_name": "Nespresso",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:31:33+02:00"
+  },
+  "ebay:v1|197908662421|0": {
+    "title": "Herramienta eléctrica MAKITA Impact Driver TD148DSP1 usada",
+    "price": 223.63,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:31:37+02:00"
   }
 }

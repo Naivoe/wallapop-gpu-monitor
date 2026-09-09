@@ -5185,5 +5185,38 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €350.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:p618g882o5z5",
+    "title": "Mando PS5 DualSense Blanco (Drift Izquierdo)",
+    "price": 29.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-dualsense-blanco-drift-izquierdo-1299990007",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Mando DualSense PS5",
+    "found_at": "2026-09-09 17:31",
+    "market_median": 60.0,
+    "suggested_sell_price": 57,
+    "market_sample_count": 100,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €30.",
+    "category": "hit"
+  },
+  {
+    "id": "ebay:v1|187267143574|695213148672",
+    "title": "Capsule Caffè Kimbo Nespresso Miscela Pompei Formula Bar Espresso Napoletano",
+    "price": 20.4,
+    "link": "https://www.ebay.es/itm/187267143574?_skw=Nespresso&hash=item2b99fdd796:g:o1wAAOSwYRJoOAN3&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGYEYTUpgUD6nBrgwxhya8KgpDmw85rVwKfDjDuAxvv53%2BqttPSNPTAsDfwemgAyRPTf53gKg4K%2FvHBaYgRuDDAvUYy0b9984vzkyaQQFnE6W3iT2AxrMefxBb7aprA4diH9BAF8EGnlx5RhJb2LyvO%2BXWUL7kksqL02%2FmfLKi2I6Af34t9cPiqbNeSEswFKhX2OTLgamsmKhWXLZbwqICifA8JivNlamvFgPn40tyeNMpz9%2F0CpmIksvJX%2FwxABoYD4HVt1qcWE9JIMZIvVleaQxo9PvWHBPqJxtuD17RoPHw%3D%3D",
+    "posted_at": "2025-05-29 07:03",
+    "source": "eBay",
+    "_condition": "nuovo",
+    "gpu_name": "Nespresso",
+    "found_at": "2026-09-09 17:31",
+    "market_median": 55.0,
+    "suggested_sell_price": 52,
+    "market_sample_count": 82,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €25.",
+    "category": "hit"
   }
 ]
