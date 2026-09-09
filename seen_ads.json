@@ -11674,5 +11674,194 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-09T17:35:47+02:00"
+  },
+  "ebay:v1|198585365967|0": {
+    "title": "Placa base RTX4070 8 GB VRAM AMD Ryzen 7 8845HS HP Omen 17-DB N96193-601",
+    "price": 462.13,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:40:44+02:00"
+  },
+  "ebay:v1|178471929543|0": {
+    "title": "GIGABYTE NVIDIA GeForce RTX 5060 32GB DDR4 Tarjeta Gráfica HDMI DisplayPort",
+    "price": 908.64,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:40:46+02:00"
+  },
+  "wallapop:mzn3n339egjn": {
+    "title": "Consola PS5 Blanca con Mando y Cables",
+    "price": 500.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:40:49+02:00"
+  },
+  "wallapop:nzxe2eeoo762": {
+    "title": "Consola PS5 Sony 4 meses de uso",
+    "price": 400.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:40:49+02:00"
+  },
+  "ebay:v1|267780601424|0": {
+    "title": "Consola Sony PlayStation 5 Slim Disk Edición Blanca PS5 CFI-2015 con Controlador",
+    "price": 412.94,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:40:49+02:00"
+  },
+  "wallapop:8j38q8pvk2z9": {
+    "title": "Memória RAM Micron 16GB DDR4 3200AA MTA8ATF2G64HZ",
+    "price": 49.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:40:50+02:00"
+  },
+  "wallapop:pzpk0kkvdlj3": {
+    "title": "Memória RAM Samsung 16GB DDR4 M471A2K43DB1-CWE",
+    "price": 50.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:40:50+02:00"
+  },
+  "wallapop:e65qnqqw1p6o": {
+    "title": "2x Samsung 16GB DDR4 3200MHz RAM",
+    "price": 90.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:40:50+02:00"
+  },
+  "ebay:v1|204402005334|0": {
+    "title": "32GB DDR4 RAM PC4-2666V 1Rx8 2666 MHz 1.2V Desktop PC Memoria (4x 8GB)",
+    "price": 239.96,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:40:51+02:00"
+  },
+  "ebay:v1|800596322939|0": {
+    "title": "Integral DDR5 32GB 4800MHz IN5T32GNHRBX - DIMM RAM DDR5",
+    "price": 314.52,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:40:53+02:00"
+  },
+  "ebay:v1|227273167274|0": {
+    "title": "Kit Kingston FURY Beast RGB DDR5 RAM 32GB 2x 16GB 5600MHz CL36 KF556C36BBEAK2-32",
+    "price": 479.99,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:40:53+02:00"
+  },
+  "wallapop:xzogpgxkrlj9": {
+    "title": "SSD M.2 NVMe Samsung 980 PRO 1TB PCIe 4.0",
+    "price": 100.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:40:54+02:00"
+  },
+  "ebay:v1|147562218588|0": {
+    "title": "🎮CONTROLLER XBOX ELITE WIRELESS SERIE 2 X XBOX SERIES X/S DRIFT SX E MOTORI RUM",
+    "price": 16.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:40:57+02:00"
+  },
+  "ebay:v1|137709394262|0": {
+    "title": "Liseuse Tablette Ebook - Amazon Kindle Touch 4th Gen - Grise - Avec Câble",
+    "price": 49.99,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:40:58+02:00"
+  },
+  "ebay:v1|188898899463|696110057046": {
+    "title": "KINDLE PAPERWHITE 10ª GENERACIÓN EREADER | PANTALLA WIFI 8 GB 6\" CON ANUNCIOS - LANZAMIENTO 2018",
+    "price": 82.46,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:40:58+02:00"
+  },
+  "ebay:v1|800636413297|0": {
+    "title": "✅️ NESPRESSO INISSIA Macchina Caffe A Capsule colore Bianca ☕️⚪️",
+    "price": 39.99,
+    "gpu_name": "Nespresso",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:40:59+02:00"
+  },
+  "ebay:v1|377321901977|0": {
+    "title": "100 Capsule Lavazza Espresso Maestro Intenso Nespresso Original Coffee Pods",
+    "price": 30.0,
+    "gpu_name": "Nespresso",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:40:59+02:00"
+  },
+  "wallapop:36e5y55qok6d": {
+    "title": "Maletín Bosch Professional con varias herramientas",
+    "price": 600.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:41:00+02:00"
+  },
+  "ebay:v1|177667715493|477276884431": {
+    "title": "Adaptador Bosch GKS 190 carril guía adaptador de carril guía cortes precisos",
+    "price": 31.5,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:41:00+02:00"
+  },
+  "ebay:v1|257264994712|557928575791": {
+    "title": "Batería Original 6X 8Ah para Bosch 18V Professional GBA GSR GSB BAT618 BAT609 BAT620",
+    "price": 236.75,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:41:00+02:00"
+  },
+  "ebay:v1|237048169809|0": {
+    "title": "Batería 18V 5,0Ah Professional GBA GSR GSB para BOSCH BAT618 BAT609 622 NUEVO",
+    "price": 28.59,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:41:00+02:00"
+  },
+  "ebay:v1|165964145864|465464390892": {
+    "title": "Batería para Bosch 14,4 V 2 607 336 037, PSR 14.4 LI-2 PSR 14.4 LI, 2 607 336 205 DE",
+    "price": 24.3,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:41:00+02:00"
+  },
+  "ebay:v1|188756216343|696050786354": {
+    "title": "2x 5000mAh Batería Para Bosch 12V BAT043 BAT045 BAT139 PSR 12VE-2 GSR Batería De Repuesto",
+    "price": 61.69,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:41:00+02:00"
+  },
+  "ebay:v1|317780984449|0": {
+    "title": "2X para Bosch Li-ion batería PBA 18 V 3,8Ah XL Power For All Alliance 54Wh NUEVO EMBALAJE ORIGINAL",
+    "price": 40.22,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:41:00+02:00"
+  },
+  "ebay:v1|167926644521|0": {
+    "title": "Adaptador de carril guía Bosch GKS 190 para carriles guía Bosch FSN800, etc.",
+    "price": 25.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:41:00+02:00"
+  },
+  "ebay:v1|286987054209|0": {
+    "title": "Taladro de percusión a batería Bosch GSB 18V-45",
+    "price": 128.4,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:41:00+02:00"
+  },
+  "ebay:v1|204757671012|0": {
+    "title": "Bosch GLM 50-27 CG Telémetro Láser Profesional",
+    "price": 189.99,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:41:00+02:00"
   }
 }
