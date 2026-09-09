@@ -13697,5 +13697,40 @@
     "gpu_name": "Herramienta Bosch",
     "source": "Wallapop",
     "first_seen": "2026-09-09T20:51:01+02:00"
+  },
+  "wallapop:mzn3n3myx7jn": {
+    "title": "ASUS TUF Gaming F16 RTX 4060 32GB 1TB",
+    "price": 999.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:55:32+02:00"
+  },
+  "wallapop:pzpk0k3n44j3": {
+    "title": "PC gamer Aquarium - RTX 4070, I7-11700k, 64go RAM, 1to ssd",
+    "price": 1150.0,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:55:35+02:00"
+  },
+  "wallapop:p618g81g2gz5": {
+    "title": "Consola PS5 con entrada para disco con mando",
+    "price": 470.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:55:39+02:00"
+  },
+  "ebay:v1|298659724365|0": {
+    "title": "Consola Sony PlayStation 5 PS5 sin disco 825 GB blanca + cables + mando",
+    "price": 489.25,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:55:39+02:00"
+  },
+  "wallapop:8j38q8o782z9": {
+    "title": "Mando PlayStation 5 DualSense Blanco",
+    "price": 25.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:55:47+02:00"
   }
 }
