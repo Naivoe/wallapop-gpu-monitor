@@ -15454,5 +15454,26 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-10T00:35:51+02:00"
+  },
+  "ebay:v1|128059365897|0": {
+    "title": "Enfriador soplador ranura única NVIDIA GeForce RTX 5060 Ti 16 GB",
+    "price": 1099.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "eBay",
+    "first_seen": "2026-09-10T00:40:46+02:00"
+  },
+  "wallapop:9jdwyw9y346k": {
+    "title": "Lexar SSD 1TB Gen5 ARES PRO NVMe PCIe",
+    "price": 200.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T00:40:54+02:00"
+  },
+  "ebay:v1|398378780717|0": {
+    "title": "Byers Choice Kindle Elf Lista de Regalo Desplazamiento Vintage Navidad Posable Suéter Verde",
+    "price": 36.42,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-10T00:40:59+02:00"
   }
 }

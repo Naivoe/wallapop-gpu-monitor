@@ -6404,5 +6404,24 @@
     "shipping_cost": 0.0,
     "reason": "€6 por encima de tu límite de €40, pero dentro del margen del 15% — quizás negociable.",
     "category": "near_miss"
+  },
+  {
+    "id": "ebay:v1|398378780717|0",
+    "title": "Byers Choice Kindle Elf Lista de Regalo Desplazamiento Vintage Navidad Posable Suéter Verde",
+    "price": 36.42,
+    "link": "https://www.ebay.es/itm/398378780717?_skw=Kindle&hash=item5cc139c82d:g:qPwAAeSwUxNqhD9e",
+    "posted_at": "2026-09-09 22:31",
+    "source": "eBay",
+    "_condition": "used",
+    "_real_shipping_cost": null,
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-10 00:40",
+    "market_median": 75.0,
+    "suggested_sell_price": 71,
+    "market_sample_count": 100,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "€1 por encima de tu límite de €35, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
   }
 ]
