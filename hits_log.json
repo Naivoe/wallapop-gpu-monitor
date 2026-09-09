@@ -3072,5 +3072,21 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €30.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:8j38q8m3ryz9",
+    "title": "Juego Jumanji El Videojuego Switch",
+    "price": 10.0,
+    "link": "https://es.wallapop.com/item/juego-jumanji-el-videojuego-switch-1299925658",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Juego Nintendo Switch",
+    "found_at": "2026-09-09 14:45",
+    "market_median": 29.975,
+    "suggested_sell_price": 28,
+    "market_sample_count": 44,
+    "min_samples_needed": 5,
+    "reason": "Por debajo del 50% de la mediana del mercado (€30) — probablemente roto/falso, verifica bien.",
+    "category": "suspicious"
   }
 ]
