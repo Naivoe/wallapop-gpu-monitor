@@ -2854,5 +2854,26 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T08:20:43+02:00"
+  },
+  "wallapop:qjwr34w87k6o": {
+    "title": "Consola Sony PS5 Pro",
+    "price": 543.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:25:33+02:00"
+  },
+  "wallapop:mzn3n2kqwkjn": {
+    "title": "Mando Sony PS5",
+    "price": 60.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:25:33+02:00"
+  },
+  "wallapop:4z485ex41vjy": {
+    "title": "E644555-0 CONSOLA PS5 SONY PLAYSTATION 5 SLIM STAN",
+    "price": 558.95,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:25:33+02:00"
   }
 }

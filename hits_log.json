@@ -1424,5 +1424,21 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€230) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:mzn3n2kqwkjn",
+    "title": "Mando Sony PS5",
+    "price": 60.0,
+    "link": "https://es.wallapop.com/item/mando-sony-ps5-1299810425",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 08:25",
+    "market_median": 350.0,
+    "suggested_sell_price": 332,
+    "market_sample_count": 170,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
