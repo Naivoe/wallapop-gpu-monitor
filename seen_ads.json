@@ -12297,5 +12297,47 @@
     "gpu_name": "Herramienta Bosch",
     "source": "Wallapop",
     "first_seen": "2026-09-09T18:25:49+02:00"
+  },
+  "ebay:v1|336717239608|546089219680": {
+    "title": "PC GAMING RGB Pro Intel I5 6x4,4GHz Nvidia RTX 5060, 1TB SSD 32/16GB RAM, Win 11",
+    "price": 659.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:31:04+02:00"
+  },
+  "ebay:v1|336702881102|546082965448": {
+    "title": "PC GAMING RGB Pro Intel I5 6x 4,4GHz Nvidia RTX 5060, 1TB SSD 32/16GB RAM Win 11",
+    "price": 698.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:31:04+02:00"
+  },
+  "wallapop:nzxe2ewq7562": {
+    "title": "Consola PS5 Digital Edition + 2 comandaments",
+    "price": 470.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:31:07+02:00"
+  },
+  "wallapop:wzvgog03v4zl": {
+    "title": "2x G.Skill Trident Z Neo DDR4 32GB",
+    "price": 180.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:31:09+02:00"
+  },
+  "wallapop:v6gpyp7vr76e": {
+    "title": "Amazon Kindle 11ª Gen Amarillo",
+    "price": 75.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:31:16+02:00"
+  },
+  "wallapop:mzn3n3o7o0jn": {
+    "title": "Pack Herramientas Makita",
+    "price": 380.0,
+    "gpu_name": "Herramienta Makita",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:31:20+02:00"
   }
 }
