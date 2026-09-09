@@ -5699,5 +5699,21 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €40.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:qzmm5mvmvyzv",
+    "title": "Taza Café Nespresso Festive Navidad 2025",
+    "price": 12.0,
+    "link": "https://es.wallapop.com/item/taza-cafe-nespresso-festive-navidad-2025-1300040308",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Nespresso",
+    "found_at": "2026-09-09 19:25",
+    "market_median": 50.0,
+    "suggested_sell_price": 48,
+    "market_sample_count": 99,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €25.",
+    "category": "hit"
   }
 ]

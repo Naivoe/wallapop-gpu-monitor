@@ -12843,5 +12843,61 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-09T19:21:02+02:00"
+  },
+  "wallapop:8z8878r8loz3": {
+    "title": "Consola PS5 Slim Digital 1TB",
+    "price": 560.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:25:43+02:00"
+  },
+  "wallapop:x6qq7qnmry6y": {
+    "title": "Consola Sony PS5 con lector de discos",
+    "price": 500.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:25:43+02:00"
+  },
+  "wallapop:x6qq7qn4xn6y": {
+    "title": "2x Samsung RAM 16GB DDR4 PC4-3200AA",
+    "price": 95.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:25:44+02:00"
+  },
+  "ebay:v1|318210112144|0": {
+    "title": "ORDENADOR HP Z420 12 NÚCLEOS CPU 32GB ECC RAM 3D NVIDIA NVS-315 2GB GRÁFICO DDR5 NUEVO",
+    "price": 374.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:25:47+02:00"
+  },
+  "wallapop:x6qq7qnm5y6y": {
+    "title": "Xbox Series S + Mando",
+    "price": 160.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:25:51+02:00"
+  },
+  "wallapop:qzmm5mvmvyzv": {
+    "title": "Taza Café Nespresso Festive Navidad 2025",
+    "price": 12.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:25:54+02:00"
+  },
+  "wallapop:4z4858relljy": {
+    "title": "Macchina caffè Nespresso DeLonghi",
+    "price": 30.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:25:54+02:00"
+  },
+  "ebay:v1|318843919933|0": {
+    "title": "Destornillador de martillos inalámbrico sin escobillas Makita XPH14Z 18 V",
+    "price": 75.98,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:25:56+02:00"
   }
 }
