@@ -6315,5 +6315,39 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €30.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:p618g8398dz5",
+    "title": "Kindle Paperwhite 11ª Gen Negro para arreglar",
+    "price": 20.0,
+    "link": "https://es.wallapop.com/item/kindle-paperwhite-11-gen-negro-para-arreglar-1300119707",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-09 23:31",
+    "market_median": 75.0,
+    "suggested_sell_price": 71,
+    "market_sample_count": 99,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €35.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:8j38q8dmd7z9",
+    "title": "Cargador de batería Bosch AL2215CV",
+    "price": 25.0,
+    "link": "https://es.wallapop.com/item/cargador-de-bateria-bosch-1300120534",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-09 23:31",
+    "market_median": 71.805,
+    "suggested_sell_price": 68,
+    "market_sample_count": 102,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]

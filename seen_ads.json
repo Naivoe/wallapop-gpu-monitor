@@ -15132,5 +15132,47 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T23:25:51+02:00"
+  },
+  "wallapop:vjrewe2kqwzk": {
+    "title": "Consola PS5 Digital Edition Sony",
+    "price": 380.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:31:09+02:00"
+  },
+  "ebay:v1|158275986456|0": {
+    "title": "Consola Sony PlayStation 5 PS5 Edición Disco 825GB 4K UHD Wi-Fi Blanca",
+    "price": 408.61,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T23:31:09+02:00"
+  },
+  "ebay:v1|287576144235|0": {
+    "title": "DDR4 16GB RAM PC4-2400T Micron MTA16ATF2G64AZ-2G3E1 No Ecc",
+    "price": 46.59,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T23:31:11+02:00"
+  },
+  "wallapop:p618g8398dz5": {
+    "title": "Kindle Paperwhite 11ª Gen Negro para arreglar",
+    "price": 20.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:31:20+02:00"
+  },
+  "wallapop:8j38q8dmd7z9": {
+    "title": "Cargador de batería Bosch AL2215CV",
+    "price": 25.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:31:21+02:00"
+  },
+  "ebay:v1|201787864845|0": {
+    "title": "Taladro Makita D-42494 SDS-MAX + juego de cinceles / juego de cinceles 7 piezas",
+    "price": 79.99,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T23:31:22+02:00"
   }
 }
