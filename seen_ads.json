@@ -13165,5 +13165,26 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-09T19:46:09+02:00"
+  },
+  "wallapop:wzvgog3rgdzl": {
+    "title": "Corsair Vengeance LPX DDR4 16GB 3000MHz RAM",
+    "price": 74.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:50:47+02:00"
+  },
+  "wallapop:e65qnqeydg6o": {
+    "title": "2 módulos Dell SNPHTPJ7C/32GNP 32GB DDR4 RAM",
+    "price": 210.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:50:48+02:00"
+  },
+  "ebay:v1|407204914169|0": {
+    "title": "Sony PlayStation 5 DualSense Wireless Controller White 3797",
+    "price": 34.95,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:50:53+02:00"
   }
 }
