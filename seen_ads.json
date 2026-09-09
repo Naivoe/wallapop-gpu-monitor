@@ -12451,5 +12451,68 @@
     "gpu_name": "Nespresso",
     "source": "eBay",
     "first_seen": "2026-09-09T18:41:30+02:00"
+  },
+  "ebay:v1|398377901788|0": {
+    "title": "Carcasa EVA a medida para RTX 4060 4070Ti 4080S para 4090 GPU 36x16x5cm negra",
+    "price": 55.07,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:45:40+02:00"
+  },
+  "wallapop:xzogpg7k8lj9": {
+    "title": "Rtx 4070 12G",
+    "price": 499.0,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:45:41+02:00"
+  },
+  "wallapop:mzn3n304vkjn": {
+    "title": "Ps5 pro",
+    "price": 429.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:45:46+02:00"
+  },
+  "wallapop:9jdwywngd26k": {
+    "title": "Ps5 Slim Digital + 2 manettes et casque",
+    "price": 480.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:45:46+02:00"
+  },
+  "wallapop:qzmm5moqvozv": {
+    "title": "PS5 slim digital édition",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:45:46+02:00"
+  },
+  "wallapop:qzmm5mpgnozv": {
+    "title": "Mando DualSense Sony PS5",
+    "price": 30.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:45:54+02:00"
+  },
+  "wallapop:w67v0v7qry6x": {
+    "title": "Xbox Series S + Mando y Batería",
+    "price": 200.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:45:55+02:00"
+  },
+  "wallapop:x6qq7q459o6y": {
+    "title": "Cafetera Nespresso Vertuo Nueva",
+    "price": 100.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:45:57+02:00"
+  },
+  "ebay:v1|187790488705|0": {
+    "title": "Taladro eléctrico Makita DF030DWX 12V herramienta eléctrica",
+    "price": 166.48,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:45:59+02:00"
   }
 }

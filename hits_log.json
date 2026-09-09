@@ -5617,5 +5617,38 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €30.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|398377901788|0",
+    "title": "Carcasa EVA a medida para RTX 4060 4070Ti 4080S para 4090 GPU 36x16x5cm negra",
+    "price": 55.07,
+    "link": "https://www.ebay.es/itm/398377901788?_skw=RTX+4060+Ti&hash=item5cc12c5edc:i:398377901788",
+    "posted_at": "2026-09-09 16:40",
+    "source": "eBay",
+    "_condition": "neu",
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "found_at": "2026-09-09 18:45",
+    "market_median": 450.0,
+    "suggested_sell_price": 428,
+    "market_sample_count": 51,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €270.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:qzmm5mpgnozv",
+    "title": "Mando DualSense Sony PS5",
+    "price": 30.0,
+    "link": "https://es.wallapop.com/item/mando-dualsense-sony-ps5-1300023056",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Mando DualSense PS5",
+    "found_at": "2026-09-09 18:45",
+    "market_median": 60.0,
+    "suggested_sell_price": 57,
+    "market_sample_count": 109,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €30.",
+    "category": "hit"
   }
 ]
