@@ -1664,5 +1664,21 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€230) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:4z485ep5n8jy",
+    "title": "Mando DualSense PS5 Chroma Pearl",
+    "price": 65.0,
+    "link": "https://es.wallapop.com/item/mando-dualsense-ps5-chroma-pearl-1299854214",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 11:31",
+    "market_median": 350.0,
+    "suggested_sell_price": 332,
+    "market_sample_count": 200,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]

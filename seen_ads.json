@@ -3176,5 +3176,40 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T11:15:40+02:00"
+  },
+  "wallapop:4z485ep5n8jy": {
+    "title": "Mando DualSense PS5 Chroma Pearl",
+    "price": 65.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:31:00+02:00"
+  },
+  "wallapop:v6gpygllv76e": {
+    "title": "SK hynix 16GB DDR4 ECC Server RAM",
+    "price": 70.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:31:01+02:00"
+  },
+  "wallapop:0j28v455wvjy": {
+    "title": "Samsung 16GB DDR4 PC4-3200 Laptop RAM",
+    "price": 45.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:31:01+02:00"
+  },
+  "wallapop:9jdwyklp396k": {
+    "title": "Acer Nitro 5 RTX 3050Ti 16GB DDR5 165Hz",
+    "price": 499.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:31:01+02:00"
+  },
+  "wallapop:36e5y1lymv6d": {
+    "title": "Xbox Series X 1TB SSD + Mando + Caja",
+    "price": 649.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:31:03+02:00"
   }
 }
