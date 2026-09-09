@@ -3246,5 +3246,33 @@
     "gpu_name": "RAM DDR4 32GB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T11:40:42+02:00"
+  },
+  "wallapop:ejkmy8vmorzx": {
+    "title": "Controller PS5 Sony Bianco e Nero",
+    "price": 34.9,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:45:41+02:00"
+  },
+  "wallapop:pzpk02nr04j3": {
+    "title": "Controller PS5 Sony Bianco e Nero",
+    "price": 39.9,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:45:41+02:00"
+  },
+  "wallapop:e65qn8wgnk6o": {
+    "title": "Muñeco Groot para mandos PS4/ps5",
+    "price": 20.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:45:41+02:00"
+  },
+  "wallapop:pzpk02nromj3": {
+    "title": "Mando DualSense PS5 Inalámbrico Sony",
+    "price": 65.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:45:41+02:00"
   }
 }
