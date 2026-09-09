@@ -3120,5 +3120,12 @@
     "gpu_name": "RAM DDR5 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T10:45:52+02:00"
+  },
+  "wallapop:mzn3n2nng0jn": {
+    "title": "Memoria RAM HyperX Fury DDR4 32GB",
+    "price": 170.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T10:50:43+02:00"
   }
 }
