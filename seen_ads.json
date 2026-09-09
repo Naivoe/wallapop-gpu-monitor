@@ -14922,5 +14922,47 @@
     "gpu_name": "Kindle",
     "source": "eBay",
     "first_seen": "2026-09-09T23:01:23+02:00"
+  },
+  "ebay:v1|397327789520|0": {
+    "title": "ASUS ROG RTX 4070 Ti OC 12GB",
+    "price": 879.99,
+    "gpu_name": "RTX 4070 Ti 12GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T23:05:35+02:00"
+  },
+  "wallapop:w67v0vpny56x": {
+    "title": "Sony PlayStation 5 Digital PS5",
+    "price": 310.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:05:38+02:00"
+  },
+  "ebay:v1|158243182009|0": {
+    "title": "Façades pour console PS5 Pro - Édition Limitée Marvel’s Wolverine Jaune PRESALE",
+    "price": 150.0,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T23:05:38+02:00"
+  },
+  "wallapop:nz08e831nr6o": {
+    "title": "Corsair MP600 Micro 1TB M.2 NVMe PCIe Gen4 SSD",
+    "price": 220.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:05:44+02:00"
+  },
+  "ebay:v1|298621289839|0": {
+    "title": "Ultimate Guide to Amazon Kindle MagBooks Guía Definitiva 2012 EX-LIBRARY",
+    "price": 52.62,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-09T23:05:48+02:00"
+  },
+  "ebay:v1|188648859413|0": {
+    "title": "Bosch 18V Profesional Lijadora Orbital Solo Herramienta Compacto Uno Mano",
+    "price": 200.85,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T23:05:49+02:00"
   }
 }
