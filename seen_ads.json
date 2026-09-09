@@ -14159,5 +14159,47 @@
     "gpu_name": "Kindle",
     "source": "eBay",
     "first_seen": "2026-09-09T21:25:44+02:00"
+  },
+  "ebay:v1|267780217421|0": {
+    "title": "PC para juegos Dell Intel Core i5-9600, 16 GB RAM, RTX 5060, 500 GB SSD, W11, WiFi, DVD",
+    "price": 839.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:31:02+02:00"
+  },
+  "wallapop:9jdwyw1q346k": {
+    "title": "Ps5 Pro + Lector",
+    "price": 1350.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:31:05+02:00"
+  },
+  "ebay:v1|128071026233|0": {
+    "title": "Sony DualSense Wireless OEM Controller for PlayStation 5 PS5- Nova Pink",
+    "price": 72.86,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:31:13+02:00"
+  },
+  "ebay:v1|128012780824|0": {
+    "title": "Bosch Profesional sin Escobillas Rompecabezas 18V Solo Herramienta Bisel 45° –",
+    "price": 172.03,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:31:17+02:00"
+  },
+  "ebay:v1|377126772707|0": {
+    "title": "Bosch Expert Hoja Carburo Agujero Sierra 95mm Arbored 2608901448 Herramienta ...",
+    "price": 160.55,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:31:17+02:00"
+  },
+  "ebay:v1|205642445283|0": {
+    "title": "Bosch Llave de Impacto GDS 18V-330 HC, 330Nm, 1/2'', Solo herramienta",
+    "price": 279.95,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:31:17+02:00"
   }
 }
