@@ -3365,5 +3365,33 @@
     "gpu_name": "RAM DDR4 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T12:05:34+02:00"
+  },
+  "wallapop:vjrewq0nd9zk": {
+    "title": "Mando PS5 DualSense Blanco y Rosa cada uno 30 eu",
+    "price": 30.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:10:41+02:00"
+  },
+  "wallapop:p618g4nrndz5": {
+    "title": "MANDO SONY PS5 NEGRO (FALTA GOMA IZQUIERDA)",
+    "price": 58.95,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:10:41+02:00"
+  },
+  "wallapop:8z887kmxdoz3": {
+    "title": "MANDO SONY PS5 BLANCO (FALTA GOMA IZQUIERDA)",
+    "price": 58.95,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:10:41+02:00"
+  },
+  "wallapop:nz08e45nev6o": {
+    "title": "Mando Xbox Series Azul",
+    "price": 40.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:10:43+02:00"
   }
 }
