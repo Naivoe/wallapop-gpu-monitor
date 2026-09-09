@@ -3099,5 +3099,26 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T10:40:44+02:00"
+  },
+  "wallapop:4z485e54mmjy": {
+    "title": "Mando ps5",
+    "price": 70.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T10:45:51+02:00"
+  },
+  "wallapop:4z485e54xmjy": {
+    "title": "Consola Sony PS5 Slim Blanca",
+    "price": 500.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T10:45:51+02:00"
+  },
+  "wallapop:ejkmy8y7mqzx": {
+    "title": "Corsair Vengeance DDR5 32GB (2x16GB) 6000MT/s",
+    "price": 550.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T10:45:52+02:00"
   }
 }
