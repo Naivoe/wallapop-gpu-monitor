@@ -1232,5 +1232,21 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€380) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:nz08e4o8876o",
+    "title": "mando ps5 nacon bb4487",
+    "price": 27.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-nacon-bb4487-1299791399",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 02:50",
+    "market_median": 377.5,
+    "suggested_sell_price": 359,
+    "market_sample_count": 146,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€378) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
