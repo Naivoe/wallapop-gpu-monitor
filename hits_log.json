@@ -6042,5 +6042,43 @@
     "shipping_cost": 17.28,
     "reason": "€3 por encima de tu límite de €30, pero dentro del margen del 15% — quizás negociable.",
     "category": "near_miss"
+  },
+  {
+    "id": "ebay:v1|198314262081|0",
+    "title": "Tarjeta gráfica MSI RTX 4060/Ti MLJ placa posterior magnética - acero, fácil instalación",
+    "price": 55.17,
+    "link": "https://www.ebay.es/itm/198314262081?_skw=RTX+4060+Ti&hash=item2e2c737e41:g:Y~MAAeSw5h9o-IPi",
+    "posted_at": "2026-04-27 13:00",
+    "source": "eBay",
+    "_condition": "open box",
+    "_real_shipping_cost": 0.0,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "found_at": "2026-09-09 21:35",
+    "market_median": 455.745,
+    "suggested_sell_price": 433,
+    "market_sample_count": 56,
+    "min_samples_needed": 5,
+    "shipping_cost": 0.0,
+    "reason": "Por debajo de tu límite de compra de €270.",
+    "category": "hit"
+  },
+  {
+    "id": "ebay:v1|178378316055|0",
+    "title": "SAND LAND (PS5) Playstation 5 Standard (Sony Playstation 5)",
+    "price": 28.18,
+    "link": "https://www.ebay.es/itm/178378316055?_skw=PS5&hash=item29882d1917:g:FxgAAeSw2DJqhCd0",
+    "posted_at": "2026-08-06 02:10",
+    "source": "eBay",
+    "_condition": "nuevo",
+    "_real_shipping_cost": 0.0,
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 21:35",
+    "market_median": 410.0,
+    "suggested_sell_price": 390,
+    "market_sample_count": 400,
+    "min_samples_needed": 5,
+    "shipping_cost": 0.0,
+    "reason": "Por debajo de tu límite de compra de €250.",
+    "category": "hit"
   }
 ]

@@ -14201,5 +14201,47 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-09T21:31:17+02:00"
+  },
+  "ebay:v1|198314262081|0": {
+    "title": "Tarjeta gráfica MSI RTX 4060/Ti MLJ placa posterior magnética - acero, fácil instalación",
+    "price": 55.17,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:35:30+02:00"
+  },
+  "ebay:v1|178378316055|0": {
+    "title": "SAND LAND (PS5) Playstation 5 Standard (Sony Playstation 5)",
+    "price": 28.18,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:35:36+02:00"
+  },
+  "ebay:v1|257731026433|0": {
+    "title": "Pack: Xbox Series S 512GB Blanca + Mando con Cable Turtle Beach [PO223822]",
+    "price": 314.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:35:44+02:00"
+  },
+  "wallapop:wzvgogdm54zl": {
+    "title": "2 Baterías para herramientas Bosch 18V",
+    "price": 80.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:35:46+02:00"
+  },
+  "ebay:v1|128032879095|0": {
+    "title": "Bosch sin Cable Luz 18V Solo Herramienta 800 Lumens Imán Y Girar BSH601443600",
+    "price": 147.66,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:35:46+02:00"
+  },
+  "ebay:v1|405092384636|675175725253": {
+    "title": "Para Makita Batería 18V 5AH 6AH 8AH BL1860B BL1850B BL1830 BL1820 LXT Batería LED",
+    "price": 208.44,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:35:48+02:00"
   }
 }
