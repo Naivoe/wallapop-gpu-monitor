@@ -4,10 +4,11 @@
     "ebay"
   ],
   "pricing": {
-    "comment": "target_margin_percent = hoeveel onder de marktmediaan je wil inkopen. near_miss_margin_percent = hoeveel procent BOVEN je inkoopdrempel nog een (apart gelabelde) melding krijgt, zodat je net-gemiste koopjes niet mist. min_samples_for_market_price = hoeveel eerder geziene advertenties nodig zijn voor de monitor de marktmediaan gaat gebruiken.",
+    "comment": "target_margin_percent = hoeveel onder de marktmediaan je wil inkopen. near_miss_margin_percent = hoeveel procent BOVEN je inkoopdrempel nog een (apart gelabelde) melding krijgt, zodat je net-gemiste koopjes niet mist. min_samples_for_market_price = hoeveel eerder geziene advertenties nodig zijn voor de monitor de marktmediaan gaat gebruiken. estimated_shipping_cost = geschatte verzendkosten die JIJ als koper betaalt (Wallapop Envíos), wordt afgetrokken van je inkoopdrempel en van de weergegeven marge. Per categorie te overschrijven met een 'shipping_cost'-veld in dat item.",
     "target_margin_percent": 30,
     "near_miss_margin_percent": 15,
-    "min_samples_for_market_price": 5
+    "min_samples_for_market_price": 5,
+    "estimated_shipping_cost": 4
   },
   "check_interval_minutes": 5,
   "location": {
@@ -139,6 +140,10 @@
         "giochi",
         "spiel",
         "videojuego",
+        "sin consola",
+        "solo caja",
+        "solo la caja",
+        "sin la consola",
         "auriculares",
         "soporte",
         "cargador",
@@ -339,6 +344,7 @@
         "para piezas",
         "solo pieza",
         "carcasa",
+        "drift",
         "consola",
         "825gb",
         "825 gb",
@@ -369,6 +375,7 @@
         "para piezas",
         "solo pieza",
         "carcasa",
+        "drift",
         "one",
         "consola",
         "1tb",
