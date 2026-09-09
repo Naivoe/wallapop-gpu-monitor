@@ -2924,5 +2924,26 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T08:45:40+02:00"
+  },
+  "wallapop:3zlmy82lnnjx": {
+    "title": "PS5 Fortnite Edition 825GB + Mando",
+    "price": 440.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:50:42+02:00"
+  },
+  "wallapop:qjwr34wogk6o": {
+    "title": "SSD Crucial P3 Plus 2TB NVMe PCIe 4.0",
+    "price": 220.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:50:43+02:00"
+  },
+  "wallapop:9jdwyk0lo46k": {
+    "title": "Xbox Series S Blanca",
+    "price": 150.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:50:44+02:00"
   }
 }
