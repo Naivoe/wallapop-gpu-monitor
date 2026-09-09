@@ -3302,5 +3302,26 @@
     "gpu_name": "SSD NVMe 1TB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T11:50:50+02:00"
+  },
+  "wallapop:vjrewq0v79zk": {
+    "title": "Consola Sony PS5 Slim Blanca",
+    "price": 480.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:55:31+02:00"
+  },
+  "wallapop:vjrewq0v9xzk": {
+    "title": "Mando PS5 Sony Roto",
+    "price": 15.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:55:31+02:00"
+  },
+  "wallapop:9jdwyk3mw46k": {
+    "title": "Mando PS5 DualSense GTA VI",
+    "price": 80.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:55:31+02:00"
   }
 }
