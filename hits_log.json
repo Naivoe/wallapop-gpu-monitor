@@ -5402,5 +5402,39 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €25.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|178386994602|0",
+    "title": "Tarjeta de gráficos GIGABYTE GeForce RTX 4060 Ti GAMING OC 8GB GDDR6",
+    "price": 309.7,
+    "link": "https://www.ebay.es/itm/178386994602?_skw=RTX+4060+Ti&hash=item2988b185aa:g:LA8AAeSwpAlqd2F5",
+    "posted_at": "2026-08-08 18:35",
+    "source": "eBay",
+    "_condition": "used",
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "found_at": "2026-09-09 18:01",
+    "market_median": 449.995,
+    "suggested_sell_price": 427,
+    "market_sample_count": 48,
+    "min_samples_needed": 5,
+    "reason": "€40 por encima de tu límite de €270, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
+  },
+  {
+    "id": "ebay:v1|147562263518|0",
+    "title": "🎮CONTROLLER XBOX WIRELESS ROBOT WHITE PER  XBOX SERIES X/S TASTO LB NON VA",
+    "price": 25.0,
+    "link": "https://www.ebay.es/itm/147562263518?_skw=Mando+Xbox+Series&hash=item225b6573de:g:8wEAAeSw90tqoYD~",
+    "posted_at": "2026-09-09 15:54",
+    "source": "eBay",
+    "_condition": "usato",
+    "gpu_name": "Mando Xbox Series",
+    "found_at": "2026-09-09 18:01",
+    "market_median": 167.5,
+    "suggested_sell_price": 159,
+    "market_sample_count": 124,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €30.",
+    "category": "hit"
   }
 ]
