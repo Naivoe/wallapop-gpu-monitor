@@ -5682,5 +5682,22 @@
     "min_samples_needed": 5,
     "reason": "€5 por encima de tu límite de €35, pero dentro del margen del 15% — quizás negociable.",
     "category": "near_miss"
+  },
+  {
+    "id": "ebay:v1|315127785246|613605438438",
+    "title": "2x Batería Original Makita 12V PA12 1200 1220 1222 1234 1235 6270D 6271D 8434D",
+    "price": 33.7,
+    "link": "https://www.ebay.es/itm/315127785246?_skw=Herramienta+Makita&hash=item495f14671e:g:8wEAAOSwhpZk7Zi-",
+    "posted_at": "2024-01-30 07:12",
+    "source": "eBay",
+    "_condition": "neu",
+    "gpu_name": "Herramienta Makita",
+    "found_at": "2026-09-09 19:21",
+    "market_median": 162.17000000000002,
+    "suggested_sell_price": 154,
+    "market_sample_count": 64,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]
