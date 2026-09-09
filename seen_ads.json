@@ -3274,5 +3274,33 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T11:45:41+02:00"
+  },
+  "wallapop:8j38q405q7z9": {
+    "title": "PS5 Slim 1TB con 2 mandos DualSense",
+    "price": 549.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:50:48+02:00"
+  },
+  "wallapop:36e5y12pwv6d": {
+    "title": "Mando PS5 Rosa",
+    "price": 60.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:50:48+02:00"
+  },
+  "wallapop:p618g4n50gz5": {
+    "title": "Mando PS5 Dualsense Edición Pokémon",
+    "price": 80.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:50:48+02:00"
+  },
+  "wallapop:wzvgo41qq1zl": {
+    "title": "Disco duro SSD nvme 1TB",
+    "price": 80.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T11:50:50+02:00"
   }
 }
