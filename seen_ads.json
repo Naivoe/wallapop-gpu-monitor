@@ -15636,5 +15636,12 @@
     "gpu_name": "PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T01:40:45+02:00"
+  },
+  "wallapop:pzpk0ke25kj3": {
+    "title": "Pack Herramientas Bosch con Estuche",
+    "price": 20.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T01:46:02+02:00"
   }
 }
