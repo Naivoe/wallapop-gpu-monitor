@@ -4000,5 +4000,21 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €20.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:mzn3n32o4gjn",
+    "title": "Mando DualSense PS5 Sony Blanco",
+    "price": 20.0,
+    "link": "https://es.wallapop.com/item/mando-dualsense-ps5-sony-blanco-1299972097",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Mando DualSense PS5",
+    "found_at": "2026-09-09 16:43",
+    "market_median": 55.0,
+    "suggested_sell_price": 52,
+    "market_sample_count": 47,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €30.",
+    "category": "hit"
   }
 ]
