@@ -2805,5 +2805,12 @@
     "gpu_name": "RAM DDR4 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T08:01:09+02:00"
+  },
+  "wallapop:vjrewq5x18zk": {
+    "title": "Mando PS5 TMR",
+    "price": 55.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:05:31+02:00"
   }
 }
