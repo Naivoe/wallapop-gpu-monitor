@@ -6349,5 +6349,22 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €40.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:qjwr3r5v2k6o",
+    "title": "Mando PS5 Edge Pro Sony",
+    "price": 75.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-edge-pro-sony-1300126653",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-10 00:05",
+    "market_median": 408.62,
+    "suggested_sell_price": 388,
+    "market_sample_count": 444,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €250.",
+    "category": "hit"
   }
 ]

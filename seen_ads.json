@@ -15286,5 +15286,33 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-10T00:01:27+02:00"
+  },
+  "wallapop:8z8878n99dz3": {
+    "title": "PC Gaming Full HD Ryzen 5 5500 RTX 5060",
+    "price": 999.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T00:05:37+02:00"
+  },
+  "wallapop:qjwr3r5v2k6o": {
+    "title": "Mando PS5 Edge Pro Sony",
+    "price": 75.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T00:05:39+02:00"
+  },
+  "wallapop:3zlmymw5kpjx": {
+    "title": "PS5 Digital Edition 825GB Blanca",
+    "price": 400.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T00:05:39+02:00"
+  },
+  "wallapop:w67v0v59g56x": {
+    "title": "16GB DDR4 HyperX FURY RAM 3200mhz",
+    "price": 90.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T00:05:40+02:00"
   }
 }
