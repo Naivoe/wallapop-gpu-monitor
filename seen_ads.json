@@ -2721,5 +2721,12 @@
     "gpu_name": "RTX 4060 Ti 8GB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T04:55:30+02:00"
+  },
+  "wallapop:qzmm5exkngzv": {
+    "title": "Pack RTX 4060Ti OC 8GB + Ryzen 5 7600X",
+    "price": 325.0,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T05:01:09+02:00"
   }
 }
