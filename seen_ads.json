@@ -2728,5 +2728,12 @@
     "gpu_name": "RTX 4060 Ti 8GB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T05:01:09+02:00"
+  },
+  "wallapop:8z887kn73dz3": {
+    "title": "2X16 Memorias RAM DDR4 3000MHz Marca: XPG “32Gb”",
+    "price": 145.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T05:20:47+02:00"
   }
 }
