@@ -6080,5 +6080,24 @@
     "shipping_cost": 0.0,
     "reason": "Por debajo de tu límite de compra de €250.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|318849515195|0",
+    "title": "Consola Sony PS5 Edición Blu-Ray - Blanca No Funciona Solo Piezas Ver Descripción",
+    "price": 171.2,
+    "link": "https://www.ebay.es/itm/318849515195?_skw=PS5&hash=item4a3ce97ebb:g:TsoAAeSwG~ZqobAg",
+    "posted_at": "2026-09-09 19:17",
+    "source": "eBay",
+    "_condition": "for parts or not working",
+    "_real_shipping_cost": null,
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 21:40",
+    "market_median": 410.0,
+    "suggested_sell_price": 390,
+    "market_sample_count": 401,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €250.",
+    "category": "hit"
   }
 ]

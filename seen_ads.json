@@ -14243,5 +14243,54 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-09T21:35:48+02:00"
+  },
+  "ebay:v1|336757435473|546107819903": {
+    "title": "PC gaming RGB Calidad Intel I7 4.6GHz Nvidia (RTX 5060), SSD 1TB, 32/16GB RAM",
+    "price": 669.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:40:55+02:00"
+  },
+  "wallapop:4z485827kwjy": {
+    "title": "Ps5 Digital Edition Sony, tiene la caja original",
+    "price": 360.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:40:58+02:00"
+  },
+  "wallapop:3zlmymplrnjx": {
+    "title": "PS5 Standard Slim + 2 manettes + Casque (Sous garantie)",
+    "price": 430.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:40:58+02:00"
+  },
+  "ebay:v1|318849515195|0": {
+    "title": "Consola Sony PS5 Edición Blu-Ray - Blanca No Funciona Solo Piezas Ver Descripción",
+    "price": 171.2,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:40:58+02:00"
+  },
+  "ebay:v1|206546695958|0": {
+    "title": "Sony PlayStation 5 PS5 Slim Disc Edition 1 TB CFI-2015 Blanco - SOLO CONSOLA",
+    "price": 412.08,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:40:58+02:00"
+  },
+  "wallapop:nz08e8150v6o": {
+    "title": "2x Kamosen 16GB DDR4 RAM",
+    "price": 90.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T21:40:59+02:00"
+  },
+  "ebay:v1|287575838090|0": {
+    "title": "Crucial Ballistix 16GB (2x8GB) DDR4 3200 RAM",
+    "price": 58.25,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T21:40:59+02:00"
   }
 }
