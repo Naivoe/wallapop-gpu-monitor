@@ -2144,5 +2144,37 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€230) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:8j38q8v9e8z9",
+    "title": "¡CÓMO NUEVO! Mando PS5 Dualsense",
+    "price": 49.0,
+    "link": "https://es.wallapop.com/item/como-nuevo-mando-ps5-dualsense-1299907110",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 13:50",
+    "market_median": 350.0,
+    "suggested_sell_price": 332,
+    "market_sample_count": 245,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:e65qnqml7m6o",
+    "title": "¡CÓMO NUEVO! Mando PS5 Dualsense",
+    "price": 49.0,
+    "link": "https://es.wallapop.com/item/como-nuevo-mando-ps5-dualsense-1299906600",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 13:50",
+    "market_median": 350.0,
+    "suggested_sell_price": 332,
+    "market_sample_count": 245,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
