@@ -2840,5 +2840,19 @@
     "gpu_name": "RAM DDR5 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T08:15:41+02:00"
+  },
+  "wallapop:8j38q4wl8yz9": {
+    "title": "Consola Sony PS5 Blanca",
+    "price": 480.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:20:41+02:00"
+  },
+  "wallapop:36e5y17r4k6d": {
+    "title": "Mando Gears of War E-Day Xbox Series X|S",
+    "price": 105.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:20:43+02:00"
   }
 }

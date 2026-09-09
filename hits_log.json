@@ -1408,5 +1408,21 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:36e5y17r4k6d",
+    "title": "Mando Gears of War E-Day Xbox Series X|S",
+    "price": 105.0,
+    "link": "https://es.wallapop.com/item/mando-gears-of-war-e-day-xbox-series-x-s-1299810063",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Mando Xbox Series",
+    "found_at": "2026-09-09 08:20",
+    "market_median": 230.0,
+    "suggested_sell_price": 218,
+    "market_sample_count": 54,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€230) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
