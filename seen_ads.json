@@ -3785,5 +3785,26 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T13:55:33+02:00"
+  },
+  "wallapop:9jdwywdl826k": {
+    "title": "Mando DualSense PS5 Sony Nuevo",
+    "price": 60.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T14:01:15+02:00"
+  },
+  "wallapop:ejkmym2o1pzx": {
+    "title": "Mando DualSense PS5 Inalámbrico",
+    "price": 60.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T14:01:15+02:00"
+  },
+  "wallapop:8z8878v7x1z3": {
+    "title": "RAM 16GB DDR4 Corsair Vengeance 2400MHz",
+    "price": 90.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T14:01:15+02:00"
   }
 }
