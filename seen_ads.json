@@ -2518,5 +2518,19 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T02:15:40+02:00"
+  },
+  "wallapop:0j28v4dmomjy": {
+    "title": "mando ps5 sony cfi-zct1w",
+    "price": 55.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T02:21:00+02:00"
+  },
+  "wallapop:pzpk02qv3mj3": {
+    "title": "mando ps5 sony dualsense",
+    "price": 55.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T02:21:00+02:00"
   }
 }

@@ -1152,5 +1152,37 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€380) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:0j28v4dmomjy",
+    "title": "mando ps5 sony cfi-zct1w",
+    "price": 55.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-sony-cfi-zct1w-1299787535",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 02:21",
+    "market_median": 377.5,
+    "suggested_sell_price": 359,
+    "market_sample_count": 134,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€378) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:pzpk02qv3mj3",
+    "title": "mando ps5 sony dualsense",
+    "price": 55.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-sony-dualsense-1299787502",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 02:21",
+    "market_median": 377.5,
+    "suggested_sell_price": 359,
+    "market_sample_count": 134,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€378) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
