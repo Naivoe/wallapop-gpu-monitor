@@ -3554,5 +3554,33 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T13:01:16+02:00"
+  },
+  "wallapop:qjwr34m13w6o": {
+    "title": "PS5 Pro 2TB + 2 Mandos",
+    "price": 850.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:05:31+02:00"
+  },
+  "wallapop:nz08e4720v6o": {
+    "title": "Mando DualSense Inalámbrico PS5 Sony",
+    "price": 55.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:05:31+02:00"
+  },
+  "wallapop:8z887ky298z3": {
+    "title": "Consola PS5 Slim Digital Negra",
+    "price": 420.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:05:31+02:00"
+  },
+  "wallapop:nzxe243w5e62": {
+    "title": "Mando PS5 DualSense Edición Especial",
+    "price": 65.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:05:32+02:00"
   }
 }
