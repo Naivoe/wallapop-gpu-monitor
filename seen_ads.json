@@ -2875,5 +2875,26 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T08:25:33+02:00"
+  },
+  "wallapop:4z485ex9pmjy": {
+    "title": "E634412-0 CONSOLA PS5 SONY PLAYSTATION 5",
+    "price": 538.95,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:30:58+02:00"
+  },
+  "wallapop:ejkmy837dqzx": {
+    "title": "REPARACIÓN DE MANDOS – PS5, PS4, SWITCH, RETRO",
+    "price": 25.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:30:58+02:00"
+  },
+  "wallapop:ejkmy837krzx": {
+    "title": "Lexar DDR4 3200MHz UDIMM 16GB (2x8GB)",
+    "price": 55.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T08:30:59+02:00"
   }
 }
