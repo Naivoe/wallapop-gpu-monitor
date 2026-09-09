@@ -2511,5 +2511,12 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T02:10:41+02:00"
+  },
+  "wallapop:p618g42px7z5": {
+    "title": "mando ps5 sony cfi-zct1w",
+    "price": 65.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T02:15:40+02:00"
   }
 }
