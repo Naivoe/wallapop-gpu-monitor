@@ -3806,5 +3806,40 @@
     "gpu_name": "RAM DDR4 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-09T14:01:15+02:00"
+  },
+  "wallapop:ejkmym2119zx": {
+    "title": "Consola PS5 Slim 1TB",
+    "price": 510.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T14:05:33+02:00"
+  },
+  "wallapop:wzyrkredxv65": {
+    "title": "Sony PS5 Pro Digital Edition 2TB",
+    "price": 300.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T14:05:33+02:00"
+  },
+  "wallapop:vjreweynwlzk": {
+    "title": "Sony PlayStation 5 (PS5) Slim 1TB",
+    "price": 200.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T14:05:33+02:00"
+  },
+  "wallapop:v6gpypmdg26e": {
+    "title": "2x 16GB Crucial DDR4 2400MHz CL17 RAM",
+    "price": 110.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T14:05:33+02:00"
+  },
+  "wallapop:p618g89x17z5": {
+    "title": "Mandos Xbox Series averiados (reparar o piezas)",
+    "price": 25.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T14:05:35+02:00"
   }
 }
