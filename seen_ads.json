@@ -15251,5 +15251,12 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T23:46:14+02:00"
+  },
+  "wallapop:36e5y54e8v6d": {
+    "title": "Xbox Series S Gris/Blanco con mando y cables",
+    "price": 200.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:55:54+02:00"
   }
 }
