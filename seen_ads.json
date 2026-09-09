@@ -3456,5 +3456,33 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-09T12:20:44+02:00"
+  },
+  "wallapop:vjrewqno54zk": {
+    "title": "Mando PS5 Rosa",
+    "price": 50.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:25:31+02:00"
+  },
+  "wallapop:xzogp2ygnlj9": {
+    "title": "Corsair Vengeance LPX DDR4 32GB (2x16GB) 3200MHz",
+    "price": 160.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:25:31+02:00"
+  },
+  "wallapop:nz08e4n80v6o": {
+    "title": "XPG Lancer Blade DDR5 RGB 16GB",
+    "price": 400.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:25:31+02:00"
+  },
+  "wallapop:wzyrk4mr2v65": {
+    "title": "Xbox Series X + 2 Mandos + 13 Juegos",
+    "price": 700.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T12:25:32+02:00"
   }
 }
