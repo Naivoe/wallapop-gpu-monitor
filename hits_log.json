@@ -6440,5 +6440,24 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €40.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|800608724255|0",
+    "title": "Scocca Controller PlayStation 5 Case Gta 6 Grand Theft Auto VI Ps5 Protezione",
+    "price": 61.82,
+    "link": "https://www.ebay.es/itm/800608724255?_skw=PS5&hash=itemba67ffa51f:g:jVAAAeSwZsBqmfnh&amdata=enc%3AAQALAAAA4ACCtXRWQnOEpyOqnQQ8KGafQDquc6JCaQ%2BdZFDJGzTZhvSX0wnbaepqA7e8RKVEmBGtWjsVYlzH7ePD7qNY4DhgOOrjLeDKLZCHBSpKm4Ace4M5%2BwmFUbFfkcou0RKnDzjycVdIsW8V5WKX7uBfYdk3yYJu%2Bo2gORHZaFaQvCmGF%2BG74PqEpRIaHVPbkcZis6IxLIP3M%2BkrZQOd2A%2FkzX0W2jQyJ94JXXBsARr%2BVjpioKXYpvhJ6oAfqBZ5O1keZDip3twHGaFGKJWhgVEsL8eNgKJCvEYi1Tw08x0jXVAv",
+    "posted_at": "2026-09-03 22:52",
+    "source": "eBay",
+    "_condition": "nuovo",
+    "_real_shipping_cost": 2.0,
+    "gpu_name": "PS5",
+    "found_at": "2026-09-10 00:55",
+    "market_median": 408.62,
+    "suggested_sell_price": 388,
+    "market_sample_count": 450,
+    "min_samples_needed": 5,
+    "shipping_cost": 2.0,
+    "reason": "Por debajo de tu límite de compra de €250.",
+    "category": "hit"
   }
 ]
