@@ -13368,5 +13368,89 @@
     "gpu_name": "Nespresso",
     "source": "Wallapop",
     "first_seen": "2026-09-09T20:10:59+02:00"
+  },
+  "wallapop:wzvgog3omqzl": {
+    "title": "2x RAM Crucial DDR5 16GB NUEVAS SIN ABRIR OFERTAS!",
+    "price": 470.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:15:53+02:00"
+  },
+  "wallapop:9jdwywvyel6k": {
+    "title": "Kingston NV2 NVMe PCIe 4.0 SSD 2TB",
+    "price": 130.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:15:59+02:00"
+  },
+  "ebay:v1|800637003666|0": {
+    "title": "Sony DualSense Manette GTA 6 pour console Sony PlayStation 5 PS5 - Presale",
+    "price": 175.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:16:01+02:00"
+  },
+  "ebay:v1|206533385773|0": {
+    "title": "RESONANCE A PLAGUE TALE LEGACY XBOX SERIES X PAL ESPAÑA NUEVO FISICO ESPAÑOL",
+    "price": 89.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:16:02+02:00"
+  },
+  "ebay:v1|128042864436|0": {
+    "title": "MANDO XBOX SERIES ROG RAIKIRI GU200X 20272679",
+    "price": 46.95,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:16:02+02:00"
+  },
+  "ebay:v1|158257327128|0": {
+    "title": "Controller Xbox Wireless X25 Special Edition - Series X/S, PC - PREORDER [22/10]",
+    "price": 119.99,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:16:02+02:00"
+  },
+  "ebay:v1|117133573911|0": {
+    "title": "8BitDo, Mando a Distancia Xbox Media, Black Edition, Compatible con Xbox Series",
+    "price": 21.5,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:16:02+02:00"
+  },
+  "ebay:v1|158163862844|0": {
+    "title": "Microsoft Xbox Elite Wireless Controller Series 2 White bianco con scatola",
+    "price": 89.9,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:16:02+02:00"
+  },
+  "ebay:v1|800636976350|0": {
+    "title": "Lector de libros electrónicos Amazon Kindle 10.ª generación 2019 J9G29R Wi-Fi negro 8 GB",
+    "price": 58.25,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:16:03+02:00"
+  },
+  "wallapop:9jdwywvl4l6k": {
+    "title": "Cafetera Nespresso",
+    "price": 120.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:16:04+02:00"
+  },
+  "wallapop:xzogpg0nd4j9": {
+    "title": "Radial Bosch GWS 20-230 H",
+    "price": 80.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:16:05+02:00"
+  },
+  "ebay:v1|206204718323|0": {
+    "title": "Bosch 108 piezas todo en uno de metal kit de herramientas de mano-dwK",
+    "price": 72.21,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:16:05+02:00"
   }
 }

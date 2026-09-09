@@ -5864,5 +5864,22 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €250.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|117133573911|0",
+    "title": "8BitDo, Mando a Distancia Xbox Media, Black Edition, Compatible con Xbox Series",
+    "price": 21.5,
+    "link": "https://www.ebay.es/itm/117133573911?_skw=Mando+Xbox+Series&hash=item1b45b47f17:g:38wAAeSwzf9qoZeq",
+    "posted_at": "2026-04-09 09:31",
+    "source": "eBay",
+    "_condition": "neu",
+    "gpu_name": "Mando Xbox Series",
+    "found_at": "2026-09-09 20:16",
+    "market_median": 167.5,
+    "suggested_sell_price": 159,
+    "market_sample_count": 136,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €30.",
+    "category": "hit"
   }
 ]
