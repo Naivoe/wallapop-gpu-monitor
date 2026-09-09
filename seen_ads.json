@@ -12150,5 +12150,40 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-09T18:11:03+02:00"
+  },
+  "ebay:v1|257263460267|0": {
+    "title": "MSI MPG Infinite X3 AI 2NUF7-012DE, Core Ultra 7 265K, 32GB, 1TB, RTX 4070 Ti",
+    "price": 2309.0,
+    "gpu_name": "RTX 4070 Ti 12GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:15:54+02:00"
+  },
+  "wallapop:ejkmyme4xrzx": {
+    "title": "PlayStation 5 PS5 Digital Guasta Non Funzionante",
+    "price": 180.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:16:04+02:00"
+  },
+  "ebay:v1|198627791854|0": {
+    "title": "PS5 DualSense Controller Grand Theft Auto VI White Limited Edition GTA Wireless",
+    "price": 169.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:16:21+02:00"
+  },
+  "ebay:v1|257733203651|0": {
+    "title": "Controlador Inalámbrico Bluetooth Vapor Nocturno Microsoft Xbox Series X|S SIN ALIMENTACIÓN",
+    "price": 17.47,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-09T18:16:23+02:00"
+  },
+  "wallapop:nzxe2ewdq562": {
+    "title": "Batería Makita 6.0Ah 18V  Nueva",
+    "price": 35.0,
+    "gpu_name": "Herramienta Makita",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T18:16:29+02:00"
   }
 }
