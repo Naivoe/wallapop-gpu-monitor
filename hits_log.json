@@ -3264,5 +3264,37 @@
     "min_samples_needed": 5,
     "reason": "Por debajo del 50% de la mediana del mercado (€30) — probablemente roto/falso, verifica bien.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:pzpk0k9v7lj3",
+    "title": "Kindle Paperwhite 7ª Gen Blanco",
+    "price": 49.0,
+    "link": "https://es.wallapop.com/item/kindle-paperwhite-7-gen-blanco-1299939550",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-09 15:20",
+    "market_median": 99.0,
+    "suggested_sell_price": 94,
+    "market_sample_count": 29,
+    "min_samples_needed": 5,
+    "reason": "Por debajo del 50% de la mediana del mercado (€99) — probablemente roto/falso, verifica bien.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:qzmm5m42ogzv",
+    "title": "Ocarina Zelda Ocarina of Time Funcional Switch 2",
+    "price": 14.0,
+    "link": "https://es.wallapop.com/item/ocarina-zelda-ocarina-of-time-funcional-switch-2-1299939456",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Juego Nintendo Switch",
+    "found_at": "2026-09-09 15:20",
+    "market_median": 30.0,
+    "suggested_sell_price": 28,
+    "market_sample_count": 73,
+    "min_samples_needed": 5,
+    "reason": "Por debajo del 50% de la mediana del mercado (€30) — probablemente roto/falso, verifica bien.",
+    "category": "suspicious"
   }
 ]

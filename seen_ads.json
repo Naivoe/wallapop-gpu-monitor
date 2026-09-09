@@ -5227,5 +5227,82 @@
     "gpu_name": "Nespresso",
     "source": "Wallapop",
     "first_seen": "2026-09-09T15:15:44+02:00"
+  },
+  "wallapop:qzmm5m3gq1zv": {
+    "title": "PC GAMING RTX 5060 8GB // RYZEN 7 9700X",
+    "price": 1199.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:20:45+02:00"
+  },
+  "wallapop:w67v0vg8896x": {
+    "title": "PC GAMING RTX 5060 8GB // RYZEN 5 5600X",
+    "price": 849.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:20:45+02:00"
+  },
+  "wallapop:qjwr3rympw6o": {
+    "title": "PC GAMING RTX 5060 8GB // RYZEN 5 5500",
+    "price": 729.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:20:45+02:00"
+  },
+  "wallapop:8z88781owlz3": {
+    "title": "PC GAMING RTX 5060 8GB // RYZEN 7 3700X",
+    "price": 799.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:20:45+02:00"
+  },
+  "wallapop:8j38q8y38yz9": {
+    "title": "PS5 Slim Blanca + Mando DualSense + Cables",
+    "price": 750.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:20:46+02:00"
+  },
+  "wallapop:8j38q8y7qlz9": {
+    "title": "Consola PlayStation 5 PS5",
+    "price": 300.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:20:46+02:00"
+  },
+  "wallapop:0j28v8y0xdjy": {
+    "title": "PS5 Slim 1TB con Garantía",
+    "price": 310.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:20:46+02:00"
+  },
+  "wallapop:pzpk0k9v7lj3": {
+    "title": "Kindle Paperwhite 7ª Gen Blanco",
+    "price": 49.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:20:48+02:00"
+  },
+  "wallapop:xzogpgvk7lj9": {
+    "title": "Rhythm Paradise Groove Switch",
+    "price": 47.0,
+    "gpu_name": "Juego Nintendo Switch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:20:48+02:00"
+  },
+  "wallapop:ejkmym4171zx": {
+    "title": "Nintendo Switch Lite Azul + Minecraft",
+    "price": 85.0,
+    "gpu_name": "Juego Nintendo Switch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:20:48+02:00"
+  },
+  "wallapop:qzmm5m42ogzv": {
+    "title": "Ocarina Zelda Ocarina of Time Funcional Switch 2",
+    "price": 14.0,
+    "gpu_name": "Juego Nintendo Switch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T15:20:48+02:00"
   }
 }
