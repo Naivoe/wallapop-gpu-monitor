@@ -15097,5 +15097,40 @@
     "gpu_name": "Herramienta Bosch",
     "source": "Wallapop",
     "first_seen": "2026-09-09T23:20:56+02:00"
+  },
+  "wallapop:pzpk0kqvemj3": {
+    "title": "PlayStation 5 PS5 Digital Non Funzionante Guasta",
+    "price": 160.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:25:43+02:00"
+  },
+  "wallapop:nz08e837n76o": {
+    "title": "SK Hynix 16GB DDR4 PC3-14900R",
+    "price": 30.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:25:44+02:00"
+  },
+  "wallapop:ejkmymq141zx": {
+    "title": "Memoria RAM Corsair DDR4 16GB 3200MHz",
+    "price": 80.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:25:44+02:00"
+  },
+  "wallapop:8z88780yqoz3": {
+    "title": "Mando PS5 DualSense Blanco",
+    "price": 20.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:25:51+02:00"
+  },
+  "wallapop:9jdwywqok96k": {
+    "title": "Mando PS5 DualSense Blanco",
+    "price": 15.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:25:51+02:00"
   }
 }
