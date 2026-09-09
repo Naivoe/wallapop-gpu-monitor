@@ -15314,5 +15314,33 @@
     "gpu_name": "RAM DDR4 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-10T00:05:40+02:00"
+  },
+  "wallapop:3zlmymwpv4jx": {
+    "title": "PC Gaming RTX 5060",
+    "price": 900.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T00:10:44+02:00"
+  },
+  "wallapop:wzvgogedl4zl": {
+    "title": "PC Gaming PRO Ryzen 5 7600 RTX 5060 32GB RAM",
+    "price": 1349.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T00:10:44+02:00"
+  },
+  "ebay:v1|147306916481|0": {
+    "title": "Servidor en rack Dell PowerEdge R630 2x E5-2690 V4 32GB DDR4 RAM 8x 2,5\" H330...",
+    "price": 299.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T00:10:49+02:00"
+  },
+  "ebay:v1|188350319417|0": {
+    "title": "Fujitsu Futro S540 ThinClient - Intel Celeron J4005 - 4GB DDR4 RAM 32GB M.2 +PSU",
+    "price": 59.99,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T00:10:49+02:00"
   }
 }
