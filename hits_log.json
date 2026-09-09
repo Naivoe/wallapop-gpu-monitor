@@ -4016,5 +4016,21 @@
     "min_samples_needed": 5,
     "reason": "Por debajo de tu límite de compra de €30.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:nzxe2e4vwp62",
+    "title": "The Crew Motorfest PS5 Edición Especial",
+    "price": 15.0,
+    "link": "https://es.wallapop.com/item/the-crew-motorfest-ps5-edicion-especial-1299974606",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Juego PS5 - Otros",
+    "found_at": "2026-09-09 16:50",
+    "market_median": 25.0,
+    "suggested_sell_price": 24,
+    "market_sample_count": 21,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €15.",
+    "category": "hit"
   }
 ]
