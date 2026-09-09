@@ -11632,5 +11632,47 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-09T17:31:37+02:00"
+  },
+  "wallapop:pzpk0kk45kj3": {
+    "title": "PS5 1TB con Lector + 2 Mandos",
+    "price": 550.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:35:36+02:00"
+  },
+  "wallapop:vjrewee7g9zk": {
+    "title": "Mando Xbox Series S Blanco",
+    "price": 45.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:35:44+02:00"
+  },
+  "wallapop:36e5y55y4q6d": {
+    "title": "Mando Xbox Series X/S con joysticks TMR",
+    "price": 55.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:35:44+02:00"
+  },
+  "wallapop:wzvgoggpwqzl": {
+    "title": "Cafetera Nespresso Krups Negra",
+    "price": 30.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:35:46+02:00"
+  },
+  "wallapop:qzmm5mmk3yzv": {
+    "title": "Cafetera Nespresso DeLonghi",
+    "price": 30.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T17:35:46+02:00"
+  },
+  "ebay:v1|800634739912|657538457494": {
+    "title": "Batería Li-ion para Bosch 36V BAT810 BAT818 BAT836 BAT838 BAT840 18636-03 4000mAh",
+    "price": 148.35,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T17:35:47+02:00"
   }
 }
