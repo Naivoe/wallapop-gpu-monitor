@@ -2016,5 +2016,21 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€349) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:vjrewqlm59zk",
+    "title": "Mando Xbox Series con drift",
+    "price": 12.0,
+    "link": "https://es.wallapop.com/item/mando-xbox-series-con-drift-1299892443",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Mando Xbox Series",
+    "found_at": "2026-09-09 13:10",
+    "market_median": 235.0,
+    "suggested_sell_price": 223,
+    "market_sample_count": 70,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€235) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]

@@ -3582,5 +3582,12 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T13:05:32+02:00"
+  },
+  "wallapop:vjrewqlm59zk": {
+    "title": "Mando Xbox Series con drift",
+    "price": 12.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T13:10:45+02:00"
   }
 }
