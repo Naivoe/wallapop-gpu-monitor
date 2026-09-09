@@ -1520,5 +1520,37 @@
     "min_samples_needed": 5,
     "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
     "category": "suspicious"
+  },
+  {
+    "id": "wallapop:vjrewqgdp9zk",
+    "title": "Comando Sony PS5 DualSense Midnight Black",
+    "price": 68.0,
+    "link": "https://es.wallapop.com/item/comando-sony-ps5-dualsense-midnight-black-1299816819",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 09:10",
+    "market_median": 350.0,
+    "suggested_sell_price": 332,
+    "market_sample_count": 182,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
+  },
+  {
+    "id": "wallapop:8j38q41y5lz9",
+    "title": "DUALSENSE SPIDERMAN 2 DE PS5 NUEVO",
+    "price": 85.0,
+    "link": "https://es.wallapop.com/item/dualsense-spiderman-2-de-ps5-nuevo-1299816782",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 09:10",
+    "market_median": 350.0,
+    "suggested_sell_price": 332,
+    "market_sample_count": 182,
+    "min_samples_needed": 5,
+    "reason": "Onder 50% van de marktmediaan (€350) — waarschijnlijk kapot/nep, controleer goed.",
+    "category": "suspicious"
   }
 ]
