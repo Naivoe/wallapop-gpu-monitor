@@ -15489,5 +15489,19 @@
     "gpu_name": "Herramienta Makita",
     "source": "Wallapop",
     "first_seen": "2026-09-10T00:45:58+02:00"
+  },
+  "ebay:v1|226860575396|0": {
+    "title": "GIGABYTE NVIDIA GEFORCE RTX 4060 OC LOW PROFILE LP 8GB GDDR6 SCHEDA VIDEO PC",
+    "price": 498.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T00:50:41+02:00"
+  },
+  "wallapop:p618g83nlxz5": {
+    "title": "Consola Sony PS5 Pro Blanca",
+    "price": 1100.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T00:50:48+02:00"
   }
 }
