@@ -13186,5 +13186,40 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "eBay",
     "first_seen": "2026-09-09T19:50:53+02:00"
+  },
+  "wallapop:e65qnqeqkm6o": {
+    "title": "PS5 Slim Edición Digital",
+    "price": 500.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:55:37+02:00"
+  },
+  "wallapop:qzmm5mnevyzv": {
+    "title": "Consola PS5 con Lector + 2 DualSense + NBA 2K21",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T19:55:37+02:00"
+  },
+  "ebay:v1|820107140704|0": {
+    "title": "PS5 Edición Digital 1TB CFI-2016 - Excelente Estado",
+    "price": 465.96,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:55:37+02:00"
+  },
+  "ebay:v1|128070912966|0": {
+    "title": "Corsair Vengeance LPX 2x8GB 16GB Kit DDR4-3200 DIMM RAM Memoria 288pin",
+    "price": 68.66,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:55:38+02:00"
+  },
+  "ebay:v1|398355103442|0": {
+    "title": "CONTROLLER ORIGINALE SONY PLAYSTATION 5 PS5 DUALSENSE  WIRELESS Nuovo Sigillato ",
+    "price": 69.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T19:55:45+02:00"
   }
 }
