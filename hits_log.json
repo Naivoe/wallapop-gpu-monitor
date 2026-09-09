@@ -6137,5 +6137,41 @@
     "shipping_cost": 4,
     "reason": "€8 por encima de tu límite de €250, pero dentro del margen del 15% — quizás negociable.",
     "category": "near_miss"
+  },
+  {
+    "id": "ebay:v1|398378446735|0",
+    "title": "Reproductor remoto Sony PlayStation Portal para PS5 1080p 32 GB Wi‐Fi USB‐C blanco/negro",
+    "price": 114.5,
+    "link": "https://www.ebay.es/itm/398378446735?_skw=PS5&hash=item5cc134af8f:g:3E8AAeSwh1Rqobug",
+    "posted_at": "2026-09-09 20:05",
+    "source": "eBay",
+    "_condition": "used",
+    "_real_shipping_cost": null,
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 22:15",
+    "market_median": 410.0,
+    "suggested_sell_price": 390,
+    "market_sample_count": 415,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €250.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:nzxe2epnx562",
+    "title": "Mando Xbox Series X",
+    "price": 20.0,
+    "link": "https://es.wallapop.com/item/mando-xbox-series-x-1300101530",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Mando Xbox Series",
+    "found_at": "2026-09-09 22:15",
+    "market_median": 162.5,
+    "suggested_sell_price": 154,
+    "market_sample_count": 150,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €30.",
+    "category": "hit"
   }
 ]

@@ -14502,5 +14502,96 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-09T22:05:49+02:00"
+  },
+  "ebay:v1|236844454862|537300968334": {
+    "title": "PC RYZEN 5 5500 RTX 5060/3050, 16/32GB RAM, SSD M.2, SILENCIOSO Win 11, WLAN",
+    "price": 684.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:15:45+02:00"
+  },
+  "ebay:v1|357032227855|625882466357": {
+    "title": "Zocker PC para 4K | hasta RTX 5060 | i7 7. Gen | 32GB | 2TB NVMe | Refrigeración AiO",
+    "price": 324.98,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:15:45+02:00"
+  },
+  "ebay:v1|800561566298|657505139690": {
+    "title": "PC para juegos rápidos RTX 5060 Ti | AMD Ryzen 7 | 32GB DDR4 | SSD 1TB | Win 11 Pro",
+    "price": 873.68,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:15:46+02:00"
+  },
+  "wallapop:36e5y5rrv86d": {
+    "title": "PS5 Pro",
+    "price": 496.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:15:48+02:00"
+  },
+  "wallapop:wzyrkr004565": {
+    "title": "PS5 Slim 1TB como nueva",
+    "price": 300.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:15:48+02:00"
+  },
+  "wallapop:e65qnqldg26o": {
+    "title": "Consola PS5 1TB Blanca",
+    "price": 600.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:15:48+02:00"
+  },
+  "ebay:v1|398378446735|0": {
+    "title": "Reproductor remoto Sony PlayStation Portal para PS5 1080p 32 GB Wi‐Fi USB‐C blanco/negro",
+    "price": 114.5,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:15:48+02:00"
+  },
+  "wallapop:wzvgog5804zl": {
+    "title": "PC i7 7700 16Gb RAM DDR4 8Gb GRAFICA CAMING",
+    "price": 400.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:15:49+02:00"
+  },
+  "wallapop:8z8878lp3oz3": {
+    "title": "2x 16GB DDR4 RAM PC4-3200AA-RE2-12",
+    "price": 100.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:15:49+02:00"
+  },
+  "wallapop:w67v0vllg96x": {
+    "title": "Patriot Viper Venom DDR5 16GB (2x8GB) 5600MHz",
+    "price": 219.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:15:51+02:00"
+  },
+  "wallapop:wzyrkr08pp65": {
+    "title": "Mando Sony PS5 DualSense Blanco",
+    "price": 50.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:15:56+02:00"
+  },
+  "wallapop:nzxe2epnx562": {
+    "title": "Mando Xbox Series X",
+    "price": 20.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T22:15:57+02:00"
+  },
+  "ebay:v1|206546823473|0": {
+    "title": "Bosch Professional GOP 40-30 Multi-Cutter Starlock 400W",
+    "price": 159.9,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-09T22:15:59+02:00"
   }
 }
