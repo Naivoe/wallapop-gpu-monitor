@@ -15615,5 +15615,19 @@
     "gpu_name": "RAM DDR5 32GB",
     "source": "eBay",
     "first_seen": "2026-09-10T01:31:04+02:00"
+  },
+  "wallapop:wzvgog7lxqzl": {
+    "title": "PC Gaming i3 12100f - 16GB DDR5",
+    "price": 699.0,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T01:35:42+02:00"
+  },
+  "ebay:v1|326681392853|0": {
+    "title": "SK HYNIX BC901 SSD 1TB NVME 4.0 GEN4X4 PCI-E 2280 DISCO",
+    "price": 235.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T01:35:44+02:00"
   }
 }
