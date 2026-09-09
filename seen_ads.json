@@ -15041,5 +15041,61 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-09T23:15:52+02:00"
+  },
+  "wallapop:w67v0vpm8y6x": {
+    "title": "Consola PS5 Edición Digital",
+    "price": 400.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:20:46+02:00"
+  },
+  "wallapop:0j28v8d52rjy": {
+    "title": "Consola PS5 + Mando DualSense Azul",
+    "price": 500.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:20:46+02:00"
+  },
+  "ebay:v1|407205218624|0": {
+    "title": "Mando Consola Sony PlayStation 5 PS5 Disc Edition CFI-1215A 825GB (Lista 2A)",
+    "price": 382.82,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T23:20:46+02:00"
+  },
+  "wallapop:8j38q890l7z9": {
+    "title": "2x 8GB DDR4 HyperX Fury RAM 16GB RAM DDR4 3200Mhz",
+    "price": 80.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:20:47+02:00"
+  },
+  "ebay:v1|820107738055|0": {
+    "title": "Módulo DIMM 16GB (1x16GB) DDR4-2666Mhz No ECC RAM [M378A2K43CB1-CTD]",
+    "price": 69.84,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T23:20:47+02:00"
+  },
+  "ebay:v1|267780877419|0": {
+    "title": "Western Digital 1TB SN810 SDCPNRY-1T00-1012 PCIe Gen 4x4 NVMe M.2 2280 SSD",
+    "price": 94.42,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "eBay",
+    "first_seen": "2026-09-09T23:20:51+02:00"
+  },
+  "wallapop:xzogpgq5n2j9": {
+    "title": "Herramientas Wurth Bosch iriml acesa",
+    "price": 140.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:20:56+02:00"
+  },
+  "wallapop:9jdwywqlq26k": {
+    "title": "Herramientas irimo acesa wurth bosch stanley",
+    "price": 85.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T23:20:56+02:00"
   }
 }
