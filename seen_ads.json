@@ -13291,5 +13291,82 @@
     "gpu_name": "Nespresso",
     "source": "Wallapop",
     "first_seen": "2026-09-09T20:05:48+02:00"
+  },
+  "wallapop:3zlmym5wwpjx": {
+    "title": "Asus tuf gaming RTX 4070 OC 12GB GDDR6X",
+    "price": 450.0,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:10:43+02:00"
+  },
+  "wallapop:nz08e8dp336o": {
+    "title": "Consola Sony PS5 1TB con disco",
+    "price": 500.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:10:47+02:00"
+  },
+  "wallapop:nzxe2e9xrp62": {
+    "title": "Consola PS5 Sony Blanca",
+    "price": 380.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:10:47+02:00"
+  },
+  "wallapop:qzmm5mnxpxzv": {
+    "title": "CONSOLA SONY PS5 FAT DIGITAL 825GB + MANDO + CAJA",
+    "price": 503.95,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:10:47+02:00"
+  },
+  "wallapop:ejkmymr75pzx": {
+    "title": "CONSOLA SONY PS5 FAT DIGITAL 825GB + MANDO + CAJA",
+    "price": 503.95,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:10:47+02:00"
+  },
+  "wallapop:w67v0ve5476x": {
+    "title": "CONSOLA PS5 SLIM 1TB CON LECTOR + CABLES + CAJA",
+    "price": 528.95,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:10:47+02:00"
+  },
+  "wallapop:9jdwywv9296k": {
+    "title": "CONSOLA PS5 SLIM 1TB CON LECTOR + CABLES + CAJA",
+    "price": 528.95,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:10:47+02:00"
+  },
+  "ebay:v1|318849168197|0": {
+    "title": "consolas ps5 ☼ se enciende, pero se apaga a la derecha",
+    "price": 189.26,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-09T20:10:47+02:00"
+  },
+  "wallapop:pj94w4e22m6e": {
+    "title": "Lexar NM790 2TB NVMe SSD PCIe 4.0 x4",
+    "price": 210.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:10:54+02:00"
+  },
+  "wallapop:pzpk0k7m7mj3": {
+    "title": "Xbox Series X Microsoft Negra",
+    "price": 550.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:10:56+02:00"
+  },
+  "wallapop:e65qnqekd26o": {
+    "title": "Cafetera Nespresso Inissia Roja. SIN ABRIR. NUEVA",
+    "price": 70.0,
+    "gpu_name": "Nespresso",
+    "source": "Wallapop",
+    "first_seen": "2026-09-09T20:10:59+02:00"
   }
 }

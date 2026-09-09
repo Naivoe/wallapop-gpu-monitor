@@ -5847,5 +5847,22 @@
     "min_samples_needed": 5,
     "reason": "€2 por encima de tu límite de €35, pero dentro del margen del 15% — quizás negociable.",
     "category": "near_miss"
+  },
+  {
+    "id": "ebay:v1|318849168197|0",
+    "title": "consolas ps5 ☼ se enciende, pero se apaga a la derecha",
+    "price": 189.26,
+    "link": "https://www.ebay.es/itm/318849168197?_skw=PS5&hash=item4a3ce43345:g:EIEAAeSwJc9qoZl7",
+    "posted_at": "2026-09-09 17:39",
+    "source": "eBay",
+    "_condition": "for parts or not working",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-09 20:10",
+    "market_median": 400.0,
+    "suggested_sell_price": 380,
+    "market_sample_count": 372,
+    "min_samples_needed": 5,
+    "reason": "Por debajo de tu límite de compra de €250.",
+    "category": "hit"
   }
 ]
