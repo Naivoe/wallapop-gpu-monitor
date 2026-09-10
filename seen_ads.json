@@ -16140,5 +16140,12 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-10T02:55:45+02:00"
+  },
+  "ebay:v1|357179034076|625947194680": {
+    "title": "Ordenador Gamer hasta RTX 4060 i7 7. Gen 32GB 2TB NVMe SSD AIO líquida LGA 1151",
+    "price": 384.99,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T03:01:08+02:00"
   }
 }
