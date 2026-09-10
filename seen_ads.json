@@ -16378,5 +16378,26 @@
     "gpu_name": "Mando Xbox Series",
     "source": "eBay",
     "first_seen": "2026-09-10T04:15:53+02:00"
+  },
+  "wallapop:4z4858mn2mjy": {
+    "title": "Consola Sony PS5 Slim 1TB + Ratchet & Clank",
+    "price": 380.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T04:30:58+02:00"
+  },
+  "ebay:v1|366659495334|0": {
+    "title": "Lector de libros electrónicos Amazon Kindle Paperwhite (7.ª generación) 6\" 4 GB negro Wi - 95 % nuevo",
+    "price": 120.52,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-10T04:31:07+02:00"
+  },
+  "wallapop:wzyrkrwxo265": {
+    "title": "Bosch IXO8 atornillador batería 4V",
+    "price": 47.5,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T04:31:08+02:00"
   }
 }
