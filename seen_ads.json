@@ -18380,5 +18380,40 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-10T12:15:55+02:00"
+  },
+  "wallapop:qzmm57go4ozv": {
+    "title": "Consola PS5 PRO 2TB 4K",
+    "price": 850.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:20:47+02:00"
+  },
+  "wallapop:pzpk0d8krkj3": {
+    "title": "Consola PS5 Slim con Base Refrigeradora",
+    "price": 400.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:20:47+02:00"
+  },
+  "wallapop:qjwr32lrgw6o": {
+    "title": "Mando PS5 Starlight Blue con joysticks magnéticos",
+    "price": 50.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:20:53+02:00"
+  },
+  "ebay:v1|158277175632|0": {
+    "title": "Juego de ruedas y pedales de carreras Thrustmaster T98 Ferrari 296 GTS PC/Xbox Series X|S/X",
+    "price": 64.04,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:20:54+02:00"
+  },
+  "wallapop:pzpk0d8dvlj3": {
+    "title": "Kindle Paperwhite 16GB Negro",
+    "price": 130.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:20:55+02:00"
   }
 }
