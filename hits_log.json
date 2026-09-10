@@ -6705,5 +6705,22 @@
     "shipping_cost": 4,
     "reason": "€1 por encima de tu límite de €40, pero dentro del margen del 15% — quizás negociable.",
     "category": "near_miss"
+  },
+  {
+    "id": "wallapop:v6gpypwn5l6e",
+    "title": "Bosch UniversalGrind 7-125 amoladora 750W discos",
+    "price": 38.5,
+    "link": "https://es.wallapop.com/item/bosch-universalgrind-7-125-amoladora-750w-discos-1300154516",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-10 05:15",
+    "market_median": 70.92,
+    "suggested_sell_price": 67,
+    "market_sample_count": 117,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]
