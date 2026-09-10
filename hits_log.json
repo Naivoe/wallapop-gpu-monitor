@@ -6618,5 +6618,22 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €250.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:p618g8wv12z5",
+    "title": "consola ps5 sony playstation 5 portal",
+    "price": 169.0,
+    "link": "https://es.wallapop.com/item/consola-ps5-sony-playstation-5-portal-1300148079",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-10 03:25",
+    "market_median": 420.0,
+    "suggested_sell_price": 399,
+    "market_sample_count": 499,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €250.",
+    "category": "hit"
   }
 ]
