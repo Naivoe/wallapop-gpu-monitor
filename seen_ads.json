@@ -19801,5 +19801,19 @@
     "gpu_name": "Kindle",
     "source": "Wallapop",
     "first_seen": "2026-09-10T15:05:47+02:00"
+  },
+  "wallapop:x6qq7vd19e6y": {
+    "title": "SSD NVMe M.2 Seagate Firecuda 2TB",
+    "price": 430.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T15:10:59+02:00"
+  },
+  "wallapop:0j28vn3e9njy": {
+    "title": "Mando DualSense PS5 Sony",
+    "price": 69.9,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T15:11:00+02:00"
   }
 }
