@@ -7010,5 +7010,22 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €30.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:0j28v8vd3mjy",
+    "title": "Bosch EasyShear Batería 3,6V Tijeras jardín",
+    "price": 20.99,
+    "link": "https://es.wallapop.com/item/bosch-easyshear-bateria-3-6v-tijeras-jardin-1300169783",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-10 08:15",
+    "market_median": 69.995,
+    "suggested_sell_price": 66,
+    "market_sample_count": 126,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]
