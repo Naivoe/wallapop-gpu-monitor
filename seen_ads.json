@@ -17015,5 +17015,19 @@
     "gpu_name": "RAM DDR5 32GB",
     "source": "Wallapop",
     "first_seen": "2026-09-10T08:25:41+02:00"
+  },
+  "wallapop:36e5y5yylk6d": {
+    "title": "- Kingston NV3 SSD NVMe 1TB PCIe 4.0",
+    "price": 19.99,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T08:35:45+02:00"
+  },
+  "wallapop:mzn3n3nno7jn": {
+    "title": "Mando DualSense PS5 Blanco",
+    "price": 49.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T08:35:47+02:00"
   }
 }
