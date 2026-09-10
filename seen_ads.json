@@ -17589,5 +17589,61 @@
     "gpu_name": "Kindle",
     "source": "Wallapop",
     "first_seen": "2026-09-10T10:55:43+02:00"
+  },
+  "wallapop:nzxe2e1yqp62": {
+    "title": "PS5 Slim 1TB FW 11.60",
+    "price": 600.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:01:13+02:00"
+  },
+  "ebay:v1|137720843551|0": {
+    "title": "Corsair Vengeance 32GB DDR5-5200 CL40 UDIMM CMK5X32G2B52C40A2 módulo único PC RAM",
+    "price": 449.99,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:01:17+02:00"
+  },
+  "wallapop:wzvgogwloqzl": {
+    "title": "Mando DualSense PS5 Azul",
+    "price": 95.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:01:20+02:00"
+  },
+  "wallapop:3zlmymv958jx": {
+    "title": "Mando Sony DualSense PS5",
+    "price": 25.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:01:20+02:00"
+  },
+  "ebay:v1|188816060759|0": {
+    "title": "Controller Dualsense PS5 Marvel's Wolverine Adamantium Limited Edition PREORDER",
+    "price": 159.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:01:20+02:00"
+  },
+  "ebay:v1|336787846508|0": {
+    "title": "Précommande - Sony DualSense Manette GTA 6 pour console Sony PlayStation 5 PS5",
+    "price": 159.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:01:20+02:00"
+  },
+  "ebay:v1|287577861681|0": {
+    "title": "[PREORDER CONFIRMED] Manette sans fil PS5 DualSense GTA 6 - Black",
+    "price": 150.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:01:20+02:00"
+  },
+  "ebay:v1|198630809022|0": {
+    "title": "Custodia Protettiva Per Amazon Kindle 10th Generation 2019 Auto Sleep/Wake Style",
+    "price": 20.05,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:01:22+02:00"
   }
 }

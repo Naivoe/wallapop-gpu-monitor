@@ -7184,5 +7184,41 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €250.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:3zlmymv958jx",
+    "title": "Mando Sony DualSense PS5",
+    "price": 25.0,
+    "link": "https://es.wallapop.com/item/mando-sony-dualsense-ps5-1300204493",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Mando DualSense PS5",
+    "found_at": "2026-09-10 11:01",
+    "market_median": 65.95,
+    "suggested_sell_price": 63,
+    "market_sample_count": 197,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €30.",
+    "category": "hit"
+  },
+  {
+    "id": "ebay:v1|198630809022|0",
+    "title": "Custodia Protettiva Per Amazon Kindle 10th Generation 2019 Auto Sleep/Wake Style",
+    "price": 20.05,
+    "link": "https://www.ebay.es/itm/198630809022?_skw=Kindle&hash=item2e3f519dbe:g:9KsAAeSw9aVqof-j",
+    "posted_at": "2026-09-10 00:52",
+    "source": "eBay",
+    "_condition": "nuovo",
+    "_real_shipping_cost": 0.0,
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-10 11:01",
+    "market_median": 74.74,
+    "suggested_sell_price": 71,
+    "market_sample_count": 115,
+    "min_samples_needed": 5,
+    "shipping_cost": 0.0,
+    "reason": "Por debajo de tu límite de compra de €35.",
+    "category": "hit"
   }
 ]
