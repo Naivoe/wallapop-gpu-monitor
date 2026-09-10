@@ -7557,5 +7557,39 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €35.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:vjrew49vlxzk",
+    "title": "Amazon Kindle 4",
+    "price": 20.0,
+    "link": "https://es.wallapop.com/item/amazon-kindle-4-1300279091",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-10 14:31",
+    "market_median": 75.0,
+    "suggested_sell_price": 71,
+    "market_sample_count": 133,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €35.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:pj94wng0om6e",
+    "title": "Batería Makita 18V 20.0Ah Litio-Ion",
+    "price": 28.0,
+    "link": "https://es.wallapop.com/item/bateria-makita-18v-20-0ah-litio-ion-1300279613",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Herramienta Makita",
+    "found_at": "2026-09-10 14:31",
+    "market_median": 152.45499999999998,
+    "suggested_sell_price": 145,
+    "market_sample_count": 116,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]

@@ -19598,5 +19598,47 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T14:25:42+02:00"
+  },
+  "wallapop:wzvgo2lvl7zl": {
+    "title": "Mando PS5 DualSense Edición Limitada GTA VI",
+    "price": 240.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T14:31:10+02:00"
+  },
+  "wallapop:nzxe2ryvd562": {
+    "title": "Mando DualSense Edición Limitada GTA VI",
+    "price": 190.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T14:31:10+02:00"
+  },
+  "ebay:v1|137720824536|0": {
+    "title": "PRESALE - Sony Manette Black DualSense Édition limitée Grand Theft Auto VI",
+    "price": 120.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T14:31:10+02:00"
+  },
+  "ebay:v1|237061001336|0": {
+    "title": "GTA 6 Sony PS5 DualSense Controller GTA VI Limited Edition Black | Preorder . ",
+    "price": 149.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T14:31:10+02:00"
+  },
+  "wallapop:vjrew49vlxzk": {
+    "title": "Amazon Kindle 4",
+    "price": 20.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T14:31:13+02:00"
+  },
+  "wallapop:pj94wng0om6e": {
+    "title": "Batería Makita 18V 20.0Ah Litio-Ion",
+    "price": 28.0,
+    "gpu_name": "Herramienta Makita",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T14:31:14+02:00"
   }
 }
