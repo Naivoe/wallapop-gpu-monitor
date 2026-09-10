@@ -16077,5 +16077,54 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T02:45:56+02:00"
+  },
+  "wallapop:qjwr3rw0vk6o": {
+    "title": "consola ps5 sony playstation 5 digital edition",
+    "price": 529.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:50:48+02:00"
+  },
+  "wallapop:p618g80wexz5": {
+    "title": "consola ps5 sony playstation 5 slim standard 1tb",
+    "price": 579.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:50:48+02:00"
+  },
+  "wallapop:3zlmym22yqjx": {
+    "title": "PS5 Slim 1TB Gris/Blanco",
+    "price": 380.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:50:48+02:00"
+  },
+  "wallapop:8z88783d9lz3": {
+    "title": "mando ps5 sony dualsense",
+    "price": 55.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:50:57+02:00"
+  },
+  "wallapop:wzyrkr1w5565": {
+    "title": "mando ps5 sony dualsense",
+    "price": 59.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:50:57+02:00"
+  },
+  "wallapop:wzyrkr11ov65": {
+    "title": "libro electronico amazon kindle paperwhite 3 generacion wifi (2015)",
+    "price": 59.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:51:01+02:00"
+  },
+  "ebay:v1|168663923292|0": {
+    "title": "Bosch Profesional Impacto Conductor 18V Solo Herramienta Máximo Torque 215Nm",
+    "price": 169.7,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T02:51:02+02:00"
   }
 }
