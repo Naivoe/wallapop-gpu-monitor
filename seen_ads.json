@@ -18632,5 +18632,26 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-10T12:45:54+02:00"
+  },
+  "wallapop:p618g5vvqgz5": {
+    "title": "1x32Gb RAM Kingston DDR4 3200Mhz",
+    "price": 125.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:50:47+02:00"
+  },
+  "ebay:v1|800640488937|0": {
+    "title": "Presale - [PRE ORDER] Manette sans fil DualSense Black PS5 Grand Theft Auto VI",
+    "price": 158.75,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:50:52+02:00"
+  },
+  "ebay:v1|800640492642|0": {
+    "title": "DualSense Manette GTA 6 Noire - Sony PlayStation 5 PS5 (Prévente/Presale 19/11)",
+    "price": 153.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:50:52+02:00"
   }
 }
