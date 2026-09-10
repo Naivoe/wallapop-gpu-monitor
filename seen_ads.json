@@ -19108,5 +19108,82 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-10T13:31:24+02:00"
+  },
+  "ebay:v1|204139806874|0": {
+    "title": "32GB DDR4 RAM PC4-2400T-UA1-11 2400 MHz DIMM 2Rx8 1.2V CL17 Sin búfer (2x 16GB)",
+    "price": 219.98,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:35:50+02:00"
+  },
+  "wallapop:36e5y8w5486d": {
+    "title": "Mando Dualsense PS5",
+    "price": 39.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:35:55+02:00"
+  },
+  "wallapop:w67v0xd4pw6x": {
+    "title": "Mando Dualsense PS5",
+    "price": 39.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:35:55+02:00"
+  },
+  "wallapop:mzn3nwl222jn": {
+    "title": "DualSense PS5 Astro Bot Versión 1",
+    "price": 95.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:35:55+02:00"
+  },
+  "wallapop:p618g5o7n5z5": {
+    "title": "Mando Dualsense Blanco",
+    "price": 39.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:35:55+02:00"
+  },
+  "ebay:v1|377486265379|0": {
+    "title": "PRECO  Sony DualSense Manette édition limitée Grand Theft Auto 6 PS5 / GTA6",
+    "price": 144.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:35:55+02:00"
+  },
+  "ebay:v1|198631956611|0": {
+    "title": "GTA 6 Sony PS5 DualSense Controller GTA VI Limited Edition Black PREORDER ",
+    "price": 143.46,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:35:55+02:00"
+  },
+  "ebay:v1|407206702526|0": {
+    "title": "PRECOMMANDE | Sony DualSense manette PlayStation 5 Blanche édition limitée GTA 6",
+    "price": 149.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:35:55+02:00"
+  },
+  "wallapop:pj94wny5qk6e": {
+    "title": "Xbox Series S Blanca con Mando",
+    "price": 320.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:35:56+02:00"
+  },
+  "wallapop:4z4850ve48jy": {
+    "title": "Kindle Paperwhite 7ª Gen - Negro",
+    "price": 65.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:35:57+02:00"
+  },
+  "ebay:v1|398037997459|666330121450": {
+    "title": "Custodia protettiva in acrilico per Kindle Paperwhite Colorsoft 6,7,8 pollici",
+    "price": 19.9,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:35:57+02:00"
   }
 }
