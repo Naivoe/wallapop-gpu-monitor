@@ -7521,5 +7521,22 @@
     "shipping_cost": 16.7,
     "reason": "Por debajo de tu límite de compra de €35.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:9jdwy87p446k",
+    "title": "Consola PlayStation 5 (PS5)",
+    "price": 5.0,
+    "link": "https://es.wallapop.com/item/consola-playstation-5-ps5-1300268460",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-10 14:01",
+    "market_median": 420.0,
+    "suggested_sell_price": 399,
+    "market_sample_count": 572,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €250.",
+    "category": "hit"
   }
 ]
