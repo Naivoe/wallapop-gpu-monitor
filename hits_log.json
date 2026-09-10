@@ -7538,5 +7538,24 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €250.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|128072193288|0",
+    "title": "Cubierta de libro Nupro, para Kindle 11ª generación (lanzamiento 2022), púrpura, cerca de dormir",
+    "price": 18.71,
+    "link": "https://www.ebay.es/itm/128072193288?_skw=Kindle&hash=item1dd1b29508:i:128072193288",
+    "posted_at": "2026-09-10 11:56",
+    "source": "eBay",
+    "_condition": "open box",
+    "_real_shipping_cost": null,
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-10 14:10",
+    "market_median": 75.0,
+    "suggested_sell_price": 71,
+    "market_sample_count": 131,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €35.",
+    "category": "hit"
   }
 ]
