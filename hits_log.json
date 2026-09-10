@@ -6813,5 +6813,41 @@
     "shipping_cost": 0.0,
     "reason": "Por debajo de tu límite de compra de €35.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|298660694354|0",
+    "title": "Consola Sony PlayStation 5 PS5 Edición Disco - Puerto USB Suelto HDMI Dañado LEER",
+    "price": 258.08,
+    "link": "https://www.ebay.es/itm/298660694354?_skw=PS5&hash=item4589908952:g:-joAAeSwdntqoiXn",
+    "posted_at": "2026-09-10 03:39",
+    "source": "eBay",
+    "_condition": "used",
+    "_real_shipping_cost": null,
+    "gpu_name": "PS5",
+    "found_at": "2026-09-10 05:45",
+    "market_median": 420.0,
+    "suggested_sell_price": 399,
+    "market_sample_count": 510,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "€8 por encima de tu límite de €250, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
+  },
+  {
+    "id": "wallapop:wzyrkrw80p65",
+    "title": "Sierra Circular Bosch",
+    "price": 15.0,
+    "link": "https://es.wallapop.com/item/sierra-circular-bosch-1300156192",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-10 05:45",
+    "market_median": 70.16,
+    "suggested_sell_price": 67,
+    "market_sample_count": 121,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]

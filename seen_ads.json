@@ -16581,5 +16581,89 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-10T05:41:03+02:00"
+  },
+  "ebay:v1|357179034076|625947386260": {
+    "title": "Ordenador Gamer hasta RTX 4060 i7 7. Gen 32GB 2TB NVMe SSD AIO líquida LGA 1151",
+    "price": 424.98,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:45:38+02:00"
+  },
+  "ebay:v1|236847068613|537303536745": {
+    "title": "PC GAMING RGB Intel I7 4,6GHz Nvidia (RTX 5060), SSD 1TB, 32/16GB RAM Windows 11",
+    "price": 599.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:45:41+02:00"
+  },
+  "ebay:v1|158225214758|0": {
+    "title": "MSI GeForce RTX 5060 8G VENTUS 2X OC 8GB GDDR7 DLSS4 1*HDMI/3*DisplayPort PCi Ex",
+    "price": 510.5,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:45:41+02:00"
+  },
+  "ebay:v1|397926997026|666232641931": {
+    "title": "PC para juegos rápidos / Enfriador líquido / Intel i7 / 1TB SSD / 32GB RAM / RTX 5060ti Wifi",
+    "price": 727.11,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:45:42+02:00"
+  },
+  "ebay:v1|137263546571|0": {
+    "title": "Tarjeta gráfica para juegos ASUS Prime GeForce RTX 5060 Ti 16 GB GDDR7 OC Edition",
+    "price": 811.77,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:45:42+02:00"
+  },
+  "ebay:v1|298660694354|0": {
+    "title": "Consola Sony PlayStation 5 PS5 Edición Disco - Puerto USB Suelto HDMI Dañado LEER",
+    "price": 258.08,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:45:43+02:00"
+  },
+  "ebay:v1|327351068643|0": {
+    "title": "Team Group T-Force Vulcan 16GB (2×8GB) DDR4 3000MHz CL16 RAM Kit - Probado",
+    "price": 58.23,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:45:45+02:00"
+  },
+  "ebay:v1|147517325978|0": {
+    "title": "SK hynix 32GB DDR4 2Rx4 RDIMM PC4-2666V RAM - PC4-21300 (HMA84GR7JJR4N-VK TN AC)",
+    "price": 139.78,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:45:46+02:00"
+  },
+  "ebay:v1|147556513599|0": {
+    "title": "Manette Sony PlayStation 5 PS5 30th Anniversary - DualSense - Neuve",
+    "price": 119.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:45:51+02:00"
+  },
+  "ebay:v1|366644559740|0": {
+    "title": "Amazon Kindle 2024 16 GB con lector de libros electrónicos publicitarios negro ligero y compacto NUEVO",
+    "price": 115.0,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:45:53+02:00"
+  },
+  "wallapop:wzyrkrw80p65": {
+    "title": "Sierra Circular Bosch",
+    "price": 15.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T05:45:54+02:00"
+  },
+  "ebay:v1|188335230260|695878893572": {
+    "title": "4x Batería Original 8,0Ah para Bosch 18V 5Ah Professional GBA GSR GSB BAT618 BAT609",
+    "price": 216.57,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:45:54+02:00"
   }
 }
