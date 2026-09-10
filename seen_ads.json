@@ -16455,5 +16455,40 @@
     "gpu_name": "Mando Xbox Series",
     "source": "eBay",
     "first_seen": "2026-09-10T05:20:59+02:00"
+  },
+  "ebay:v1|357032258609|625882448191": {
+    "title": "Zocker PC para 1440p | hasta RTX 4060 | i7 7. Gen | 32GB | 2TB NVMe | AiO Wakü",
+    "price": 494.98,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:25:33+02:00"
+  },
+  "ebay:v1|800546966308|657497661548": {
+    "title": "Computadora para juegos RTX 5060 Ti 16 GB de RAM i7 4ta generación 3 TB Windows 11 Pro RGB",
+    "price": 687.29,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:25:38+02:00"
+  },
+  "ebay:v1|168650301774|0": {
+    "title": "Nueva Tarjeta Gráfica Colorida GeForce RTX 5060 Ti 16GB GAMING Ultra OC 3 Ventiladores GDDR7",
+    "price": 970.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:25:38+02:00"
+  },
+  "wallapop:3zlmym3pl4jx": {
+    "title": "- Bosch EasyImpact taladro percutor 18V",
+    "price": 36.99,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T05:25:50+02:00"
+  },
+  "wallapop:nzxe2e7gne62": {
+    "title": "Bosch Professional batería 18V 4.0Ah alta",
+    "price": 36.99,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T05:25:50+02:00"
   }
 }

@@ -6741,5 +6741,39 @@
     "shipping_cost": 4,
     "reason": "€3 por encima de tu límite de €30, pero dentro del margen del 15% — quizás negociable.",
     "category": "near_miss"
+  },
+  {
+    "id": "wallapop:3zlmym3pl4jx",
+    "title": "- Bosch EasyImpact taladro percutor 18V",
+    "price": 36.99,
+    "link": "https://es.wallapop.com/item/bosch-easyimpact-taladro-percutor-18v-1300155169",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-10 05:25",
+    "market_median": 70.53999999999999,
+    "suggested_sell_price": 67,
+    "market_sample_count": 118,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:nzxe2e7gne62",
+    "title": "Bosch Professional batería 18V 4.0Ah alta",
+    "price": 36.99,
+    "link": "https://es.wallapop.com/item/bosch-professional-bateria-18v-4-0ah-alta-1300155078",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-10 05:25",
+    "market_median": 70.53999999999999,
+    "suggested_sell_price": 67,
+    "market_sample_count": 118,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]
