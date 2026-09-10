@@ -16875,5 +16875,33 @@
     "gpu_name": "RAM DDR4 16GB",
     "source": "Wallapop",
     "first_seen": "2026-09-10T06:50:45+02:00"
+  },
+  "ebay:v1|206547599694|0": {
+    "title": "ZOTAC GeForce RTX 4060 8GB SOLO GDDR6 PCIe 4.0 Tarjeta Gráfica Gaming GPU...",
+    "price": 386.77,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T07:01:14+02:00"
+  },
+  "ebay:v1|278027454529|0": {
+    "title": "32GB 2Rx8 SK Hynix DDR5 5600 | HMCG88AGBUA | UDIMM | RAM de escritorio",
+    "price": 399.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T07:01:25+02:00"
+  },
+  "ebay:v1|137717331566|0": {
+    "title": "Amazon Kindle Paperwhite (10ª Generación) 8GB Wi-Fi Azul Buen Estado Grado B",
+    "price": 58.11,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-10T07:01:30+02:00"
+  },
+  "ebay:v1|206526188282|507226925408": {
+    "title": "Maletín Makpack Tipo 1-2-3-4 Herramientas Eléctricas Makita",
+    "price": 50.38,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-10T07:01:32+02:00"
   }
 }
