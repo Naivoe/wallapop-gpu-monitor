@@ -16924,5 +16924,12 @@
     "gpu_name": "Herramienta Bosch",
     "source": "Wallapop",
     "first_seen": "2026-09-10T07:20:54+02:00"
+  },
+  "wallapop:pzpk0k02k9j3": {
+    "title": "G.SKILL Trident Z5 RGB DDR5 32GB (2x16GB) 7800MHz",
+    "price": 650.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T07:25:40+02:00"
   }
 }
