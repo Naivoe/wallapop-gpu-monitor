@@ -17001,5 +17001,19 @@
     "gpu_name": "Herramienta Bosch",
     "source": "Wallapop",
     "first_seen": "2026-09-10T08:20:53+02:00"
+  },
+  "wallapop:8z8878734rz3": {
+    "title": "PS5 Pro NUEVA Y PRECINTADA – SIN ESTRENAR",
+    "price": 1000.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T08:25:36+02:00"
+  },
+  "wallapop:qjwr3r35ne6o": {
+    "title": "32GB DDR5 RAM (2x16GB) 6400MT/s Crucial Pro",
+    "price": 350.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T08:25:41+02:00"
   }
 }
