@@ -6866,5 +6866,41 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €40.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|398379507161|666652882709",
+    "title": "330W AC Adapter For ASUS ROG NUC 970 NUC14SRKU9 RTX4070 Desktop",
+    "price": 144.99,
+    "link": "https://www.ebay.es/itm/398379507161?_skw=RTX+4070&hash=item5cc144ddd9:g:Lh4AAeSwARhpdycG",
+    "posted_at": "2026-09-10 03:35",
+    "source": "eBay",
+    "_condition": "used",
+    "_real_shipping_cost": 36.06,
+    "gpu_name": "RTX 4070 12GB",
+    "found_at": "2026-09-10 06:10",
+    "market_median": 879.2149999999999,
+    "suggested_sell_price": 835,
+    "market_sample_count": 40,
+    "min_samples_needed": 5,
+    "shipping_cost": 36.06,
+    "reason": "Por debajo de tu límite de compra de €280.",
+    "category": "hit"
+  },
+  {
+    "id": "wallapop:nz08e8kkr36o",
+    "title": "Bosch IXO 7 3,6V 2,0Ah atornillador compacto",
+    "price": 29.99,
+    "link": "https://es.wallapop.com/item/bosch-ixo-7-3-6v-2-0ah-atornillador-compacto-1300157751",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-10 06:10",
+    "market_median": 70.08,
+    "suggested_sell_price": 67,
+    "market_sample_count": 124,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]
