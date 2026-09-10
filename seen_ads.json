@@ -18499,5 +18499,68 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T12:31:12+02:00"
+  },
+  "wallapop:pzpk0d8eekj3": {
+    "title": "PC Gaming RTX 5060 Ti 16GB + 32GB DDR5",
+    "price": 1300.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:35:39+02:00"
+  },
+  "wallapop:3zlmy0e2q8jx": {
+    "title": "Ps5 Pro 2TB Sony Blanca con lector",
+    "price": 1000.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:35:41+02:00"
+  },
+  "wallapop:qzmm57gxqlzv": {
+    "title": "Consola PS5 Edición Spider-Man",
+    "price": 390.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:35:41+02:00"
+  },
+  "wallapop:qzmm57gxygzv": {
+    "title": "Mando DualSense PS5 Edición Limitada GTA",
+    "price": 150.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:35:49+02:00"
+  },
+  "wallapop:4z4850o4qljy": {
+    "title": "MANDO DUALSENSE EDICION LIMITADA GTA 6 PRECINTADO",
+    "price": 240.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:35:49+02:00"
+  },
+  "ebay:v1|398380608891|0": {
+    "title": "PS5 DualSense Controller Grand Theft Auto VI GTA 6 Limited Edition Black PRESALE",
+    "price": 159.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:35:49+02:00"
+  },
+  "ebay:v1|800640461550|0": {
+    "title": "Manette PS5 Dualsense GTA 6 Black / Manette PS5 GTA VI – Édition Limitée | Préco",
+    "price": 185.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:35:49+02:00"
+  },
+  "wallapop:qjwr32lwn46o": {
+    "title": "Xbox Series S Blanca Casi Nueva",
+    "price": 170.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:35:50+02:00"
+  },
+  "wallapop:nzxe2rdxy162": {
+    "title": "Kindle Paperwhite (11th Generation) 16 GB",
+    "price": 110.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:35:51+02:00"
   }
 }
