@@ -6529,5 +6529,22 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €35.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:wzyrkr1vg265",
+    "title": "- ASUS Dual GeForce RTX 5060 Ti OC Edition 16GB",
+    "price": 299.99,
+    "link": "https://es.wallapop.com/item/asus-dual-geforce-rtx-5060-ti-oc-edition-16gb-1300140620",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "RTX 5060 Ti",
+    "found_at": "2026-09-10 02:31",
+    "market_median": 756.75,
+    "suggested_sell_price": 719,
+    "market_sample_count": 96,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €320.",
+    "category": "hit"
   }
 ]
