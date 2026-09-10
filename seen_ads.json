@@ -17127,5 +17127,54 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T09:20:57+02:00"
+  },
+  "wallapop:vjrewe71n4zk": {
+    "title": "PC R5 4060 RTX + Ecrã + Periféricos 3x S/ Juros",
+    "price": 810.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T09:25:33+02:00"
+  },
+  "wallapop:wzvgogmq7rzl": {
+    "title": "Consola PS5 Pro 2TB + 2 Mandos",
+    "price": 575.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T09:25:39+02:00"
+  },
+  "wallapop:4z4858pnxwjy": {
+    "title": "Corsair Vengeance LPX DDR4 RAM 16GB (2x8GB)",
+    "price": 95.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T09:25:40+02:00"
+  },
+  "wallapop:nzxe2ekw1162": {
+    "title": "Mando DualSense PS5 Sony Blanco",
+    "price": 60.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T09:25:45+02:00"
+  },
+  "wallapop:8z8878x21lz3": {
+    "title": "Xbox Series S Blanca",
+    "price": 180.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T09:25:46+02:00"
+  },
+  "wallapop:qzmm5mlpxxzv": {
+    "title": "NO NEGOCIABLE Amazon Kindle Paperwhite 6a Gen 4GB",
+    "price": 70.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T09:25:47+02:00"
+  },
+  "ebay:v1|377266921775|0": {
+    "title": "Makita 196952-2 Herramienta de fijación de extracción de polvo / Express / Ge...",
+    "price": 53.3,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-10T09:25:49+02:00"
   }
 }
