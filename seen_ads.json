@@ -17176,5 +17176,26 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-10T09:25:49+02:00"
+  },
+  "ebay:v1|820109538238|0": {
+    "title": "Colorida RTX 4060 Battle Axe 3X 8GB GDDR6 Triple Ventilador Tarjeta Gráfica para Juegos",
+    "price": 540.7,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T09:30:57+02:00"
+  },
+  "wallapop:x6qq7q0w4o6y": {
+    "title": "Samsung DDR5 32GB RAM",
+    "price": 250.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T09:31:07+02:00"
+  },
+  "wallapop:x6qq7q0nqo6y": {
+    "title": "Xbox Series S + Mando Elite 2 + Estuche",
+    "price": 270.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T09:31:11+02:00"
   }
 }
