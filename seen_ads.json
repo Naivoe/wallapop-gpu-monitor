@@ -19269,5 +19269,47 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T13:45:52+02:00"
+  },
+  "ebay:v1|168642214641|468004795070": {
+    "title": "PC Gaming Hasta RTX 5060 i7 7. Gen 32GB 2TB Nvme Flüssigkühlung",
+    "price": 415.06,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:50:45+02:00"
+  },
+  "ebay:v1|327306864030|516069982793": {
+    "title": "PC para juegos Core i7 refrigerado por líquido 32 GB DDR4 RAM 1 TB SSD RTX 5060ti Win 11 WiFi W",
+    "price": 1048.07,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:50:46+02:00"
+  },
+  "wallapop:8j38qpyod7z9": {
+    "title": "SSD WD BLACK SN770 1TB NVME",
+    "price": 139.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:50:53+02:00"
+  },
+  "wallapop:4z4850v21rjy": {
+    "title": "DualSense GTA Edición Limitada Blanco",
+    "price": 190.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:50:54+02:00"
+  },
+  "ebay:v1|377485883130|0": {
+    "title": "Sony PS5 DualSense Wireless Controller GTA VI Limited Edition White – Presale",
+    "price": 155.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:50:54+02:00"
+  },
+  "ebay:v1|318852654482|0": {
+    "title": "Précommande - Sony DualSense Manette GTA 6 pour console Sony PlayStation 5 PS5",
+    "price": 140.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:50:54+02:00"
   }
 }
