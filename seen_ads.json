@@ -17197,5 +17197,33 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-10T09:31:11+02:00"
+  },
+  "ebay:v1|820109546881|0": {
+    "title": "Colorida iGame GeForce RTX 4060 Ultra 3X OC 8GB GDDR6 Triple Ventilador Tarjeta Gráfica",
+    "price": 548.44,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T09:35:29+02:00"
+  },
+  "wallapop:8j38q8nkr8z9": {
+    "title": "PS5 Slim Blanca Como Nueva con un mando y cables",
+    "price": 350.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T09:35:34+02:00"
+  },
+  "wallapop:nz08e8qx936o": {
+    "title": "Sony PS5 Digital Edition Console",
+    "price": 305.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T09:35:34+02:00"
+  },
+  "ebay:v1|168553126699|0": {
+    "title": "Bosch Profesional Biturbo Sierra Circular 18V Solo Herramienta BSH6016B5000 Gks",
+    "price": 436.47,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T09:35:44+02:00"
   }
 }
