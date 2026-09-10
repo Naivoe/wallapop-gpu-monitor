@@ -15832,5 +15832,33 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-10T02:21:07+02:00"
+  },
+  "wallapop:8j38q8wgr8z9": {
+    "title": "consola ps5 sony playstation 5 slim digital 1tb",
+    "price": 479.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:25:36+02:00"
+  },
+  "wallapop:0j28v87e5vjy": {
+    "title": "mando xbox series microsoft qau-00002 shock blue",
+    "price": 49.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:25:44+02:00"
+  },
+  "wallapop:vjrewe5x18zk": {
+    "title": "mando xbox series microsoft qau-00002 shock blue",
+    "price": 42.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:25:44+02:00"
+  },
+  "ebay:v1|188445980990|0": {
+    "title": "Bosch Herramienta Agujeros para sin Perforar Hojas de Lija, 120,5 X 112,5 MM, 6",
+    "price": 53.41,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T02:25:46+02:00"
   }
 }
