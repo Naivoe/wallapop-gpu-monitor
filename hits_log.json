@@ -7061,5 +7061,24 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €28.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|377485700106|645784797085",
+    "title": "Kindle Cambiador de Página Mando a Distancia Portátil Lector Compacto para Cama, Sofá, Lector",
+    "price": 17.99,
+    "link": "https://www.ebay.es/itm/377485700106?_skw=Kindle&hash=item57e3e6ac0a:g:1Z8AAeSwdINqolQX",
+    "posted_at": "2026-09-10 06:53",
+    "source": "eBay",
+    "_condition": "neu",
+    "_real_shipping_cost": 0.61,
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-10 09:05",
+    "market_median": 75.0,
+    "suggested_sell_price": 71,
+    "market_sample_count": 110,
+    "min_samples_needed": 5,
+    "shipping_cost": 0.61,
+    "reason": "Por debajo de tu límite de compra de €35.",
+    "category": "hit"
   }
 ]

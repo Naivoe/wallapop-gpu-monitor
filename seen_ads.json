@@ -17064,5 +17064,26 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-10T09:01:23+02:00"
+  },
+  "wallapop:nz08e8qvgv6o": {
+    "title": "Samsung 16GB DDR4 RAM PC4-21300",
+    "price": 200.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T09:05:37+02:00"
+  },
+  "ebay:v1|158060454053|0": {
+    "title": "ASROCK DESKMEET X600 ITX AMD RYZEN5 8500G 32GB RAM DDR5 VGA 740M M2 NVME 500GB",
+    "price": 599.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T09:05:39+02:00"
+  },
+  "ebay:v1|377485700106|645784797085": {
+    "title": "Kindle Cambiador de Página Mando a Distancia Portátil Lector Compacto para Cama, Sofá, Lector",
+    "price": 17.99,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-10T09:05:44+02:00"
   }
 }
