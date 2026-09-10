@@ -17722,5 +17722,68 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-10T11:11:07+02:00"
+  },
+  "ebay:v1|137720707326|0": {
+    "title": "Pc Gamer RTX 4060 - 1080p/1440p",
+    "price": 664.1,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:15:39+02:00"
+  },
+  "wallapop:ejkmymg5e1zx": {
+    "title": "HP Omen 16 U7-255H, 32GB, 1TB, 5060 Nuevo Garantía",
+    "price": 1299.99,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:15:42+02:00"
+  },
+  "wallapop:v6gpypd3e56e": {
+    "title": "PS5 1TB y 1 mando",
+    "price": 400.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:15:45+02:00"
+  },
+  "wallapop:36e5y53mgk6d": {
+    "title": "Mando PS5 Edición Limitada GTA VI",
+    "price": 230.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:15:51+02:00"
+  },
+  "wallapop:v6gpypdve56e": {
+    "title": "Mando DualSense PS5 Sony",
+    "price": 60.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:15:51+02:00"
+  },
+  "ebay:v1|377485985932|0": {
+    "title": "Sony PS5 DualSense Controller GTA VI Limited Edition Black | PREORDER ✅",
+    "price": 179.95,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:15:51+02:00"
+  },
+  "ebay:v1|800640162014|0": {
+    "title": "PREORDER PS5 DualSense Controller Grand Theft Auto VI White Limited Edition GTA",
+    "price": 139.9,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:15:51+02:00"
+  },
+  "wallapop:x6qq7q52ne6y": {
+    "title": "Mando Xbox Series X|S Robot White + Caja",
+    "price": 55.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:15:52+02:00"
+  },
+  "wallapop:pzpk0kl73kj3": {
+    "title": "Amazon Kindle D01200 Argento",
+    "price": 30.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:15:53+02:00"
   }
 }

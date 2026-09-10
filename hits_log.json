@@ -7237,5 +7237,22 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €250.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:pzpk0kl73kj3",
+    "title": "Amazon Kindle D01200 Argento",
+    "price": 30.0,
+    "link": "https://es.wallapop.com/item/amazon-kindle-d01200-argento-1300209126",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-10 11:15",
+    "market_median": 74.87,
+    "suggested_sell_price": 71,
+    "market_sample_count": 118,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €35.",
+    "category": "hit"
   }
 ]
