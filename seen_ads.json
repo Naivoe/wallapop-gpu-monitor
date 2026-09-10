@@ -16266,5 +16266,19 @@
     "gpu_name": "RAM DDR4 16GB",
     "source": "eBay",
     "first_seen": "2026-09-10T03:25:36+02:00"
+  },
+  "ebay:v1|407205208825|677374065787": {
+    "title": "SK hynix DDR5 32GB 5600MHz Kit RAM Memoria 2x16GB UDIMM PC5-5600B ARGB",
+    "price": 299.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T03:31:06+02:00"
+  },
+  "wallapop:vjrewegdv9zk": {
+    "title": "mando ps5 sony dualsense",
+    "price": 55.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T03:31:10+02:00"
   }
 }
