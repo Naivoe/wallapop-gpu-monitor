@@ -18023,5 +18023,40 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-10T11:31:13+02:00"
+  },
+  "ebay:v1|278361770057|0": {
+    "title": "PC para juegos Mifcom // Intel Core i7-13700KF, RTX 4060 Ti, 32 GB RAM, SSD de 1 TB",
+    "price": 1029.0,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:35:32+02:00"
+  },
+  "wallapop:pj94w485g26e": {
+    "title": "PS5 Slim 1TB | 1 Mando | 5 AÑOS DE GARANTÍA",
+    "price": 500.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:35:37+02:00"
+  },
+  "wallapop:qzmm5m2431zv": {
+    "title": "Mando PS5 DualSense Edición Limitada GTA VI",
+    "price": 250.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:35:44+02:00"
+  },
+  "wallapop:e65qnq4vpp6o": {
+    "title": "Mando PS5 DualSense Edición Limitada GTA VI Blanco",
+    "price": 250.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:35:44+02:00"
+  },
+  "wallapop:mzn3n39l5yjn": {
+    "title": "Taladro y Atornillador Makita con Cargador",
+    "price": 25.0,
+    "gpu_name": "Herramienta Makita",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:35:48+02:00"
   }
 }

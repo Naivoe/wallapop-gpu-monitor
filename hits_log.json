@@ -7290,5 +7290,22 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €250.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:mzn3n39l5yjn",
+    "title": "Taladro y Atornillador Makita con Cargador",
+    "price": 25.0,
+    "link": "https://es.wallapop.com/item/taladro-y-atornillador-makita-con-cargador-1300217973",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Herramienta Makita",
+    "found_at": "2026-09-10 11:35",
+    "market_median": 152.53,
+    "suggested_sell_price": 145,
+    "market_sample_count": 109,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]
