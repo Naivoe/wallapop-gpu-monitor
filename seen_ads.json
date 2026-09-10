@@ -17050,5 +17050,12 @@
     "gpu_name": "RAM DDR4 32GB",
     "source": "Wallapop",
     "first_seen": "2026-09-10T08:50:48+02:00"
+  },
+  "wallapop:v6gpyplmdn6e": {
+    "title": "Xbox Series X Negra",
+    "price": 700.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T08:55:42+02:00"
   }
 }
