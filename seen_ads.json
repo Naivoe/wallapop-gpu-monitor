@@ -16399,5 +16399,19 @@
     "gpu_name": "Herramienta Bosch",
     "source": "Wallapop",
     "first_seen": "2026-09-10T04:31:08+02:00"
+  },
+  "wallapop:8j38q81r48z9": {
+    "title": "Ps5 Slim 1Tb",
+    "price": 336.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T04:41:02+02:00"
+  },
+  "ebay:v1|128071381039|0": {
+    "title": "CONSOLA PS5 SONY PLAYSTATION 5 PRO 2TB 20312559",
+    "price": 830.95,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T04:41:02+02:00"
   }
 }
