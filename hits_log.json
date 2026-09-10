@@ -7080,5 +7080,24 @@
     "shipping_cost": 0.61,
     "reason": "Por debajo de tu límite de compra de €35.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|800639503242|0",
+    "title": "Batería Li-ion para Bosch BAT609 BAT618 BAT619 GSR GSB GDR GBH GKS 18V-LI 6.0Ah 18V",
+    "price": 27.34,
+    "link": "https://www.ebay.es/itm/800639503242?_skw=Herramienta+Bosch&hash=itemba69d54b8a:g:YfsAAeSwe~9qokrE&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGa%2Fh1ntA48rsP5Y9NOsS0SJHrjKIJde69%2F05j%2BH%2FhfR0rhRsQpYFNo3TCCaxOWG94CHX8mKlCXQcmDxdtmrqvPRyj24HkQkkNXwnTQIVqA6skflgcbyBtSwWBYkLp1rO7DbYe6o9RypiNudoJuS0gB%2FKWV8Pxjt%2BckkLCy29JqIW8f5Md8xJjIXxSAwI%2FW%2B9tHN%2Fne%2BcJQ754uyoBCJRmYMmrBCfHBaF9xPsOi0ZaiTWEACaJwjqMg8hPRTBznspCGK2hwvEj8K5coAlU%2FesVjEHR%2FkOguTHP%2FH%2BuUpL4OOfg%3D%3D",
+    "posted_at": "2026-09-10 06:16",
+    "source": "eBay",
+    "_condition": "neu",
+    "_real_shipping_cost": 16.27,
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-10 09:47",
+    "market_median": 69.99,
+    "suggested_sell_price": 66,
+    "market_sample_count": 129,
+    "min_samples_needed": 5,
+    "shipping_cost": 16.27,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]

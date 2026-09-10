@@ -17232,5 +17232,40 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-10T09:40:47+02:00"
+  },
+  "ebay:v1|820109564347|0": {
+    "title": "Colorida iGame GeForce RTX 4060 Advanced AD 8GB GDDR6 Triple Ventilador Tarjeta Gráfica",
+    "price": 565.63,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T09:46:50+02:00"
+  },
+  "ebay:v1|800639503242|0": {
+    "title": "Batería Li-ion para Bosch BAT609 BAT618 BAT619 GSR GSB GDR GBH GKS 18V-LI 6.0Ah 18V",
+    "price": 27.34,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T09:47:06+02:00"
+  },
+  "ebay:v1|800639626871|0": {
+    "title": "Batería Para Makita 2417 2420 2430 193127-4 193128-2 193130-5 BH2433 5000mAH 24V",
+    "price": 64.97,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-10T09:47:07+02:00"
+  },
+  "ebay:v1|800639676800|657541314988": {
+    "title": "Batería Para Makita 2417 2420 2430 193127-4 193128-2 193737-7 BH2420 BH2433 5Ah 24V",
+    "price": 125.98,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-10T09:47:07+02:00"
+  },
+  "ebay:v1|318851688644|617075132359": {
+    "title": "Batería 5.0Ah Ni-MH para Makita 2417 2420 2430 B2417 B2420 B2430 193127-4 193130-5",
+    "price": 64.97,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-10T09:47:07+02:00"
   }
 }
