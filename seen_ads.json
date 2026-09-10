@@ -18282,5 +18282,26 @@
     "gpu_name": "Herramienta Makita",
     "source": "Wallapop",
     "first_seen": "2026-09-10T12:01:29+02:00"
+  },
+  "wallapop:9jdwywgoy46k": {
+    "title": "RTX 4060 INNO3D Usada Buen Estado",
+    "price": 230.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:05:35+02:00"
+  },
+  "wallapop:mzn3n39r0kjn": {
+    "title": "Gigabyte RTX 4060 Gaming OC 8G",
+    "price": 250.0,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:05:35+02:00"
+  },
+  "wallapop:xzogpgen47j9": {
+    "title": "Mando DualSense PS5",
+    "price": 60.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:05:48+02:00"
   }
 }
