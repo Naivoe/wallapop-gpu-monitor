@@ -19815,5 +19815,19 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-10T15:11:00+02:00"
+  },
+  "ebay:v1|800641205705|0": {
+    "title": "DualSense Manette GTA 6 Blanche- Sony PlayStation 5 PS5 (Prévente/Presale 19/11)",
+    "price": 143.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T15:16:03+02:00"
+  },
+  "ebay:v1|318852387129|0": {
+    "title": "Précommande - Sony DualSense Manette GTA 6 pour console Sony PlayStation 5 PS5",
+    "price": 170.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T15:16:03+02:00"
   }
 }
