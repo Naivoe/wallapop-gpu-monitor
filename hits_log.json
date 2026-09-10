@@ -7254,5 +7254,24 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €35.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|227254574802|0",
+    "title": "Adaptador de carril guía para Makita DSS610 / DSS610Z / DSS611 / DSS611Z",
+    "price": 23.9,
+    "link": "https://www.ebay.es/itm/227254574802?_skw=Herramienta+Makita&hash=item34e96d9ed2:g:Zn0AAeSwxVVppd8H&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGYem8JpgIZrtpipiYkGRrIVljqIYr0IkwtPcibYmnfys9BuIvF9ZGzCRkwTNDuFdMGXwpr5KumsWXL380SVde5ggT0l%2BNjgo9svsZK6TugBk4qU6SMlW0m7F8bkf0V1TVplyW6%2By2AFFzygffgRTcBF1kjuCizTaqe0HaQ5P0vyqWj6QbiE3PlYW8Ye1XZCAokL7YvxqpCFZG5fqU7hBKMkdVSOwW0prc1z9rWSeS2j1Uq3YtVVqF0TJcqmOyGiMZvSjH8nHvUyL5CTnjWFaexoVCGCPikcX8dVOzEzL3SjHA%3D%3D",
+    "posted_at": "2026-03-13 14:56",
+    "source": "eBay",
+    "_condition": "neu",
+    "_real_shipping_cost": 15.0,
+    "gpu_name": "Herramienta Makita",
+    "found_at": "2026-09-10 11:25",
+    "market_median": 154.91500000000002,
+    "suggested_sell_price": 147,
+    "market_sample_count": 106,
+    "min_samples_needed": 5,
+    "shipping_cost": 15.0,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]
