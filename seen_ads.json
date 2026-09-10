@@ -16861,5 +16861,19 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-10T06:45:44+02:00"
+  },
+  "ebay:v1|267781132633|0": {
+    "title": "Consola Sony Playstation 5 - PS5 Slim Disc Edition 1TB con cables de mando",
+    "price": 455.94,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T06:50:44+02:00"
+  },
+  "wallapop:wzvgogpx0rzl": {
+    "title": "Corsair Vengeance LPX DDR4 16GB (2x8GB) 3000MHz",
+    "price": 80.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T06:50:45+02:00"
   }
 }
