@@ -18086,5 +18086,68 @@
     "gpu_name": "Herramienta Bosch",
     "source": "Wallapop",
     "first_seen": "2026-09-10T11:41:03+02:00"
+  },
+  "wallapop:nzxe2e3w9p62": {
+    "title": "PS5 Pro Blanca - Vendo o Cambio",
+    "price": 995.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:45:45+02:00"
+  },
+  "wallapop:8z8878y2drz3": {
+    "title": "Corsair Vengeance Pro 16GB (2x8GB) DDR4 3200MHz",
+    "price": 80.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:45:46+02:00"
+  },
+  "ebay:v1|377485947077|0": {
+    "title": "PRÉCO Manette DualSense Sony Édition limitée Grand Theft Auto VI NOIR GTA 6",
+    "price": 145.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:45:52+02:00"
+  },
+  "ebay:v1|398380275119|0": {
+    "title": "GTA 6 Sony PS5 DualSense Controller GTA VI Limited Edition Black | PREORDER ✅",
+    "price": 150.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:45:52+02:00"
+  },
+  "ebay:v1|307171771326|0": {
+    "title": "GTA 6 Sony PS5 DualSense Controller GTA VI Limited Edition Black | PREORDER",
+    "price": 195.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:45:52+02:00"
+  },
+  "wallapop:mzn3n39ewgjn": {
+    "title": "Xbox Series S 512GB SSD Blanca",
+    "price": 260.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:45:53+02:00"
+  },
+  "wallapop:3zlmymokp8jx": {
+    "title": "Amazon Kindle 9ª Gen. Negro",
+    "price": 149.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:45:54+02:00"
+  },
+  "ebay:v1|377486043676|0": {
+    "title": "[Excelente] Amazon Kindle Paperwhite 10ª Generación 6 pulgadas WiFi 4 GB Verde",
+    "price": 97.38,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:45:54+02:00"
+  },
+  "ebay:v1|287515331237|0": {
+    "title": "Herramienta multifunción (multiherramienta) para BOSCH 0 601 237 001",
+    "price": 280.18,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:45:55+02:00"
   }
 }
