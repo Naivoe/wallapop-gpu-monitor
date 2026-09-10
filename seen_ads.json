@@ -19409,5 +19409,47 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T14:01:28+02:00"
+  },
+  "ebay:v1|137721319777|0": {
+    "title": "Corsair Vengeance RGB PRO DDR4 RAM 32GB (2x16GB) 3200 cl16",
+    "price": 236.5,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T14:05:51+02:00"
+  },
+  "wallapop:wzyrkynm9p65": {
+    "title": "Corsair Vengeance DDR5 RAM 16gb x2 (32gb)",
+    "price": 350.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T14:05:53+02:00"
+  },
+  "wallapop:v6gpyo48w56e": {
+    "title": "Mando Dualsense PS5 GTA6 Limited Edition Blanco",
+    "price": 150.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T14:05:56+02:00"
+  },
+  "wallapop:w67v0xdqe86x": {
+    "title": "Mando DualSense GTA VI Edición Limitada Blanco",
+    "price": 105.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T14:05:56+02:00"
+  },
+  "wallapop:0j28vny0mvjy": {
+    "title": "Mando PS5 Negro GTA VI",
+    "price": 130.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T14:05:56+02:00"
+  },
+  "wallapop:vjrew4d0n9zk": {
+    "title": "Kindle Paperwhite 11",
+    "price": 140.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T14:05:59+02:00"
   }
 }
