@@ -16315,5 +16315,33 @@
     "gpu_name": "Herramienta Makita",
     "source": "Wallapop",
     "first_seen": "2026-09-10T03:51:05+02:00"
+  },
+  "ebay:v1|267781029577|0": {
+    "title": "ZOTAC Gaming RTX 4060 Ti 8GB Spider-Man Spider-Verse Edition Graphics Card",
+    "price": 624.12,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T03:55:34+02:00"
+  },
+  "ebay:v1|318655187354|0": {
+    "title": "Enfriador de tarjetas gráficas con ventilador para RTX4060 4060Ti 4070S 4070Ti VENTUS 2X nuevo #to",
+    "price": 179.06,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T03:55:34+02:00"
+  },
+  "ebay:v1|800529317381|0": {
+    "title": "Samsung SM961 1TB NVMe SSD M.2 2280 PCIe 3.0 x4 MZVKW1T0HMLH-000D1",
+    "price": 159.22,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T03:55:46+02:00"
+  },
+  "ebay:v1|188896313247|0": {
+    "title": "Bosch Profesional Destornillador de Impacto 18V Solo Herramienta 0.6cm Hex Drive",
+    "price": 245.43,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T03:55:52+02:00"
   }
 }

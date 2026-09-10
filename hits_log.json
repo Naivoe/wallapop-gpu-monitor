@@ -6652,5 +6652,24 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €30.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|318655187354|0",
+    "title": "Enfriador de tarjetas gráficas con ventilador para RTX4060 4060Ti 4070S 4070Ti VENTUS 2X nuevo #to",
+    "price": 179.06,
+    "link": "https://www.ebay.es/itm/318655187354?_skw=RTX+4060+Ti&hash=item4a3154499a:g:OTgAAeSwSApqa0up&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGbn%2BCzYi9et0LhzgTA1iFRSctZ%2FklcFcgu%2BLNw3eQkkTJp176HLqwEBLgyHxGo3aRDs1Gp74QR29OFVmMn6L76aapMmlwcQ5J%2BV4QHY2kf154qrIMFxnmQuTNx6hUrk5s%2F6iUncxs8yoWIJBqENFH3dFPsRQR4RF6Nug6VY3qSxHrdmxRMygjoKz2IoA6YBEWhn4aumwwQ9DZ5bneebZltHT40aI84v900P0ZMk85m91Aew9Dw1UCB5Dx7LLcHlw3JMiu3pbABOCq6WQIu9ta25XP833gBtGI34zfhv%2BAIYnQ%3D%3D",
+    "posted_at": "2026-07-30 13:03",
+    "source": "eBay",
+    "_condition": "neu",
+    "_real_shipping_cost": 44.74,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "found_at": "2026-09-10 03:55",
+    "market_median": 461.49,
+    "suggested_sell_price": 438,
+    "market_sample_count": 61,
+    "min_samples_needed": 5,
+    "shipping_cost": 44.74,
+    "reason": "Por debajo de tu límite de compra de €270.",
+    "category": "hit"
   }
 ]
