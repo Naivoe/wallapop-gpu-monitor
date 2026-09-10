@@ -17358,5 +17358,33 @@
     "gpu_name": "Kindle",
     "source": "Wallapop",
     "first_seen": "2026-09-10T10:15:54+02:00"
+  },
+  "wallapop:qzmm5mr7p1zv": {
+    "title": "Mando PS5 Pro Nuevo",
+    "price": 115.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T10:20:48+02:00"
+  },
+  "ebay:v1|318851982020|0": {
+    "title": "PREORDER PS5 DualSense Controller Grand Theft Auto VI Black Limited Edition GTA",
+    "price": 115.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T10:20:55+02:00"
+  },
+  "ebay:v1|800639983521|0": {
+    "title": "Playstation DualSense Wireless Controller GTA 6 White Limited Edition Pre-Order ",
+    "price": 160.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T10:20:55+02:00"
+  },
+  "ebay:v1|158277698030|0": {
+    "title": "GTA 6 Sony PS5 DualSense Controller GTA VI Limited Edition Black | PREORDER ✅",
+    "price": 159.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T10:20:55+02:00"
   }
 }

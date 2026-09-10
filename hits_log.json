@@ -7133,5 +7133,22 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €35.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:qzmm5mr7p1zv",
+    "title": "Mando PS5 Pro Nuevo",
+    "price": 115.0,
+    "link": "https://es.wallapop.com/item/mando-ps5-pro-nuevo-1300192932",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "PS5",
+    "found_at": "2026-09-10 10:20",
+    "market_median": 420.0,
+    "suggested_sell_price": 399,
+    "market_sample_count": 531,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €250.",
+    "category": "hit"
   }
 ]
