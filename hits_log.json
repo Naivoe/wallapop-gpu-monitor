@@ -7608,5 +7608,22 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €250.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:36e5y8x3ev6d",
+    "title": "2x DDR5 32GB 5600MHz RAM Modules",
+    "price": 94.0,
+    "link": "https://es.wallapop.com/item/2x-ddr5-32gb-5600mhz-ram-modules-1300298339",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "RAM DDR5 32GB",
+    "found_at": "2026-09-10 15:25",
+    "market_median": 400.0,
+    "suggested_sell_price": 380,
+    "market_sample_count": 70,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "€4 por encima de tu límite de €90, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
   }
 ]
