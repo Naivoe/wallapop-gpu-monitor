@@ -16532,5 +16532,26 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-10T05:31:09+02:00"
+  },
+  "ebay:v1|257685862413|0": {
+    "title": "MSI GeForce RTX 4070 VENTUS 3X 12G OC",
+    "price": 589.0,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:35:35+02:00"
+  },
+  "ebay:v1|336717239608|546089219679": {
+    "title": "PC GAMING RGB Pro Intel I5 6x4,4GHz Nvidia RTX 5060, 1TB SSD 32/16GB RAM, Win 11",
+    "price": 698.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:35:36+02:00"
+  },
+  "ebay:v1|307171396411|0": {
+    "title": "Reproductor remoto portátil Sony PlayStation Portal para PS5 USB-C blanco/negro",
+    "price": 119.71,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:35:39+02:00"
   }
 }

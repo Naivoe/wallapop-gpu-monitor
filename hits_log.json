@@ -6775,5 +6775,24 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €40.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|307171396411|0",
+    "title": "Reproductor remoto portátil Sony PlayStation Portal para PS5 USB-C blanco/negro",
+    "price": 119.71,
+    "link": "https://www.ebay.es/itm/307171396411?_skw=PS5&hash=item4784d78b3b:g:mqgAAeSwwyhqohqz",
+    "posted_at": "2026-09-10 02:50",
+    "source": "eBay",
+    "_condition": "used",
+    "_real_shipping_cost": null,
+    "gpu_name": "PS5",
+    "found_at": "2026-09-10 05:35",
+    "market_median": 420.0,
+    "suggested_sell_price": 399,
+    "market_sample_count": 509,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €250.",
+    "category": "hit"
   }
 ]
