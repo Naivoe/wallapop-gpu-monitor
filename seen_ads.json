@@ -19563,5 +19563,40 @@
     "gpu_name": "Mando Xbox Series",
     "source": "eBay",
     "first_seen": "2026-09-10T14:20:55+02:00"
+  },
+  "ebay:v1|287578126353|0": {
+    "title": "Sony Playstation 5 pro con unidad - PS5 Pro Disk 2 TB bajo firmware FW 12.0",
+    "price": 1290.0,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T14:25:35+02:00"
+  },
+  "wallapop:x6qq7v9n5o6y": {
+    "title": "Mando DualSense GTA VI PS5",
+    "price": 300.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T14:25:42+02:00"
+  },
+  "wallapop:4z4850grorjy": {
+    "title": "Mando DualSense Edición Limitada GTA",
+    "price": 200.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T14:25:42+02:00"
+  },
+  "ebay:v1|278361849557|0": {
+    "title": "Controller PS5 DualSense Wireless GTA VI Edition Bianco NEW",
+    "price": 134.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T14:25:42+02:00"
+  },
+  "ebay:v1|137721378426|0": {
+    "title": "[PRÉCOMMANDE] Manette sans fil PS5 DualSense GTA 6 - Blanche",
+    "price": 149.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T14:25:42+02:00"
   }
 }
