@@ -18205,5 +18205,40 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-10T11:50:58+02:00"
+  },
+  "wallapop:nzxe2e38q562": {
+    "title": "Copertura PS5 Slim Honcam con prese aria",
+    "price": 22.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:55:40+02:00"
+  },
+  "ebay:v1|407206509128|0": {
+    "title": "Consola de disco Sony PlayStation 5 PS5 blanca 1 TB 4K con cable HDMI y 1 mando",
+    "price": 429.8,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:55:40+02:00"
+  },
+  "wallapop:0j28v8md5vjy": {
+    "title": "Corsair Dominator DDR5 32GB 6200MHz",
+    "price": 300.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:55:44+02:00"
+  },
+  "ebay:v1|178484725353|0": {
+    "title": "🎮 Sony PS5 Dualsense Wireless Controller GTA VI Limited Edition - Black Version",
+    "price": 169.9,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:55:47+02:00"
+  },
+  "wallapop:ejkmym1779zx": {
+    "title": "BOSCH KTS 560 Powered by ESI[tronic]",
+    "price": 400.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:55:50+02:00"
   }
 }
