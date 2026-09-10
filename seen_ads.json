@@ -18884,5 +18884,54 @@
     "gpu_name": "Herramienta Bosch",
     "source": "Wallapop",
     "first_seen": "2026-09-10T13:15:57+02:00"
+  },
+  "wallapop:w67v0x3w856x": {
+    "title": "PS5 Slim 1TB con lector + 2 mandos | Poco uso |",
+    "price": 380.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:20:46+02:00"
+  },
+  "ebay:v1|168678218964|0": {
+    "title": "Consola Sony PlayStation 5 PS5 Edición Disco Blanca CFI-1215A 825GB Probada",
+    "price": 352.44,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:20:46+02:00"
+  },
+  "ebay:v1|237061045950|0": {
+    "title": "Sony DualSense Manette GTA 6 pour console Sony PlayStation 5 PS5  noir preorder",
+    "price": 149.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:20:53+02:00"
+  },
+  "ebay:v1|407206691296|0": {
+    "title": "PRECOMMANDE | Sony DualSense manette PlayStation 5 Noir édition limitée GTA 6",
+    "price": 159.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:20:53+02:00"
+  },
+  "ebay:v1|377486241667|0": {
+    "title": "Sony PS5 Dualsense Wireless Controller GTA VI - Limited Edition - White Version",
+    "price": 159.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:20:53+02:00"
+  },
+  "ebay:v1|158278102246|0": {
+    "title": "Controller PS5 DualSense – Grand Theft Auto VI – White - PREORDER ✅",
+    "price": 154.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:20:53+02:00"
+  },
+  "wallapop:nzxe2rlk7m62": {
+    "title": "Caja de herramientas Makita con baterías.",
+    "price": 975.0,
+    "gpu_name": "Herramienta Makita",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:20:57+02:00"
   }
 }
