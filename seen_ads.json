@@ -16945,5 +16945,19 @@
     "gpu_name": "Mando Xbox Series",
     "source": "eBay",
     "first_seen": "2026-09-10T07:45:55+02:00"
+  },
+  "wallapop:nz08e8e2ge6o": {
+    "title": "Consola Sony PS5 Pro 2TB + 2 Mandos",
+    "price": 637.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T07:55:35+02:00"
+  },
+  "ebay:v1|820109293557|0": {
+    "title": "Micron 2500 SSD Interno 1TB M.2 NVMe PCIe Gen4 x4 MTFDKBA1T0QGN MSI CLAW 8 EX AI",
+    "price": 100.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T07:55:40+02:00"
   }
 }
