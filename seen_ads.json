@@ -18352,5 +18352,33 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T12:10:53+02:00"
+  },
+  "wallapop:pj94wndgrk6e": {
+    "title": "Consola Sony PS5 825 GB",
+    "price": 680.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:15:44+02:00"
+  },
+  "ebay:v1|366514624304|0": {
+    "title": "Mini PC Computer Desktop HP i7-12700T Ram 16Gb DDR5 SSD 512Gb W11 Ricondizionato",
+    "price": 599.99,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:15:47+02:00"
+  },
+  "wallapop:36e5y89x1y6d": {
+    "title": "Mando DualSense PS5 Blanco",
+    "price": 50.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:15:51+02:00"
+  },
+  "ebay:v1|198631578359|0": {
+    "title": "Makita Calendario de Adviento 2026 MAKPAC Talla 2 24 Puertas P-84888 Juego de Herramientas",
+    "price": 119.7,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:15:55+02:00"
   }
 }
