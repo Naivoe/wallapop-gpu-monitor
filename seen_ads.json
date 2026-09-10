@@ -16665,5 +16665,26 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-10T05:45:54+02:00"
+  },
+  "ebay:v1|168642214641|468004795084": {
+    "title": "PC Gaming Hasta RTX 5060 i7 7. Gen 32GB 2TB Nvme Flüssigkühlung",
+    "price": 447.33,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:50:52+02:00"
+  },
+  "ebay:v1|157211774475|458703246108": {
+    "title": "CORSAIR Vengeance LPX 8GB/16GB/32GB DDR4 3200 2666 2400 DIMM Desktop Ram 288-Pin",
+    "price": 163.87,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:50:58+02:00"
+  },
+  "ebay:v1|318805683518|0": {
+    "title": "SSD Crucial P3 Plus 1TB PCIe 4.0 NVMe M.2 - Pari al Nuovo (1 Ora di Utilizzo)",
+    "price": 125.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:51:02+02:00"
   }
 }
