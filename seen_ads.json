@@ -16917,5 +16917,12 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-10T07:10:46+02:00"
+  },
+  "wallapop:8z88787gr1z3": {
+    "title": "Bosch Professional batería GBA 18V 2.0Ah",
+    "price": 24.5,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T07:20:54+02:00"
   }
 }
