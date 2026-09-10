@@ -7307,5 +7307,22 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €40.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:mzn3n393e0jn",
+    "title": "Mandril Bosch 1 x Quick Change Chuck",
+    "price": 35.0,
+    "link": "https://es.wallapop.com/item/mandril-bosch-1-x-quick-change-chuck-1300220025",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-10 11:41",
+    "market_median": 65.0,
+    "suggested_sell_price": 62,
+    "market_sample_count": 135,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]

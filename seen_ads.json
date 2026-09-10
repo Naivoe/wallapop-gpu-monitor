@@ -18058,5 +18058,33 @@
     "gpu_name": "Herramienta Makita",
     "source": "Wallapop",
     "first_seen": "2026-09-10T11:35:48+02:00"
+  },
+  "ebay:v1|398380414494|0": {
+    "title": "[PRÉCOMMANDE] Manette sans fil PS5 DualSense GTA 6 - Black",
+    "price": 150.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:40:59+02:00"
+  },
+  "ebay:v1|398380215032|0": {
+    "title": "PRESALE Playstation DualSense Wireless Controller GTA 6 White ✅",
+    "price": 139.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:40:59+02:00"
+  },
+  "ebay:v1|237060919889|0": {
+    "title": "Sony DualSense Manette GTA 6 pour console Sony PlayStation 5 PS5 White - Presale",
+    "price": 145.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:40:59+02:00"
+  },
+  "wallapop:mzn3n393e0jn": {
+    "title": "Mandril Bosch 1 x Quick Change Chuck",
+    "price": 35.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:41:03+02:00"
   }
 }
