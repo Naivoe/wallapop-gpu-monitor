@@ -16819,5 +16819,19 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-10T06:20:44+02:00"
+  },
+  "ebay:v1|357032258609|625882663629": {
+    "title": "Zocker PC para 1440p | hasta RTX 4060 | i7 7. Gen | 32GB | 2TB NVMe | AiO Wakü",
+    "price": 734.88,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T06:25:28+02:00"
+  },
+  "ebay:v1|128071381012|0": {
+    "title": "CONSOLA PS5 SONY PLAYSTATION 5 SLIM DIGITAL 1TB 20311201",
+    "price": 560.95,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T06:25:34+02:00"
   }
 }
