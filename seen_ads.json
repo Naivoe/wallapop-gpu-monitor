@@ -18149,5 +18149,61 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-10T11:45:55+02:00"
+  },
+  "ebay:v1|318852252108|0": {
+    "title": "PlayStation Manette sans fil DualSense PS5 Noir Bleu Violet GTA6 - PRÉCOMMANDE",
+    "price": 150.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:50:55+02:00"
+  },
+  "ebay:v1|307171775082|0": {
+    "title": "GTA 6 Sony PS5 DualSense Controller GTA VI Limited Edition White | PREORDER",
+    "price": 180.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:50:55+02:00"
+  },
+  "ebay:v1|117405558043|0": {
+    "title": "[PRÉCOMMANDE] Manette sans fil PS5 DualSense GTA 6 - Black",
+    "price": 160.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:50:55+02:00"
+  },
+  "ebay:v1|800640288029|0": {
+    "title": "GTA 6 Sony PS5 DualSense Controller GTA VI Limited Edition Black | PREORDER ✅",
+    "price": 165.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:50:55+02:00"
+  },
+  "ebay:v1|158277885982|0": {
+    "title": "Sony DualSense Manette GTA 6 pour console Sony PlayStation 5 PS5 - Presale",
+    "price": 150.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:50:55+02:00"
+  },
+  "wallapop:ejkmym1ngrzx": {
+    "title": "Cepillo Maletín Bosch Azul",
+    "price": 199.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:50:58+02:00"
+  },
+  "ebay:v1|800640125668|0": {
+    "title": "Batería Para Bosch BAT411 BAT412 BAT413 BAT414 GSR GSA GSB GOS GBA 10.8V-LI 3500mAh",
+    "price": 21.24,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:50:58+02:00"
+  },
+  "ebay:v1|800640205304|0": {
+    "title": "2x Batería 6,0Ah para Bosch GBA GSR GSB GWS GHO GSA GSK 18V-LI BAT618 BAT609 BAT619",
+    "price": 57.86,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:50:58+02:00"
   }
 }

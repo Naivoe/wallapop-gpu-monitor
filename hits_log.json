@@ -7324,5 +7324,24 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €40.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|800640125668|0",
+    "title": "Batería Para Bosch BAT411 BAT412 BAT413 BAT414 GSR GSA GSB GOS GBA 10.8V-LI 3500mAh",
+    "price": 21.24,
+    "link": "https://www.ebay.es/itm/800640125668?_skw=Herramienta+Bosch&hash=itemba69decae4:g:q8IAAeSwtQFqoimK&amdata=enc%3AAQALAAAA8ACCtXRWQnOEpyOqnQQ8KGZ%2BlGITJuRU6cWvGhF43gYA76J%2FHA9pwrL9iAQFEpLYmaszIHv8g3JxO859RoBC3U0C6nyeJZRtsai0VktuHcYZCfO4mCVgrug1FcXMOnSNKZ4IDzI4AxVkj7pK%2BfltPLgrh%2BVbkNKx4gEXIbwQUCDtpqpw4K%2BEIRE2aXNU1USPVHXqm1dikEouJS5eFaAogpi2%2FQdZD0GvQIIXAFVUUHNjBDdW4l%2FhCxAecHsHsjiXdkPSQe0%2FN7MRh38lVEqJ9CYkt8fX9MrXZ%2FTZsUeWMoL2oBNegGDsHveamWilUNxqRg%3D%3D",
+    "posted_at": "2026-09-10 08:53",
+    "source": "eBay",
+    "_condition": "neu",
+    "_real_shipping_cost": 11.18,
+    "gpu_name": "Herramienta Bosch",
+    "found_at": "2026-09-10 11:50",
+    "market_median": 65.0,
+    "suggested_sell_price": 62,
+    "market_sample_count": 137,
+    "min_samples_needed": 5,
+    "shipping_cost": 11.18,
+    "reason": "Por debajo de tu límite de compra de €40.",
+    "category": "hit"
   }
 ]
