@@ -16126,5 +16126,19 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-10T02:51:02+02:00"
+  },
+  "wallapop:4z4858xml8jy": {
+    "title": "pc generico i5-10400f gtx 1660 super 6gb 16gb ram 512ssd nvme 1tb hdd",
+    "price": 385.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:55:43+02:00"
+  },
+  "wallapop:p618g80wmxz5": {
+    "title": "mando ps5 sony dualsense",
+    "price": 55.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:55:45+02:00"
   }
 }
