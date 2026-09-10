@@ -16805,5 +16805,12 @@
     "gpu_name": "Herramienta Bosch",
     "source": "Wallapop",
     "first_seen": "2026-09-10T06:10:55+02:00"
+  },
+  "wallapop:e65qnqook06o": {
+    "title": "Consola PlayStation 5 (PS5) Blanca",
+    "price": 370.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T06:16:19+02:00"
   }
 }
