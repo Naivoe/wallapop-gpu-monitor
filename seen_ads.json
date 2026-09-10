@@ -19185,5 +19185,47 @@
     "gpu_name": "Kindle",
     "source": "eBay",
     "first_seen": "2026-09-10T13:35:57+02:00"
+  },
+  "ebay:v1|327228684490|0": {
+    "title": "PC Gaming RTX 4070 i5-14600KF 16GB DDR4 SSD 850W White Build",
+    "price": 1450.0,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:40:53+02:00"
+  },
+  "wallapop:wzvgo2y2mdzl": {
+    "title": "Consola Sony PlayStation 5 PS5 Blanca",
+    "price": 350.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:40:58+02:00"
+  },
+  "wallapop:3zlmy0gn58jx": {
+    "title": "RAM Viper Elite 5 DDR5 32GB (2x16GB) CL30",
+    "price": 399.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:41:02+02:00"
+  },
+  "wallapop:pzpk0d9g55j3": {
+    "title": "RAM Viper Venom DDR5 32GB (2x16GB) 6000MT/s CL30",
+    "price": 399.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:41:02+02:00"
+  },
+  "ebay:v1|800640761793|0": {
+    "title": "Amazon Kindle 4 (4ª Generación) 6\" eReader, WiFi, 2GB, Grafito, Modelo D01100.",
+    "price": 16.21,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:41:07+02:00"
+  },
+  "wallapop:mzn3nwlwv2jn": {
+    "title": "2 Baterías Compatible Makita",
+    "price": 55.0,
+    "gpu_name": "Herramienta Makita",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:41:10+02:00"
   }
 }

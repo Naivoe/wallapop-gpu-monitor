@@ -7502,5 +7502,24 @@
     "shipping_cost": 0.0,
     "reason": "Por debajo de tu límite de compra de €35.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|800640761793|0",
+    "title": "Amazon Kindle 4 (4ª Generación) 6\" eReader, WiFi, 2GB, Grafito, Modelo D01100.",
+    "price": 16.21,
+    "link": "https://www.ebay.es/itm/800640761793?_skw=Kindle&hash=itemba69e87fc1:g:ahkAAeSwODBqopWX",
+    "posted_at": "2026-09-10 11:35",
+    "source": "eBay",
+    "_condition": "used",
+    "_real_shipping_cost": 16.7,
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-10 13:41",
+    "market_median": 75.0,
+    "suggested_sell_price": 71,
+    "market_sample_count": 129,
+    "min_samples_needed": 5,
+    "shipping_cost": 16.7,
+    "reason": "Por debajo de tu límite de compra de €35.",
+    "category": "hit"
   }
 ]
