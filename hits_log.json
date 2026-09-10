@@ -6974,5 +6974,24 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €40.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|257456352152|0",
+    "title": "Mando PDP Solis Media Remote Xbox Series [PO236075]",
+    "price": 16.95,
+    "link": "https://www.ebay.es/itm/257456352152?_skw=Mando+Xbox+Series&hash=item3bf1982b98:g:BOsAAeSwBEFqokJ4",
+    "posted_at": "2026-04-14 01:50",
+    "source": "eBay",
+    "_condition": "usado",
+    "_real_shipping_cost": 0.0,
+    "gpu_name": "Mando Xbox Series",
+    "found_at": "2026-09-10 07:45",
+    "market_median": 150.0,
+    "suggested_sell_price": 142,
+    "market_sample_count": 174,
+    "min_samples_needed": 5,
+    "shipping_cost": 0.0,
+    "reason": "Por debajo de tu límite de compra de €30.",
+    "category": "hit"
   }
 ]

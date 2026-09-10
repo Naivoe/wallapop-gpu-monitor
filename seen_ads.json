@@ -16931,5 +16931,19 @@
     "gpu_name": "RAM DDR5 32GB",
     "source": "Wallapop",
     "first_seen": "2026-09-10T07:25:40+02:00"
+  },
+  "wallapop:pj94w4wxkm6e": {
+    "title": "RAM SK Hynix DDR4 16GB 2400T",
+    "price": 60.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T07:45:48+02:00"
+  },
+  "ebay:v1|257456352152|0": {
+    "title": "Mando PDP Solis Media Remote Xbox Series [PO236075]",
+    "price": 16.95,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-10T07:45:55+02:00"
   }
 }
