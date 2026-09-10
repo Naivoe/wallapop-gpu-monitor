@@ -16847,5 +16847,12 @@
     "gpu_name": "RTX 4070 12GB",
     "source": "eBay",
     "first_seen": "2026-09-10T06:35:29+02:00"
+  },
+  "ebay:v1|820085715862|0": {
+    "title": "Tarjeta de gráficos MSI GeForce RTX™ 4060 Ti 8 GB VENTUS 2X NEGRA OC GDDR6",
+    "price": 444.62,
+    "gpu_name": "RTX 4060 Ti 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T06:40:40+02:00"
   }
 }
