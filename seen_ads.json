@@ -16553,5 +16553,33 @@
     "gpu_name": "PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T05:35:39+02:00"
+  },
+  "ebay:v1|157838200396|0": {
+    "title": "Alienware m16 R2 RTX 4070 16” QHD+ 240Hz Ordinateur Pc Portable Neuf Gaming",
+    "price": 1699.99,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:40:44+02:00"
+  },
+  "ebay:v1|256775554792|0": {
+    "title": "SSD AORUS NVMe Gen4 2TB",
+    "price": 179.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:41:00+02:00"
+  },
+  "ebay:v1|398037997459|666330121466": {
+    "title": "Custodia protettiva in acrilico per Kindle Paperwhite Colorsoft 6,7,8 pollici",
+    "price": 19.9,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:41:02+02:00"
+  },
+  "ebay:v1|206204705568|0": {
+    "title": "Bosch 108 piezas todo en uno de metal kit de herramientas de mano-dwK",
+    "price": 73.59,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T05:41:03+02:00"
   }
 }
