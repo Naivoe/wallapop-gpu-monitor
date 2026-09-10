@@ -16854,5 +16854,12 @@
     "gpu_name": "RTX 4060 Ti 8GB",
     "source": "eBay",
     "first_seen": "2026-09-10T06:40:40+02:00"
+  },
+  "wallapop:9jdwywpo296k": {
+    "title": "Consola Sony PS5 1TB Spider-Man 2",
+    "price": 380.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T06:45:44+02:00"
   }
 }
