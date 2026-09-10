@@ -18702,5 +18702,40 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T12:55:47+02:00"
+  },
+  "ebay:v1|278361939799|0": {
+    "title": "PS5 Slim Digital Edition 1TB con mando y carga + base ventilador refrigeración",
+    "price": 515.77,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:01:15+02:00"
+  },
+  "ebay:v1|407206628877|0": {
+    "title": "GTA 6 Sony PS5 DualSense Controller GTA VI Limited Edition Black | Preorder . ",
+    "price": 149.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:01:22+02:00"
+  },
+  "ebay:v1|336787929885|0": {
+    "title": "PS5 DualSense Controller Grand Theft Auto VI GTA 6 Limited Edition Black PRESALE",
+    "price": 169.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:01:22+02:00"
+  },
+  "wallapop:p618g5v5lgz5": {
+    "title": "Amazon Kindle 11ª Gen 16GB Negro",
+    "price": 130.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:01:25+02:00"
+  },
+  "ebay:v1|128027007095|0": {
+    "title": "Bosch GDR 12V-110 Profesional 0.6cm Impacto Conductor 12V Solo Herramienta",
+    "price": 187.3,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:01:26+02:00"
   }
 }
