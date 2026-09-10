@@ -16812,5 +16812,12 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-10T06:16:19+02:00"
+  },
+  "wallapop:3zlmym3yg4jx": {
+    "title": "Consola Sony PlayStation 5 PS5",
+    "price": 300.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T06:20:44+02:00"
   }
 }
