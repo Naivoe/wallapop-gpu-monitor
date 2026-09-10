@@ -7116,5 +7116,22 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €40.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:w67v0v1vvy6x",
+    "title": "Amazon Kindle Negro",
+    "price": 25.0,
+    "link": "https://es.wallapop.com/item/amazon-kindle-negro-1300192276",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-10 10:15",
+    "market_median": 74.87,
+    "suggested_sell_price": 71,
+    "market_sample_count": 112,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "Por debajo de tu límite de compra de €35.",
+    "category": "hit"
   }
 ]
