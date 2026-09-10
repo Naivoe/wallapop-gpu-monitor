@@ -17274,5 +17274,12 @@
     "gpu_name": "Herramienta Bosch",
     "source": "Wallapop",
     "first_seen": "2026-09-10T09:50:56+02:00"
+  },
+  "wallapop:p618g8rn72z5": {
+    "title": "Samsung 32GB DDR5-4800 UDIMM Nueva",
+    "price": 150.0,
+    "gpu_name": "RAM DDR5 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T09:55:39+02:00"
   }
 }
