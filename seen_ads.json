@@ -16413,5 +16413,19 @@
     "gpu_name": "PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T04:41:02+02:00"
+  },
+  "wallapop:9jdwywpell6k": {
+    "title": "Ps5 pro 2 Terabytes con caja y mando todo original y funcional",
+    "price": 444.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T04:45:44+02:00"
+  },
+  "wallapop:9jdwywpe0l6k": {
+    "title": "Bosch batería PowerPlus 18V 4.0Ah",
+    "price": 44.5,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T04:45:54+02:00"
   }
 }
