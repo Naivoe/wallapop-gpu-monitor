@@ -16728,5 +16728,12 @@
     "gpu_name": "Herramienta Bosch",
     "source": "Wallapop",
     "first_seen": "2026-09-10T05:55:50+02:00"
+  },
+  "ebay:v1|227514765866|0": {
+    "title": "Laptop Dell WD 1TB M.2 2230 SSD NVMe PCIe4x4 SN740 para ASUS ROG Ally Steam Deck",
+    "price": 167.46,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T06:01:22+02:00"
   }
 }
