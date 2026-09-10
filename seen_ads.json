@@ -18303,5 +18303,54 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-10T12:05:48+02:00"
+  },
+  "wallapop:36e5y899kv6d": {
+    "title": "Ps5 Slim Digital Blanca Usada pero funciona todo",
+    "price": 385.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:10:46+02:00"
+  },
+  "wallapop:ejkmyp2229zx": {
+    "title": "CONSOLA SONY PS5 SLIM DIGITAL 1TB + MANDO + CABLES",
+    "price": 483.95,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:10:46+02:00"
+  },
+  "wallapop:nzxe2rddx562": {
+    "title": "RAM DDR4 32GB",
+    "price": 100.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:10:48+02:00"
+  },
+  "wallapop:vjrew4ykvxzk": {
+    "title": "Disco Duro Acer Predator GM7 2TB NVMe PCIe 4.0",
+    "price": 320.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:10:52+02:00"
+  },
+  "wallapop:0j28v8mm2njy": {
+    "title": "DualSense PS5 Edición Limitada GTA VI",
+    "price": 185.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:10:53+02:00"
+  },
+  "ebay:v1|366660165769|0": {
+    "title": "PS5 DualSense Controller Grand Theft Auto VI GTA 6 Limited Edition Black PRESALE",
+    "price": 149.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:10:53+02:00"
+  },
+  "ebay:v1|287577816582|0": {
+    "title": "DualSense Wireless Controller PSA5 - GTA VI Limited Edition BLACK - PRESALE",
+    "price": 162.78,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:10:53+02:00"
   }
 }
