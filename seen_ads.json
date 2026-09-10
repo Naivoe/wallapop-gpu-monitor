@@ -18590,5 +18590,47 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T12:40:58+02:00"
+  },
+  "wallapop:x6qq7vlp2o6y": {
+    "title": "PlayStation 5 Digital Edition PS5",
+    "price": 300.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:45:46+02:00"
+  },
+  "ebay:v1|257734973597|0": {
+    "title": "Pack: PS5 Slim Blanca con Lector + Dual Sense [PO195938]",
+    "price": 531.0,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:45:46+02:00"
+  },
+  "wallapop:4z4850o77mjy": {
+    "title": "Mando DualSense PS5",
+    "price": 35.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:45:52+02:00"
+  },
+  "ebay:v1|407206427638|0": {
+    "title": "GTA 6 Sony PS5 DualSense Controller GTA VI Limited Edition Black |",
+    "price": 144.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:45:52+02:00"
+  },
+  "ebay:v1|257734973592|0": {
+    "title": "Mando DualSense Midnight Black PS5 [PO123337]",
+    "price": 59.95,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:45:52+02:00"
+  },
+  "wallapop:0j28vn9pdejy": {
+    "title": "Mando xbox series",
+    "price": 37.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:45:54+02:00"
   }
 }
