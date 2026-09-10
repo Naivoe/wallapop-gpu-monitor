@@ -19311,5 +19311,47 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T13:50:54+02:00"
+  },
+  "wallapop:36e5y8w73n6d": {
+    "title": "PS5 Slim 1TB Blanca",
+    "price": 450.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:55:38+02:00"
+  },
+  "wallapop:x6qq7vy3yn6y": {
+    "title": "16Gb Ram Corsair Vengeance LPX DDR4 3200mhz CL16",
+    "price": 70.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:55:39+02:00"
+  },
+  "ebay:v1|127546669110|428661840699": {
+    "title": "Memoria RAM DDR4 2133 MHz PC4-17000 288 pines 4GB 8GB 16GB 32GB",
+    "price": 65.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:55:40+02:00"
+  },
+  "wallapop:0j28vnyd0mjy": {
+    "title": "Reserva Mando Dualsense PS5 GTA 6",
+    "price": 135.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:55:45+02:00"
+  },
+  "wallapop:xzogpx8q37j9": {
+    "title": "Cambio!!Mando DualSense GTA VI Negro",
+    "price": 200.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:55:45+02:00"
+  },
+  "wallapop:mzn3nwl1x2jn": {
+    "title": "Xbox Series S 512 GB SSD Blanca",
+    "price": 230.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:55:46+02:00"
   }
 }
