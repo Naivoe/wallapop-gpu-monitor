@@ -17085,5 +17085,26 @@
     "gpu_name": "Kindle",
     "source": "eBay",
     "first_seen": "2026-09-10T09:05:44+02:00"
+  },
+  "wallapop:4z4858penmjy": {
+    "title": "Asus TUF Gaming A16 RTX 5060",
+    "price": 1239.0,
+    "gpu_name": "RTX 5060 8GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T09:10:46+02:00"
+  },
+  "ebay:v1|398370328584|0": {
+    "title": "Samsung 980 PRO NVMe M.2 SSD 1TB, PCIe 4.0x4, NVMe disco duro interno...",
+    "price": 100.0,
+    "gpu_name": "SSD NVMe 1TB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T09:10:54+02:00"
+  },
+  "ebay:v1|298661029840|0": {
+    "title": "PREORDER Sony DualSense Manette sans fil PS5 Édition limitée Grand Theft Auto",
+    "price": 140.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T09:10:56+02:00"
   }
 }
