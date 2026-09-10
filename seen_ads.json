@@ -16833,5 +16833,12 @@
     "gpu_name": "PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T06:25:34+02:00"
+  },
+  "ebay:v1|147561789577|0": {
+    "title": "Kindle Lectrice de Livres Électroniques 2011 Noir",
+    "price": 29.95,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-10T06:31:07+02:00"
   }
 }

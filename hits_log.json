@@ -6902,5 +6902,24 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €40.",
     "category": "hit"
+  },
+  {
+    "id": "ebay:v1|147561789577|0",
+    "title": "Kindle Lectrice de Livres Électroniques 2011 Noir",
+    "price": 29.95,
+    "link": "https://www.ebay.es/itm/147561789577?_skw=Kindle&hash=item225b5e3889:g:wCkAAeSwPEtqoUfx",
+    "posted_at": "2026-09-09 11:46",
+    "source": "eBay",
+    "_condition": "occasion",
+    "_real_shipping_cost": 5.95,
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-10 06:31",
+    "market_median": 75.0,
+    "suggested_sell_price": 71,
+    "market_sample_count": 108,
+    "min_samples_needed": 5,
+    "shipping_cost": 5.95,
+    "reason": "Por debajo de tu límite de compra de €35.",
+    "category": "hit"
   }
 ]
