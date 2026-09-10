@@ -18415,5 +18415,47 @@
     "gpu_name": "Kindle",
     "source": "Wallapop",
     "first_seen": "2026-09-10T12:20:55+02:00"
+  },
+  "wallapop:xzogpxkd27j9": {
+    "title": "Samsung 990 Evo Plus NVME SSD 2TB",
+    "price": 250.0,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:25:45+02:00"
+  },
+  "wallapop:8z8875vrdrz3": {
+    "title": "Mando PS5 DualSense Edición Limitada GTA VI",
+    "price": 199.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:25:47+02:00"
+  },
+  "wallapop:nz08er9ro36o": {
+    "title": "Mando PS5 Sony DualSense Rev.2",
+    "price": 50.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T12:25:47+02:00"
+  },
+  "ebay:v1|188912350779|0": {
+    "title": "Controller Wireless PS5 DualSense Grand Theft Auto VI GTA 6 Limited Edition",
+    "price": 133.94,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:25:47+02:00"
+  },
+  "ebay:v1|407206566877|0": {
+    "title": "GTA 6 Sony PS5 DualSense Controller GTA VI Limited Edition Black | PREORDER ✅",
+    "price": 150.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:25:47+02:00"
+  },
+  "ebay:v1|327351444972|0": {
+    "title": "[PRÉCOMMANDE] Manette sans fil PS5 DualSense GTA 6 - Black",
+    "price": 140.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:25:47+02:00"
   }
 }
