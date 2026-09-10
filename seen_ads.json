@@ -18562,5 +18562,33 @@
     "gpu_name": "Kindle",
     "source": "Wallapop",
     "first_seen": "2026-09-10T12:35:51+02:00"
+  },
+  "ebay:v1|407206601400|0": {
+    "title": "Lenovo ThinkPad T14 Gen 4 256GB SSD Intel 13ª Gen 16GB RAM DDR5 Negro Bueno",
+    "price": 262.01,
+    "gpu_name": "RAM DDR5 16GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:40:54+02:00"
+  },
+  "ebay:v1|318852457071|0": {
+    "title": "PREORDER PS5 DualSense Controller Grand Theft Auto VI White Limited Edition GTA",
+    "price": 150.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:40:58+02:00"
+  },
+  "ebay:v1|188912406232|0": {
+    "title": "PRESALE ✅ Manette sans fil PS5 DualSense GTA 6  Black Edition",
+    "price": 140.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:40:58+02:00"
+  },
+  "ebay:v1|407206460930|0": {
+    "title": "PRESALE Manette DualSense Sony Édition limitée Grand Theft Auto VI Black GTA 6",
+    "price": 150.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T12:40:58+02:00"
   }
 }
