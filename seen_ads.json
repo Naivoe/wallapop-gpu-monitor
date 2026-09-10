@@ -18842,5 +18842,47 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "eBay",
     "first_seen": "2026-09-10T13:10:56+02:00"
+  },
+  "wallapop:e65qn7v1np6o": {
+    "title": "Tarjeta Gráfica RTX 4070 Ti",
+    "price": 400.0,
+    "gpu_name": "RTX 4070 Ti 12GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:15:44+02:00"
+  },
+  "wallapop:nzxe2rlno762": {
+    "title": "RTX 4070 Ti",
+    "price": 379.0,
+    "gpu_name": "RTX 4070 Ti 12GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:15:44+02:00"
+  },
+  "wallapop:w67v0x32276x": {
+    "title": "Corsair Vengeance LPX DDR4 16GB (2x8GB) 3000MHz",
+    "price": 60.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:15:48+02:00"
+  },
+  "wallapop:w67v0x32ly6x": {
+    "title": "Mando DualSense GTA VI Edición Limitada PS5",
+    "price": 170.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:15:54+02:00"
+  },
+  "ebay:v1|327012142392|515907659324": {
+    "title": "Kindle Paperwhite (11. Gen) - 8 GB o. 16GB, WIFI, 6.8\"- CON Publicidad-EXCELENTE-",
+    "price": 123.45,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:15:56+02:00"
+  },
+  "wallapop:0j28vnw7eejy": {
+    "title": "Radial Bosch GWS 230",
+    "price": 60.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:15:57+02:00"
   }
 }

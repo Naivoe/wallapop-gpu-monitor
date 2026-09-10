@@ -7411,5 +7411,39 @@
     "shipping_cost": 4,
     "reason": "Por debajo de tu límite de compra de €250.",
     "category": "hit"
+  },
+  {
+    "id": "wallapop:e65qn7v1np6o",
+    "title": "Tarjeta Gráfica RTX 4070 Ti",
+    "price": 400.0,
+    "link": "https://es.wallapop.com/item/tarjeta-grafica-rtx-4070-ti-1300254224",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "RTX 4070 Ti 12GB",
+    "found_at": "2026-09-10 13:15",
+    "market_median": 781.99,
+    "suggested_sell_price": 743,
+    "market_sample_count": 38,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "€50 por encima de tu límite de €350, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
+  },
+  {
+    "id": "wallapop:nzxe2rlno762",
+    "title": "RTX 4070 Ti",
+    "price": 379.0,
+    "link": "https://es.wallapop.com/item/rtx-4070-ti-1300253706",
+    "posted_at": null,
+    "source": "Wallapop",
+    "gpu_name": "RTX 4070 Ti 12GB",
+    "found_at": "2026-09-10 13:15",
+    "market_median": 781.99,
+    "suggested_sell_price": 743,
+    "market_sample_count": 38,
+    "min_samples_needed": 5,
+    "shipping_cost": 4,
+    "reason": "€29 por encima de tu límite de €350, pero dentro del margen del 15% — quizás negociable.",
+    "category": "near_miss"
   }
 ]
