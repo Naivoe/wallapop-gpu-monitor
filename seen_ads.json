@@ -16343,5 +16343,12 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-10T03:55:52+02:00"
+  },
+  "ebay:v1|267781033357|0": {
+    "title": "Consola de disco Sony Playstation PS5 Slim Blu-Ray Edition 1 TB con 2 mandos",
+    "price": 498.97,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T04:01:14+02:00"
   }
 }
