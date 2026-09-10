@@ -16840,5 +16840,12 @@
     "gpu_name": "Kindle",
     "source": "eBay",
     "first_seen": "2026-09-10T06:31:07+02:00"
+  },
+  "ebay:v1|398379507161|666652882711": {
+    "title": "330W AC Adapter For ASUS ROG NUC 970 NUC14SRKU9 RTX4070 Desktop",
+    "price": 144.99,
+    "gpu_name": "RTX 4070 12GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T06:35:29+02:00"
   }
 }
