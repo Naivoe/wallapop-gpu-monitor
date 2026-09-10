@@ -19654,5 +19654,26 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-10T14:35:42+02:00"
+  },
+  "wallapop:4z4850gm2mjy": {
+    "title": "PS5 con lector + Ghost of Tsushima",
+    "price": 950.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T14:40:48+02:00"
+  },
+  "ebay:v1|377486359911|0": {
+    "title": "PREORDER PS5 DualSense Controller Grand Theft Auto VI White Limited Edition GTA",
+    "price": 125.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T14:40:55+02:00"
+  },
+  "ebay:v1|366660404384|0": {
+    "title": "Précommande - Sony DualSense Manette GTA 6 pour console Sony PlayStation 5 PS5",
+    "price": 150.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T14:40:55+02:00"
   }
 }
