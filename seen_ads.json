@@ -17225,5 +17225,12 @@
     "gpu_name": "Herramienta Bosch",
     "source": "eBay",
     "first_seen": "2026-09-10T09:35:44+02:00"
+  },
+  "wallapop:pzpk0kpq5lj3": {
+    "title": "Consola PS5 Edición Disco + 2 Mandos",
+    "price": 380.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T09:40:47+02:00"
   }
 }
