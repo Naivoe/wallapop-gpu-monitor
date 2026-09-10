@@ -15762,5 +15762,33 @@
     "gpu_name": "Mando Xbox Series",
     "source": "Wallapop",
     "first_seen": "2026-09-10T02:05:43+02:00"
+  },
+  "ebay:v1|357179033872|625947213424": {
+    "title": "PC para Jugar hasta RTX 4060 i7 7. Gen 32GB 2TB NVMe SSD AIO líquida LGA 1151",
+    "price": 414.98,
+    "gpu_name": "RTX 4060 8GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T02:10:38+02:00"
+  },
+  "wallapop:8j38q8wrdlz9": {
+    "title": "PS5 Slim 1TB Blanca/Negra",
+    "price": 295.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:10:44+02:00"
+  },
+  "wallapop:x6qq7qgx856y": {
+    "title": "consola ps5 sony playstation 5 slim digital 1tb",
+    "price": 369.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:10:44+02:00"
+  },
+  "wallapop:ejkmym35n1zx": {
+    "title": "consola ps5 sony playstation 5 slim digital 1tb",
+    "price": 389.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:10:44+02:00"
   }
 }
