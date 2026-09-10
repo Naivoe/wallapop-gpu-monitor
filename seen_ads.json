@@ -17407,5 +17407,19 @@
     "gpu_name": "Kindle",
     "source": "Wallapop",
     "first_seen": "2026-09-10T10:25:47+02:00"
+  },
+  "wallapop:4z485873nrjy": {
+    "title": "PS5 Slim con Garantía",
+    "price": 490.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T10:31:05+02:00"
+  },
+  "ebay:v1|318843691430|0": {
+    "title": "Sony PS5 Dualsense Wireless Controller GTA VI - Limited Edition - White Version",
+    "price": 143.55,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T10:31:11+02:00"
   }
 }
