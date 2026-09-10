@@ -17785,5 +17785,89 @@
     "gpu_name": "Kindle",
     "source": "Wallapop",
     "first_seen": "2026-09-10T11:15:53+02:00"
+  },
+  "wallapop:w67v0vm5gw6x": {
+    "title": "PS5 1TB + Base Refrigeradora",
+    "price": 550.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:20:47+02:00"
+  },
+  "wallapop:qzmm5mq8k1zv": {
+    "title": "Consola PS5 Fat Mando Blanco",
+    "price": 320.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:20:47+02:00"
+  },
+  "wallapop:wzyrkrmplx65": {
+    "title": "Bundle CPU Ryzen 7 5700X + 16GB DDR4 + B450",
+    "price": 400.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:20:49+02:00"
+  },
+  "ebay:v1|147563982120|0": {
+    "title": "Memoria RAM Samsung 32GB DDR4 2666MHz 2Rx4 ECC Reg M393A4K40CB2-CTD",
+    "price": 234.56,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:20:50+02:00"
+  },
+  "wallapop:8j38q87d1lz9": {
+    "title": "Mando PS5 DualSense Edición Limitada GTA VI",
+    "price": 250.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:20:55+02:00"
+  },
+  "ebay:v1|178484641715|0": {
+    "title": "Sony DualSense Manette GTA 6 white pour Sony PlayStation 5 PS5",
+    "price": 153.17,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:20:55+02:00"
+  },
+  "ebay:v1|188912142585|0": {
+    "title": "Sony DualSense Manette GTA 6 pour console Sony PlayStation 5 PS5 White - Presale",
+    "price": 145.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:20:55+02:00"
+  },
+  "ebay:v1|298661300669|0": {
+    "title": "PREORDER PS5 DualSense Controller Grand Theft Auto VI Black Limited Edition GTA",
+    "price": 169.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T11:20:55+02:00"
+  },
+  "wallapop:wzyrkrm8pe65": {
+    "title": "Kindle Signature 32GB Negro",
+    "price": 180.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:20:57+02:00"
+  },
+  "wallapop:wzvgogw7d7zl": {
+    "title": "Estantería Metálica Bosch",
+    "price": 50.0,
+    "gpu_name": "Herramienta Bosch",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:20:59+02:00"
+  },
+  "wallapop:nzxe2e17m562": {
+    "title": "Lote de makita",
+    "price": 160.0,
+    "gpu_name": "Herramienta Makita",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:21:00+02:00"
+  },
+  "wallapop:8z8878odwlz3": {
+    "title": "Herramientas Eléctricas Makita 12520 Colector De Polvo Dx05",
+    "price": 69.9,
+    "gpu_name": "Herramienta Makita",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T11:21:00+02:00"
   }
 }
