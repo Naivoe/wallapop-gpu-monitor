@@ -19500,5 +19500,26 @@
     "gpu_name": "Kindle",
     "source": "eBay",
     "first_seen": "2026-09-10T14:10:56+02:00"
+  },
+  "wallapop:xzogpxv2vwj9": {
+    "title": "Corsair Vengeance LPX DDR4 16GB (2x8GB) 3000MHz",
+    "price": 70.0,
+    "gpu_name": "RAM DDR4 16GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T14:15:51+02:00"
+  },
+  "ebay:v1|287578023565|0": {
+    "title": "Précommande - Sony DualSense Manette GTA 6 pour console Sony PlayStation 5 PS5",
+    "price": 150.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T14:15:57+02:00"
+  },
+  "wallapop:8z8875g4plz3": {
+    "title": "Kindle Paperwhite 6ª Gen Wifi Blanco",
+    "price": 55.0,
+    "gpu_name": "Kindle",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T14:15:59+02:00"
   }
 }
