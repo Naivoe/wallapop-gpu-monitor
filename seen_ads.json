@@ -17036,5 +17036,19 @@
     "gpu_name": "PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-10T08:45:46+02:00"
+  },
+  "ebay:v1|147563738967|0": {
+    "title": "CONSOLA DISCO SONY PS5 Spider-Man Edición Limitada 825GB 4K **SIN MANDO SM**",
+    "price": 386.83,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T08:50:46+02:00"
+  },
+  "wallapop:8z88787yxdz3": {
+    "title": "G.Skill Trident Z RGB DDR4 32GB 2x(2x8GB) 3200MHz",
+    "price": 180.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T08:50:48+02:00"
   }
 }
