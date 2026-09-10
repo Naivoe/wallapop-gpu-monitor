@@ -18933,5 +18933,96 @@
     "gpu_name": "Herramienta Makita",
     "source": "Wallapop",
     "first_seen": "2026-09-10T13:20:57+02:00"
+  },
+  "wallapop:8j38qpyvryz9": {
+    "title": "PC Gaming i7-14700KF + RTX 5060 Ti 16GB",
+    "price": 1150.0,
+    "gpu_name": "RTX 5060 Ti",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:25:36+02:00"
+  },
+  "wallapop:w67v0xd8kw6x": {
+    "title": "Consola PS5 digital + Mando y Cables",
+    "price": 400.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:25:38+02:00"
+  },
+  "wallapop:pj94wnk3lv6e": {
+    "title": "Sony PS5 Pro Blanca",
+    "price": 429.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:25:38+02:00"
+  },
+  "ebay:v1|147212297939|0": {
+    "title": "ram ddr4 32gb gigastone game pro",
+    "price": 250.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:25:40+02:00"
+  },
+  "ebay:v1|377409582846|0": {
+    "title": "SSD Corsair MP600 PRO XT 2TB M.2 PCIe 4.0 NVMe IVA Nuevo embalaje original 7100 MB/s 2280",
+    "price": 349.95,
+    "gpu_name": "SSD NVMe 2TB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:25:45+02:00"
+  },
+  "wallapop:mzn3nwl4ngjn": {
+    "title": "Mando DualSense PS5 - Modelo 1W",
+    "price": 45.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:25:46+02:00"
+  },
+  "wallapop:0j28vny9grjy": {
+    "title": "Mando Dualsense PS5",
+    "price": 39.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:25:46+02:00"
+  },
+  "wallapop:nzxe2rl3p562": {
+    "title": "Mando DualSense Edición Limitada GTA VI",
+    "price": 300.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:25:46+02:00"
+  },
+  "ebay:v1|158278107772|0": {
+    "title": "Sony DualSense Manette sans fil édition limitée Grand Theft Auto PS5précommande ",
+    "price": 150.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:25:46+02:00"
+  },
+  "wallapop:4z4850vo4rjy": {
+    "title": "Xbox Series S Blanca",
+    "price": 250.0,
+    "gpu_name": "Mando Xbox Series",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:25:47+02:00"
+  },
+  "ebay:v1|236953431882|537372840135": {
+    "title": "Para Bosch BAT609 BAT618 GSR GSB GDR 8Ah 9Ah 18V Batería / Cargador Luz de Trabajo",
+    "price": 98.62,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:25:49+02:00"
+  },
+  "ebay:v1|198631943062|0": {
+    "title": "Sierra de calar inalámbrica Bosch 10,8 V - PST 10,8 LI | 3 baterías incluidas + cargador",
+    "price": 46.58,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:25:49+02:00"
+  },
+  "ebay:v1|257634437807|0": {
+    "title": "Sierra circular Makita tipo 15, 380 mm, modelo 5401 14A 100V herramienta prob...",
+    "price": 263.72,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:25:50+02:00"
   }
 }
