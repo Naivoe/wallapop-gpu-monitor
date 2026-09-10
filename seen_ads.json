@@ -19738,5 +19738,47 @@
     "gpu_name": "Herramienta Bosch",
     "source": "Wallapop",
     "first_seen": "2026-09-10T14:55:49+02:00"
+  },
+  "wallapop:p618g5y772z5": {
+    "title": "Ps5 Slim con Lector de Disco",
+    "price": 395.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T15:01:17+02:00"
+  },
+  "ebay:v1|137721491951|0": {
+    "title": "Kingston DDR4 ECC Servidor RAM 32GB RDIMM 1x32GB PC4-2933Y ECC (KTH-PL429/32G)",
+    "price": 111.18,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T15:01:20+02:00"
+  },
+  "wallapop:3zlmy01118jx": {
+    "title": "Mando Dualsense PS5 Edición limitada GTA VI",
+    "price": 210.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T15:01:25+02:00"
+  },
+  "wallapop:pzpk0drr15j3": {
+    "title": "Mando DualSense PS5 Nuevo Sin Abrir",
+    "price": 55.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T15:01:25+02:00"
+  },
+  "ebay:v1|398380993262|0": {
+    "title": "[PRÉCOMMANDE] Manette sans fil PS5 DualSense GTA 6 - Black -PS5 PC Mac et mobile",
+    "price": 130.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T15:01:25+02:00"
+  },
+  "ebay:v1|377486412218|0": {
+    "title": "PRESALE Manette DualSense Sony Édition limitée Grand Theft Auto VI Black GTA 6",
+    "price": 130.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T15:01:25+02:00"
   }
 }
