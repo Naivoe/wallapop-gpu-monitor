@@ -7445,5 +7445,43 @@
     "shipping_cost": 4,
     "reason": "€29 por encima de tu límite de €350, pero dentro del margen del 15% — quizás negociable.",
     "category": "near_miss"
+  },
+  {
+    "id": "ebay:v1|127546669110|428661840697",
+    "title": "Memoria RAM DDR4 2133 MHz PC4-17000 288 pines 4GB 8GB 16GB 32GB",
+    "price": 35.0,
+    "link": "https://www.ebay.es/itm/127546669110?_skw=RAM+DDR4+32GB&hash=item1db25fb836:g:mf4AAeSwCYNpNE5f",
+    "posted_at": "2025-12-06 15:40",
+    "source": "eBay",
+    "_condition": "gebraucht",
+    "_real_shipping_cost": 13.9,
+    "gpu_name": "RAM DDR4 32GB",
+    "found_at": "2026-09-10 13:31",
+    "market_median": 175.0,
+    "suggested_sell_price": 166,
+    "market_sample_count": 82,
+    "min_samples_needed": 5,
+    "shipping_cost": 13.9,
+    "reason": "Por debajo de tu límite de compra de €45.",
+    "category": "hit"
+  },
+  {
+    "id": "ebay:v1|398037997459|666330121473",
+    "title": "Custodia protettiva in acrilico per Kindle Paperwhite Colorsoft 6,7,8 pollici",
+    "price": 19.9,
+    "link": "https://www.ebay.es/itm/398037997459?_skw=Kindle&hash=item5cace9d793:g:WfUAAeSwZPNoxYSJ&amdata=enc%3AAQALAAAA4ACCtXRWQnOEpyOqnQQ8KGZTqsKugwCvQtXopqHjoyPSuWU9ETDBVNRC8R3ZbHgPWiWJKDgWMRSgbUWYeoq7DJa5ISsq8S5%2B1i97iXonmNOwT0%2BDDSYBdMbnb6GZRf9VzYEG7OvwwuJyj0zy%2F9BMh2ssq6Ochyx%2BIa9uYUBax0hqraLVK07lpMf%2Fts%2BJQs2KdxRM2%2BlCinNfZWmY2AohsnG4Z7qc634FPkUaXgd3aqD8arxkGhVy3iSOsV%2BUCA0kc7ThSztcMVV%2FifHOblUNnyFEtPO23vAMmFkdnc%2FowHmz",
+    "posted_at": "2026-06-07 18:25",
+    "source": "eBay",
+    "_condition": "nuovo",
+    "_real_shipping_cost": 0.0,
+    "gpu_name": "Kindle",
+    "found_at": "2026-09-10 13:31",
+    "market_median": 75.0,
+    "suggested_sell_price": 71,
+    "market_sample_count": 126,
+    "min_samples_needed": 5,
+    "shipping_cost": 0.0,
+    "reason": "Por debajo de tu límite de compra de €35.",
+    "category": "hit"
   }
 ]

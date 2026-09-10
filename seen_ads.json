@@ -19024,5 +19024,89 @@
     "gpu_name": "Herramienta Makita",
     "source": "eBay",
     "first_seen": "2026-09-10T13:25:50+02:00"
+  },
+  "wallapop:qzmm5743plzv": {
+    "title": "Consola PS5 Slim Disc 1TB Blanca",
+    "price": 320.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:31:12+02:00"
+  },
+  "wallapop:8z88751q3dz3": {
+    "title": "PS5 Slim Lector + Mando + FC 25",
+    "price": 420.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:31:12+02:00"
+  },
+  "wallapop:nzxe2r5l8562": {
+    "title": "Consola Sony PlayStation 5 PS5 Blanca/Negra",
+    "price": 500.0,
+    "gpu_name": "PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:31:12+02:00"
+  },
+  "ebay:v1|127546669110|428661840697": {
+    "title": "Memoria RAM DDR4 2133 MHz PC4-17000 288 pines 4GB 8GB 16GB 32GB",
+    "price": 35.0,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:31:14+02:00"
+  },
+  "wallapop:4z4850vgnvjy": {
+    "title": "Mando DualSense PS5 Sony",
+    "price": 50.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:31:19+02:00"
+  },
+  "wallapop:qzmm5743yxzv": {
+    "title": "Mando Dualsense PS5",
+    "price": 39.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:31:19+02:00"
+  },
+  "wallapop:e65qn7yvrk6o": {
+    "title": "Mando Dualsense PS5",
+    "price": 39.99,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:31:19+02:00"
+  },
+  "wallapop:xzogpxlym7j9": {
+    "title": "Mando DualSense Edición Limitada GTA VI",
+    "price": 230.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T13:31:19+02:00"
+  },
+  "ebay:v1|158278111701|0": {
+    "title": "Sony DualSense manette sans fil édition limitée GTA VI  PS5 pc mac précommande",
+    "price": 150.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:31:19+02:00"
+  },
+  "ebay:v1|128072156718|0": {
+    "title": "Sony PS5 Dualsense Wireless Controller GTA VI - Limited Edition - Black Version",
+    "price": 157.98,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:31:19+02:00"
+  },
+  "ebay:v1|398037997459|666330121473": {
+    "title": "Custodia protettiva in acrilico per Kindle Paperwhite Colorsoft 6,7,8 pollici",
+    "price": 19.9,
+    "gpu_name": "Kindle",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:31:22+02:00"
+  },
+  "ebay:v1|317247402476|0": {
+    "title": "Makita 5103NASP 335mm Sierra Circular Herramienta Eléctrica Nueva de Japón",
+    "price": 433.06,
+    "gpu_name": "Herramienta Makita",
+    "source": "eBay",
+    "first_seen": "2026-09-10T13:31:24+02:00"
   }
 }
