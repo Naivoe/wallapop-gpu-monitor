@@ -15902,5 +15902,89 @@
     "gpu_name": "Mando DualSense PS5",
     "source": "Wallapop",
     "first_seen": "2026-09-10T02:31:09+02:00"
+  },
+  "ebay:v1|128071380954|0": {
+    "title": "CONSOLA PS5 SONY PLAYSTATION 5 SLIM DIGITAL 1TB 20309894",
+    "price": 560.95,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T02:35:37+02:00"
+  },
+  "ebay:v1|128071380973|0": {
+    "title": "CONSOLA PS5 SONY PLAYSTATION 5 SLIM DIGITAL 1TB 20309862",
+    "price": 499.95,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T02:35:37+02:00"
+  },
+  "ebay:v1|128071381036|0": {
+    "title": "CONSOLA PS5 SONY PLAYSTATION 5 PORTAL 20312527",
+    "price": 184.95,
+    "gpu_name": "PS5",
+    "source": "eBay",
+    "first_seen": "2026-09-10T02:35:37+02:00"
+  },
+  "ebay:v1|366659332764|0": {
+    "title": "ddr4 ram 32gb 3200mhz single laptop Samsung",
+    "price": 158.59,
+    "gpu_name": "RAM DDR4 32GB",
+    "source": "eBay",
+    "first_seen": "2026-09-10T02:35:39+02:00"
+  },
+  "wallapop:x6qq7qgomq6y": {
+    "title": "Mando PS5 DualSense Edge Negro",
+    "price": 110.0,
+    "gpu_name": "Mando DualSense PS5",
+    "source": "Wallapop",
+    "first_seen": "2026-09-10T02:35:44+02:00"
+  },
+  "ebay:v1|128071381059|0": {
+    "title": "MANDO XBOX SERIES TURTLE BEACH REACT-R 20311209",
+    "price": 22.95,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-10T02:35:45+02:00"
+  },
+  "ebay:v1|128071381063|0": {
+    "title": "MANDO XBOX SERIES MICROSOFT ICE BREAKER 20309908",
+    "price": 54.95,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-10T02:35:45+02:00"
+  },
+  "ebay:v1|128071381061|0": {
+    "title": "MANDO XBOX SERIES MICROSOFT QAU-00002 SHOCK BLUE 20309890",
+    "price": 49.95,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-10T02:35:45+02:00"
+  },
+  "ebay:v1|128071381058|0": {
+    "title": "MANDO XBOX SERIES MICROSOFT QAU-00002 SHOCK BLUE 20311425",
+    "price": 56.95,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-10T02:35:45+02:00"
+  },
+  "ebay:v1|128071381064|0": {
+    "title": "MANDO XBOX SERIES MICROSOFT QAT-00002 CARBON BLACK 20310820",
+    "price": 52.95,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-10T02:35:45+02:00"
+  },
+  "ebay:v1|128071381056|0": {
+    "title": "MANDO XBOX SERIES MICROSOFT ICE BREAKERICE 20309900",
+    "price": 54.95,
+    "gpu_name": "Mando Xbox Series",
+    "source": "eBay",
+    "first_seen": "2026-09-10T02:35:45+02:00"
+  },
+  "ebay:v1|257264994712|557928575783": {
+    "title": "Batería Original 6X 8Ah para Bosch 18V Professional GBA GSR GSB BAT618 BAT609 BAT620",
+    "price": 200.39,
+    "gpu_name": "Herramienta Bosch",
+    "source": "eBay",
+    "first_seen": "2026-09-10T02:35:48+02:00"
   }
 }
